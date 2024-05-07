@@ -1477,7 +1477,7 @@
 				)
 			)
 		)
-		(symbol "Device:D"
+		(symbol "NextPCB:D_1N4148W"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1492,7 +1492,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "1N4148W"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1500,7 +1500,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1545,6 +1545,33 @@
 					(hide yes)
 				)
 			)
+			(property "MfrPart" "1N4148W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Jingdao"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HQPart" "DS0143597"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
@@ -1563,7 +1590,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "D_1N4148W_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1601,7 +1628,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "D_1N4148W_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1640,7 +1667,7 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
+		(symbol "NextPCB:LED_KP-3216MGC"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1655,7 +1682,7 @@
 					)
 				)
 			)
-			(property "Value" "LED"
+			(property "Value" "KP-3216MGC"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1663,7 +1690,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1690,6 +1717,33 @@
 					(hide yes)
 				)
 			)
+			(property "MfrPart" "KP-3216MGC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HQPart" "DS0189013"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1708,7 +1762,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0_1"
+			(symbol "LED_KP-3216MGC_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -1.27) (xy -1.27 1.27)
@@ -1770,7 +1824,7 @@
 					)
 				)
 			)
-			(symbol "LED_1_1"
+			(symbol "LED_KP-3216MGC_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1809,7 +1863,7 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "NextPCB:R_1.1k_1W"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1825,7 +1879,7 @@
 					)
 				)
 			)
-			(property "Value" "R"
+			(property "Value" "1.1k 1W"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1833,7 +1887,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -1860,6 +1914,24 @@
 					(hide yes)
 				)
 			)
+			(property "MfgPart" "FRC2512F1101TS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "HQPart" "RE0461845"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -1878,7 +1950,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0_1"
+			(symbol "R_1.1k_1W_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1891,7 +1963,7 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "R_1.1k_1W_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1932,20 +2004,74 @@
 		)
 	)
 	(junction
-		(at 73.66 25.4)
+		(at 115.57 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69031d28-2e41-43f6-ad31-9a81ee463b94")
+	)
+	(junction
+		(at 93.98 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a25338-077e-4fdb-95a6-9e4b958f5712")
+	)
+	(junction
+		(at 93.98 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a52d2044-295b-4ef5-ae80-e6085021acdc")
 	)
 	(junction
-		(at 86.36 25.4)
+		(at 93.98 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eeefaf57-db4a-4b52-931a-97492e945289")
+		(uuid "cf1a5c16-1c64-4a76-b449-4a0420641543")
+	)
+	(junction
+		(at 115.57 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d148ec75-a17a-4784-9783-e0e525f21b1d")
+	)
+	(junction
+		(at 115.57 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1b5bac2-0c3c-44c3-9934-feac372944df")
 	)
 	(wire
 		(pts
-			(xy 43.18 25.4) (xy 59.69 25.4)
+			(xy 43.18 27.94) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02941d0c-2bc8-4875-8fe7-77a87f93180b")
+	)
+	(wire
+		(pts
+			(xy 105.41 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05928603-d534-4498-a70f-e458a66e5b30")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "270a9928-5830-4636-a2e7-52ff01e52e8d")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 80.01 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2081,37 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 35.56) (xy 86.36 35.56)
+			(xy 115.57 74.93) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba416c2-9690-4dd4-9c82-bb2db1864fb7")
+	)
+	(wire
+		(pts
+			(xy 104.14 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fee0ad9-2848-4284-96ee-f4f87cac6184")
+	)
+	(wire
+		(pts
+			(xy 113.03 53.34) (xy 115.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46476f2d-0f0a-4f39-b443-2dd287d7e051")
+	)
+	(wire
+		(pts
+			(xy 113.03 31.75) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2121,27 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 25.4) (xy 73.66 25.4)
+			(xy 115.57 31.75) (xy 115.57 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d292545-5b51-4964-881e-be1a83e74c0f")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed196e9-72dc-4d29-be85-159779aa8967")
+	)
+	(wire
+		(pts
+			(xy 87.63 22.86) (xy 93.98 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 25.4) (xy 86.36 25.4)
+			(xy 104.14 22.86) (xy 115.57 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 73.66 35.56)
+			(xy 105.41 31.75) (xy 93.98 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1995,27 +2171,47 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 88.9 25.4)
+			(xy 59.69 66.04) (xy 80.01 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6de432c3-f4d6-4096-9f88-e3694ae66ab7")
+		(uuid "663987b7-689c-4f7b-8f81-4d2307ddbc2b")
 	)
 	(wire
 		(pts
-			(xy 86.36 25.4) (xy 86.36 35.56)
+			(xy 104.14 44.45) (xy 115.57 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70279686-8cc9-493a-acd5-5cdb97a7bfd3")
+		(uuid "67e53003-0048-4411-bd67-f3f575bc0f68")
 	)
 	(wire
 		(pts
-			(xy 71.12 38.1) (xy 88.9 38.1)
+			(xy 93.98 53.34) (xy 93.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7352ccb1-9b6f-45f8-8ba4-92003832bc17")
+	)
+	(wire
+		(pts
+			(xy 93.98 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ab6af3-331f-487a-9489-9fdcfa149a90")
+	)
+	(wire
+		(pts
+			(xy 67.31 34.29) (xy 115.57 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2221,27 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 25.4) (xy 76.2 25.4)
+			(xy 67.31 25.4) (xy 43.18 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf546cb-a48e-4d24-8b85-72695549c596")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925b08f4-743b-43c2-856e-513acc45397b")
+	)
+	(wire
+		(pts
+			(xy 93.98 22.86) (xy 96.52 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2251,77 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 35.56) (xy 73.66 25.4)
+			(xy 64.77 44.45) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f49d347-0edd-49f0-b222-9d21bb0a7b70")
+	)
+	(wire
+		(pts
+			(xy 67.31 25.4) (xy 67.31 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62f05f1-e77f-47f9-905b-e1ae5ed37bf4")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 43.18 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4d530f-8ec7-43ff-b4e1-8d0d44b7e04b")
+	)
+	(wire
+		(pts
+			(xy 62.23 30.48) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b582fe4c-631f-42e4-a1b3-9d6a69e91e1d")
+	)
+	(wire
+		(pts
+			(xy 57.15 35.56) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6890b16-5f79-4a75-af88-32d9dc46ddd6")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 93.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b863f04c-a96a-4d8c-aad4-6e2d6e640028")
+	)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9005e2c-ffcf-4c66-b9ab-0e60849e4ac1")
+	)
+	(wire
+		(pts
+			(xy 93.98 31.75) (xy 93.98 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2331,47 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 88.9 25.4)
+			(xy 93.98 44.45) (xy 96.52 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f5114d-1481-451b-b6cc-5da075951053")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 115.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd870ac-b667-4a73-9270-700d7531004d")
+	)
+	(wire
+		(pts
+			(xy 43.18 35.56) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f3e669-a3ed-4341-9e87-f89c382787b9")
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 115.57 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecde38e3-99cd-4207-9ab4-0cd40ce5d008")
+	)
+	(wire
+		(pts
+			(xy 115.57 34.29) (xy 115.57 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2055,44 +2381,84 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 27.94) (xy 71.12 38.1)
+			(xy 115.57 55.88) (xy 115.57 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f94aa611-dc50-46a9-b2af-bea2a4b084c5")
+		(uuid "efc31398-9894-4714-9540-790286d13c48")
 	)
 	(wire
 		(pts
-			(xy 43.18 27.94) (xy 71.12 27.94)
+			(xy 113.03 74.93) (xy 115.57 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdf4742b-2720-4980-9f1a-b22084df85a4")
+		(uuid "f07f0b81-3edd-4840-a56a-71aa23306f04")
+	)
+	(wire
+		(pts
+			(xy 43.18 30.48) (xy 62.23 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c2b4f4-18bd-437a-8cdf-fca58834d1f1")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 93.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3246400-5ff6-4ad1-9d6d-504bee26534e")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 93.98 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6445c73-9b19-4d35-8225-0959203a7386")
+	)
+	(wire
+		(pts
+			(xy 80.01 44.45) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdf0ca7-8a62-47d5-9a34-5fa85b0d001f")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 63.5 25.4 90)
+		(lib_id "NextPCB:R_1.1k_1W")
+		(at 83.82 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b1328e3-e72a-484b-a8fb-9416481ed4cf")
-		(property "Reference" "R1"
-			(at 63.5 19.05 90)
+		(uuid "4b550dde-396c-4ffb-bf6e-c878eac2f45f")
+		(property "Reference" "R3"
+			(at 83.82 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 63.5 21.59 90)
+		(property "Value" "1.1k 1W"
+			(at 83.82 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +2466,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 63.5 27.178 90)
+			(at 83.82 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +2475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 25.4 0)
+			(at 83.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2484,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 63.5 25.4 0)
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "FRC2512F1101TS"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "RE0461845"
+			(at 83.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,15 +2511,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "01bc6c77-08b7-4923-8b31-694f1775c913")
+			(uuid "a61136e6-60f6-4155-91e4-57a0241a380b")
 		)
 		(pin "2"
-			(uuid "c145a9d9-0101-48b1-b479-758299cb238d")
+			(uuid "d9fc6531-f73a-4159-b381-c191eeffa1c4")
 		)
 		(instances
 			(project "PM-Front-DI16"
 				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2527,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x34_Pin")
-		(at 38.1 66.04 0)
+		(at 38.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2152,7 +2536,7 @@
 		(fields_autoplaced yes)
 		(uuid "62f7a632-656b-42fd-8c46-818922064bbb")
 		(property "Reference" "J2"
-			(at 38.735 20.32 0)
+			(at 38.735 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2544,7 @@
 			)
 		)
 		(property "Value" "Conn_01x34_Pin"
-			(at 38.735 22.86 0)
+			(at 38.735 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x34_P2.54mm_Horizontal"
-			(at 38.1 66.04 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 66.04 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2570,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x34, script generated"
-			(at 38.1 66.04 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,33 +2690,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 80.01 25.4 180)
+		(lib_id "NextPCB:R_1.1k_1W")
+		(at 83.82 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "739fd278-a072-493a-a597-2166d83e074e")
-		(property "Reference" "D1"
-			(at 81.5975 17.78 0)
+		(uuid "664c1661-771f-4320-b33a-01e1ddb6690e")
+		(property "Reference" "R1"
+			(at 83.82 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 81.5975 20.32 0)
+		(property "Value" "1.1k 1W"
+			(at 83.82 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 80.01 25.4 0)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 83.82 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2725,206 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 25.4 0)
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "FRC2512F1101TS"
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "RE0461845"
+			(at 83.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "870f783b-c996-4519-97c8-b008964f1baa")
+		)
+		(pin "2"
+			(uuid "d27cfdc6-1aa1-45c5-9cb8-4cfb1d0686f3")
+		)
+		(instances
+			(project "PM-Front-DI16"
+				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:D_1N4148W")
+		(at 109.22 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "686b0ab4-9d02-40e1-9557-96f6da6c34aa")
+		(property "Reference" "D2"
+			(at 109.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfrPart" "1N4148W"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Jingdao"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "DS0143597"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d89bd5b-cdd6-4ba8-aa34-8f03557cf897")
+		)
+		(pin "2"
+			(uuid "fa632788-f3c9-4d34-8691-c230eff7e794")
+		)
+		(instances
+			(project "PM-Front-DI16"
+				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:LED_KP-3216MGC")
+		(at 100.33 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6939c8b0-ca40-4181-bad9-d2405463b433")
+		(property "Reference" "D1"
+			(at 101.9175 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP-3216MGC"
+			(at 101.9175 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 100.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2933,34 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 80.01 25.4 0)
+			(at 100.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfrPart" "KP-3216MGC"
+			(at 100.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "DS0189013"
+			(at 100.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 100.33 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,10 +2969,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9427648f-7543-4a9b-b111-2c7af07f86e9")
+			(uuid "b75fc1e4-8850-4005-9f7c-6e405de3ce27")
 		)
 		(pin "1"
-			(uuid "223aed2c-e7d9-401e-95ba-e3044f1fae47")
+			(uuid "1a22ae84-0118-4cd8-b235-b624ca7aba98")
 		)
 		(instances
 			(project "PM-Front-DI16"
@@ -2374,17 +2984,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 80.01 35.56 0)
+		(lib_id "NextPCB:D_1N4148W")
+		(at 109.22 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "919257e2-2ebe-4500-a788-b7eaf8dac8fc")
-		(property "Reference" "D2"
-			(at 80.01 29.21 0)
+		(uuid "973f6598-014d-43b1-a6d2-27f1813d7e79")
+		(property "Reference" "D4"
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +3002,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 80.01 31.75 0)
+			(at 109.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +3010,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 80.01 35.56 0)
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +3019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 35.56 0)
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2418,7 +3028,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 80.01 35.56 0)
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2427,7 +3037,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 80.01 35.56 0)
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,7 +3046,34 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 35.56 0)
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfrPart" "1N4148W"
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Jingdao"
+			(at 109.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "DS0143597"
+			(at 109.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,15 +3082,404 @@
 			)
 		)
 		(pin "1"
-			(uuid "399fb019-fbf5-445d-a387-847106e493c6")
+			(uuid "7269392b-f387-4e7f-9ad4-ece62bc5de34")
 		)
 		(pin "2"
-			(uuid "0d05b763-a9a2-4a15-9624-a341a5684fd8")
+			(uuid "bc629674-83d8-4c41-ae0c-5ec6216d40f0")
 		)
 		(instances
 			(project "PM-Front-DI16"
 				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
-					(reference "D2")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:D_1N4148W")
+		(at 109.22 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a870afd1-ef92-4468-9ced-9030a71e416e")
+		(property "Reference" "D6"
+			(at 109.22 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfrPart" "1N4148W"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Jingdao"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "DS0143597"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6a0b47a-8469-4068-bd60-b00c0584e92b")
+		)
+		(pin "2"
+			(uuid "3edd09e5-a2e4-4b5a-9744-8383cac7dc55")
+		)
+		(instances
+			(project "PM-Front-DI16"
+				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:LED_KP-3216MGC")
+		(at 100.33 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a98e5c46-1f5e-4661-88e6-36d22860f203")
+		(property "Reference" "D5"
+			(at 101.9175 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP-3216MGC"
+			(at 101.9175 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfrPart" "KP-3216MGC"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "DS0189013"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 100.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b0850ff-e8eb-4d29-b065-46b498ca5fcb")
+		)
+		(pin "1"
+			(uuid "70eead78-efa4-43ea-b2e4-6dded67a9ea6")
+		)
+		(instances
+			(project "PM-Front-DI16"
+				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:R_1.1k_1W")
+		(at 83.82 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed71df40-a81c-4872-8bf8-c518cb7a001e")
+		(property "Reference" "R2"
+			(at 83.82 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.1k 1W"
+			(at 83.82 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 83.82 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfgPart" "FRC2512F1101TS"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "RE0461845"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a142aef-5814-4582-a083-54e35bbfd77b")
+		)
+		(pin "2"
+			(uuid "37459ad4-13fb-4abd-b9b1-276bbff399d4")
+		)
+		(instances
+			(project "PM-Front-DI16"
+				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:LED_KP-3216MGC")
+		(at 100.33 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f717aae9-4698-42f4-bedc-532048bae0ca")
+		(property "Reference" "D3"
+			(at 101.9175 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KP-3216MGC"
+			(at 101.9175 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MfrPart" "KP-3216MGC"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "HQPart" "DS0189013"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2047e2e-b884-4139-ac44-c5b362b53fc5")
+		)
+		(pin "1"
+			(uuid "dc3dc517-ebb9-4d55-a75b-8a5b30aaa380")
+		)
+		(instances
+			(project "PM-Front-DI16"
+				(path "/75461d2c-2ff1-4a02-84c8-1a931dc84e1f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
