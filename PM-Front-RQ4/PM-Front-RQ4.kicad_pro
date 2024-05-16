@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -430,7 +430,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RQ8.kicad_pro",
+    "filename": "PM-Front-RQ4.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -525,31 +525,13 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Описание",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Стоимость",
-          "name": "Стоимость",
-          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Обозначение"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -592,7 +574,7 @@
   },
   "sheets": [
     [
-      "6c69f0ad-3c6a-4eda-b169-32a63b845201",
+      "6d901444-339c-4c40-ad60-577cd2d69bb2",
       "Корневой лист"
     ]
   ],
