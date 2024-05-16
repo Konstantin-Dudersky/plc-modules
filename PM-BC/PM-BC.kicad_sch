@@ -247,140 +247,7 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "NextPCB:PM254-2-04-WS-8.5"
+		(symbol "NextPCB:Conn_02x04_socket_angle"
 			(pin_names
 				(offset 1.016)
 			)
@@ -396,7 +263,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PM254-2-04-WS-8.5"
+			(property "Value" "Conn_02x04"
 				(at 0 -17.78 0)
 				(effects
 					(font
@@ -405,7 +272,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "NextPCB:PM254-2-04-WS-8.5"
+			(property "Footprint" "NextPCB:Conn_02x04_socket_angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -513,10 +380,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "PM254-2-04-WS-8.5_0_0"
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/female-headers-hctl-pm254-2-04-ws-8-5-2500404737"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_price" "0.20095"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_socket_angle_0_0"
 				(rectangle
-					(start 0 -12.7)
-					(end 20.3 5.08)
+					(start 0 5.08)
+					(end 20.3 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -683,6 +568,195 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NextPCB:Fuseholder"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "64900001039"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "NextPCB:Fuseholder"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_649_datasheet.pdf.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "64900001039"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-64900001039"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64900001039?qs=hH%252BOa0VZEiArPloPoB86OA%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "64900001039"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/64900001039/littelfuse?region=nac"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/fuse-holders---clips---boxes-littelfuse-65600001009-1003834129"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_price" "0.4163"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuseholder_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -998,7 +1072,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 105.41) (xy 139.7 110.49)
+			(xy 139.7 104.14) (xy 139.7 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1162,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 139.7 97.79)
+			(xy 139.7 88.9) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1115,6 +1189,16 @@
 			(type default)
 		)
 		(uuid "6c3b1312-16d3-4386-83cc-e6db35f95425")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d96288a-6b79-490c-bc1d-84ba40025b93")
 	)
 	(wire
 		(pts
@@ -1235,6 +1319,16 @@
 			(type default)
 		)
 		(uuid "b58a11c0-889d-417c-82b9-58a7585ee66f")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc694ec8-71e2-4b9d-9d9c-7b2b9ff6f74f")
 	)
 	(wire
 		(pts
@@ -1479,35 +1573,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 139.7 101.6 0)
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 170.18 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "839b5293-4294-4f73-aed2-f8bea430ddd0")
-		(property "Reference" "F1"
-			(at 142.24 100.3299 0)
+		(uuid "9e610201-c81f-4955-98f3-4a2d08892213")
+		(property "Reference" "J4"
+			(at 169.545 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 142.24 102.8699 0)
+		(property "Value" "Conn_01x04_Pin"
+			(at 169.545 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_100_series_5x20mm"
-			(at 137.922 101.6 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 101.6 0)
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,8 +1616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 139.7 101.6 0)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 170.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,23 +1625,263 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "cfa165a8-17ed-4fbe-9dc4-6f11d2b79167")
+		(pin "3"
+			(uuid "be18c9a0-6b78-43b8-a471-b7547290612e")
 		)
 		(pin "1"
-			(uuid "68e93f95-56b3-4ba1-b8ef-d935889f5faa")
+			(uuid "6373631f-24f7-43a5-a7e1-969c5d13c618")
+		)
+		(pin "2"
+			(uuid "4aaad9a2-a205-4e11-8905-df250022dac1")
+		)
+		(pin "4"
+			(uuid "b43ec501-2d20-4069-972f-3627746365ca")
 		)
 		(instances
 			(project "PM-BC"
 				(path "/0851eb7d-ac5e-40e4-ad85-6980136bd865"
-					(reference "F1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:PM254-2-04-WS-8.5")
+		(lib_id "NextPCB:Fuseholder")
+		(at 130.81 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af8fb05b-44e7-41dd-80a7-e044aa4ff19e")
+		(property "Reference" "U1"
+			(at 114.3 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "64900001039"
+			(at 114.3 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NextPCB:Fuseholder"
+			(at 114.3 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_649_datasheet.pdf.pdf"
+			(at 114.3 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 114.3 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 114.3 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "64900001039"
+			(at 114.3 696.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-64900001039"
+			(at 114.3 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64900001039?qs=hH%252BOa0VZEiArPloPoB86OA%3D%3D"
+			(at 114.3 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "64900001039"
+			(at 114.3 996.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/64900001039/littelfuse?region=nac"
+			(at 114.3 1096.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/fuse-holders---clips---boxes-littelfuse-65600001009-1003834129"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.4163"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59469b9b-c343-426f-9551-9a7bc44abd8a")
+		)
+		(pin "2"
+			(uuid "71320e51-4650-4379-890b-7ce718dca842")
+		)
+		(instances
+			(project "PM-BC"
+				(path "/0851eb7d-ac5e-40e4-ad85-6980136bd865"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 121.92 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be109bab-2f40-4af4-bfa6-bc5b4ccd1de3")
+		(property "Reference" "J3"
+			(at 122.555 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 122.555 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 121.92 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6d354217-ec4a-45fe-9a86-ba5f303df362")
+		)
+		(pin "1"
+			(uuid "cc8e2f22-01df-4cf9-9dbe-821ecd908d1d")
+		)
+		(pin "2"
+			(uuid "bf088998-9b8d-4741-a438-2ef9e83393b2")
+		)
+		(pin "4"
+			(uuid "18ba46ec-82c5-4678-ae3f-d36e1201163f")
+		)
+		(instances
+			(project "PM-BC"
+				(path "/0851eb7d-ac5e-40e4-ad85-6980136bd865"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:Conn_02x04_socket_angle")
 		(at 142.24 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1557,8 +1889,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "998d2270-4d87-46f8-b410-a23963f08885")
-		(property "Reference" "J5"
+		(uuid "c1624572-f09f-419e-911a-4dbdaabe731d")
+		(property "Reference" "J1"
 			(at 167.1415 134.62 0)
 			(effects
 				(font
@@ -1566,7 +1898,7 @@
 				)
 			)
 		)
-		(property "Value" "PM254-2-04-WS-8.5"
+		(property "Value" "Conn_02x04"
 			(at 167.1415 137.16 0)
 			(effects
 				(font
@@ -1574,7 +1906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:PM254-2-04-WS-8.5"
+		(property "Footprint" "NextPCB:Conn_02x04_socket_angle"
 			(at 142.24 144.78 0)
 			(effects
 				(font
@@ -1682,182 +2014,52 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "e2d045cf-2057-4c4b-9895-165a6120edaa")
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/female-headers-hctl-pm254-2-04-ws-8-5-2500404737"
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "752c19ba-e402-4409-abd2-bbbf56f3c36b")
-		)
-		(pin "1"
-			(uuid "865e62cb-e184-43a5-9a9e-4c48cf9a2d70")
+		(property "NextPCB_price" "0.20095"
+			(at 142.24 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "4"
-			(uuid "6cd526fa-4076-42cd-b485-52ecb2292086")
-		)
-		(pin "7"
-			(uuid "79d02333-3ebd-473b-91fd-3e1ec0c296e9")
+			(uuid "e29d3e8c-0c4f-44d4-a288-7af9aec18ec4")
 		)
 		(pin "5"
-			(uuid "d44dc115-25df-4be3-bb13-46e80da42e21")
+			(uuid "d1ec1d13-d184-4b54-b070-f530d418c298")
 		)
 		(pin "6"
-			(uuid "5ec89585-18e4-4209-81de-8c6fb07f7925")
-		)
-		(pin "3"
-			(uuid "9bcf649c-1d73-463b-b287-9a3282d43b68")
-		)
-		(instances
-			(project "PM-BC"
-				(path "/0851eb7d-ac5e-40e4-ad85-6980136bd865"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 170.18 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e610201-c81f-4955-98f3-4a2d08892213")
-		(property "Reference" "J4"
-			(at 169.545 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 169.545 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 170.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 170.18 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "be18c9a0-6b78-43b8-a471-b7547290612e")
-		)
-		(pin "1"
-			(uuid "6373631f-24f7-43a5-a7e1-969c5d13c618")
+			(uuid "d5d754df-d309-4104-8c09-35d1b11eb167")
 		)
 		(pin "2"
-			(uuid "4aaad9a2-a205-4e11-8905-df250022dac1")
-		)
-		(pin "4"
-			(uuid "b43ec501-2d20-4069-972f-3627746365ca")
-		)
-		(instances
-			(project "PM-BC"
-				(path "/0851eb7d-ac5e-40e4-ad85-6980136bd865"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 121.92 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be109bab-2f40-4af4-bfa6-bc5b4ccd1de3")
-		(property "Reference" "J3"
-			(at 122.555 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 122.555 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 121.92 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "fd8c1545-7d7c-4698-9b87-fbae530ffb3f")
 		)
 		(pin "3"
-			(uuid "6d354217-ec4a-45fe-9a86-ba5f303df362")
+			(uuid "1eb39333-947f-434a-89d7-804e38d677f2")
+		)
+		(pin "7"
+			(uuid "2ad1fa22-97e5-46f2-9cb0-06bba20e1778")
+		)
+		(pin "8"
+			(uuid "89d63402-a580-4bed-94a2-9eb57f4c4ac0")
 		)
 		(pin "1"
-			(uuid "cc8e2f22-01df-4cf9-9dbe-821ecd908d1d")
-		)
-		(pin "2"
-			(uuid "bf088998-9b8d-4741-a438-2ef9e83393b2")
-		)
-		(pin "4"
-			(uuid "18ba46ec-82c5-4678-ae3f-d36e1201163f")
+			(uuid "66b278c0-01c7-4f9e-a18e-02161911090f")
 		)
 		(instances
 			(project "PM-BC"
 				(path "/0851eb7d-ac5e-40e4-ad85-6980136bd865"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
