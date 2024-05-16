@@ -82,311 +82,45 @@
 	(net 0 "")
 	(net 1 "Net-(D1-K)")
 	(net 2 "Net-(D1-A)")
-	(net 3 "Net-(J1-Pin_1)")
-	(net 4 "Net-(J1-Pin_5)")
-	(net 5 "Net-(J1-Pin_3)")
-	(net 6 "Net-(D10-A)")
-	(net 7 "Net-(D10-K)")
-	(net 8 "Net-(D11-K)")
-	(net 9 "Net-(D11-A)")
-	(net 10 "Net-(D12-A)")
-	(net 11 "Net-(D12-K)")
-	(net 12 "Net-(D13-K)")
-	(net 13 "Net-(D13-A)")
-	(net 14 "Net-(D14-K)")
-	(net 15 "Net-(D14-A)")
-	(net 16 "Net-(D15-K)")
-	(net 17 "Net-(D15-A)")
-	(net 18 "Net-(D16-A)")
-	(net 19 "Net-(D16-K)")
-	(net 20 "Net-(J1-Pin_15)")
-	(net 21 "Net-(J1-Pin_9)")
-	(net 22 "Net-(J1-Pin_11)")
-	(net 23 "Net-(J1-Pin_7)")
-	(net 24 "Net-(J1-Pin_13)")
-	(footprint "LED_SMD:LED_1206_3216Metric"
+	(net 3 "Net-(D10-A)")
+	(net 4 "Net-(D10-K)")
+	(net 5 "Net-(D11-K)")
+	(net 6 "Net-(D11-A)")
+	(net 7 "Net-(D12-A)")
+	(net 8 "Net-(D12-K)")
+	(net 9 "Net-(D13-K)")
+	(net 10 "Net-(D13-A)")
+	(net 11 "Net-(D14-K)")
+	(net 12 "Net-(D14-A)")
+	(net 13 "Net-(D15-K)")
+	(net 14 "Net-(D15-A)")
+	(net 15 "Net-(D16-A)")
+	(net 16 "Net-(D16-K)")
+	(net 17 "unconnected-(J2-Pin_11-Pad11)")
+	(net 18 "unconnected-(J2-Pin_16-Pad16)")
+	(net 19 "unconnected-(J2-Pin_14-Pad14)")
+	(net 20 "unconnected-(J2-Pin_12-Pad12)")
+	(net 21 "unconnected-(J2-Pin_10-Pad10)")
+	(net 22 "unconnected-(J2-Pin_15-Pad15)")
+	(net 23 "unconnected-(J2-Pin_13-Pad13)")
+	(net 24 "unconnected-(R1-Pad1)")
+	(net 25 "unconnected-(R2-Pad1)")
+	(net 26 "unconnected-(R3-Pad1)")
+	(net 27 "unconnected-(R4-Pad1)")
+	(net 28 "unconnected-(R5-Pad1)")
+	(net 29 "unconnected-(R6-Pad1)")
+	(net 30 "unconnected-(R7-Pad1)")
+	(net 31 "unconnected-(R8-Pad1)")
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
 		(layer "F.Cu")
-		(uuid "1f73fbec-a94a-442a-bf2c-fda9c0be0cd7")
-		(at 152.4 83.82 90)
-		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-		(tags "LED")
-		(property "Reference" "D2"
-			(at 0 1.905 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "91446195-7362-46ee-aa42-39f30aab361a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
-			(layer "F.Fab")
-			(uuid "95bef252-4441-4579-8d77-c72a23990341")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "010c5438-a89a-46e9-a522-2124fbe7a2f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7ea06a5e-882e-41a9-9959-499c743f295b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a2dd79c-05ab-43cf-bf7b-9a6c8e55a5a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "763fcfaa-4bef-4ee0-b0db-3cfbf0664b12")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d82358d3-a7de-4f59-9de8-d465d96dbe47")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87aabde1-b378-4c32-9f69-946efc5a4d4c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/ac93f5f0-c876-4f84-8327-c28cab2ad3ce")
-		(sheetname "Корневой лист")
-		(sheetfile "PM-Front-DI8-24.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.6 -1.135)
-			(end -2.285 -1.135)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9d619fe1-1d82-4ea0-b9d9-54ff1249f7d1")
-		)
-		(fp_line
-			(start -2.285 -1.135)
-			(end -2.285 1.135)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "03a374e0-577a-4d37-9299-635ab255c481")
-		)
-		(fp_line
-			(start -2.285 1.135)
-			(end 1.6 1.135)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "53d3a6d4-97bc-460f-8da2-f3bac77dfc0d")
-		)
-		(fp_line
-			(start 2.28 -1.12)
-			(end 2.28 1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ada9534a-8af8-4124-bd33-11a31f63305e")
-		)
-		(fp_line
-			(start -2.28 -1.12)
-			(end 2.28 -1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9867dd15-7801-4617-ade6-426f384e73f4")
-		)
-		(fp_line
-			(start 2.28 1.12)
-			(end -2.28 1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2c2235d0-9da9-4797-a974-e6536d69b380")
-		)
-		(fp_line
-			(start -2.28 1.12)
-			(end -2.28 -1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4c5a7d6d-16d3-43b5-aad4-dc02c4a31e3f")
-		)
-		(fp_line
-			(start 1.6 -0.8)
-			(end -1.2 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9b00972c-869f-4f4e-8927-c4cc5b48752c")
-		)
-		(fp_line
-			(start -1.2 -0.8)
-			(end -1.6 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "baf26291-251c-4946-b203-d539907ed4ee")
-		)
-		(fp_line
-			(start -1.6 -0.4)
-			(end -1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a2350b17-cca8-4427-b0c5-e7e7c1cc125b")
-		)
-		(fp_line
-			(start 1.6 0.8)
-			(end 1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7759be93-96a1-41a7-bc16-31b880956047")
-		)
-		(fp_line
-			(start -1.6 0.8)
-			(end 1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "74bbfdb6-1f4c-47eb-a284-050a869b3cbe")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(uuid "1484740f-0c4f-47cd-8e3c-b0d460eff2d7")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.4 0 90)
-			(size 1.25 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.2)
-			(net 6 "Net-(D10-A)")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "08eeaaa8-de26-4f36-99c3-f7261e50a6c4")
-		)
-		(pad "2" smd roundrect
-			(at 1.4 0 90)
-			(size 1.25 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.2)
-			(net 7 "Net-(D10-K)")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "98f5e4e1-fd24-4f2f-a338-ab8765800d5e")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
-		(layer "F.Cu")
-		(uuid "3dfb983c-711b-43b5-b4e4-a3eb5145ceb2")
+		(uuid "6a7d17c5-8660-4788-86a0-ec0dba43ca9f")
 		(at 152.4 99.06 90)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D5"
-			(at 0 1.905 270)
+			(at 0 -1.82 270)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "885ee82b-8a73-4d58-9bdc-302863003792")
+			(uuid "3817f934-aa63-4ce0-bc2c-64489f2cb969")
 			(effects
 				(font
 					(size 1 1)
@@ -394,10 +128,10 @@
 				)
 			)
 		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
 			(layer "F.Fab")
-			(uuid "2a9b6185-75e6-4101-8c9e-2b89317df49d")
+			(uuid "9c0fa1a0-2d63-416b-89e5-a6f7d94bb45b")
 			(effects
 				(font
 					(size 1 1)
@@ -405,24 +139,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81c648ba-1935-496a-9c4a-f27684423596")
+			(uuid "f86d0c70-881b-4493-8090-ab6235006ee0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c12852d4-b952-4213-b2ee-bd70dfee9b97")
+			(uuid "d1b3be4a-c498-493f-a93c-09433655e5ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,36 +168,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b822e32-4712-4b82-bc16-63b35d999e47")
+			(uuid "fb6273e6-59c7-47df-b881-554d4076d680")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a462b33-19c0-4130-a79f-93285701d2c2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "178f0182-ada4-4806-9f88-fcf350669937")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -472,7 +180,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "268c15fd-d660-401b-ba28-e7e534ef4f98")
+			(uuid "f6a8912a-1543-441d-a19d-21ce2fe69c76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "271f9771-4999-43a0-81e3-1bd24feefa6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6079e71-f69e-469f-ada8-4dc592ba9539")
 			(effects
 				(font
 					(size 1 1)
@@ -481,7 +215,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/eff75056-b7d3-43a2-8643-bdd5c1b0394a")
+		(path "/f653b616-a348-44bf-8fbf-ad15849fb983")
 		(sheetname "Корневой лист")
 		(sheetfile "PM-Front-DI8-24.kicad_sch")
 		(attr smd)
@@ -493,7 +227,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "888851fc-9e0e-4be9-b428-a80abdfc5e4b")
+			(uuid "6465544d-2701-417e-b8bd-9427de73e14d")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -503,7 +237,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "26ca619d-b5a6-467e-925f-7f74d2bfd4fb")
+			(uuid "18107d1c-8a49-4616-ac7b-83661d8a441b")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -513,7 +247,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d72dd519-f902-4412-8fcb-2bfa03d15738")
+			(uuid "2f77c578-4c4c-4e4e-a32e-8b842eaac7e0")
 		)
 		(fp_line
 			(start 2.28 -1.12)
@@ -523,7 +257,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fcba79bd-fce8-4033-b9c4-569086f8b07a")
+			(uuid "430a19e6-a282-48b0-937b-7dcedbb3b0e0")
 		)
 		(fp_line
 			(start -2.28 -1.12)
@@ -533,7 +267,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e58d607f-18d4-48c1-9335-2d01a3387238")
+			(uuid "d1b1958e-e681-48b1-9ed9-5324872f1a85")
 		)
 		(fp_line
 			(start 2.28 1.12)
@@ -543,7 +277,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "255d7a3a-b3fe-4e28-82ee-d966b653de2b")
+			(uuid "03379ecb-25c8-4788-aa57-950ed7776784")
 		)
 		(fp_line
 			(start -2.28 1.12)
@@ -553,7 +287,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "91f7e22a-2d61-48d9-920f-9431445ef865")
+			(uuid "23b1490e-3a1f-40b3-99f2-97c738e8ff79")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -563,7 +297,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e81e23bc-2a28-40af-90d4-d694d4d9c4aa")
+			(uuid "fcf3971d-6c5e-49f4-80ea-dfd805db42d3")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -573,7 +307,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dd7d1c32-18a4-497b-a43a-bdca1ec6b1c6")
+			(uuid "d21f9d22-b5b4-4ba6-bcae-c676621a834c")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -583,7 +317,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "962afe8d-94d5-4186-9bf6-1dae6add831e")
+			(uuid "4ed4e3df-2613-4118-9ef3-58097c857474")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -593,7 +327,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b49b409c-27b8-4732-bb34-1ebf5e34f434")
+			(uuid "42d7610a-d05f-43a6-bf86-90d4cd694622")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -603,12 +337,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4f1f09e8-f3de-4916-8f1d-11e957d3f88e")
+			(uuid "8537fd29-9ef2-4918-9b3d-e363f4908b0d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "2fd3e354-7f28-450e-975c-02e0f20b3452")
+			(uuid "7d2a18a3-7485-45d0-bc4e-62e581fc7846")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -621,24 +355,24 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 13 "Net-(D13-A)")
+			(net 10 "Net-(D13-A)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "f0b12c09-6327-4110-9935-6928d077c28a")
+			(uuid "4516b1c7-7591-4f9e-be62-33eb98a79621")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 90)
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 12 "Net-(D13-K)")
+			(net 9 "Net-(D13-K)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "76941418-6332-47ca-8b18-b9dfdfbdd4eb")
+			(uuid "d432ba8e-6358-4056-9050-85cf4b74db1b")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -648,17 +382,16 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
 		(layer "F.Cu")
-		(uuid "45055fee-c38c-44ce-939b-3a0cdba0b986")
+		(uuid "6df8b352-7bab-46d0-be50-f4d14b3a61bc")
 		(at 152.4 93.98 90)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D4"
-			(at 0 1.905 270)
+			(at 0 -1.82 270)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b5f0780b-bfcf-4610-88c8-2e7d765d158c")
+			(uuid "1494e1c2-4503-4b7d-894b-3d2fa3783abe")
 			(effects
 				(font
 					(size 1 1)
@@ -666,10 +399,10 @@
 				)
 			)
 		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
 			(layer "F.Fab")
-			(uuid "0c2132e5-41c3-4ff9-b293-1c660c94d875")
+			(uuid "8b239ee9-1257-45ee-af7f-b20cedbea65a")
 			(effects
 				(font
 					(size 1 1)
@@ -677,24 +410,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3bea638-8c8f-4088-86e7-e193674f488f")
+			(uuid "9053987c-d198-4cab-835b-d992e142a491")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2a0c630-3728-4f6e-b782-5287fdc7c728")
+			(uuid "d3310402-5324-4db5-bb54-9d9dfb7356cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,36 +439,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa86f7c9-20eb-4617-913f-2e51def63708")
+			(uuid "79d7d0e3-b538-46e6-b0af-cdec97753c98")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "218c6da2-61bd-4cf3-a786-2412e56c3781")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ceed44c-0411-4f83-bc4c-04b81eeecda6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -744,7 +451,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c95f6047-95c0-4958-93c8-78b1333f83a5")
+			(uuid "d9c1ab18-ea4c-4c4a-98b4-3d743db39d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29f0bdc2-eb1a-4f50-a943-6bc383e9fc3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd219144-209a-42dc-9c8d-50d30a225f56")
 			(effects
 				(font
 					(size 1 1)
@@ -753,7 +486,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/abfb9178-88e8-4883-8915-1c04ac510383")
+		(path "/335ef9c7-48ab-436c-a2cb-9dd5ed74ad81")
 		(sheetname "Корневой лист")
 		(sheetfile "PM-Front-DI8-24.kicad_sch")
 		(attr smd)
@@ -765,7 +498,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d5bdecd8-ebd4-42af-8a98-d61fa24ab231")
+			(uuid "52d2930d-b274-4fd8-9d5f-6fef7058ac5d")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -775,7 +508,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1f9662ca-a746-41d4-a853-cfd77d97134a")
+			(uuid "c73aedb8-04b9-4259-a272-42d7fa25314c")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -785,7 +518,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "54bd7c53-7690-47ab-98fa-0f5c43ed7a6e")
+			(uuid "187fafc6-76d6-4f27-b5d1-004e9eeadf00")
 		)
 		(fp_line
 			(start 2.28 -1.12)
@@ -795,7 +528,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3416cc83-19f2-4e1b-b412-f12083ce3f02")
+			(uuid "71898a5b-51f6-41a5-bc79-eea9ee99f6f5")
 		)
 		(fp_line
 			(start -2.28 -1.12)
@@ -805,7 +538,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9cf57c46-c327-4248-9865-e4b595690170")
+			(uuid "95833bb0-4f93-4a34-9907-f942343dd433")
 		)
 		(fp_line
 			(start 2.28 1.12)
@@ -815,7 +548,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e113409d-f3f5-4ca9-a48f-3899a950789e")
+			(uuid "c5c439c8-d153-4b23-ad41-a714fb66e29d")
 		)
 		(fp_line
 			(start -2.28 1.12)
@@ -825,7 +558,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fc35ecca-327c-4804-b6dd-abc93836f543")
+			(uuid "4b227bab-20cd-4d51-99a2-50186f2b386d")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -835,7 +568,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "34d62dd7-e5fe-4429-b9bc-490a6a346468")
+			(uuid "0f2dde01-5089-4337-9762-4ae7a957a9c2")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -845,7 +578,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4c696d82-31a8-4af6-a913-90a6bb99cdea")
+			(uuid "d63c0463-c723-4d2f-b3bf-916aa1e48311")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -855,7 +588,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "80de72ad-3312-4119-b047-99e8b0127baf")
+			(uuid "f7873a5a-298b-4665-8254-cfed8f81d506")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -865,7 +598,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7a3a5e11-e5c5-4985-813f-472a3e068ed6")
+			(uuid "afe1db2f-4b35-4d97-9ebd-b354da15e82d")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -875,12 +608,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b308b66c-4f81-49b0-8112-1fb2cc2f0a78")
+			(uuid "9df2aea9-dc28-45b4-b0a5-00c7281ef2cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "bdc4030f-717a-48d4-9da4-28f073b08172")
+			(uuid "86ebd92f-34cd-4475-87db-e361ff309544")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -893,24 +626,24 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 10 "Net-(D12-A)")
+			(net 7 "Net-(D12-A)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "7381e07d-ca46-48ad-a851-14da6ec65d4c")
+			(uuid "03d62bcb-2103-40a1-a029-6686e7d3c93f")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 90)
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 11 "Net-(D12-K)")
+			(net 8 "Net-(D12-K)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "ffe25049-14ef-4dc0-8280-3951587fb483")
+			(uuid "6b1bd2d7-ac44-49f0-972d-f4e98529def1")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -920,17 +653,16 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
 		(layer "F.Cu")
-		(uuid "58d567b5-929e-4cb8-8f1d-8d6f8522c48f")
+		(uuid "89fbfb4f-6180-4bc9-b88a-82016aae45f4")
 		(at 152.4 104.14 90)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
-			(at 0 1.905 270)
+			(at 0 -1.82 270)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "e9564cd8-3bc2-4d20-bd1e-1df1d056dd58")
+			(uuid "b22372da-d0ae-49dc-89a6-1f570897e771")
 			(effects
 				(font
 					(size 1 1)
@@ -938,10 +670,10 @@
 				)
 			)
 		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
 			(layer "F.Fab")
-			(uuid "1293ea5c-6de1-4c6e-a211-46d53b6bd8a6")
+			(uuid "0b140d46-0fad-4b2e-9d3d-db2866286d91")
 			(effects
 				(font
 					(size 1 1)
@@ -949,24 +681,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "657b672e-f5f7-4d12-a0d3-9833641c5818")
+			(uuid "cce5b1b3-a3f7-4ce9-8171-b10298f31848")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "67d81ae8-0fde-45e1-9003-563074a89356")
+			(uuid "d5c439ce-9d3f-4fd7-9bb9-862753cec5dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,36 +710,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e7def5b-65a0-4645-a65e-c8dbdb31d7a2")
+			(uuid "32532c51-19cc-484f-92a5-f2487070270a")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bd8fd0d-9de8-45a1-97b7-eedae4b2a4ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b1ab694-0205-42e8-8dd2-fedfc91a93ae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1016,7 +722,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "073d5279-7229-4a8a-aa59-9015bf4a5199")
+			(uuid "15ecc661-35dc-43fa-b755-fb9cb34f5121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e203692-b60b-4dfe-93af-2cfbad33e313")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6c84d93-d551-4f9f-b8fc-bf90505a3cfd")
 			(effects
 				(font
 					(size 1 1)
@@ -1025,7 +757,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/f15a4c06-e691-4c05-a43b-7e032c87aa5c")
+		(path "/9f64d678-2a4c-449b-b80e-93484bc571b5")
 		(sheetname "Корневой лист")
 		(sheetfile "PM-Front-DI8-24.kicad_sch")
 		(attr smd)
@@ -1037,7 +769,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1710cbe-3852-4365-b51c-96dd0b4f8bf0")
+			(uuid "76f45ce5-c86e-4767-9faf-ad91537369e3")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -1047,7 +779,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fad0633d-71cc-48f1-bdd0-cf34ff9de4ce")
+			(uuid "f196a2a8-406a-4ef6-ad7d-26deeedbb0e3")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -1057,7 +789,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e78e70ec-c728-4340-8674-cfc951ca46b4")
+			(uuid "9af44b53-afed-4182-bb80-47a254e84730")
 		)
 		(fp_line
 			(start 2.28 -1.12)
@@ -1067,7 +799,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dbde598f-248b-4b95-8615-efae8823ffd4")
+			(uuid "2c02a508-30bd-427d-9124-e93fafe3baef")
 		)
 		(fp_line
 			(start -2.28 -1.12)
@@ -1077,7 +809,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "339a85a2-a60b-4f76-bcc2-facac9bca5d3")
+			(uuid "6e572446-4773-484a-8901-47ae5f14db4b")
 		)
 		(fp_line
 			(start 2.28 1.12)
@@ -1087,7 +819,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8f4512ea-189a-4105-aa62-5996c9a5dc8a")
+			(uuid "6b7206fb-08da-4988-afb5-3ec4a5ce03ae")
 		)
 		(fp_line
 			(start -2.28 1.12)
@@ -1097,7 +829,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "29f0445d-8560-4366-9ef2-3386d494ea45")
+			(uuid "c3effc79-e48f-4ce8-bfd3-1908396f68de")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -1107,7 +839,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "50cfb6b2-034e-45c6-9ffd-31f334decd26")
+			(uuid "58154793-b199-4ee5-806a-053303ba14ad")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -1117,7 +849,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1605a025-128e-480b-9f23-2f397fdaf37f")
+			(uuid "1abf477e-6940-47d7-ba79-89a662de6fb4")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -1127,7 +859,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7804be7a-a1e2-4eef-bc1c-b23fd4278411")
+			(uuid "575a0ad5-e7ed-4118-a869-284a8f92b84a")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -1137,7 +869,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a6485e49-938e-4f3d-9797-5cd203cc4767")
+			(uuid "c51e86af-0481-462b-bd78-0d1234a34de0")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -1147,12 +879,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "79b5a853-ed57-4c93-9fda-3719af84fc6c")
+			(uuid "d1cd1da2-7ca0-46d7-a494-2c0660126c46")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "adc0a460-8727-4645-8c91-7236c946a671")
+			(uuid "1987649c-5582-4a10-b9ad-6c49741c1e3d")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1165,24 +897,24 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 15 "Net-(D14-A)")
+			(net 12 "Net-(D14-A)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "f2cad193-c438-4d1c-a7d2-800ca4c0b4fe")
+			(uuid "8a923c7d-2afe-4c1e-8d99-66eb9ebb101a")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 90)
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 14 "Net-(D14-K)")
+			(net 11 "Net-(D14-K)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "a42da468-413e-4e45-a25b-a824475fb458")
+			(uuid "f9ef1c82-f1c9-492e-ab9b-3a54bef276b0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1192,17 +924,16 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
 		(layer "F.Cu")
-		(uuid "9906384c-26ac-439f-acb8-8941ca66ec98")
-		(at 152.4 109.22 90)
+		(uuid "9495f041-a5ec-42a4-9e1c-1a5c369f436b")
+		(at 152.4 88.9 90)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D7"
-			(at 0 1.905 270)
+		(property "Reference" "D3"
+			(at 0 -1.82 270)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4bee1936-6995-4393-9eac-8d40c46990fa")
+			(uuid "5fc28844-adf1-42ed-ab12-3c777405339b")
 			(effects
 				(font
 					(size 1 1)
@@ -1210,10 +941,10 @@
 				)
 			)
 		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
 			(layer "F.Fab")
-			(uuid "14e1a7b9-19fd-4fc5-8f04-54495f36936f")
+			(uuid "3a34be78-fccb-4504-bf6f-36b7e1204f5a")
 			(effects
 				(font
 					(size 1 1)
@@ -1221,24 +952,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f83df320-7aed-4c67-8baa-c894652f6b73")
+			(uuid "c9d19b0e-1aa3-4b3d-86aa-b6ae640adc1b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "110d8c4f-b165-4fb6-9d44-4efa07a6eba8")
+			(uuid "dd6cc656-27f4-4204-ae4d-1c7c0c6be5cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,36 +981,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b0746a8e-a127-4621-8ffe-2166a056792a")
+			(uuid "5ea30e57-03e4-45d5-88fa-bec2085d0cda")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7952addf-3326-4892-b0f1-e5bb972b9208")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bea85b8f-2385-4669-bce7-4fe4119c3418")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1288,7 +993,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "72e3528a-3a7e-457b-bc97-7d83edf2333f")
+			(uuid "47e77242-b5dc-4dd0-9067-b3676497d407")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36261152-d623-4507-beb7-24bb0d5d48a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc428d3-b3f1-4d87-9482-3f3d5e92ce83")
 			(effects
 				(font
 					(size 1 1)
@@ -1297,7 +1028,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/83c8907b-75f3-4c8c-84f1-ea19c7a6a160")
+		(path "/b1284a22-3f7c-43ce-8258-600344411d9c")
 		(sheetname "Корневой лист")
 		(sheetfile "PM-Front-DI8-24.kicad_sch")
 		(attr smd)
@@ -1309,7 +1040,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d746c34c-9a2e-445f-bc9b-a2c590253d05")
+			(uuid "86fb6a40-dd01-466c-bc67-0175c7ab691e")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -1319,7 +1050,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "90f441ea-11df-468b-8609-9a3cc498cb91")
+			(uuid "7d329f47-509c-40f3-a527-9a2dbec1138d")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -1329,7 +1060,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6b288000-82b3-4b1a-a855-c6c9663ef56e")
+			(uuid "bf928f41-11ac-43d6-a017-02d5b2fdead1")
 		)
 		(fp_line
 			(start 2.28 -1.12)
@@ -1339,7 +1070,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e686d0f7-fcd2-44de-8542-83220750ded2")
+			(uuid "7beda0de-740f-4a5d-9377-1bdad2403bfe")
 		)
 		(fp_line
 			(start -2.28 -1.12)
@@ -1349,7 +1080,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bb9a1562-fb3a-4748-827d-94607ff857a5")
+			(uuid "670afdc8-c689-4fab-9296-16f0134c21eb")
 		)
 		(fp_line
 			(start 2.28 1.12)
@@ -1359,7 +1090,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a78c4702-a2f7-4825-86c5-732de4db1075")
+			(uuid "9e4b541f-32b9-44a7-bda9-3143110351af")
 		)
 		(fp_line
 			(start -2.28 1.12)
@@ -1369,7 +1100,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2863f206-a663-4d7b-842e-808cbde14ee7")
+			(uuid "e24bd682-6bf1-4784-aa4c-969fcb076266")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -1379,7 +1110,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "29bad074-6290-481c-bcb6-94c24e474bef")
+			(uuid "4a7c6da1-b560-4a19-b834-372d5d536cee")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -1389,7 +1120,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "89ede495-0859-47a6-9ebb-6eeb86910d62")
+			(uuid "ed1a876d-8cdf-412a-b93e-3fbafd1b73c7")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -1399,7 +1130,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "faeadb75-e79c-4b2f-842f-3ab18281041e")
+			(uuid "fa61d21e-6983-451e-b3fc-d5ce0165be97")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -1409,7 +1140,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c90a7747-85c9-4c5d-965c-9c1a862fb96f")
+			(uuid "3b0a9faa-568b-4c53-b6be-ea7416ed2084")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -1419,12 +1150,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bb8177ec-133a-427f-9e3e-79b4ec0ec536")
+			(uuid "0637c09d-289b-4a80-9ff8-383b7ae395e7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "821ce263-c4c8-44b4-8c1d-583c52c2c310")
+			(uuid "14f56cf7-ba44-45b3-9693-2d9abd796b3e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1437,24 +1168,24 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 17 "Net-(D15-A)")
+			(net 6 "Net-(D11-A)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "93447af6-ba4e-4e9f-8471-911d501aada2")
+			(uuid "338cc84e-9314-4c3d-b726-153abd6374a6")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 90)
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 16 "Net-(D15-K)")
+			(net 5 "Net-(D11-K)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "40832f34-61c1-41aa-995c-fd20ae9785b1")
+			(uuid "943a2de8-ce75-45b2-844b-c58c3619d688")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1464,17 +1195,558 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
 		(layer "F.Cu")
-		(uuid "b16dce7c-bb07-42ce-990a-64f25119448b")
+		(uuid "9674e6b0-b2c7-43ed-83cd-27594af5fd8d")
+		(at 152.4 83.82 90)
+		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+		(tags "LED")
+		(property "Reference" "D2"
+			(at 0 -1.82 270)
+			(layer "F.SilkS")
+			(uuid "db8ecf8b-7ba7-4402-9a1e-7a399606b0e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
+			(layer "F.Fab")
+			(uuid "47a2eccf-27fe-4344-878c-9109e61da188")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "206f0532-c40d-4a15-8f8c-6f9dc3bf53e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cf6657a-0002-4cdd-9c2f-6e6b1d7b1ce2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afb14ab7-8865-4c5d-9e33-e1f782018d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473658d8-3b96-41dc-a890-7fe0cc6a79bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c600fdd-64e5-45c6-8e4d-03f73f581881")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12b7e9cc-deb5-4270-8f43-55512382a3e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/08e611c5-bf9b-4e1b-bd80-9511021cca15")
+		(sheetname "Корневой лист")
+		(sheetfile "PM-Front-DI8-24.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.6 -1.135)
+			(end -2.285 -1.135)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7dd76c02-c3ef-4594-9642-5ab8bc3c018e")
+		)
+		(fp_line
+			(start -2.285 -1.135)
+			(end -2.285 1.135)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d72b21a4-e0b4-425b-b2d7-aa16a7b3c36d")
+		)
+		(fp_line
+			(start -2.285 1.135)
+			(end 1.6 1.135)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f13ccc3-3475-4123-8884-d2c05a8a0cae")
+		)
+		(fp_line
+			(start 2.28 -1.12)
+			(end 2.28 1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4881adef-40e0-4ddf-9310-32815657033d")
+		)
+		(fp_line
+			(start -2.28 -1.12)
+			(end 2.28 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "176861e0-283e-4d45-b0e4-1377c57dd660")
+		)
+		(fp_line
+			(start 2.28 1.12)
+			(end -2.28 1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cda4e831-2806-4ed9-a89b-48c1cde32390")
+		)
+		(fp_line
+			(start -2.28 1.12)
+			(end -2.28 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a1a4798b-a1ea-47df-8def-f216efefeb4b")
+		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end -1.2 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2ac74d83-b744-4db1-ad9c-86e909fd9095")
+		)
+		(fp_line
+			(start -1.2 -0.8)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8522192-6625-486f-8fb0-44f0f716350a")
+		)
+		(fp_line
+			(start -1.6 -0.4)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1588ac20-e78f-40b7-b166-e1e2a70d6c13")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "611e96d7-665f-451b-8732-3328f1e171bd")
+		)
+		(fp_line
+			(start -1.6 0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ebb27dee-f437-48d8-b677-236f66f198d6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "097b7792-f2c6-4532-9397-b5e7d24fdb5d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4 0 90)
+			(size 1.25 1.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
+			(net 3 "Net-(D10-A)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "fd8c855a-f363-4f49-9595-0c62d4a5ac4f")
+		)
+		(pad "2" smd roundrect
+			(at 1.4 0 90)
+			(size 1.25 1.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
+			(net 4 "Net-(D10-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "b8302077-8c62-4cf1-b748-ba1ecf389644")
+		)
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
+			(offset
+				(xyz 0 0 0.24)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
+		(layer "F.Cu")
+		(uuid "aef4dcd8-b905-47c5-a9f5-2d3dd27558f9")
+		(at 152.4 114.3 90)
+		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+		(tags "LED")
+		(property "Reference" "D8"
+			(at 0 -1.82 270)
+			(layer "F.SilkS")
+			(uuid "a1549d5f-b91e-47b4-8ebd-beac4fb7c029")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
+			(layer "F.Fab")
+			(uuid "a644b69a-253a-4749-9a84-a7baa85c83a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5db51e53-f919-4944-8493-4f135e0f0d20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2363e19c-a684-4004-bb87-776e12a074b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf43062c-2657-4a12-ad66-a290813d7829")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85a64f93-02e2-4943-ac17-64f60fc770ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5811abef-84f9-473b-8db8-ff2e63aaa4e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0093d9e4-d391-434f-994e-6a3f27f1f503")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/177eef5d-8644-4538-8545-00ea8f9de491")
+		(sheetname "Корневой лист")
+		(sheetfile "PM-Front-DI8-24.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 1.6 -1.135)
+			(end -2.285 -1.135)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fa4b0682-a90f-4c6b-a343-a56b133baab3")
+		)
+		(fp_line
+			(start -2.285 -1.135)
+			(end -2.285 1.135)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8c78bf3-5d65-4ff8-b2ea-a7aa99ea0fab")
+		)
+		(fp_line
+			(start -2.285 1.135)
+			(end 1.6 1.135)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e9713ab7-7be1-4b62-8efe-a96807650dcf")
+		)
+		(fp_line
+			(start 2.28 -1.12)
+			(end 2.28 1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0b6bd1b1-e835-460b-ad8e-caaf2f792f81")
+		)
+		(fp_line
+			(start -2.28 -1.12)
+			(end 2.28 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7f46a09b-d326-43fd-865e-e6ac26bd6e9e")
+		)
+		(fp_line
+			(start 2.28 1.12)
+			(end -2.28 1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a4086a3-370c-45e6-b074-0a88a7d7cc49")
+		)
+		(fp_line
+			(start -2.28 1.12)
+			(end -2.28 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3f53285d-65fc-451a-9888-ace668b42c36")
+		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end -1.2 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aa33fed3-8345-4762-9716-172c3660d605")
+		)
+		(fp_line
+			(start -1.2 -0.8)
+			(end -1.6 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bf3345ea-115c-405c-aae1-8f730d515833")
+		)
+		(fp_line
+			(start -1.6 -0.4)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4af19e92-da04-4132-8493-b83494d8db8a")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0437ad6-ba8e-4bfb-901c-8dfe937b83fc")
+		)
+		(fp_line
+			(start -1.6 0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "abbe7bfe-0278-4e3d-b1f7-30bf466ec5f6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(uuid "23b8e019-5e2b-4d75-806f-4903561caf5c")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4 0 90)
+			(size 1.25 1.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
+			(net 15 "Net-(D16-A)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "b3a7c302-621c-4e50-a891-d5f8cfc132d9")
+		)
+		(pad "2" smd roundrect
+			(at 1.4 0 90)
+			(size 1.25 1.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
+			(net 16 "Net-(D16-K)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "6ba7c81c-4b6f-4d9c-a19e-046c472f97c6")
+		)
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
+			(offset
+				(xyz 0 0 0.24)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
+		(layer "F.Cu")
+		(uuid "b3f7dd8e-6b4c-415b-8de8-33efd5224985")
 		(at 152.4 78.74 90)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 1.905 270)
+			(at 0 -1.82 270)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "68f81d96-a8ad-45c8-a84c-3786d9512439")
+			(uuid "f2d73fd8-57be-4bfb-9d3a-c0ee91b4814d")
 			(effects
 				(font
 					(size 1 1)
@@ -1482,10 +1754,10 @@
 				)
 			)
 		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
 			(layer "F.Fab")
-			(uuid "d4fe4c3a-b672-49fb-9d47-96d40559429c")
+			(uuid "c86c4602-756d-4d78-a0b2-060b8ff41eb6")
 			(effects
 				(font
 					(size 1 1)
@@ -1493,24 +1765,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc127982-29cc-49f4-9a40-c91edde23165")
+			(uuid "588403a6-c874-458d-a70a-7250d7f0dfed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "698d0357-a4ff-447e-8fd0-9cc2f9ca573d")
+			(uuid "c5999d36-e209-4812-bf3a-ea940c6b459d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,36 +1794,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc89c6c6-9da4-4361-9765-4780860891b7")
+			(uuid "cccbd8fb-d014-4415-96bf-ac313d32ed73")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de424116-d4a5-4aca-b071-2c3e7b9dfca0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7caa7be5-379f-4a5f-baad-c19d44953bf9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1560,7 +1806,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02f64fad-843b-4d9c-9567-167c4b90df6a")
+			(uuid "36500bf7-c1a9-4e5c-9a5c-1641dfb8588e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d5897ff-0736-4d6e-889b-c11571483cf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e257458-8d7d-41a4-a501-b808b717cc54")
 			(effects
 				(font
 					(size 1 1)
@@ -1569,7 +1841,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/2d288a89-6979-47e3-b4e4-d8c795b6e07b")
+		(path "/b4e8f429-6ba3-4d9e-87e1-08735507debd")
 		(sheetname "Корневой лист")
 		(sheetfile "PM-Front-DI8-24.kicad_sch")
 		(attr smd)
@@ -1581,7 +1853,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "69ec2c26-6b5b-4c06-ad0a-a43c528fc70e")
+			(uuid "4324a198-cf88-467d-87b0-15b025810b43")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -1591,7 +1863,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "57993e18-0597-450a-bf4e-5e86e910c25c")
+			(uuid "d2e003a1-e3d1-4f54-bc0b-780ed089db0c")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -1601,7 +1873,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1c759f9-fa86-4006-874f-97001467ede0")
+			(uuid "a739fd6a-3fd4-425c-8fb6-dfbb1b66f787")
 		)
 		(fp_line
 			(start 2.28 -1.12)
@@ -1611,7 +1883,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3ac5d536-fef5-4c89-a709-d1683c03f015")
+			(uuid "ccbfbffe-1fad-4116-8cfd-ebe478da0431")
 		)
 		(fp_line
 			(start -2.28 -1.12)
@@ -1621,7 +1893,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d496572c-4900-43f3-b734-0b095a20a6c3")
+			(uuid "c02d27fc-5caf-450c-b1b4-6b0226a7660f")
 		)
 		(fp_line
 			(start 2.28 1.12)
@@ -1631,7 +1903,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "86453732-035f-4c15-9066-7aa3f0c3624c")
+			(uuid "3029622a-532e-4d7c-90bf-f6b0c33a29e4")
 		)
 		(fp_line
 			(start -2.28 1.12)
@@ -1641,7 +1913,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "365872cb-7c66-4760-b232-429bf6e61dbe")
+			(uuid "28a1be6f-b38a-4212-a694-0c9d776a5793")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -1651,7 +1923,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "19b3c416-498d-4973-9f7c-383c629669e7")
+			(uuid "511cc931-a395-4b21-99b1-66f14f7c3f4a")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -1661,7 +1933,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ee0d05c3-49d6-4886-9191-1f4a53d5c325")
+			(uuid "f3341d51-aae1-4a9d-ab55-d9c8ec8bee0a")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -1671,7 +1943,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8b0f1155-9287-4d26-a6ec-644308961dd1")
+			(uuid "6648e05e-0382-43b8-9bd6-84059e0f10cd")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -1681,7 +1953,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "75b22ad7-11fa-4d17-992e-cdd1f5e191aa")
+			(uuid "2b120841-21c7-4b20-abb3-cb1c22484999")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -1691,12 +1963,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9b9b5e49-81d0-489a-bef5-9755eba98548")
+			(uuid "be08df62-1d7f-4e4a-a88c-956be2ae997d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "89ad99c7-4346-42a8-966f-c4fde851f5e4")
+			(uuid "89b6f9a2-5cb8-45e7-ba0a-aa7019b2f64a")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1712,7 +1984,7 @@
 			(net 1 "Net-(D1-K)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "8d8e1767-301f-401a-af57-ed2d32f61e65")
+			(uuid "ecc09e83-357b-4c9c-a623-5d3a224e90f1")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 90)
@@ -1722,11 +1994,11 @@
 			(net 2 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "8e966aff-9f40-4e1e-8873-4e478748e6bd")
+			(uuid "864be978-0267-4c12-823d-35f40a09559c")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1736,17 +2008,16 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
+	(footprint "NextPCB:LED_KPTD-3216ZGC"
 		(layer "F.Cu")
-		(uuid "b32d6669-447c-4274-813f-8e764ef6ad8e")
-		(at 152.4 114.3 90)
+		(uuid "c6623c10-3506-49a6-a7b9-d4701bfd9cfe")
+		(at 152.4 109.22 90)
 		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D8"
-			(at 0 1.905 270)
+		(property "Reference" "D7"
+			(at 0 -1.82 270)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "db6dfc8f-0a17-435e-8d76-4a9de8a88f41")
+			(uuid "f18d3e48-fc23-45de-ba08-828d2abfe2ff")
 			(effects
 				(font
 					(size 1 1)
@@ -1754,10 +2025,10 @@
 				)
 			)
 		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
+		(property "Value" "KPTD-3216ZGC "
+			(at 0 1.82 270)
 			(layer "F.Fab")
-			(uuid "3c6736c6-7734-4fb3-a4d4-0e7510570e90")
+			(uuid "caaf426b-1bd6-4f33-adae-8af05671f2f6")
 			(effects
 				(font
 					(size 1 1)
@@ -1765,24 +2036,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+		(property "Footprint" "NextPCB:LED_KPTD-3216ZGC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69836e98-4305-414c-90df-2948b140fff3")
+			(uuid "0e880c6e-6aad-4aef-8f86-d0e3e355668d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.kingbright.com/content/listitem/psearch/170"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fa0e7c9-9fd3-40c0-8e2c-d9a02b497676")
+			(uuid "ba72023d-2bf0-4c82-bd8a-fdb694af1244")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,36 +2065,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f69b5c6e-d210-447c-8ffe-689d5c85d8b8")
+			(uuid "a3520e41-4d23-4365-97ef-55a270f3876d")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "157a365c-db44-4f10-9b50-73f308b0b83d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9bb9cabc-e267-4684-99e6-b047f8d80a4e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -1832,7 +2077,33 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9930045-b367-4049-a88e-1d3a7c24dc41")
+			(uuid "04981ec6-9154-4e17-ab0c-9194472e2496")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_price" "0.39735"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96bfa3eb-5cbb-44c4-bbc6-cf85590ef3a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kptd-3216zgc-1007375095"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f3de748-615e-47cc-ae1e-5b74e86cabdc")
 			(effects
 				(font
 					(size 1 1)
@@ -1841,7 +2112,7 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/6638f13e-0dd5-4e1c-beda-6c916f62d7eb")
+		(path "/fac34cc2-41dd-41f2-b15a-f4a615ba48f0")
 		(sheetname "Корневой лист")
 		(sheetfile "PM-Front-DI8-24.kicad_sch")
 		(attr smd)
@@ -1853,7 +2124,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "af793bec-3a33-42fa-81e0-5bcb7b4bce33")
+			(uuid "bbebcbb1-046d-49c6-9217-9127426a5955")
 		)
 		(fp_line
 			(start -2.285 -1.135)
@@ -1863,7 +2134,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "33315e22-0dde-4562-a4dd-ad0e47150d63")
+			(uuid "ded717ee-dcaa-4f61-abb4-eacd019239ea")
 		)
 		(fp_line
 			(start -2.285 1.135)
@@ -1873,7 +2144,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5948dd25-cbd3-455e-b4ac-122ce290ee65")
+			(uuid "487a1cc9-4ca5-4afd-88a0-6097ef8245ef")
 		)
 		(fp_line
 			(start 2.28 -1.12)
@@ -1883,7 +2154,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8415370e-9d50-4f8f-92b6-aad762647dc6")
+			(uuid "207cfdf2-6055-453e-88ea-5b86e48809b4")
 		)
 		(fp_line
 			(start -2.28 -1.12)
@@ -1893,7 +2164,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6ff157c9-c496-4780-938a-9e394b80d1c5")
+			(uuid "53c09d2d-f873-4d89-ba7e-535853c47136")
 		)
 		(fp_line
 			(start 2.28 1.12)
@@ -1903,7 +2174,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c8d6f1af-4c11-42b6-9c46-2296a98ea3a5")
+			(uuid "4b341e75-00db-4a52-ad7c-f82fd16c6b56")
 		)
 		(fp_line
 			(start -2.28 1.12)
@@ -1913,7 +2184,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b9d2dbe9-80f8-49fb-a61e-d2d1c5a19015")
+			(uuid "7ce9d4b4-4539-4280-a304-72479bac5fda")
 		)
 		(fp_line
 			(start 1.6 -0.8)
@@ -1923,7 +2194,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ad12de97-307e-46a1-9517-427786b8074f")
+			(uuid "be8b6c4e-afe3-48bd-9fa0-7b8efbfc36e6")
 		)
 		(fp_line
 			(start -1.2 -0.8)
@@ -1933,7 +2204,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fa00505a-990c-4dc1-a383-27d2e39c2cb9")
+			(uuid "c0a484f6-82d4-46d3-826c-386952489cb4")
 		)
 		(fp_line
 			(start -1.6 -0.4)
@@ -1943,7 +2214,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dbe3498c-92a4-4911-99b1-5c618b170436")
+			(uuid "6e6e35c9-c700-4496-b501-7e7cb107e5cb")
 		)
 		(fp_line
 			(start 1.6 0.8)
@@ -1953,7 +2224,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a76bd08a-486a-46f8-964d-35943e40ac02")
+			(uuid "2152da6f-3f1e-4d6b-b831-74b03aa50158")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -1963,12 +2234,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "463c845c-d701-405d-80ec-7ca214cecaeb")
+			(uuid "429daf51-5e8d-4b5a-b68e-fb880843f4de")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "4d430123-1a1f-4e9f-9831-d261210bb22d")
+			(uuid "a9a27ce8-76ec-4b7c-978f-aab409d41f14")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -1981,296 +2252,24 @@
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 18 "Net-(D16-A)")
+			(net 14 "Net-(D15-A)")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "173152b4-3330-4b97-a8dd-7089f538f673")
+			(uuid "ec5ae319-3170-4335-9853-b8c567ad8686")
 		)
 		(pad "2" smd roundrect
 			(at 1.4 0 90)
 			(size 1.25 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.2)
-			(net 19 "Net-(D16-K)")
+			(net 13 "Net-(D15-K)")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "6fe4e004-570f-4248-86a0-4c3bee129fad")
+			(uuid "db4cba39-9e16-4e41-afdb-d4dd8d15fadc")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/KPTD-3216CGCK-01.stp"
 			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "LED_SMD:LED_1206_3216Metric"
-		(layer "F.Cu")
-		(uuid "c2611afa-3bc2-4e3b-a967-346641eee3e2")
-		(at 152.4 88.9 90)
-		(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-		(tags "LED")
-		(property "Reference" "D3"
-			(at 0 1.905 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "ba28df29-9c38-46c7-9113-39ae2e201366")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "KP-3216MGC"
-			(at 0 1.82 -90)
-			(layer "F.Fab")
-			(uuid "39af212d-bc57-428f-b027-2bc518d40be3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb81067d-8cba-49a9-93b2-599a432a23a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0dea3e4-9ad7-4265-a8df-c0c5f168f42f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8fff930-8a2d-4c86-a3f3-1a932fc3cbcb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MfrPart" "KP-3216MGC"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2aba13fa-43da-4b88-9ce3-7494b3939f4d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "HQPart" "DS0189013"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "91626009-5632-4bc8-bde0-c32eb169722b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed652792-30d0-4038-a671-5c67a9a91e52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/5443d78d-e34b-4df5-8fde-748aa60a20f9")
-		(sheetname "Корневой лист")
-		(sheetfile "PM-Front-DI8-24.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start 1.6 -1.135)
-			(end -2.285 -1.135)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dc49153a-a7d2-40b9-88b9-f648272d9378")
-		)
-		(fp_line
-			(start -2.285 -1.135)
-			(end -2.285 1.135)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d123ca48-606f-437a-9381-78497af6541b")
-		)
-		(fp_line
-			(start -2.285 1.135)
-			(end 1.6 1.135)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "60421811-58a8-45b5-92e0-4b9d9ba1b126")
-		)
-		(fp_line
-			(start 2.28 -1.12)
-			(end 2.28 1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6b48f575-d289-4bc4-9508-d96c367e4d72")
-		)
-		(fp_line
-			(start -2.28 -1.12)
-			(end 2.28 -1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0ed016be-e48f-4770-9158-1319fa458f22")
-		)
-		(fp_line
-			(start 2.28 1.12)
-			(end -2.28 1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "766d0f9b-12f1-48c3-b0c5-41fee6273c33")
-		)
-		(fp_line
-			(start -2.28 1.12)
-			(end -2.28 -1.12)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e9ad313e-5bcf-4d3f-8fc6-0aaadc6c6979")
-		)
-		(fp_line
-			(start 1.6 -0.8)
-			(end -1.2 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9f64e78a-d29f-4f6a-ba97-b14c627c051e")
-		)
-		(fp_line
-			(start -1.2 -0.8)
-			(end -1.6 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "724794f3-cb2d-40f6-8c5b-01a2bd5e89f1")
-		)
-		(fp_line
-			(start -1.6 -0.4)
-			(end -1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b54c2731-2baf-4f3d-98ee-e8c5ecaa7592")
-		)
-		(fp_line
-			(start 1.6 0.8)
-			(end 1.6 -0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "52069870-153a-4525-a726-768b32c51a72")
-		)
-		(fp_line
-			(start -1.6 0.8)
-			(end 1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0373fa7f-eed8-4c43-97ff-aa9d95f43457")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(uuid "25eb4384-8ab4-4108-9ecc-054e2706bf99")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.4 0 90)
-			(size 1.25 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.2)
-			(net 9 "Net-(D11-A)")
-			(pinfunction "K")
-			(pintype "passive")
-			(uuid "bad911d9-35b3-4249-a1a5-52f08fcd9f6e")
-		)
-		(pad "2" smd roundrect
-			(at 1.4 0 90)
-			(size 1.25 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.2)
-			(net 8 "Net-(D11-K)")
-			(pinfunction "A")
-			(pintype "passive")
-			(uuid "4e1302e7-a84b-48d3-ab8a-3dd9274a2082")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
-			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2649,7 +2648,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 12 "Net-(D13-K)")
+			(net 9 "Net-(D13-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "34fc939b-b630-4c31-b3c9-e428ca37bf51")
@@ -2659,7 +2658,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 13 "Net-(D13-A)")
+			(net 10 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6cba12bf-6455-4330-a83d-6889d1da5f94")
@@ -2719,7 +2718,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2765,6 +2764,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "465e9a14-02e0-4f5c-bd6b-cdc45bea2cbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "86572314-be49-4623-9e70-1f5308765df1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7187256b-4339-4b49-8c97-57589c841796")
 			(effects
 				(font
 					(size 1 1)
@@ -2895,7 +2922,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 21 "Net-(J1-Pin_9)")
+			(net 28 "unconnected-(R5-Pad1)")
 			(pintype "passive")
 			(uuid "bb0fd6ea-737b-435d-961a-c7d8c54d7bcb")
 		)
@@ -2904,7 +2931,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 12 "Net-(D13-K)")
+			(net 9 "Net-(D13-K)")
 			(pintype "passive")
 			(uuid "b06fdd29-4939-4755-9ae8-90f861c41e10")
 		)
@@ -3289,7 +3316,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 11 "Net-(D12-K)")
+			(net 8 "Net-(D12-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "364cc875-5dc6-42a5-a9b2-ecc726d0576b")
@@ -3299,7 +3326,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 10 "Net-(D12-A)")
+			(net 7 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8a98fe6f-636c-4af9-b88c-012737c49ede")
@@ -3685,7 +3712,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 14 "Net-(D14-K)")
+			(net 11 "Net-(D14-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "b31575a8-d87e-4065-86dd-57f72df97c49")
@@ -3695,7 +3722,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 15 "Net-(D14-A)")
+			(net 12 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "09a255e3-e450-44ec-a2a8-5ebc03eeb7d5")
@@ -3709,6 +3736,396 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "NextPCB:Conn_02x08_pin_angle"
+		(layer "B.Cu")
+		(uuid "67f6e545-2b98-4d34-9e17-7b8f5d809fd1")
+		(at 128.27 97.79 -90)
+		(property "Reference" "J2"
+			(at -7.985 8.995 90)
+			(layer "B.SilkS")
+			(uuid "30fba62f-56af-4350-9429-7342f8013289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Conn_02x08_Odd_Even"
+			(at 4.715 -11.95 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e96e16c-c7ff-4d7c-a2f5-3e608ad2d219")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "NextPCB:Conn_02x08_pin_angle"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29487f86-2db3-422b-bf32-dfdb8552d8f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "95d8d32d-81a5-41fe-bfde-b73fbeca1643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a587168a-ec34-407a-a613-c39698a56bfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
+		(path "/05b7425e-a1ed-49ec-9baf-481a0000775a")
+		(sheetname "Корневой лист")
+		(sheetfile "PM-Front-DI8-24.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -10.16 1.27)
+			(end 10.16 1.27)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "432d5646-1bf8-4425-a423-cc6c7abb7048")
+		)
+		(fp_line
+			(start -10.16 1.27)
+			(end -10.16 -1.27)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "794ace47-47c0-4d1f-998a-68c8617d5083")
+		)
+		(fp_line
+			(start -10.16 -1.27)
+			(end 10.16 -1.27)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "38ec8f32-b351-4ded-979a-bccb63727b03")
+		)
+		(fp_line
+			(start 10.16 -1.27)
+			(end 10.16 1.27)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4f1f98ed-1fbd-4ac2-acc8-b04ae6028021")
+		)
+		(fp_circle
+			(center 10.81 -4.305)
+			(end 10.91 -4.305)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "7e509fa7-1c16-409b-a3ce-00990c8e0c69")
+		)
+		(fp_line
+			(start -10.41 7.36)
+			(end -10.41 -10.335)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "817722b7-bc95-4cb2-afe0-ad8acbe20400")
+		)
+		(fp_line
+			(start 10.41 7.36)
+			(end -10.41 7.36)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "77c3cfeb-0c2a-4e6e-af5e-7a3db5a688c1")
+		)
+		(fp_line
+			(start -10.41 -10.335)
+			(end 10.41 -10.335)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "11f83d7e-e845-4947-9202-7e92f4b3e211")
+		)
+		(fp_line
+			(start 10.41 -10.335)
+			(end 10.41 7.36)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "392d7a25-bd29-4518-a962-43b1ac47d2c8")
+		)
+		(fp_line
+			(start -10.16 7.11)
+			(end -10.16 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "642a46cb-4fdb-4f2b-b454-d85a257622c7")
+		)
+		(fp_line
+			(start 10.16 7.11)
+			(end -10.16 7.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "0b3a82c4-64bc-4678-b2fc-937bf0b992e0")
+		)
+		(fp_line
+			(start -10.16 1.27)
+			(end -10.16 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "b3f43d3f-a4d4-4792-9c46-3a03add053f0")
+		)
+		(fp_line
+			(start 10.16 1.27)
+			(end -10.16 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "3e2c17c9-e62d-40e9-9983-d5e0b2b420f2")
+		)
+		(fp_line
+			(start -10.16 -1.27)
+			(end 10.16 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "014916f5-340b-45ca-b82f-192e7c8fbfa5")
+		)
+		(fp_line
+			(start 10.16 -1.27)
+			(end 10.16 7.11)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "4ba08d78-91d3-43b8-a04d-0c9faa4e3ee3")
+		)
+		(fp_line
+			(start 10.16 -1.27)
+			(end 10.16 1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "d004a08c-b847-4be0-9d0e-dd2d262f74c4")
+		)
+		(fp_circle
+			(center 10.81 -4.305)
+			(end 10.91 -4.305)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(fill none)
+			(layer "B.Fab")
+			(uuid "9d0d0ff7-2e2e-45d8-8c78-aedf5afa97af")
+		)
+		(pad "01" smd rect
+			(at 8.89 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "740a2253-6605-48a4-8509-bfba9c8e70c7")
+		)
+		(pad "02" smd rect
+			(at 8.89 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "fac82ecb-8a0e-4c37-af45-6fcf16607022")
+		)
+		(pad "03" smd rect
+			(at 6.35 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "7e8c02e1-66f1-49e3-bd96-e21a7485d3af")
+		)
+		(pad "04" smd rect
+			(at 6.35 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "97ec0b0f-9602-4a64-b610-8b453bd6e288")
+		)
+		(pad "05" smd rect
+			(at 3.81 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "0f0d5ff7-0576-4a62-9408-cb85c099ee8b")
+		)
+		(pad "06" smd rect
+			(at 3.81 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "01f1f7ee-7f5a-4323-afd4-0b48e5ced9dc")
+		)
+		(pad "07" smd rect
+			(at 1.27 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "664743f6-1c93-4dc5-ab15-1edfc9c4af43")
+		)
+		(pad "08" smd rect
+			(at 1.27 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "d983bb1f-7a78-426f-8e5b-38c83a9969ff")
+		)
+		(pad "09" smd rect
+			(at -1.27 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(solder_mask_margin 0.102)
+			(uuid "ada9b062-dac1-4eb8-a117-e9bd6f0dded6")
+		)
+		(pad "10" smd rect
+			(at -1.27 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 21 "unconnected-(J2-Pin_10-Pad10)")
+			(pinfunction "Pin_10")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "8d060cd8-71f6-4c83-8138-1455faad3ee9")
+		)
+		(pad "11" smd rect
+			(at -3.81 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 17 "unconnected-(J2-Pin_11-Pad11)")
+			(pinfunction "Pin_11")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "01a647cb-d23b-4d42-b634-6ef2ada00722")
+		)
+		(pad "12" smd rect
+			(at -3.81 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 20 "unconnected-(J2-Pin_12-Pad12)")
+			(pinfunction "Pin_12")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "8228f7c1-4e1c-48c4-9a7d-4ff24ba2d0b1")
+		)
+		(pad "13" smd rect
+			(at -6.35 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 23 "unconnected-(J2-Pin_13-Pad13)")
+			(pinfunction "Pin_13")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f914f6eb-8471-4f4b-98e2-7bc0e58c1927")
+		)
+		(pad "14" smd rect
+			(at -6.35 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 19 "unconnected-(J2-Pin_14-Pad14)")
+			(pinfunction "Pin_14")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "41835a00-5a81-447c-8347-4ed3126cb09f")
+		)
+		(pad "15" smd rect
+			(at -8.89 -4.305 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 22 "unconnected-(J2-Pin_15-Pad15)")
+			(pinfunction "Pin_15")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "cca8a181-3f30-43bb-a0af-ceefccc4cc91")
+		)
+		(pad "16" smd rect
+			(at -8.89 -8.495 270)
+			(size 1.27 3.18)
+			(layers "B.Cu" "B.Paste" "B.Mask")
+			(net 18 "unconnected-(J2-Pin_16-Pad16)")
+			(pinfunction "Pin_16")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "10d79b33-1fb5-40c7-b097-8fbeaf977fcc")
+		)
+		(model "${KICAD_3RD_PARTY}/NextPCB.3dshapes/TSM-108-01-L-DH-TR.step"
+			(offset
+				(xyz 0 0 1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 180)
 			)
 		)
 	)
@@ -4081,7 +4498,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 16 "Net-(D15-K)")
+			(net 13 "Net-(D15-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "1fb390a8-0d52-483a-9b6e-755b259d1de7")
@@ -4091,7 +4508,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 17 "Net-(D15-A)")
+			(net 14 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ab46aa28-8c6c-4ec5-affc-b5db81e5601f")
@@ -4547,7 +4964,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4593,6 +5010,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fa5369f7-d3f2-4540-bc02-d5f75b3cf090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "541c75ee-6766-4fa2-8d33-804aec2fd84c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0df2511b-869b-4028-9cdf-e4c9d1bed714")
 			(effects
 				(font
 					(size 1 1)
@@ -4723,7 +5168,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 22 "Net-(J1-Pin_11)")
+			(net 29 "unconnected-(R6-Pad1)")
 			(pintype "passive")
 			(uuid "725e2ef4-8893-482f-bc4f-447d5dfde440")
 		)
@@ -4732,7 +5177,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 14 "Net-(D14-K)")
+			(net 11 "Net-(D14-K)")
 			(pintype "passive")
 			(uuid "4f60aa8e-47ce-4a46-a948-d0e01afdbae7")
 		)
@@ -4791,7 +5236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4837,6 +5282,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "12866cc9-e1c1-4f99-840e-68f9c35d47a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93b76ea8-4d25-408d-95da-a94f9e5af205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c7bca6f-dfff-4fae-9a2b-aa98e23dd501")
 			(effects
 				(font
 					(size 1 1)
@@ -4967,7 +5440,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 3 "Net-(J1-Pin_1)")
+			(net 24 "unconnected-(R1-Pad1)")
 			(pintype "passive")
 			(uuid "06540f5c-3423-43bb-a8ed-2c9ccc95f9ac")
 		)
@@ -5361,7 +5834,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 8 "Net-(D11-K)")
+			(net 5 "Net-(D11-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "f0431a68-f24a-4c8f-aaa3-e5e656e9b6a3")
@@ -5371,7 +5844,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 9 "Net-(D11-A)")
+			(net 6 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2aa294aa-8b63-458f-9e6b-20a0426a5377")
@@ -5757,7 +6230,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 7 "Net-(D10-K)")
+			(net 4 "Net-(D10-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "4ff5005f-0bad-4448-b89e-59f0c0bcd513")
@@ -5767,7 +6240,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 6 "Net-(D10-A)")
+			(net 3 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "aa7ad53f-5d4b-4a36-8ade-a970c34e3f74")
@@ -5827,7 +6300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5873,6 +6346,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d26d8ca9-3721-41d4-abdd-79fb282525d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0e19883-6b97-40a2-900f-36b935a96fce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "778bf91e-f2dc-45db-b6e9-177dbe774ea8")
 			(effects
 				(font
 					(size 1 1)
@@ -6003,7 +6504,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 23 "Net-(J1-Pin_7)")
+			(net 27 "unconnected-(R4-Pad1)")
 			(pintype "passive")
 			(uuid "1e332069-a775-4563-b781-8d85da7bc077")
 		)
@@ -6012,7 +6513,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 11 "Net-(D12-K)")
+			(net 8 "Net-(D12-K)")
 			(pintype "passive")
 			(uuid "2505c849-e69a-4902-9812-01414eb07102")
 		)
@@ -6397,7 +6898,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 19 "Net-(D16-K)")
+			(net 16 "Net-(D16-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "d9df2819-2506-41e5-a8f8-5dca8006af87")
@@ -6407,7 +6908,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net 18 "Net-(D16-A)")
+			(net 15 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4b210a36-4080-4d51-b7e5-f3ec63f68d93")
@@ -6467,7 +6968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6513,6 +7014,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0ea009ae-06b1-406b-9aa8-9b76b4b26538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99bf016e-c4ab-4a40-a128-6a70f07f89b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc83cfb0-5c92-4699-a762-4f85201fd6c7")
 			(effects
 				(font
 					(size 1 1)
@@ -6643,7 +7172,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 20 "Net-(J1-Pin_15)")
+			(net 31 "unconnected-(R8-Pad1)")
 			(pintype "passive")
 			(uuid "937950fd-ff65-467d-8ab3-174b946622b1")
 		)
@@ -6652,7 +7181,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 19 "Net-(D16-K)")
+			(net 16 "Net-(D16-K)")
 			(pintype "passive")
 			(uuid "5d05d231-345d-40eb-b6f0-40db5652003d")
 		)
@@ -6711,7 +7240,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6757,6 +7286,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5b64e00d-e129-4bcf-9c1f-34f1631d6b62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e729cd8-b9b0-4b8e-8089-146083b3f4aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05070686-01a5-4c08-81a8-15a5727a2ed3")
 			(effects
 				(font
 					(size 1 1)
@@ -6887,7 +7444,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 24 "Net-(J1-Pin_13)")
+			(net 30 "unconnected-(R7-Pad1)")
 			(pintype "passive")
 			(uuid "3ee68414-56f8-4af2-a530-dea14b715fee")
 		)
@@ -6896,7 +7453,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 16 "Net-(D15-K)")
+			(net 13 "Net-(D15-K)")
 			(pintype "passive")
 			(uuid "cda20e5f-940e-498d-ab9b-502524c249e5")
 		)
@@ -6955,7 +7512,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7001,6 +7558,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "51e2b46d-2b59-49b5-b56e-95942316b813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "246c3261-14fa-4f60-8e18-c56912fa06ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b40cfc82-7bda-4b3c-8ba4-3439606c0e9e")
 			(effects
 				(font
 					(size 1 1)
@@ -7131,7 +7716,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 5 "Net-(J1-Pin_3)")
+			(net 25 "unconnected-(R2-Pad1)")
 			(pintype "passive")
 			(uuid "c663ae13-648a-48a4-8e11-4cc768609279")
 		)
@@ -7140,7 +7725,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 7 "Net-(D10-K)")
+			(net 4 "Net-(D10-K)")
 			(pintype "passive")
 			(uuid "5b2a68ba-4771-424e-8e0a-304283f11fd9")
 		)
@@ -7199,7 +7784,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7245,6 +7830,34 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bcd8a40f-1ca6-4dfe-8c87-fd05c4a49e5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_price" "0.01655"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c74177d0-70f5-4d00-aa01-384c2d0f7d0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "848a9468-aa88-4370-a7c4-4fba173c9575")
 			(effects
 				(font
 					(size 1 1)
@@ -7375,7 +7988,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 4 "Net-(J1-Pin_5)")
+			(net 26 "unconnected-(R3-Pad1)")
 			(pintype "passive")
 			(uuid "7a941e33-f8cf-4afa-b9f1-0c6913df44f9")
 		)
@@ -7384,7 +7997,7 @@
 			(size 1.4 3.35)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(roundrect_rratio 0.178571)
-			(net 8 "Net-(D11-K)")
+			(net 5 "Net-(D11-K)")
 			(pintype "passive")
 			(uuid "33eb2377-3139-42f5-8504-d987eeda457d")
 		)
