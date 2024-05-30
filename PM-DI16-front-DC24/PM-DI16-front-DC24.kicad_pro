@@ -448,7 +448,7 @@
     ]
   },
   "meta": {
-    "filename": "PM-Front-DI8-24.kicad_pro",
+    "filename": "PM-DI16-front-DC24.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -522,12 +522,6 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": false
@@ -588,6 +582,12 @@
         },
         {
           "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -602,6 +602,12 @@
           "group_by": false,
           "label": "Описание",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NexPCB_price",
+          "name": "NexPCB_price",
           "show": false
         }
       ],
@@ -640,7 +646,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./doc",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
