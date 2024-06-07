@@ -107,8 +107,8 @@
 		(aux_axis_origin 101.6 50.8)
 		(grid_origin 101.6 50.8)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0040000_7ffffff8)
+			(plot_on_all_layers_selection 0x0021080_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -23587,6 +23587,242 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(dimension
+		(type radial)
+		(layer "User.1")
+		(uuid "6c31e9d5-ba24-443b-971e-a14727a6cd3a")
+		(pts
+			(xy 196.85 54.61) (xy 197.993 55.7276)
+		)
+		(leader_length 3.81)
+		(gr_text "R 1,5986 mm"
+			(at 213.417175 58.391238 0)
+			(layer "User.1")
+			(uuid "6c31e9d5-ba24-443b-971e-a14727a6cd3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "R ")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "331fd927-d838-4ee5-badb-bf81fc4e78a1")
+		(pts
+			(xy 104.14 50.8) (xy 104.14 149.86)
+		)
+		(height -10.16)
+		(orientation 1)
+		(gr_text "99,0600 mm"
+			(at 92.83 100.33 90)
+			(layer "User.1")
+			(uuid "331fd927-d838-4ee5-badb-bf81fc4e78a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "5a93a59c-23c3-4bb5-aa99-7df2ae1f7659")
+		(pts
+			(xy 104.14 50.8) (xy 124.46 54.61)
+		)
+		(height -5.08)
+		(orientation 1)
+		(gr_text "3,8100 mm"
+			(at 97.91 52.705 90)
+			(layer "User.1")
+			(uuid "5a93a59c-23c3-4bb5-aa99-7df2ae1f7659")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "b8633cb4-1873-46a1-8da9-fb20f11cf5f0")
+		(pts
+			(xy 101.6 54.61) (xy 196.85 54.61)
+		)
+		(height -8.89)
+		(orientation 0)
+		(gr_text "95,2500 mm"
+			(at 149.225 44.57 0)
+			(layer "User.1")
+			(uuid "b8633cb4-1873-46a1-8da9-fb20f11cf5f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "c7ccd676-2f86-4435-a73b-a991dd51f1ec")
+		(pts
+			(xy 101.6 54.61) (xy 124.46 54.61)
+		)
+		(height -6.35)
+		(orientation 0)
+		(gr_text "22,8600 mm"
+			(at 113.03 47.11 0)
+			(layer "User.1")
+			(uuid "c7ccd676-2f86-4435-a73b-a991dd51f1ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "d8235951-472c-4be3-84ac-b61f02a92b36")
+		(pts
+			(xy 101.6 53.34) (xy 200.66 53.34)
+		)
+		(height -10.16)
+		(orientation 0)
+		(gr_text "99,0600 mm"
+			(at 151.13 42.03 0)
+			(layer "User.1")
+			(uuid "d8235951-472c-4be3-84ac-b61f02a92b36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "dcbefacb-5b2d-4708-9ae9-0deb9890c169")
+		(pts
+			(xy 104.14 50.8) (xy 124.46 146.05)
+		)
+		(height -7.62)
+		(orientation 1)
+		(gr_text "95,2500 mm"
+			(at 95.37 98.425 90)
+			(layer "User.1")
+			(uuid "dcbefacb-5b2d-4708-9ae9-0deb9890c169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 155.15 86.9035)
