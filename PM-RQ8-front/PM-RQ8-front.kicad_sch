@@ -8,7 +8,7 @@
 		(title "Модуль PM-RQ8-front")
 	)
 	(lib_symbols
-		(symbol "NextPCB:Conn_02x08_pin_angle"
+		(symbol "NextPCB:Conn_02x08_pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Footprint" "NextPCB:Conn_02x08_pin_angle"
+			(property "Footprint" "NextPCB:Conn_02x08_pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_price" "0.27407"
+			(property "NextPCB_price" "0.09571"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/pin-headers-hctl-pz254-2-08-ws-1029967027"
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/pin-headers-hctl-pz254-2-08-s-2500386589"
 				(at 0 0 0)
 				(effects
 					(font
@@ -93,7 +93,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x08_pin_angle_1_1"
+			(symbol "Conn_02x08_pin_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -906,7 +906,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "power:VDD"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -915,7 +915,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -923,8 +923,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -949,7 +949,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -967,10 +967,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "VDD_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -981,9 +1005,9 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "VDD_1_1"
 				(pin power_in line
-					(at 0 0 270)
+					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -1010,12 +1034,6 @@
 		(uuid "2f671c98-ae8d-4d85-a0a1-0cb3256dfafc")
 	)
 	(junction
-		(at 157.48 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "596010a0-3241-4973-9df3-6bfeae197dd0")
-	)
-	(junction
 		(at 157.48 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1026,6 +1044,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b90bc01-13cd-480e-8906-4289dce15b12")
+	)
+	(junction
+		(at 157.48 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d09e649-d785-4042-a074-437626a3441d")
 	)
 	(junction
 		(at 157.48 76.2)
@@ -1046,31 +1070,31 @@
 		(uuid "e8fee370-2b29-4aa0-93fb-5c3379435bb9")
 	)
 	(no_connect
-		(at 83.82 66.04)
+		(at 83.82 68.58)
 		(uuid "2763b51a-9091-4c40-a597-548593fc862d")
 	)
 	(no_connect
-		(at 83.82 55.88)
+		(at 83.82 58.42)
 		(uuid "3184abac-9f1a-46fb-8acf-b013afe17578")
 	)
 	(no_connect
-		(at 83.82 58.42)
+		(at 83.82 60.96)
 		(uuid "695c39f2-612e-44b4-aeef-ba01d8d8cefb")
 	)
 	(no_connect
-		(at 83.82 63.5)
+		(at 83.82 66.04)
 		(uuid "96acd90b-b628-47a8-83f4-399adcce1a67")
 	)
 	(no_connect
-		(at 83.82 53.34)
+		(at 83.82 55.88)
 		(uuid "ad876079-69be-4336-ac73-b557b10650b3")
 	)
 	(no_connect
-		(at 83.82 50.8)
+		(at 83.82 53.34)
 		(uuid "bd8aec32-825c-4fc4-8b3c-a39457b74a78")
 	)
 	(no_connect
-		(at 83.82 60.96)
+		(at 83.82 63.5)
 		(uuid "e0db949e-ec55-417b-b5d6-0e040662ddde")
 	)
 	(wire
@@ -1105,6 +1129,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 50.8) (xy 81.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a05edcd-7555-404c-9167-82f4eae3a05d")
+	)
+	(wire
+		(pts
 			(xy 109.22 139.7) (xy 127 139.7)
 		)
 		(stroke
@@ -1112,16 +1146,6 @@
 			(type default)
 		)
 		(uuid "16937b81-451e-4699-a44b-ebedc9ea5765")
-	)
-	(wire
-		(pts
-			(xy 157.48 142.24) (xy 157.48 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "178ec4cc-c241-4450-895f-03ef1dd4a494")
 	)
 	(wire
 		(pts
@@ -1255,6 +1279,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 48.26) (xy 157.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e721c30-d05b-48a1-ab94-3599fea0a534")
+	)
+	(wire
+		(pts
 			(xy 149.86 88.9) (xy 157.48 88.9)
 		)
 		(stroke
@@ -1335,16 +1369,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 68.58) (xy 81.28 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92246df2-efdd-48e2-858b-0075026195c2")
-	)
-	(wire
-		(pts
 			(xy 121.92 76.2) (xy 121.92 55.88)
 		)
 		(stroke
@@ -1362,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "97d66e18-3eb2-433c-b52e-cfd6a7544c7c")
+	)
+	(wire
+		(pts
+			(xy 83.82 50.8) (xy 81.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99763b06-5391-48d3-87b3-c6c521a89d82")
 	)
 	(wire
 		(pts
@@ -1462,16 +1496,6 @@
 			(type default)
 		)
 		(uuid "ceb7173e-fe5f-49dc-9f16-cd78a7fb0650")
-	)
-	(wire
-		(pts
-			(xy 83.82 68.58) (xy 81.28 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ad104f-7d03-4972-99fa-aa7b50e77688")
 	)
 	(wire
 		(pts
@@ -2136,8 +2160,202 @@
 		)
 	)
 	(symbol
+		(lib_id "NextPCB:Conn_02x08_pin")
+		(at 91.44 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31ab19af-37b3-4c06-bf40-1fec537cb7bd")
+		(property "Reference" "J2"
+			(at 90.17 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x08_Odd_Even"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NextPCB:Conn_02x08_pin"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.09571"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/pin-headers-hctl-pz254-2-08-s-2500386589"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "08"
+			(uuid "ad8d5412-f386-427d-8981-2a23094362f6")
+		)
+		(pin "06"
+			(uuid "d1d61aca-4e49-46d7-8962-0b79ab9a70b1")
+		)
+		(pin "01"
+			(uuid "64343219-42e7-4a93-8f13-ffd005c94dcd")
+		)
+		(pin "15"
+			(uuid "163cc5e3-d91e-4a19-a323-f93ad16c54e4")
+		)
+		(pin "13"
+			(uuid "fe741103-ad3f-4422-9b4e-e822085d45f1")
+		)
+		(pin "14"
+			(uuid "6bbce711-da45-492b-93ad-424a4e841f6b")
+		)
+		(pin "12"
+			(uuid "086a8a6e-de16-4699-93eb-192d777cfe2b")
+		)
+		(pin "11"
+			(uuid "9c59b2b0-77bc-4882-b860-d4d74155ce69")
+		)
+		(pin "03"
+			(uuid "594c3184-e238-433d-aeed-c2f7ea1c7d34")
+		)
+		(pin "05"
+			(uuid "39715a88-7b52-468c-8f3b-0346f7ab388d")
+		)
+		(pin "07"
+			(uuid "b2e87545-f879-44a3-841a-3ec1d1b81c03")
+		)
+		(pin "04"
+			(uuid "054a97f1-27b6-4206-b2eb-781c62557be7")
+		)
+		(pin "02"
+			(uuid "0b543e6e-1ea7-4220-978f-80a46657c00f")
+		)
+		(pin "16"
+			(uuid "77a2644d-dc22-49ee-8bba-0830f475af2e")
+		)
+		(pin "09"
+			(uuid "79ee7b22-dca4-4f02-b348-d1b533d09aff")
+		)
+		(pin "10"
+			(uuid "12b0bb82-6da7-4330-af7f-9d84579ff5d6")
+		)
+		(instances
+			(project ""
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 81.28 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35e5c20e-6cc7-459b-99ca-032a59f3dd45")
+		(property "Reference" "#PWR02"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 81.28 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fad64d2b-86ce-431f-ad55-84b06f793655")
+		)
+		(instances
+			(project ""
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 139.7 180)
+		(at 146.05 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2146,7 +2364,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b43a80c-7c2f-446c-b57f-e9dd0c55abf7")
 		(property "Reference" "D8"
-			(at 147.6375 132.08 0)
+			(at 144.4625 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2372,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 134.62 0)
+			(at 144.4625 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2558,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 50.8 180)
+		(at 146.05 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2349,7 +2567,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e9095a5-4534-4811-a225-533e9c92535b")
 		(property "Reference" "D1"
-			(at 147.6375 43.18 0)
+			(at 144.4625 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2575,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 45.72 0)
+			(at 144.4625 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2761,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 101.6 180)
+		(at 146.05 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2552,7 +2770,7 @@
 		(fields_autoplaced yes)
 		(uuid "404a3127-13ed-4ce3-aa2c-aa0da1439ba7")
 		(property "Reference" "D5"
-			(at 147.6375 93.98 0)
+			(at 144.4625 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2778,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 96.52 0)
+			(at 144.4625 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,245 +2963,8 @@
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:Conn_02x08_pin_angle")
-		(at 88.9 60.96 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "44f196e7-4f4f-45df-9ecf-0e4ab97e06df")
-		(property "Reference" "J1"
-			(at 90.17 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x08_Odd_Even"
-			(at 89.408 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "NextPCB:Conn_02x08_pin_angle"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.27407"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/pin-headers-hctl-pz254-2-08-ws-1029967027"
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Availability" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 88.9 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "06"
-			(uuid "ac3c425e-53a2-44a8-b927-94a8ff107ab8")
-		)
-		(pin "05"
-			(uuid "70ec672f-432f-4ea0-932d-2f7fefb49fd2")
-		)
-		(pin "10"
-			(uuid "0065bf60-aa49-4ee9-9903-da8450b94d4b")
-		)
-		(pin "14"
-			(uuid "88541303-e853-4ac6-8e45-f3abfd225664")
-		)
-		(pin "12"
-			(uuid "efd27705-b138-493d-8c1b-ade870e59984")
-		)
-		(pin "08"
-			(uuid "8beed81d-da2e-4436-a1cb-fecb3aa7fafc")
-		)
-		(pin "07"
-			(uuid "c70d3d65-ea2b-4cbe-bd29-c80cc3393fec")
-		)
-		(pin "15"
-			(uuid "2a8cd8f0-364c-4129-b623-5d96a5f637bf")
-		)
-		(pin "11"
-			(uuid "b9196367-28d9-4b2d-8cb8-06b5f72bcb08")
-		)
-		(pin "13"
-			(uuid "d6885d1c-33a6-47b3-b5a7-7b03a91ec9f0")
-		)
-		(pin "16"
-			(uuid "34300a03-6264-4858-b150-b4c025ab0fbc")
-		)
-		(pin "04"
-			(uuid "27092d39-3060-440b-9b7c-c6239f52bc48")
-		)
-		(pin "03"
-			(uuid "96c9b593-c2b2-4e2d-813f-392ddc662c1d")
-		)
-		(pin "09"
-			(uuid "1c81e2ef-f3d5-4d3f-98c3-1c73622a7a45")
-		)
-		(pin "02"
-			(uuid "cd85cae2-536c-4136-b044-dc84fc59019e")
-		)
-		(pin "01"
-			(uuid "94bf08d4-f57c-46e8-ae10-1a2ef824665f")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 127 180)
+		(at 146.05 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2992,7 +2973,7 @@
 		(fields_autoplaced yes)
 		(uuid "6189af5e-6e70-4d2a-914e-67f8e732998e")
 		(property "Reference" "D7"
-			(at 147.6375 119.38 0)
+			(at 144.4625 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +2981,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 121.92 0)
+			(at 144.4625 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3361,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 76.2 180)
+		(at 146.05 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3389,7 +3370,7 @@
 		(fields_autoplaced yes)
 		(uuid "965dfabd-7da6-4649-8008-a9e8cbc9f132")
 		(property "Reference" "D3"
-			(at 147.6375 68.58 0)
+			(at 144.4625 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3397,7 +3378,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 71.12 0)
+			(at 144.4625 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3564,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 114.3 180)
+		(at 146.05 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3592,7 +3573,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7d19809-dd2d-4c37-b28f-c055d7c672f3")
 		(property "Reference" "D6"
-			(at 147.6375 106.68 0)
+			(at 144.4625 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3581,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 109.22 0)
+			(at 144.4625 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3961,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 88.9 180)
+		(at 146.05 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3989,7 +3970,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc449468-fb4a-4e5e-be35-ef80f9388d34")
 		(property "Reference" "D4"
-			(at 147.6375 81.28 0)
+			(at 144.4625 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +3978,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 83.82 0)
+			(at 144.4625 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,6 +4157,72 @@
 			(project "PM-RQ8-front"
 				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 157.48 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3969845-c332-4953-a559-37d6f1b44c37")
+		(property "Reference" "#PWR01"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "076dac6d-0783-416f-bbed-34646829e737")
+		)
+		(instances
+			(project ""
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4570,74 +4617,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 157.48 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f60ade8a-d022-4483-ba71-fcdfacfe3d57")
-		(property "Reference" "#PWR01"
-			(at 157.48 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50bd2a24-9376-4e28-a8e4-fe1df4497de1")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "NextPCB:LED_KPTD-3216ZGC")
-		(at 146.05 63.5 180)
+		(at 146.05 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4646,7 +4627,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcb2808a-f535-4be1-ac79-1b5e16e3271e")
 		(property "Reference" "D2"
-			(at 147.6375 55.88 0)
+			(at 144.4625 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +4635,7 @@
 			)
 		)
 		(property "Value" "KPTD-3216ZGC "
-			(at 147.6375 58.42 0)
+			(at 144.4625 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,72 +5008,6 @@
 			(project "PM-RQ8-front"
 				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 81.28 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd73f02f-98bb-4e04-b756-760350618e92")
-		(property "Reference" "#PWR02"
-			(at 81.28 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39726322-da85-4cf8-9546-c01233a7d139")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
