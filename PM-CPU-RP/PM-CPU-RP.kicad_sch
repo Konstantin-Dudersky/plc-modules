@@ -1701,6 +1701,145 @@
 				)
 			)
 		)
+		(symbol "NextPCB:R_3k3_0.25W"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3k3"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_price" "0.00169"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_3k3_0.25W_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_3k3_0.25W_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "NextPCB:RaspberryPi"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1751,7 +1890,7 @@
 			(symbol "RaspberryPi_0_1"
 				(rectangle
 					(start -15.24 0)
-					(end 15.24 -69.85)
+					(end 15.24 -68.58)
 					(stroke
 						(width 0)
 						(type default)
@@ -1853,7 +1992,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -73.66 90)
+					(at -3.81 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -1979,7 +2118,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -73.66 90)
+					(at -1.27 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2069,7 +2208,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -73.66 90)
+					(at 1.27 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2177,7 +2316,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -73.66 90)
+					(at 3.81 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2249,7 +2388,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -73.66 90)
+					(at 6.35 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2339,7 +2478,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -73.66 90)
+					(at 8.89 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2411,7 +2550,7 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 -73.66 90)
+					(at -8.89 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2465,7 +2604,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -73.66 90)
+					(at -6.35 -72.39 90)
 					(length 3.81)
 					(name "GND"
 						(effects
@@ -2582,34 +2721,76 @@
 		)
 	)
 	(junction
+		(at 88.9 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "213ad4de-17a2-4f39-b04e-6128f150a0ec")
+	)
+	(junction
+		(at 170.18 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2212485c-8b27-461b-807e-40b9250d6b1e")
+	)
+	(junction
+		(at 161.29 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d9da5b9-87e3-404b-b0fd-11bbf032fc9f")
+	)
+	(junction
+		(at 163.83 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f3d9dfa-e39e-49a1-98cc-112fb0adc8f4")
+	)
+	(junction
+		(at 158.75 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313542f5-c130-4f02-9eba-b232cbbdc392")
+	)
+	(junction
 		(at 251.46 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31d38e74-e97f-4a6a-8167-261d2f71d3d5")
 	)
 	(junction
-		(at 246.38 88.9)
+		(at 80.01 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "607bf9f3-00c4-4369-852f-dc9d0d5c3f2a")
+		(uuid "55fa1a12-8153-455d-bfd6-75d1b75a727c")
 	)
 	(junction
-		(at 161.29 44.45)
+		(at 168.91 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7a1ad31e-f089-485d-b1e0-eb4f61bb55cb")
+		(uuid "565764fd-7a5a-468b-9c3c-f8a9032c0a2d")
 	)
 	(junction
-		(at 165.1 125.73)
+		(at 171.45 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b615b57d-890f-4c34-aa16-51b1704d2691")
+		(uuid "72340160-e91f-44e6-8eec-f53c25cfd134")
 	)
 	(junction
-		(at 170.18 125.73)
+		(at 80.01 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c4346ee4-00b1-4f13-a967-228946ec4046")
+		(uuid "8806a801-cec5-4ac6-b1a4-21c7c279e4ca")
+	)
+	(junction
+		(at 172.72 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fc25355-8839-4472-a9e5-a1a953b12f94")
+	)
+	(junction
+		(at 88.9 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a87fcb86-da23-4237-92d6-e18d81065b37")
 	)
 	(junction
 		(at 248.92 91.44)
@@ -2618,46 +2799,28 @@
 		(uuid "c4616854-fa26-4610-8a27-e4d46a37b099")
 	)
 	(junction
-		(at 168.91 35.56)
+		(at 246.38 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7ea1fb1-d245-4dea-b492-3b59a34cc946")
+		(uuid "cb8824a6-17ed-4f48-b74a-ce5a4e64bc6d")
 	)
 	(junction
-		(at 172.72 125.73)
+		(at 173.99 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c84d1354-3634-407c-a9fd-e48862115e18")
+		(uuid "d2823c4b-c3fa-4475-a929-6ec71a893429")
 	)
 	(junction
-		(at 167.64 125.73)
+		(at 166.37 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef2f78c9-c557-4590-b648-db515c1d9f2a")
-	)
-	(junction
-		(at 160.02 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3075b08-d8f0-4892-a0f1-3ac65818c9ff")
+		(uuid "db1fafb6-3bda-4f15-b8ec-346c6d0c52bf")
 	)
 	(junction
 		(at 254 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f66f1a07-80ef-4301-82c6-b7a98406ab3c")
-	)
-	(junction
-		(at 157.48 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd1edcad-92b3-4938-b390-5b58dcb7cd77")
-	)
-	(junction
-		(at 162.56 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffb40182-c2a0-4aea-8b54-9de93c9acac4")
 	)
 	(no_connect
 		(at 220.98 116.84)
@@ -2668,12 +2831,76 @@
 		(uuid "0e9ed6c8-a22d-4ba4-a204-2fc4b635c287")
 	)
 	(no_connect
+		(at 186.69 92.71)
+		(uuid "0f5a1ac8-436d-40b8-bcf7-b78d326cf81e")
+	)
+	(no_connect
+		(at 186.69 82.55)
+		(uuid "12dde0ea-2b7b-4c2c-9d0f-3e23dcca1ad3")
+	)
+	(no_connect
 		(at 223.52 116.84)
 		(uuid "381a550a-258c-49df-9214-4912782f91b1")
 	)
 	(no_connect
+		(at 148.59 130.81)
+		(uuid "3a4ce8cf-b8a7-4108-bff0-ddff306106ed")
+	)
+	(no_connect
+		(at 148.59 102.87)
+		(uuid "40209a9e-ccf6-4ffa-a114-16631b2a799d")
+	)
+	(no_connect
+		(at 148.59 87.63)
+		(uuid "425c6c27-acee-4ab3-ad4c-18f1047e5117")
+	)
+	(no_connect
+		(at 148.59 120.65)
+		(uuid "43daac10-272a-453b-a968-3c1626500cc1")
+	)
+	(no_connect
+		(at 186.69 85.09)
+		(uuid "51bac390-a218-41a1-b202-ecd53f558443")
+	)
+	(no_connect
+		(at 148.59 95.25)
+		(uuid "54efe6e4-822d-4679-9301-4c03bd0ece87")
+	)
+	(no_connect
+		(at 148.59 80.01)
+		(uuid "58e716a3-0dd3-462a-a2b3-998ce830dc13")
+	)
+	(no_connect
+		(at 186.69 74.93)
+		(uuid "60be1c64-a4ad-48c6-a39e-85fc00fdcae6")
+	)
+	(no_connect
+		(at 186.69 90.17)
+		(uuid "64e9f126-a310-42d6-9493-9a1fd2ca9985")
+	)
+	(no_connect
+		(at 186.69 95.25)
+		(uuid "6616cf69-7832-45ad-8c94-89d7a08eef19")
+	)
+	(no_connect
+		(at 186.69 97.79)
+		(uuid "67c3492e-2d14-41c9-895d-0c290d217b70")
+	)
+	(no_connect
 		(at 254 116.84)
 		(uuid "696b2a70-7c2b-49e0-8aac-f615906e5aff")
+	)
+	(no_connect
+		(at 148.59 110.49)
+		(uuid "709080d9-24c2-42e9-a1a5-d45766a8fe99")
+	)
+	(no_connect
+		(at 148.59 97.79)
+		(uuid "770aa7fe-642a-4cbf-a717-e3195cc350ab")
+	)
+	(no_connect
+		(at 148.59 115.57)
+		(uuid "773a24dd-6e2b-4881-9beb-658453651b55")
 	)
 	(no_connect
 		(at 251.46 116.84)
@@ -2684,26 +2911,60 @@
 		(uuid "7b72510a-6aa7-4e49-827a-689aac98864d")
 	)
 	(no_connect
+		(at 148.59 85.09)
+		(uuid "7d2c705f-49c3-4f08-9381-ba3fa1716bd5")
+	)
+	(no_connect
+		(at 148.59 128.27)
+		(uuid "89c5ccbe-e35e-43d5-b62f-ae435551d45b")
+	)
+	(no_connect
+		(at 186.69 77.47)
+		(uuid "963bfed1-0904-4d1b-bfc3-74c474ea1ea3")
+	)
+	(no_connect
+		(at 148.59 92.71)
+		(uuid "a7b85c9c-7667-4f14-98ee-c6555252f22f")
+	)
+	(no_connect
+		(at 162.56 64.77)
+		(uuid "ac02c8e1-5356-4894-a677-ece2b6b4fc5c")
+	)
+	(no_connect
 		(at 218.44 116.84)
 		(uuid "ad7bb7ec-6325-46ba-80dc-b8e0489ccf39")
+	)
+	(no_connect
+		(at 148.59 107.95)
+		(uuid "aeebe86f-8e30-4f4a-a966-25ce46ae1720")
+	)
+	(no_connect
+		(at 148.59 118.11)
+		(uuid "b637aaec-e3c5-4cd8-aa7f-2fe0002999e6")
+	)
+	(no_connect
+		(at 186.69 80.01)
+		(uuid "d010d3e1-d733-4af8-9214-669ffd947f80")
 	)
 	(no_connect
 		(at 215.9 116.84)
 		(uuid "d5d8f33f-69bb-40dd-ab01-2fefa7fdb562")
 	)
-	(wire
-		(pts
-			(xy 165.1 125.73) (xy 167.64 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02ec33e5-41f5-47da-b4c2-2087f824d32b")
+	(no_connect
+		(at 186.69 87.63)
+		(uuid "e06a645b-c962-4dfc-82b6-69d177bd6722")
+	)
+	(no_connect
+		(at 148.59 123.19)
+		(uuid "e8dd4b35-4b6f-4e71-bc69-8a66523fc546")
+	)
+	(no_connect
+		(at 148.59 100.33)
+		(uuid "fdd01857-dd8d-409e-9d3f-96c099531e2f")
 	)
 	(wire
 		(pts
-			(xy 58.42 38.1) (xy 72.39 38.1)
+			(xy 48.26 55.88) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2713,27 +2974,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 161.29 48.26)
+			(xy 246.38 53.34) (xy 246.38 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "091a6bd3-b063-4c35-9b87-953c821c96c2")
+		(uuid "1d3ef341-00a1-40c8-b71d-6eff6be17992")
 	)
 	(wire
 		(pts
-			(xy 58.42 35.56) (xy 91.44 35.56)
+			(xy 80.01 88.9) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13c8e550-eb47-4244-b2fb-c0b2dd281a84")
+		(uuid "1f96295e-2baf-481a-9b67-778aa91c61e9")
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 147.32 58.42)
+			(xy 143.51 74.93) (xy 148.59 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2743,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 50.8) (xy 63.5 50.8)
+			(xy 48.26 68.58) (xy 53.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2773,6 +3034,36 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 78.74) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd5ffdb-e072-4607-9beb-ae4707937f7a")
+	)
+	(wire
+		(pts
+			(xy 165.1 57.15) (xy 165.1 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303bb442-2b2c-42c3-a747-396c80ec8fa3")
+	)
+	(wire
+		(pts
+			(xy 171.45 144.78) (xy 173.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30742880-1360-47bc-a8e3-062228465786")
+	)
+	(wire
+		(pts
 			(xy 220.98 102.87) (xy 220.98 93.98)
 		)
 		(stroke
@@ -2783,7 +3074,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 63.5 60.96)
+			(xy 48.26 78.74) (xy 80.01 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2803,37 +3094,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 170.18 125.73)
+			(xy 166.37 144.78) (xy 168.91 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bf847d9-a1ea-48f7-b3fc-e12836755abd")
+		(uuid "4163d951-6304-4e1c-a2b2-85b9e9e89537")
 	)
 	(wire
 		(pts
-			(xy 254 80.01) (xy 251.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b35a79-9594-42ac-9637-435efdaf7567")
-	)
-	(wire
-		(pts
-			(xy 251.46 77.47) (xy 259.08 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46354cb1-5793-4ae4-b4d9-04e3b72179e9")
-	)
-	(wire
-		(pts
-			(xy 72.39 40.64) (xy 72.39 38.1)
+			(xy 74.93 58.42) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2843,7 +3114,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 129.54 40.64)
+			(xy 168.91 144.78) (xy 171.45 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4779d711-5cca-45b0-acbf-100881adae8c")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2863,57 +3144,37 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 40.64) (xy 72.39 40.64)
+			(xy 71.12 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d440932-d39d-4a15-9814-fd4a4de42aa1")
+		(uuid "4cf764d5-035e-4c6d-bf2a-8d9dda1df636")
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 254 88.9)
+			(xy 73.66 53.34) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5333da50-e692-4ceb-a6e8-b54c3221ca2e")
+		(uuid "4d5348d6-c98d-4884-977c-1b41d2b5a214")
 	)
 	(wire
 		(pts
-			(xy 254 80.01) (xy 254 88.9)
+			(xy 172.72 53.34) (xy 170.18 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "554835e9-170c-4869-9582-7aad67224e25")
+		(uuid "4d6d4f78-4e37-4d20-91ff-2ee90097244e")
 	)
 	(wire
 		(pts
-			(xy 170.18 125.73) (xy 172.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e07ec5-2456-48ba-83aa-29714be79305")
-	)
-	(wire
-		(pts
-			(xy 161.29 40.64) (xy 161.29 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56966641-bb8d-4b44-b439-5d1ceddbaf9d")
-	)
-	(wire
-		(pts
-			(xy 142.24 60.96) (xy 147.32 60.96)
+			(xy 143.51 77.47) (xy 148.59 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2923,23 +3184,53 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 48.26) (xy 163.83 44.45)
+			(xy 163.83 140.97) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5868867c-fa43-4a75-94e7-be5997df5271")
+		(uuid "588e39b5-6c8c-4bb4-a25e-8b03438db45b")
 	)
 	(wire
 		(pts
-			(xy 58.42 63.5) (xy 63.5 63.5)
+			(xy 170.18 53.34) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dd76f2-51ec-4abf-b60e-69c60265bb07")
+	)
+	(wire
+		(pts
+			(xy 88.9 78.74) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b80d67-75d7-457d-88b0-273b27cf76d5")
+	)
+	(wire
+		(pts
+			(xy 48.26 81.28) (xy 53.34 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d3a405e-207e-40b3-bd35-1f9732412c74")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 97.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6330b80b-bfe9-4703-b161-0f2d27a1c083")
 	)
 	(wire
 		(pts
@@ -2953,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 73.66) (xy 63.5 73.66)
+			(xy 48.26 91.44) (xy 80.01 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2973,6 +3264,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 78.74) (xy 97.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9f4b5d-0888-4102-80f8-df5ded19dc84")
+	)
+	(wire
+		(pts
+			(xy 161.29 140.97) (xy 161.29 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74fad840-fd65-4b31-b513-5f12a0c9010c")
+	)
+	(wire
+		(pts
 			(xy 248.92 91.44) (xy 264.16 91.44)
 		)
 		(stroke
@@ -2983,7 +3294,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 76.2) (xy 63.5 76.2)
+			(xy 48.26 93.98) (xy 88.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2993,13 +3304,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 35.56) (xy 171.45 35.56)
+			(xy 173.99 140.97) (xy 173.99 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "856f5bbb-6d67-40d7-ad4b-35c679be3182")
+		(uuid "85836188-5ab3-4c68-83af-53d357d067d0")
+	)
+	(wire
+		(pts
+			(xy 173.99 144.78) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e807d0-fb1c-46cb-9f1d-4292f53c91fb")
 	)
 	(wire
 		(pts
@@ -3013,6 +3334,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 88.9) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5b455e-b442-47e8-9c75-55bf3e840624")
+	)
+	(wire
+		(pts
 			(xy 218.44 91.44) (xy 248.92 91.44)
 		)
 		(stroke
@@ -3020,6 +3351,36 @@
 			(type default)
 		)
 		(uuid "902c4201-d73e-4e9c-952d-1de9324f8335")
+	)
+	(wire
+		(pts
+			(xy 163.83 144.78) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9413b295-afea-46c4-8770-d933c1b993f6")
+	)
+	(wire
+		(pts
+			(xy 168.91 140.97) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9830d870-f769-4ec5-8d19-1793214ccb8e")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98773e7c-3c12-40b3-ac3a-314279bbdbbb")
 	)
 	(wire
 		(pts
@@ -3033,13 +3394,33 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 44.45) (xy 163.83 44.45)
+			(xy 161.29 144.78) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1c63bdd-81cd-4ddd-a624-1d3af5ee1c48")
+		(uuid "a4546983-488c-4e52-808e-27b4f2d2f7a5")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 166.37 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a945afbe-8dcc-4558-8aa2-a6a35df517d4")
+	)
+	(wire
+		(pts
+			(xy 158.75 140.97) (xy 158.75 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f8cfcd-1ede-4dcf-bf4d-b22b0079b8e3")
 	)
 	(wire
 		(pts
@@ -3053,7 +3434,17 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 48.26) (xy 171.45 35.56)
+			(xy 142.24 50.8) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae446a4c-e773-48fc-8981-b2c283297ed2")
+	)
+	(wire
+		(pts
+			(xy 172.72 64.77) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3063,17 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 35.56) (xy 168.91 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3db3ad8-b002-46c2-b1d2-ec77fe5c61b0")
-	)
-	(wire
-		(pts
-			(xy 129.54 40.64) (xy 116.84 40.64)
+			(xy 132.08 58.42) (xy 119.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3083,23 +3464,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 160.02 125.73)
+			(xy 158.75 144.78) (xy 161.29 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5122610-0fcf-4c88-89a7-b0f2b3d8ba62")
-	)
-	(wire
-		(pts
-			(xy 162.56 125.73) (xy 165.1 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6393888-1b23-4307-8703-e06ad15aff31")
 	)
 	(wire
 		(pts
@@ -3113,6 +3484,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 58.42) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b9b3fc-09c2-4103-b397-4c9db2d58ab5")
+	)
+	(wire
+		(pts
+			(xy 172.72 53.34) (xy 246.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c058cfb5-2899-47bf-84b8-177f2738c99c")
+	)
+	(wire
+		(pts
 			(xy 223.52 96.52) (xy 254 96.52)
 		)
 		(stroke
@@ -3123,23 +3514,33 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 35.56) (xy 168.91 48.26)
+			(xy 80.01 78.74) (xy 88.9 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf0ebf2d-7458-4502-a6e2-cebe5b59609e")
+		(uuid "cd9f4996-7d9a-48fe-a63a-d3e2119226de")
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 162.56 125.73)
+			(xy 71.12 50.8) (xy 71.12 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d03cfd1f-b3f3-4c90-b95d-915abea7292d")
+		(uuid "d2d2f5bd-54e8-4bb9-b792-9f49d08c163d")
+	)
+	(wire
+		(pts
+			(xy 80.01 91.44) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50079af-4840-4d29-bfbf-a7db7895d725")
 	)
 	(wire
 		(pts
@@ -3153,7 +3554,37 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 63.5 48.26)
+			(xy 176.53 140.97) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae1f2f9-4885-44b7-8d83-f037f3401261")
+	)
+	(wire
+		(pts
+			(xy 144.78 53.34) (xy 144.78 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c2d683-cb28-4c4a-b35b-e94892f4d8fe")
+	)
+	(wire
+		(pts
+			(xy 171.45 140.97) (xy 171.45 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf510d9-ffa9-4960-8de6-49693c86f201")
+	)
+	(wire
+		(pts
+			(xy 48.26 66.04) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3163,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 157.48 129.54)
+			(xy 158.75 144.78) (xy 158.75 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3183,13 +3614,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 125.73) (xy 175.26 125.73)
+			(xy 93.98 53.34) (xy 73.66 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff35b7fd-1abd-443d-b011-5a04eb515e92")
+		(uuid "f6ac91b6-9151-4f64-a265-3d406497a1b3")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 142.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bd83a8-0b10-4166-aa3b-59aad229c37b")
 	)
 	(rectangle
 		(start 203.2 59.69)
@@ -3214,7 +3655,7 @@
 		(uuid "5fa01664-0841-4548-ab5d-fb88f930f2f3")
 	)
 	(label "N"
-		(at 76.2 40.64 0)
+		(at 55.88 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3225,18 +3666,18 @@
 		(uuid "0a1a3cd2-7e76-4200-9f75-8f1823ca2442")
 	)
 	(label "3V3"
-		(at 63.5 60.96 0)
+		(at 97.79 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0ecc6d5d-f02e-4c0c-aca2-d3c59f45dbd1")
 	)
 	(label "GND"
-		(at 63.5 63.5 0)
+		(at 53.34 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3247,7 +3688,7 @@
 		(uuid "1b1ac539-deb5-4578-963d-8915df21a737")
 	)
 	(label "5V"
-		(at 124.46 35.56 0)
+		(at 180.34 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3258,7 +3699,7 @@
 		(uuid "2472237a-344d-457e-9bdd-335032282d09")
 	)
 	(label "5V"
-		(at 63.5 48.26 0)
+		(at 53.34 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3269,18 +3710,7 @@
 		(uuid "2a714609-4655-4577-8fcf-2b4cded57f1c")
 	)
 	(label "SDA"
-		(at 63.5 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38077510-d12d-49ee-ad60-3f7f5e67c4d8")
-	)
-	(label "5V"
-		(at 259.08 77.47 180)
+		(at 97.79 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3288,7 +3718,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "38aad5d9-1241-409d-9f8c-bc66604fcd37")
+		(uuid "38077510-d12d-49ee-ad60-3f7f5e67c4d8")
 	)
 	(label "SDA"
 		(at 264.16 91.44 180)
@@ -3302,7 +3732,7 @@
 		(uuid "51aa4792-6cd9-4558-b1ef-f31ff196f67e")
 	)
 	(label "GND"
-		(at 124.46 40.64 0)
+		(at 127 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3313,7 +3743,7 @@
 		(uuid "51f8867a-49bd-498f-b866-ef8acbbefd72")
 	)
 	(label "3V3"
-		(at 161.29 40.64 270)
+		(at 165.1 57.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3324,7 +3754,7 @@
 		(uuid "7727ce1d-9c81-46d2-bfc3-8b38cd08b2e5")
 	)
 	(label "L"
-		(at 76.2 35.56 0)
+		(at 55.88 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3335,18 +3765,18 @@
 		(uuid "8e5505af-61bc-4b25-8df0-e5b3ea51aa2c")
 	)
 	(label "SCL"
-		(at 63.5 76.2 0)
+		(at 97.79 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "965f3e57-99b6-49c5-b0f6-b97775d0568a")
 	)
 	(label "GND"
-		(at 63.5 50.8 0)
+		(at 53.34 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3368,7 +3798,7 @@
 		(uuid "ce798543-6161-4eb4-b1fe-75d34fea9eff")
 	)
 	(label "SDA"
-		(at 142.24 58.42 0)
+		(at 143.51 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3379,7 +3809,7 @@
 		(uuid "dada05d6-3bae-4e75-837d-d79e37728abc")
 	)
 	(label "SCL"
-		(at 142.24 60.96 0)
+		(at 143.51 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3392,7 +3822,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 163.83 45.72 270)
+		(at 165.1 62.23 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3402,7 +3832,7 @@
 		)
 		(uuid "0c64bb8e-3d71-4702-b055-560f4bb726e7")
 		(property "Netclass" "power"
-			(at 166.37 45.0215 90)
+			(at 167.64 61.5315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3845,30 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 116.84 35.56 0)
+		(at 152.4 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16f09b5e-c516-494d-be62-46044228edeb")
+		(property "Netclass" "power"
+			(at 153.0985 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 120.65 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3425,7 +3878,7 @@
 		)
 		(uuid "4b8442aa-d562-4794-ac2a-9afebe7b89a9")
 		(property "Netclass" "power"
-			(at 117.5385 33.02 0)
+			(at 121.3485 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3891,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 116.84 40.64 0)
+		(at 120.65 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,7 +3901,7 @@
 		)
 		(uuid "80aa7b84-19cf-4399-b74b-7f1acc11be95")
 		(property "Netclass" "power"
-			(at 117.5385 38.1 0)
+			(at 121.3485 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3914,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 83.82 40.64 0)
+		(at 86.36 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3471,7 +3924,7 @@
 		)
 		(uuid "cfeb0341-a915-4241-9970-f72fdbad8297")
 		(property "Netclass" "power"
-			(at 84.5185 38.1 0)
+			(at 87.0585 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3937,30 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 83.82 35.56 0)
+		(at 62.23 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dca7a513-35b1-4d84-8eee-6d7a2f957920")
+		(property "Netclass" "power"
+			(at 62.9285 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 86.36 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3494,7 +3970,7 @@
 		)
 		(uuid "e78d8523-0e4a-46bb-bb1b-24de78c89fee")
 		(property "Netclass" "power"
-			(at 84.5185 33.02 0)
+			(at 87.0585 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3982,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 43.18 0)
+		(at 132.08 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3515,7 +3991,7 @@
 		(fields_autoplaced yes)
 		(uuid "0180b7ce-ec67-45ba-a464-665a5556bc0e")
 		(property "Reference" "#PWR01"
-			(at 129.54 49.53 0)
+			(at 132.08 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +4000,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 48.26 0)
+			(at 132.08 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +4008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 43.18 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +4017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 43.18 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +4026,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 43.18 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +4048,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGR-5.08-02P")
-		(at 53.34 60.96 0)
+		(at 43.18 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3581,7 +4057,7 @@
 		(dnp no)
 		(uuid "03f5ecaf-097f-4153-93db-0582367ffc01")
 		(property "Reference" "J6"
-			(at 53.975 55.88 0)
+			(at 43.815 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +4065,7 @@
 			)
 		)
 		(property "Value" "2EDGR-5.08-02P"
-			(at 61.468 58.166 0)
+			(at 51.308 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3597,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:Degson_2EDGR-5.08-02P"
-			(at 53.34 60.96 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 60.96 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 60.96 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +4100,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgr-5-08-02p-gn01-cu-a-1027942969"
-			(at 53.34 60.96 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +4109,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.03132"
-			(at 53.34 60.96 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +4134,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGK-5.08-02P")
-		(at 45.72 73.66 0)
+		(at 35.56 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3667,7 +4143,7 @@
 		(dnp no)
 		(uuid "05b402d0-84ec-4bd0-a9e8-4915f645bfec")
 		(property "Reference" "J7"
-			(at 40.386 73.66 0)
+			(at 30.226 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +4152,7 @@
 			)
 		)
 		(property "Value" "2EDGK-5.08-02P"
-			(at 25.908 76.2 0)
+			(at 15.748 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +4161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 73.66 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +4170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 73.66 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +4179,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 73.66 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +4188,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
-			(at 45.72 73.66 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4197,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.11828"
-			(at 45.72 73.66 0)
+			(at 35.56 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +4314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 129.54 0)
+		(at 158.75 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3847,7 +4323,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e950109-4f6a-465a-9866-b57d249444fe")
 		(property "Reference" "#PWR02"
-			(at 157.48 135.89 0)
+			(at 158.75 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +4332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 134.62 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +4340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 129.54 0)
+			(at 158.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 129.54 0)
+			(at 158.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 129.54 0)
+			(at 158.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,8 +4380,8 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Fuseholder")
-		(at 251.46 77.47 0)
-		(mirror y)
+		(at 144.78 50.8 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3913,7 +4389,7 @@
 		(dnp no)
 		(uuid "3280124a-ac7f-4ce5-bfd7-76a6d3c45e32")
 		(property "Reference" "U1"
-			(at 234.95 77.4699 0)
+			(at 144.7801 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4398,7 @@
 			)
 		)
 		(property "Value" "64900001039"
-			(at 234.95 80.0099 0)
+			(at 142.2401 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:Fuseholder"
-			(at 234.95 172.39 0)
+			(at 49.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4417,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_649_datasheet.pdf.pdf"
-			(at 234.95 272.39 0)
+			(at -50.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +4427,7 @@
 			)
 		)
 		(property "Description" "5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V"
-			(at 251.46 77.47 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4436,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 234.95 472.39 0)
+			(at -250.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3970,7 +4446,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 234.95 572.39 0)
+			(at -350.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4456,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "64900001039"
-			(at 234.95 672.39 0)
+			(at -450.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +4466,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-64900001039"
-			(at 234.95 772.39 0)
+			(at -550.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +4476,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64900001039?qs=hH%252BOa0VZEiArPloPoB86OA%3D%3D"
-			(at 234.95 872.39 0)
+			(at -650.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4486,7 @@
 			)
 		)
 		(property "Arrow Part Number" "64900001039"
-			(at 234.95 972.39 0)
+			(at -750.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4496,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/64900001039/littelfuse?region=nac"
-			(at 234.95 1072.39 0)
+			(at -850.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4506,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/fuse-holders---clips---boxes-littelfuse-65600001009-1003834129"
-			(at 251.46 77.47 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4039,7 +4515,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.4163"
-			(at 251.46 77.47 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4540,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Meanwell-IRM-15-5")
-		(at 104.14 38.1 0)
+		(at 106.68 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4073,7 +4549,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b7360ca-1ebc-48b1-b363-8f4f86ef268b")
 		(property "Reference" "PS1"
-			(at 104.14 27.94 0)
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +4557,7 @@
 			)
 		)
 		(property "Value" "IRM-15-5"
-			(at 104.14 30.48 0)
+			(at 106.68 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4565,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:Meanwell-IRM-15-5_CONV_IRM-15-5"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4099,7 +4575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4593,7 @@
 			)
 		)
 		(property "MF" "MEAN WELL"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4603,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "24mm"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4613,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4623,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4633,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/IRM-15-5/MEAN+WELL+USA+Inc./view-part/?ref=eda"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4643,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4653,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IRM-15-5/MEAN+WELL+USA+Inc./view-part/?ref=snap"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4663,7 @@
 			)
 		)
 		(property "MP" "IRM-15-5"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4673,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=275136&manufacturer=MEAN WELL&part_name=IRM-15-5&search_term=irm-15-5"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4683,7 @@
 			)
 		)
 		(property "Description_1" "\nPower Supply,AC-DC,5V,3A,115-264V In,Encapsulated,Thru-Hole,15W,IRM Series | MEAN WELL IRM-15-5\n"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4693,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4703,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MEAN WELL"
-			(at 104.14 38.1 0)
+			(at 106.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,8 +4734,96 @@
 		)
 	)
 	(symbol
+		(lib_id "NextPCB:R_3k3_0.25W")
+		(at 88.9 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dceeb9f-f7fb-4364-b310-12addbbf1ff3")
+		(property "Reference" "R2"
+			(at 91.44 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k3"
+			(at 91.44 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 87.122 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 88.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d7ef4eb-2634-41e9-9dd9-00bd0540939a")
+		)
+		(pin "2"
+			(uuid "cf7e0305-7108-4511-a95b-67d22ce16ba1")
+		)
+		(instances
+			(project ""
+				(path "/9f938c7a-b328-499c-a1e2-79ce379c97e9"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NextPCB:RaspberryPi")
-		(at 166.37 52.07 0)
+		(at 167.64 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4268,7 +4832,7 @@
 		(fields_autoplaced yes)
 		(uuid "5854f93d-b31c-49f9-aaa9-0466bb9e6583")
 		(property "Reference" "D1"
-			(at 173.6441 48.26 0)
+			(at 174.9141 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4841,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 173.6441 50.8 0)
+			(at 174.9141 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4850,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:RaspberryPi"
-			(at 154.94 50.8 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 50.8 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4304,7 +4868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 50.8 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +5374,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGK-5.08-02P")
-		(at 45.72 48.26 0)
+		(at 35.56 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4819,7 +5383,7 @@
 		(dnp no)
 		(uuid "80434275-b12a-4570-bf9f-3ed73e99b61d")
 		(property "Reference" "J3"
-			(at 40.64 48.26 0)
+			(at 30.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +5392,7 @@
 			)
 		)
 		(property "Value" "2EDGK-5.08-02P"
-			(at 25.654 50.8 0)
+			(at 15.494 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,7 +5401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 48.26 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5410,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 48.26 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5419,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 48.26 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +5428,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
-			(at 45.72 48.26 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +5437,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.11828"
-			(at 45.72 48.26 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,8 +5461,256 @@
 		)
 	)
 	(symbol
+		(lib_id "NextPCB:Fuseholder")
+		(at 73.66 50.8 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82fa4fd4-9077-4af6-92ed-b7fe30a3d805")
+		(property "Reference" "U2"
+			(at 73.6601 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "64900001039"
+			(at 71.1201 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NextPCB:Fuseholder"
+			(at -21.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_649_datasheet.pdf.pdf"
+			(at -121.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at -321.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -421.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "64900001039"
+			(at -521.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-64900001039"
+			(at -621.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64900001039?qs=hH%252BOa0VZEiArPloPoB86OA%3D%3D"
+			(at -721.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "64900001039"
+			(at -821.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/64900001039/littelfuse?region=nac"
+			(at -921.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/fuse-holders---clips---boxes-littelfuse-65600001009-1003834129"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.4163"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "838cf6ba-ec1e-46aa-a210-5f3ac15e2943")
+		)
+		(pin "2"
+			(uuid "0c95ea47-a7a6-4d90-8bc2-d13937ab50e6")
+		)
+		(instances
+			(project "PM-CPU-RP"
+				(path "/9f938c7a-b328-499c-a1e2-79ce379c97e9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NextPCB:R_3k3_0.25W")
+		(at 80.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "922f6aea-4c17-4aef-a817-03f2cdac9734")
+		(property "Reference" "R1"
+			(at 82.55 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k3"
+			(at 82.55 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 78.232 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 80.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68e0ee3d-9177-49e6-91f6-66e6af62fd90")
+		)
+		(pin "1"
+			(uuid "3ca2b4d4-83b2-4053-b772-8da1940f33cc")
+		)
+		(instances
+			(project ""
+				(path "/9f938c7a-b328-499c-a1e2-79ce379c97e9"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NextPCB:Degson_2EDGK-5.08-02P")
-		(at 45.72 35.56 0)
+		(at 35.56 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4907,7 +5719,7 @@
 		(dnp no)
 		(uuid "92fbb966-1357-40ff-a8a7-4b8f56a7c79c")
 		(property "Reference" "J2"
-			(at 40.64 35.56 0)
+			(at 30.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +5728,7 @@
 			)
 		)
 		(property "Value" "2EDGK-5.08-02P"
-			(at 25.908 38.1 0)
+			(at 15.748 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 35.56 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5746,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 35.56 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +5755,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 35.56 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5764,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
-			(at 45.72 35.56 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5773,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.11828"
-			(at 45.72 35.56 0)
+			(at 35.56 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5798,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGR-5.08-02P")
-		(at 53.34 73.66 0)
+		(at 43.18 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4995,7 +5807,7 @@
 		(dnp no)
 		(uuid "979ee978-edbf-4159-a775-ba5385050362")
 		(property "Reference" "J8"
-			(at 53.975 68.58 0)
+			(at 43.815 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5815,7 @@
 			)
 		)
 		(property "Value" "2EDGR-5.08-02P"
-			(at 61.468 70.866 0)
+			(at 51.308 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5823,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:Degson_2EDGR-5.08-02P"
-			(at 53.34 73.66 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 73.66 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5841,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 73.66 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5850,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgr-5-08-02p-gn01-cu-a-1027942969"
-			(at 53.34 73.66 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5859,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.03132"
-			(at 53.34 73.66 0)
+			(at 43.18 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5884,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGK-5.08-02P")
-		(at 45.72 60.96 0)
+		(at 35.56 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5081,7 +5893,7 @@
 		(dnp no)
 		(uuid "c48e74ff-b4cd-4799-9065-45d9ace96b9e")
 		(property "Reference" "J5"
-			(at 40.386 60.96 0)
+			(at 30.226 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5902,7 @@
 			)
 		)
 		(property "Value" "2EDGK-5.08-02P"
-			(at 25.908 63.5 0)
+			(at 15.748 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 60.96 0)
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5920,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 60.96 0)
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5929,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 45.72 60.96 0)
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5938,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
-			(at 45.72 60.96 0)
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5947,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.11828"
-			(at 45.72 60.96 0)
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +6246,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGR-5.08-02P")
-		(at 53.34 35.56 0)
+		(at 43.18 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5443,7 +6255,7 @@
 		(dnp no)
 		(uuid "e8f2a2f5-6a99-417c-8686-38284c632ef9")
 		(property "Reference" "J1"
-			(at 53.975 30.48 0)
+			(at 43.815 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +6263,7 @@
 			)
 		)
 		(property "Value" "2EDGR-5.08-02P"
-			(at 61.468 32.766 0)
+			(at 51.308 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +6271,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:Degson_2EDGR-5.08-02P"
-			(at 53.34 35.56 0)
+			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 35.56 0)
+			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +6289,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 35.56 0)
+			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +6298,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgr-5-08-02p-gn01-cu-a-1027942969"
-			(at 53.34 35.56 0)
+			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +6307,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.03132"
-			(at 53.34 35.56 0)
+			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +6332,7 @@
 	)
 	(symbol
 		(lib_id "NextPCB:Degson_2EDGR-5.08-02P")
-		(at 53.34 48.26 0)
+		(at 43.18 66.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5529,7 +6341,7 @@
 		(dnp no)
 		(uuid "e99787c2-e046-4da3-bc0b-3120b1b37b52")
 		(property "Reference" "J4"
-			(at 53.975 43.18 0)
+			(at 43.815 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,7 +6349,7 @@
 			)
 		)
 		(property "Value" "2EDGR-5.08-02P"
-			(at 61.722 45.466 0)
+			(at 51.562 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5545,7 +6357,7 @@
 			)
 		)
 		(property "Footprint" "NextPCB:Degson_2EDGR-5.08-02P"
-			(at 53.34 48.26 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +6366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 48.26 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +6375,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 48.26 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +6384,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgr-5-08-02p-gn01-cu-a-1027942969"
-			(at 53.34 48.26 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +6393,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.03132"
-			(at 53.34 48.26 0)
+			(at 43.18 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
