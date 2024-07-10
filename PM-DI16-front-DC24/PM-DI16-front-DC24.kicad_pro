@@ -495,6 +495,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -510,15 +511,21 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "group_by": false,
+          "label": "Описание",
+          "name": "Description",
           "show": true
         },
         {
@@ -585,7 +592,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -601,12 +608,6 @@
         },
         {
           "group_by": false,
-          "label": "Описание",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "NexPCB_price",
           "name": "NexPCB_price",
           "show": false
@@ -616,7 +617,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
