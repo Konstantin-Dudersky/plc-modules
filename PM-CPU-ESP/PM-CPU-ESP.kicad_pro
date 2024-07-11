@@ -416,7 +416,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -468,7 +468,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "doc/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "doc/PM-CPU-ESP.step",
@@ -740,7 +740,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "doc/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -754,6 +754,10 @@
     [
       "b2288a30-52a2-458e-b2e2-58b3f8400513",
       "Корневой лист"
+    ],
+    [
+      "cdcf3d15-ea2b-45fc-97d2-4ee9cd6f96b7",
+      "external_connection"
     ]
   ],
   "text_variables": {}

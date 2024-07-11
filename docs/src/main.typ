@@ -5,42 +5,136 @@
 
 = Линейка контроллеров и модулей расширения
 
-== PM-CPU-ESP
+= PM-CPU-ESP
 
 ЦПУ на базе микроконтроллера ESP32-C3.
 
 Микроконтроллер ESP32 можно программировать:
 
 - на языках C / C++ с помощью фреймворка #link("https://idf.espressif.com")[ESP-IDF]
-- языке програмиирования #link("https://docs.esp-rs.org/book/")[Rust], как `std`, так и `no_std`.
+- на языке програмиирования #link("https://docs.esp-rs.org/book/")[Rust], как `std`, так и `no_std`.
 - используя #link("https://espressif.github.io/arduino-esp32/")[Arduino IDE]
 
-#pagebreak()
 
-#table(
-  columns: (auto, auto),
-  stroke: none,
-
-  image("images/PM-CPU-ESP_0.png", height: 200pt),
-  image("images/PM-CPU-ESP_180.png", height: 200pt),
-  image("images/PM-CPU-ESP_90.png", height: 200pt),
-  image("images/PM-CPU-ESP_x_90.png", height: 200pt),
-
+#figure(
+  caption: "Внешний вид PM-CPU-ESP",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view.png", fit: "contain"),
+    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view_y90.png", fit: "contain"),
+    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view_x90.png", fit: "contain"),
+    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view_y180.png", fit: "contain"),
+  )
 )
 
+#figure(
+    caption: "Схема внешних подключений PM-CPU-ESP",
+    image("../../PM-CPU-ESP/doc/PM-CPU-ESP-external_connection.svg")
+)
 
-== PM-CPU-ESP-front
+#figure(
+    caption: "Размеры печатной платы PM-CPU-ESP",
+    image("../../PM-CPU-ESP/doc/PM-CPU-ESP-User_Comments.svg")
+)
+
+= PM-CPU-ESP-front
 
 Фронтальная плата для модуля PM-CPU-ESP.
 
-== PM-CPU-RP
+#figure(
+  caption: "Внешний вид PM-CPU-ESP-front",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view.png", fit: "contain"),
+    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view_y90.png", fit: "contain"),
+    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view_x90.png", fit: "contain"),
+    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view_y180.png", fit: "contain"),
+  )
+)
+
+= PM-CPU-RP
 
 ЦПУ на базе мини-компьютера Raspberry Pi, или совместимого по габаритам и 40-пиновому штекеру.
 
-== PM-RQ8
+#figure(
+  caption: "Внешний вид PM-CPU-RP",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-CPU-RP/doc/PM-CPU-RP_view.png", fit: "contain"),
+    image("../../PM-CPU-RP/doc/PM-CPU-RP_view_y90.png", fit: "contain"),
+    image("../../PM-CPU-RP/doc/PM-CPU-RP_view_x90.png", fit: "contain"),
+    image("../../PM-CPU-RP/doc/PM-CPU-RP_view_y180.png", fit: "contain"),
+  )
+)
 
-== PM-RQ8-front
+#figure(
+    caption: "Схема внешних подключений PM-CPU-RP",
+    image("../../PM-CPU-RP/doc/PM-CPU-RP-external_connection.svg")
+)
 
-== PM-DI16
+#figure(
+    caption: "Размеры печатной платы PM-CPU-RP",
+    image("../../PM-CPU-RP/doc/PM-CPU-RP-User_Comments.svg")
+)
 
-== PM-DI16-front-DC24
+
+= PM-DI16
+
+#figure(
+  caption: "Внешний вид PM-DI16",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-DI16-base/doc/PM-DI16-base_view.png", fit: "contain"),
+    image("../../PM-DI16-base/doc/PM-DI16-base_view_y90.png", fit: "contain"),
+    image("../../PM-DI16-base/doc/PM-DI16-base_view_x90.png", fit: "contain"),
+    image("../../PM-DI16-base/doc/PM-DI16-base_view_y180.png", fit: "contain"),
+  )
+)
+
+= PM-DI16-front-DC24
+
+#figure(
+  caption: "Внешний вид PM-DI16-front-DC24",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view.png", fit: "contain"),
+    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view_y90.png", fit: "contain"),
+    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view_x90.png", fit: "contain"),
+    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view_y180.png", fit: "contain"),
+  )
+)
+
+= PM-RQ8
+
+Модуль релейных выходов. Допустимая подключаемая нагрузка на канал - 2А.
+
+#figure(
+  caption: "Внешний вид PM-RQ8",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-RQ8-base/doc/PM-RQ8-base_view.png", fit: "contain"),
+    image("../../PM-RQ8-base/doc/PM-RQ8-base_view_y_90.png", fit: "contain"),
+    image("../../PM-RQ8-base/doc/PM-RQ8-base_view_x_90.png", fit: "contain"),
+    image("../../PM-RQ8-base/doc/PM-RQ8-base_view_y_180.png", fit: "contain"),
+  )
+)
+
+= PM-RQ8-front
+
+#figure(
+  caption: "Внешний вид PM-RQ8-front",
+  table(
+    columns: (auto, auto),
+    stroke: none,
+    image("../../PM-RQ8-front/doc/PM-RQ8-front_view.png", fit: "contain"),
+    image("../../PM-RQ8-front/doc/PM-RQ8-front_view_y_90.png", fit: "contain"),
+    image("../../PM-RQ8-front/doc/PM-RQ8-front_view_x_90.png", fit: "contain"),
+    image("../../PM-RQ8-front/doc/PM-RQ8-front_view_y_180.png", fit: "contain"),
+  )
+)
