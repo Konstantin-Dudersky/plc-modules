@@ -83,8 +83,8 @@
 		(aux_axis_origin 76.2 50.8)
 		(grid_origin 76.2 50.8)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x0000200_7ffffffe)
+			(plot_on_all_layers_selection 0x0001000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -113,11 +113,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 5)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../../temp/")
 		)
 	)
 	(net 0 "")
@@ -10558,281 +10558,207 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Краевой соединитель: "
-		(at 15.99 190.379 0)
+	(dimension
+		(type aligned)
 		(layer "Cmts.User")
-		(uuid "017b556f-5cda-41f8-8981-5f1b688a2943")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(uuid "13bef7ca-0c23-4bf2-8198-c83dd88d1cc6")
+		(pts
+			(xy 76.2 149.86) (xy 175.26 149.86)
 		)
+		(height 7.62)
+		(gr_text "99,0600 mm"
+			(at 125.73 156.33 0)
+			(layer "Cmts.User")
+			(uuid "13bef7ca-0c23-4bf2-8198-c83dd88d1cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(gr_text "2"
-		(at 56.147141 170.594 0)
+	(dimension
+		(type aligned)
 		(layer "Cmts.User")
-		(uuid "05e42605-644f-4613-9b15-79db9bacce33")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(uuid "85afa68b-6608-43c8-86cb-959ebfc9c18d")
+		(pts
+			(xy 76.2 149.86) (xy 76.2 50.8)
 		)
+		(height -7.62)
+		(gr_text "99,0600 mm"
+			(at 67.43 100.33 90)
+			(layer "Cmts.User")
+			(uuid "85afa68b-6608-43c8-86cb-959ebfc9c18d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(gr_text "Нет"
-		(at 117.889994 182.465 0)
+	(dimension
+		(type orthogonal)
 		(layer "Cmts.User")
-		(uuid "2441ebd3-a321-4c35-9ae6-4f314336b560")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(uuid "0f103509-770d-474e-91d0-e0915a943fe6")
+		(pts
+			(xy 76.2 50.8) (xy 111.76 54.61)
 		)
+		(height -5.08)
+		(orientation 0)
+		(gr_text "35,5600 mm"
+			(at 93.98 44.57 0)
+			(layer "Cmts.User")
+			(uuid "0f103509-770d-474e-91d0-e0915a943fe6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(gr_text "99,0600 mm x 99,0600 mm"
-		(at 56.147141 174.551 0)
+	(dimension
+		(type orthogonal)
 		(layer "Cmts.User")
-		(uuid "32ed9a5c-810e-423d-8c58-55bc82336697")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(uuid "20048c8e-87b0-4c5c-978f-ab3603e953ce")
+		(pts
+			(xy 172.72 50.8) (xy 171.45 54.61)
 		)
+		(height 12.7)
+		(orientation 1)
+		(gr_text "3,8100 mm"
+			(at 184.27 52.705 90)
+			(layer "Cmts.User")
+			(uuid "20048c8e-87b0-4c5c-978f-ab3603e953ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(gr_text "Толщина платы: "
-		(at 90.304279 170.594 0)
+	(dimension
+		(type orthogonal)
 		(layer "Cmts.User")
-		(uuid "365ffa88-de03-495e-928c-09227830df3d")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(uuid "2842de11-cb2d-4748-a651-4e9311b11571")
+		(pts
+			(xy 111.76 54.61) (xy 171.45 54.61)
 		)
+		(height -8.89)
+		(orientation 0)
+		(gr_text "59,6900 mm"
+			(at 141.605 44.57 0)
+			(layer "Cmts.User")
+			(uuid "2842de11-cb2d-4748-a651-4e9311b11571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
-	(gr_text "Нет"
-		(at 117.889994 186.422 0)
+	(dimension
+		(type orthogonal)
 		(layer "Cmts.User")
-		(uuid "416dd50e-456d-455a-b6a7-2b71b8d9896c")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(uuid "e4e05089-0831-4aaa-b2d4-3ce500404e48")
+		(pts
+			(xy 171.45 54.61) (xy 171.45 146.05)
 		)
-	)
-	(gr_text "Мин. сверло: "
-		(at 90.304279 178.508 0)
-		(layer "Cmts.User")
-		(uuid "71425faf-e9d4-44a5-b2a8-1c0c2998520b")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
+		(height 13.97)
+		(orientation 1)
+		(gr_text "91,4400 mm"
+			(at 184.27 100.33 90)
+			(layer "Cmts.User")
+			(uuid "e4e05089-0831-4aaa-b2d4-3ce500404e48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
-			(justify left top)
 		)
-	)
-	(gr_text "Нет"
-		(at 56.147141 190.379 0)
-		(layer "Cmts.User")
-		(uuid "7bc05fd2-492e-42b1-b52c-5f0e58e5f044")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
 		)
-	)
-	(gr_text "1,6000 mm"
-		(at 117.889994 170.594 0)
-		(layer "Cmts.User")
-		(uuid "83cd303c-5120-4471-a74a-e5161ba16831")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Количество слоёв меди: "
-		(at 15.99 170.594 0)
-		(layer "Cmts.User")
-		(uuid "8aa6035a-31e6-4e53-b9f3-f5901af51fc7")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "ХАРАКТЕРИСТИКИ ПЛАТЫ"
-		(at 15.24 165.1 0)
-		(layer "Cmts.User")
-		(uuid "9640f030-5fe3-4282-9211-15cfd613e55a")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Покрытие меди: "
-		(at 15.99 182.465 0)
-		(layer "Cmts.User")
-		(uuid "aabef240-906f-4730-92e6-e5b58a8d222a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Метал. торцы: "
-		(at 90.304279 186.422 0)
-		(layer "Cmts.User")
-		(uuid "b6882036-606c-4fbc-972d-a6347f4c1dbb")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 90.304279 174.551 0)
-		(layer "Cmts.User")
-		(uuid "bedefccc-41af-469e-ba9c-88717d7c094e")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0,0000 mm / 0,0000 mm"
-		(at 56.147141 178.508 0)
-		(layer "Cmts.User")
-		(uuid "bfc73815-7191-44e6-a11c-2e084a6ce053")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "None"
-		(at 56.147141 182.465 0)
-		(layer "Cmts.User")
-		(uuid "c29f8469-66ef-448c-982c-17a5efc60f8a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Нет"
-		(at 56.147141 186.422 0)
-		(layer "Cmts.User")
-		(uuid "c5a91d55-e68f-4689-bbb1-5818a5c92875")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Периферийные полу-отверстия: "
-		(at 15.99 186.422 0)
-		(layer "Cmts.User")
-		(uuid "d04da1eb-51bf-498e-a5b1-83fc61b953c5")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text ""
-		(at 117.889994 174.551 0)
-		(layer "Cmts.User")
-		(uuid "d2d4a6b0-444d-4607-a2fb-a7df35eb77fe")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Габариты платы: "
-		(at 15.99 174.551 0)
-		(layer "Cmts.User")
-		(uuid "d6168046-5185-46b2-b905-58447be03bdc")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Мин. дорожка/зазор: "
-		(at 15.99 178.508 0)
-		(layer "Cmts.User")
-		(uuid "d9f10e68-e867-488e-9873-a3355fdec092")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "0,3000 mm"
-		(at 117.889994 178.508 0)
-		(layer "Cmts.User")
-		(uuid "db3e6716-4c1a-4c95-a117-e29d08a45f26")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
-	)
-	(gr_text "Контроль импеданса: "
-		(at 90.304279 182.465 0)
-		(layer "Cmts.User")
-		(uuid "eea4196a-48b4-4466-9f92-026adcfc883a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.2)
-			)
-			(justify left top)
-		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 169.295 106.68)
@@ -15726,22 +15652,6 @@
 				(xy 78.220107 51.368409) (xy 78.465829 51.319531) (xy 78.481883 51.317417) (xy 78.714848 51.302148)
 				(xy 78.735958 51.300765) (xy 78.744067 51.3005) (xy 78.805892 51.3005) (xy 172.654108 51.3005) (xy 172.715933 51.3005)
 			)
-		)
-	)
-	(group "group-boardCharacteristics"
-		(uuid "33c6fda2-86e7-4240-9687-4a24aefa0a6b")
-		(members "017b556f-5cda-41f8-8981-5f1b688a2943" "05e42605-644f-4613-9b15-79db9bacce33"
-			"2441ebd3-a321-4c35-9ae6-4f314336b560" "32ed9a5c-810e-423d-8c58-55bc82336697"
-			"365ffa88-de03-495e-928c-09227830df3d" "416dd50e-456d-455a-b6a7-2b71b8d9896c"
-			"71425faf-e9d4-44a5-b2a8-1c0c2998520b" "7bc05fd2-492e-42b1-b52c-5f0e58e5f044"
-			"83cd303c-5120-4471-a74a-e5161ba16831" "8aa6035a-31e6-4e53-b9f3-f5901af51fc7"
-			"9640f030-5fe3-4282-9211-15cfd613e55a" "aabef240-906f-4730-92e6-e5b58a8d222a"
-			"b6882036-606c-4fbc-972d-a6347f4c1dbb" "bedefccc-41af-469e-ba9c-88717d7c094e"
-			"bfc73815-7191-44e6-a11c-2e084a6ce053" "c29f8469-66ef-448c-982c-17a5efc60f8a"
-			"c5a91d55-e68f-4689-bbb1-5818a5c92875" "d04da1eb-51bf-498e-a5b1-83fc61b953c5"
-			"d2d4a6b0-444d-4607-a2fb-a7df35eb77fe" "d6168046-5185-46b2-b905-58447be03bdc"
-			"d9f10e68-e867-488e-9873-a3355fdec092" "db3e6716-4c1a-4c95-a117-e29d08a45f26"
-			"eea4196a-48b4-4466-9f92-026adcfc883a"
 		)
 	)
 )
