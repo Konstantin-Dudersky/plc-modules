@@ -1,0 +1,31 @@
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+
+    tab name="show pdf" cwd="." {
+    	pane {
+    		command "okular"
+    		args "plc_modules.pdf"
+    		cwd "."
+    		name "okular"
+    		start_suspended true
+    	}
+    }
+
+    tab name="typst compile" cwd="." {
+    	pane {
+    		command "typst"
+    		args "compile" "--font-path" "./docs/fonts" "docs/src/main.typ" "plc_modules.pdf" "--root" "."
+    		cwd "."
+    		name "typst compile"
+    		start_suspended true
+    	}
+    }
+}
