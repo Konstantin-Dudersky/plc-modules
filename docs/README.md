@@ -1,5 +1,5 @@
 ```bash
-typst compile --font-path ./docs/fonts docs/src/main.typ PM.pdf --root .
+typst compile --font-path ./docs/fonts docs/src/main.typ --root . docs/PM.pdf
 ```
 
 Схема внешних подключений:

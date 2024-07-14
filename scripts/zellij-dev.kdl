@@ -12,7 +12,7 @@ layout {
     tab name="show pdf" cwd="." {
     	pane {
     		command "okular"
-    		args "plc_modules.pdf"
+    		args "docs/plc_modules.pdf"
     		cwd "."
     		name "okular"
     		start_suspended true
@@ -22,7 +22,7 @@ layout {
     tab name="typst compile" cwd="." {
     	pane {
     		command "typst"
-    		args "compile" "--font-path" "./docs/fonts" "docs/src/main.typ" "plc_modules.pdf" "--root" "."
+    		args "compile" "--font-path" "./docs/fonts" "docs/src/main.typ" "--root" "." "docs/plc_modules.pdf"
     		cwd "."
     		name "typst compile"
     		start_suspended true

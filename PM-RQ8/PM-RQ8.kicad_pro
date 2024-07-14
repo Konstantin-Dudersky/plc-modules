@@ -431,7 +431,8 @@
       "Degson"
     ],
     "pinned_symbol_libs": [
-      "Degson"
+      "Degson",
+      "kicad_inventree_lib"
     ]
   },
   "meta": {
@@ -501,14 +502,21 @@
       "Net-(J1-Pin_1)": "power",
       "Net-(J1-Pin_2)": "power",
       "Net-(J10-Pin_1)": "relay",
-      "Net-(J10-Pin_10)": "power",
-      "Net-(J10-Pin_11)": "power",
-      "Net-(J10-Pin_13)": "power",
-      "Net-(J10-Pin_15)": "power",
+      "Net-(J10-Pin_10)": "relay",
+      "Net-(J10-Pin_11)": "relay",
+      "Net-(J10-Pin_12)": "relay",
+      "Net-(J10-Pin_13)": "relay",
+      "Net-(J10-Pin_14)": "relay",
+      "Net-(J10-Pin_15)": "relay",
+      "Net-(J10-Pin_16)": "relay",
       "Net-(J10-Pin_2)": "relay",
-      "Net-(J10-Pin_3)": "power",
-      "Net-(J10-Pin_5)": "power",
-      "Net-(J10-Pin_7)": "power",
+      "Net-(J10-Pin_3)": "relay",
+      "Net-(J10-Pin_4)": "relay",
+      "Net-(J10-Pin_5)": "relay",
+      "Net-(J10-Pin_6)": "relay",
+      "Net-(J10-Pin_7)": "relay",
+      "Net-(J10-Pin_8)": "relay",
+      "Net-(J10-Pin_9)": "relay",
       "Net-(J11-Pin_1)": "relay",
       "Net-(J11-Pin_2)": "relay",
       "Net-(J12-Pin_1)": "relay",
@@ -574,7 +582,8 @@
       "unconnected-(J7-Pin_1-Pad1)": "power",
       "unconnected-(J7-Pin_2-Pad2)": "power",
       "unconnected-(J8-Pin_1-Pad1)": "power",
-      "unconnected-(J8-Pin_2-Pad2)": "power"
+      "unconnected-(J8-Pin_2-Pad2)": "power",
+      "unconnected-(J9-Pin_1-Pad1)": "power"
     },
     "netclass_patterns": []
   },
@@ -800,6 +809,12 @@
           "label": "part_ipn",
           "name": "part_ipn",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
         }
       ],
       "filter_string": "",

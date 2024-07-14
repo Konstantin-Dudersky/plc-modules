@@ -7,6 +7,7 @@
 #show heading.where(level: 2): it => { pagebreak(weak: true); it }
 #show link: underline
 
+#outline()
 
 = Линейка контроллеров и модулей расширения
 
@@ -118,16 +119,16 @@
   table(
     columns: (auto, auto),
     stroke: none,
-    image("../../PM-DI16-base/doc/PM-DI16-base_view.png", fit: "contain"),
-    image("../../PM-DI16-base/doc/PM-DI16-base_view_y90.png", fit: "contain"),
-    image("../../PM-DI16-base/doc/PM-DI16-base_view_x90.png", fit: "contain"),
-    image("../../PM-DI16-base/doc/PM-DI16-base_view_y180.png", fit: "contain"),
+    image("../../PM-DI16/doc/PM-DI16-base_view.png", fit: "contain"),
+    image("../../PM-DI16/doc/PM-DI16-base_view_y90.png", fit: "contain"),
+    image("../../PM-DI16/doc/PM-DI16-base_view_x90.png", fit: "contain"),
+    image("../../PM-DI16/doc/PM-DI16-base_view_y180.png", fit: "contain"),
   )
 )
 
 #figure(
     caption: "Схема внешних подключений PM-DI16",
-    image("../../PM-DI16-base/doc/PM-DI16-base-external_connection.svg")
+    image("../../PM-DI16/doc/PM-DI16-base-external_connection.svg")
 )
 
 = PM-DI16-front-DC24
@@ -157,16 +158,16 @@
   table(
     columns: (auto, auto),
     stroke: none,
-    image("../../PM-RQ8-base/doc/PM-RQ8-base_view.png", fit: "contain"),
-    image("../../PM-RQ8-base/doc/PM-RQ8-base_view_y_90.png", fit: "contain"),
-    image("../../PM-RQ8-base/doc/PM-RQ8-base_view_x_90.png", fit: "contain"),
-    image("../../PM-RQ8-base/doc/PM-RQ8-base_view_y_180.png", fit: "contain"),
+    image("../../PM-RQ8/doc/PM-RQ8-base_view.png", fit: "contain"),
+    image("../../PM-RQ8/doc/PM-RQ8-base_view_y_90.png", fit: "contain"),
+    image("../../PM-RQ8/doc/PM-RQ8-base_view_x_90.png", fit: "contain"),
+    image("../../PM-RQ8/doc/PM-RQ8-base_view_y_180.png", fit: "contain"),
   )
 )
 
 #figure(
     caption: "Схема внешних подключений PM-RQ8",
-    image("../../PM-RQ8-base/doc/PM-RQ8-base-external_connection.svg")
+    image("../../PM-RQ8/doc/PM-RQ8-base-external_connection.svg")
 )
 
 
@@ -185,3 +186,7 @@
     image("../../PM-RQ8-front/doc/PM-RQ8-front_view_y_180.png", fit: "contain"),
   )
 )
+
+#include "PM-Bus.typ"
+
+Шинный соединитель между модулями.
