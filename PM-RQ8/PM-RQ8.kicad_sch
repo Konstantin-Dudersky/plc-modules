@@ -1124,7 +1124,7 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:FemaleHeader P2.54 02x08 SMD Straight"
+		(symbol "kicad_inventree_lib:FemaleHeader P2.54 02x08 THT Straight"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -1138,7 +1138,7 @@
 					)
 				)
 			)
-			(property "Value" "FemaleHeader P2.54 02x08 SMD Straight"
+			(property "Value" "FemaleHeader P2.54 02x08 THT Straight"
 				(at 1.27 -12.7 0)
 				(effects
 					(font
@@ -1147,7 +1147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical_SMD"
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1156,7 +1156,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/20/"
+			(property "Datasheet" "http://inventree.network/part/24/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1219,7 +1219,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FemaleHeader P2.54 02x08 SMD Straight_1_1"
+			(symbol "FemaleHeader P2.54 02x08 THT Straight_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -3547,6 +3547,103 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "kicad_inventree_lib:Shunt 2.54 Open Top"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Shunt 2.54 Open Top"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/25/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "Shunt 2.54 Open Top"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Shunt 2.54 Open Top_0_1"
+				(polyline
+					(pts
+						(xy -0.508 -2.54) (xy -5.08 -2.54) (xy -5.08 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Shunt 2.54 Open Top_1_1"
+				(arc
+					(start -0.0022 -4.572)
+					(mid -0.508 -5.08)
+					(end -0.0022 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -7925,7 +8022,7 @@
 		(dnp no)
 		(uuid "39448b47-4e98-4dc7-8b0f-d7935a695c03")
 		(property "Reference" "J14"
-			(at 241.3 59.69 0)
+			(at 245.11 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,145 +10533,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:FemaleHeader P2.54 02x08 SMD Straight")
-		(at 160.02 109.22 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a48de01f-e0dd-4dc5-9397-c0d97ab2f800")
-		(property "Reference" "J11"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FemaleHeader P2.54 02x08 SMD Straight"
-			(at 158.75 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical_SMD"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/20/"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/female-headers-hctl-pm254-2-08-s-8-5-1018837905"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.27113"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "FemaleHeader P2.54 02x08 SMD Straight"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "458aeab3-f143-478a-ab73-26daa87bc775")
-		)
-		(pin "1"
-			(uuid "3006a67a-ff02-4d5b-b769-b05bea11df72")
-		)
-		(pin "4"
-			(uuid "3a4393a3-e066-4d5a-90dc-043831878fb3")
-		)
-		(pin "10"
-			(uuid "be869d40-f0fa-4e2b-a730-2f73684ed37c")
-		)
-		(pin "15"
-			(uuid "695282ec-839f-4727-8aa6-8ce699576660")
-		)
-		(pin "8"
-			(uuid "d1e40b42-f28f-4454-93b8-1d3f37e07a84")
-		)
-		(pin "16"
-			(uuid "0491bdb9-b0aa-44dd-a3ae-5aeeb70a12af")
-		)
-		(pin "9"
-			(uuid "006271d4-02b4-4fb2-aec6-3253668b4abd")
-		)
-		(pin "7"
-			(uuid "b11f230c-493d-4128-a2a0-c80104601b1a")
-		)
-		(pin "12"
-			(uuid "9f7d4730-cb27-46da-978c-40b77da83454")
-		)
-		(pin "3"
-			(uuid "41cf16bf-b943-427f-901d-93669d852da6")
-		)
-		(pin "6"
-			(uuid "e202115b-0f6b-4dd4-a992-5b005f78236b")
-		)
-		(pin "13"
-			(uuid "b92853ee-c472-42fa-bc01-ed3c6500f01e")
-		)
-		(pin "5"
-			(uuid "d99c2310-0018-4a95-a350-aa391e41724a")
-		)
-		(pin "2"
-			(uuid "53ae94a9-a962-4efe-9ae9-b172e2bb7403")
-		)
-		(pin "11"
-			(uuid "7dfb069d-83bc-4d8d-9e75-af3a87ed7b9e")
-		)
-		(instances
-			(project ""
-				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 210.82 22.86 0)
 		(unit 1)
@@ -10635,6 +10593,145 @@
 			(project "PM-RQ8-base"
 				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:FemaleHeader P2.54 02x08 THT Straight")
+		(at 160.02 109.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9a629d2-f21e-40f3-9970-09664cc678b4")
+		(property "Reference" "J15"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FemaleHeader P2.54 02x08 THT Straight"
+			(at 158.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/24/"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/female-headers-hctl-pm254-2-08-s-8-5-1018837905"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.27113"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "FemaleHeader P2.54 02x08 SMD Straight"
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "18477817-c6cd-4d00-83f9-2b925330efc0")
+		)
+		(pin "1"
+			(uuid "df3c72cf-e1d2-47c5-8197-84949499b6f6")
+		)
+		(pin "15"
+			(uuid "1cba5784-5875-4119-a5ae-394642599e07")
+		)
+		(pin "7"
+			(uuid "21c59fd7-a81b-496e-bed1-6afe97669f21")
+		)
+		(pin "10"
+			(uuid "6ed61405-8466-4b4f-9f57-181b9a61b82b")
+		)
+		(pin "11"
+			(uuid "2f4fb74e-0397-49ad-9c47-24e18970d4b7")
+		)
+		(pin "16"
+			(uuid "69d982b1-ded2-498c-a9f2-15dd6ffd9f28")
+		)
+		(pin "5"
+			(uuid "a2e58093-d35f-47ad-b1b7-e803a13953d4")
+		)
+		(pin "8"
+			(uuid "3cbbdf76-a7b6-49c8-aa67-9fcc399fdc71")
+		)
+		(pin "2"
+			(uuid "f5639cf1-0293-4b9a-b18b-416c73ec00c1")
+		)
+		(pin "6"
+			(uuid "fb9877d1-b3ba-4e90-9623-10acca96637c")
+		)
+		(pin "13"
+			(uuid "4abd776e-384b-470a-810f-9c9b0d67d942")
+		)
+		(pin "12"
+			(uuid "66307484-f5c2-4e72-a982-0c096e61efa9")
+		)
+		(pin "3"
+			(uuid "3ab26be3-b8a6-4754-a96e-900e36e18157")
+		)
+		(pin "14"
+			(uuid "95152105-0ca7-4947-93ea-51c71a4f414a")
+		)
+		(pin "4"
+			(uuid "751e60fe-b0a2-442c-9d2c-1f8e8ccce606")
+		)
+		(instances
+			(project ""
+				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -10829,6 +10926,79 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:Shunt 2.54 Open Top")
+		(at 242.57 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b9ad3bbf-63a6-4cee-ada9-1a228e4ae5cc")
+		(property "Reference" "J16"
+			(at 237.236 25.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shunt 2.54 Open Top"
+			(at 243.84 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/25/"
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "Shunt 2.54 Open Top"
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PM-RQ8"
+				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:PinHeader P2.54 01x03 SMD Straight")
 		(at 243.84 45.72 0)
 		(unit 1)
@@ -10838,7 +11008,7 @@
 		(dnp no)
 		(uuid "c884ee8c-2f48-4791-a619-0c02ea71013c")
 		(property "Reference" "J13"
-			(at 241.3 45.72 0)
+			(at 245.11 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10930,6 +11100,79 @@
 			(project "PM-RQ8"
 				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Shunt 2.54 Open Top")
+		(at 242.57 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "cbf44258-9926-4e79-866c-865a6ae768c5")
+		(property "Reference" "J11"
+			(at 237.236 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shunt 2.54 Open Top"
+			(at 243.84 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/25/"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "Shunt 2.54 Open Top"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -11087,6 +11330,79 @@
 			(project "PM-RQ8-base"
 				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Shunt 2.54 Open Top")
+		(at 242.57 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d59eeb5c-3ee5-41cd-b4c6-8663a0ed50f9")
+		(property "Reference" "J17"
+			(at 237.236 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Shunt 2.54 Open Top"
+			(at 243.84 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/25/"
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "Shunt 2.54 Open Top"
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PM-RQ8"
+				(path "/a75183a9-ea53-46d5-9d29-d6271be85780"
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -11395,7 +11711,7 @@
 		(dnp no)
 		(uuid "f4fee17e-b81d-4d13-af66-0a38466df919")
 		(property "Reference" "J12"
-			(at 241.3 30.48 0)
+			(at 245.364 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

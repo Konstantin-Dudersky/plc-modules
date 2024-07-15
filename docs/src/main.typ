@@ -7,8 +7,6 @@
 #show heading.where(level: 2): it => { pagebreak(weak: true); it }
 #show link: underline
 
-#outline()
-
 = Линейка контроллеров и модулей расширения
 
 Линейка простых модулей ввода/вывода с гальванической изоляцией. Модули подключаются по шине I#super[2]C к контроллеру. Контроллером может выступать любое устройство с поддержкой данного протокола. Для унификации разрботаны модули CPU на базе микроконтроллера ESP32-C3 и мини-компьютера Raspberry Pi.
@@ -16,6 +14,61 @@
 Модули PM-DI16 и PM-RQ8 собраны на базе одной микросхемы PCA9555. В одной сборке допустимо использовать суммарно до 8 модулей такого типа.
 
 Размеры всех плат одинаковы. Отверстия для крепления также располагаются одинакого.
+
+#figure(
+  caption: "Перечень модулей",
+  table(
+    columns: (auto, 1fr),
+    align: (center + horizon, left),
+
+    table.cell(colspan: 2)[ЦПУ],
+
+    link(<PM-CPU-ESP>)[PM-CPU-ESP],
+    "ЦПУ на базе микроконтроллера ESP32-C3",
+
+    link(<PM-CPU-RP>)[PM-CPU-RP],
+    "ЦПУ на базе мини-компьютера Raspberry Pi",
+
+    "PM-MUX",
+    "",
+
+    table.cell(colspan: 2)[Модули ввода / вывода],
+
+    link(<PM-DI16>)[PM-DI16],
+    "Модуль для подключения 16 дискретных входов постоянного напряжения",
+
+    link(<PM-RQ8>)[PM-RQ8],
+    "Модуль для подключение 8 релейных выходов",
+
+    "PM-AI-UI",
+    "",
+
+    "PM-AI-TC",
+    "",
+
+    "PM-AI-RTD",
+    "",
+
+    "PM-AQ",
+    "",
+
+    table.cell(colspan: 2)[Фронтальные платы],
+
+    link(<PM-CPU-ESP-front>)[PM-CPU-ESP-front],
+    [Фронтальная плата для модуля #link(<PM-CPU-ESP>)[PM-CPU-ESP]],
+
+    link(<PM-DI16-front-DC24>)[PM-DI16-front-DC24],
+    [Фронтальная плата для модуля #link(<PM-DI16>)[PM-DI16], для работы с источником напряжения DC24],
+
+    link(<PM-RQ8-front>)[PM-RQ8-front],
+    [Фронтальная плата для модуля #link(<PM-RQ8>)[PM-RQ8]],
+
+    table.cell(colspan: 2)[Аксесуары],
+
+    link(<PM-Bus>)[PM-Bus],
+    "Шинный соединитель между модулями"
+  )
+)
 
 #figure(
   caption: "Размеры основной печатной платы",
@@ -28,165 +81,15 @@
 )
 
 
-= PM-CPU-ESP
+#include "PM-CPU-ESP.typ"
+#include "PM-CPU-ESP-front.typ"
 
-ЦПУ на базе микроконтроллера ESP32-C3.
+#include "PM-CPU-RP.typ"
 
-Микроконтроллер ESP32 можно программировать:
+#include "PM-DI16.typ"
+#include "PM-DI16-front-DC24.typ"
 
-- на языке програмиирования #link("https://docs.esp-rs.org/book/")[Rust], как `std`, так и `no_std`.
-- на языках C / C++ с помощью фреймворка #link("https://idf.espressif.com")[ESP-IDF]
-- используя #link("https://espressif.github.io/arduino-esp32/")[Arduino IDE]
-
-Инетрфейсы модуля:
-
-- WiFi
-- Ethernet
-- USB Type-C - для загрузки программы и отладки
-- USB A Female - для питания внешних устройств
-
-Программно микроконтроллер ESP32-C3 может предоставлять данные:
-
-- как HTTP-сервер
-- как Websocket-сервер
-
-#figure(
-  caption: "Внешний вид PM-CPU-ESP",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view.png", fit: "contain"),
-    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view_y90.png", fit: "contain"),
-    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view_x90.png", fit: "contain"),
-    image("../../PM-CPU-ESP/doc/PM-CPU-ESP_view_y180.png", fit: "contain"),
-  )
-)
-
-#figure(
-    caption: "Схема внешних подключений PM-CPU-ESP",
-    image("../../PM-CPU-ESP/doc/PM-CPU-ESP-external_connection.svg")
-)
-
-= PM-CPU-ESP-front
-
-Фронтальная плата для модуля PM-CPU-ESP.
-
-#figure(
-  caption: "Внешний вид PM-CPU-ESP-front",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view.png", fit: "contain"),
-    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view_y90.png", fit: "contain"),
-    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view_x90.png", fit: "contain"),
-    image("../../PM-CPU-ESP-front/doc/PM-CPU-ESP-front_view_y180.png", fit: "contain"),
-  )
-)
-
-= PM-CPU-RP
-
-ЦПУ на базе мини-компьютера Raspberry Pi, или совместимого по габаритам, креплению и 40-пиновому штекеру.
-
-Программировать можно практически на всех языках программирования, поддерживающих архитектуру процессора ARM64.
-
-#figure(
-  caption: "Внешний вид PM-CPU-RP",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-CPU-RP/doc/PM-CPU-RP_view.png", fit: "contain"),
-    image("../../PM-CPU-RP/doc/PM-CPU-RP_view_y90.png", fit: "contain"),
-    image("../../PM-CPU-RP/doc/PM-CPU-RP_view_x90.png", fit: "contain"),
-    image("../../PM-CPU-RP/doc/PM-CPU-RP_view_y180.png", fit: "contain"),
-  )
-)
-
-#figure(
-    caption: "Схема внешних подключений PM-CPU-RP",
-    image("../../PM-CPU-RP/doc/PM-CPU-RP-external_connection.svg")
-)
-
-= PM-DI16
-
-Модуль для подключения 16 дискретных входов постоянного напряжения. Уровень напряжения зависит от используемой платы PM-DI16-front-XXX.
-
-Входы гальванически изолированы от внутреннего источника питания.
-
-Схема модуля собрана на базе микросхемы PCA9555. Адрес на шине I#super[2]С задается с помощью трех перемычек на плате.
-
-#figure(
-  caption: "Внешний вид PM-DI16",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-DI16/doc/PM-DI16-base_view.png", fit: "contain"),
-    image("../../PM-DI16/doc/PM-DI16-base_view_y90.png", fit: "contain"),
-    image("../../PM-DI16/doc/PM-DI16-base_view_x90.png", fit: "contain"),
-    image("../../PM-DI16/doc/PM-DI16-base_view_y180.png", fit: "contain"),
-  )
-)
-
-#figure(
-    caption: "Схема внешних подключений PM-DI16",
-    image("../../PM-DI16/doc/PM-DI16-base-external_connection.svg")
-)
-
-= PM-DI16-front-DC24
-
-Фронтальная плата для модуля PM-DI16, для работы с источником напряжения DC24В.
-
-Схема модуля собрана на базе микросхемы PCA9555. Адрес на шине I#super[2]С задается с помощью трех перемычек на плате.
-
-#figure(
-  caption: "Внешний вид PM-DI16-front-DC24",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view.png", fit: "contain"),
-    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view_y90.png", fit: "contain"),
-    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view_x90.png", fit: "contain"),
-    image("../../PM-DI16-front-DC24/doc/PM-DI16-front-DC24_view_y180.png", fit: "contain"),
-  )
-)
-
-= PM-RQ8
-
-Модуль релейных выходов. Допустимая подключаемая нагрузка на канал 2А. Контакты реле подключаются независимо, что позволяет подключать нагрузку от разных источников.
-
-#figure(
-  caption: "Внешний вид PM-RQ8",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-RQ8/doc/PM-RQ8-base_view.png", fit: "contain"),
-    image("../../PM-RQ8/doc/PM-RQ8-base_view_y_90.png", fit: "contain"),
-    image("../../PM-RQ8/doc/PM-RQ8-base_view_x_90.png", fit: "contain"),
-    image("../../PM-RQ8/doc/PM-RQ8-base_view_y_180.png", fit: "contain"),
-  )
-)
-
-#figure(
-    caption: "Схема внешних подключений PM-RQ8",
-    image("../../PM-RQ8/doc/PM-RQ8-base-external_connection.svg")
-)
-
-
-= PM-RQ8-front
-
-Фронтальная плата для модуля PM-RQ8.
-
-#figure(
-  caption: "Внешний вид PM-RQ8-front",
-  table(
-    columns: (auto, auto),
-    stroke: none,
-    image("../../PM-RQ8-front/doc/PM-RQ8-front_view.png", fit: "contain"),
-    image("../../PM-RQ8-front/doc/PM-RQ8-front_view_y_90.png", fit: "contain"),
-    image("../../PM-RQ8-front/doc/PM-RQ8-front_view_x_90.png", fit: "contain"),
-    image("../../PM-RQ8-front/doc/PM-RQ8-front_view_y_180.png", fit: "contain"),
-  )
-)
+#include "PM-RQ8.typ"
+#include "PM-RQ8-front.typ"
 
 #include "PM-Bus.typ"
-
-Шинный соединитель между модулями.
