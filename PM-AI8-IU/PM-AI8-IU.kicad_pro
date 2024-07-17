@@ -427,7 +427,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "kicad_inventree_lib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -459,8 +461,10 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+5V": "power",
       "GND": "power",
       "Net-(J1-Pin_1)": "power",
+      "Net-(J16-Pin_1)": "power",
       "VDD": "power"
     },
     "netclass_patterns": []
