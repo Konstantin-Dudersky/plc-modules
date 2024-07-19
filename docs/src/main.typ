@@ -40,8 +40,8 @@
     link(<PM-RQ8>)[PM-RQ8],
     "Модуль для подключение 8 релейных выходов",
 
-    "PM-AI-UI",
-    "",
+    link(<PM-AI8-IU>)[PM-AI8-IU],
+    "Модуль для подключения 8 датчиков напряжения (0..5В, 0..10В) или тока (4..20мА)",
 
     "PM-AI-TC",
     "",
@@ -62,6 +62,15 @@
 
     link(<PM-RQ8-front>)[PM-RQ8-front],
     [Фронтальная плата для модуля #link(<PM-RQ8>)[PM-RQ8]],
+
+    link(<PM-AI8-IU-front-5V>)[PM-AI8-IU-front-5V],
+    [Фронтальная плата для модуля #link(<PM-AI8-IU>)[PM-AI8-IU], для датчиков 0..5В],
+
+    link(<PM-AI8-IU-front-10V>)[PM-AI8-IU-front-10V],
+    [Фронтальная плата для модуля #link(<PM-AI8-IU>)[PM-AI8-IU], для датчиков 0..10В],
+
+    link(<PM-AI8-IU-front-20mA>)[PM-AI8-IU-front-20mA],
+    [Фронтальная плата для модуля #link(<PM-AI8-IU>)[PM-AI8-IU], для датчиков 4..20mA],
 
     table.cell(colspan: 2)[Аксесуары],
 
@@ -91,5 +100,11 @@
 
 #include "PM-RQ8.typ"
 #include "PM-RQ8-front.typ"
+
+#include "PM-AI8-IU.typ"
+#include "PM-AI8-IU-front-5V.typ"
+#include "PM-AI8-IU-front-10V.typ"
+#include "PM-AI8-IU-front-20mA.typ"
+
 
 #include "PM-Bus.typ"
