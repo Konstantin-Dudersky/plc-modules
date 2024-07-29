@@ -959,6 +959,204 @@
 				)
 			)
 		)
+		(symbol "kicad_inventree_lib:B5819W"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B5819W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/6/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MDD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_price" "0.0107"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/schottky-diode-mdd-b5819w-2500218931"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "B5819W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B5819W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "B5819W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "kicad_inventree_lib:BSH112"
 			(pin_names
 				(offset 0.254)
@@ -2943,30 +3141,30 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:Degson_2EDGR-5.08-18P"
+		(symbol "kicad_inventree_lib:Degson_2EDGR-5.08-08P"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "2EDGR-5.08-18P"
-				(at -4.572 -46.482 0)
+			(property "Value" "2EDGR-5.08-08P"
+				(at 0.254 3.048 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "NextPCB:Degson_2EDGR-5.08-18P"
-				(at 0 0 0)
+			(property "Footprint" "kicad_inventree_lib:Degson_2EDGR-5.08-08P"
+				(at 0.762 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2974,8 +3172,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/19/"
-				(at 0 0 0)
+			(property "Datasheet" "http://inventree.network/part/96/"
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2984,7 +3182,7 @@
 				)
 			)
 			(property "Description" "01x18"
-				(at 0 0 0)
+				(at 0 -21.336 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2992,26 +3190,8 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/terminal-blocks-kangnex-wj2edgr-5-08-18p-2500349376"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_price" "0.17085"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "part_ipn" "2EDGR-5.08-18P"
-				(at 0 0 0)
+			(property "part_ipn" "2EDGR-5.08-08P"
+				(at 0.254 -21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3037,214 +3217,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Degson_2EDGR-5.08-18P_1_1"
-				(arc
-					(start 0 -42.672)
-					(mid -0.5058 -43.18)
-					(end 0 -43.688)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -40.132)
-					(mid -0.5058 -40.64)
-					(end 0 -41.148)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -37.592)
-					(mid -0.5058 -38.1)
-					(end 0 -38.608)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -35.052)
-					(mid -0.5058 -35.56)
-					(end 0 -36.068)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -32.512)
-					(mid -0.5058 -33.02)
-					(end 0 -33.528)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -29.972)
-					(mid -0.5058 -30.48)
-					(end 0 -30.988)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -27.432)
-					(mid -0.5058 -27.94)
-					(end 0 -28.448)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -24.892)
-					(mid -0.5058 -25.4)
-					(end 0 -25.908)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -22.352)
-					(mid -0.5058 -22.86)
-					(end 0 -23.368)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -19.812)
-					(mid -0.5058 -20.32)
-					(end 0 -20.828)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -17.272)
-					(mid -0.5058 -17.78)
-					(end 0 -18.288)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -14.732)
-					(mid -0.5058 -15.24)
-					(end 0 -15.748)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -12.192)
-					(mid -0.5058 -12.7)
-					(end 0 -13.208)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -9.652)
-					(mid -0.5058 -10.16)
-					(end 0 -10.668)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -7.112)
-					(mid -0.5058 -7.62)
-					(end 0 -8.128)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Degson_2EDGR-5.08-08P_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -43.18) (xy -0.508 -43.18)
+						(xy 1.27 -17.78) (xy 2.032 -17.78)
 					)
 					(stroke
 						(width 0.1524)
@@ -3256,7 +3232,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -40.64) (xy -0.508 -40.64)
+						(xy 1.27 -15.24) (xy 2.032 -15.24)
 					)
 					(stroke
 						(width 0.1524)
@@ -3268,7 +3244,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -38.1) (xy -0.508 -38.1)
+						(xy 1.27 -12.7) (xy 2.032 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -3280,7 +3256,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -35.56) (xy -0.508 -35.56)
+						(xy 1.27 -10.16) (xy 2.032 -10.16)
 					)
 					(stroke
 						(width 0.1524)
@@ -3292,7 +3268,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -33.02) (xy -0.508 -33.02)
+						(xy 1.27 -7.62) (xy 2.032 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -3304,7 +3280,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -30.48) (xy -0.508 -30.48)
+						(xy 1.27 -5.08) (xy 2.032 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -3316,7 +3292,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -27.94) (xy -0.508 -27.94)
+						(xy 1.27 -2.54) (xy 2.032 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -3328,127 +3304,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -25.4) (xy -0.508 -25.4)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -22.86) (xy -0.508 -22.86)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -20.32) (xy -0.508 -20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -17.78) (xy -0.508 -17.78)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -15.24) (xy -0.508 -15.24)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -12.7) (xy -0.508 -12.7)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy -0.508 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy 1.27 0) (xy 2.032 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -3459,9 +3315,93 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
+					(start 2.54 -17.272)
+					(mid 2.0342 -17.78)
+					(end 2.54 -18.288)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -14.732)
+					(mid 2.0342 -15.24)
+					(end 2.54 -15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -12.192)
+					(mid 2.0342 -12.7)
+					(end 2.54 -13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -9.652)
+					(mid 2.0342 -10.16)
+					(end 2.54 -10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -7.112)
+					(mid 2.0342 -7.62)
+					(end 2.54 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -4.572)
+					(mid 2.0342 -5.08)
+					(end 2.54 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.032)
+					(mid 2.0342 -2.54)
+					(end 2.54 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0.508)
+					(mid 2.0342 0)
+					(end 2.54 -0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3471,7 +3411,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -2.54 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -3489,169 +3429,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -25.4 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -27.94 0)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -30.48 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -33.02 0)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -35.56 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -38.1 0)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -40.64 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -43.18 0)
-					(length 3.81)
-					(name "Pin_18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -2.54 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -3669,7 +3447,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -2.54 -5.08 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -3687,7 +3465,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -2.54 -7.62 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -3705,7 +3483,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -2.54 -10.16 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -3723,7 +3501,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -2.54 -12.7 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -3741,7 +3519,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -2.54 -15.24 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -3759,7 +3537,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -2.54 -17.78 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -3769,24 +3547,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -20.32 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7928,6 +7688,12 @@
 		(uuid "00c719eb-ed77-4e04-96de-49b40064c195")
 	)
 	(junction
+		(at 63.5 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01939484-921b-49de-871c-9c4785b76266")
+	)
+	(junction
 		(at 170.18 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8975,6 +8741,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 106.68) (xy 269.24 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63156be0-7a5c-4b27-af13-a0aad2e788ca")
+	)
+	(wire
+		(pts
+			(xy 204.47 248.92) (xy 213.36 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "633070f7-3127-4370-8206-b0c7dba22d2f")
+	)
+	(wire
+		(pts
 			(xy 200.66 259.08) (xy 200.66 256.54)
 		)
 		(stroke
@@ -9162,6 +8948,16 @@
 			(type default)
 		)
 		(uuid "7e480696-c761-4118-9bb3-e16e3c5d0bae")
+	)
+	(wire
+		(pts
+			(xy 50.8 43.18) (xy 63.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81611925-ab98-4b93-a5ed-136374a6754d")
 	)
 	(wire
 		(pts
@@ -9425,7 +9221,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 248.92) (xy 213.36 248.92)
+			(xy 195.58 248.92) (xy 196.85 248.92)
 		)
 		(stroke
 			(width 0)
@@ -9505,7 +9301,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 106.68) (xy 269.24 109.22)
+			(xy 259.08 106.68) (xy 259.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9765,7 +9561,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 248.92) (xy 200.66 246.38)
+			(xy 195.58 248.92) (xy 195.58 246.38)
 		)
 		(stroke
 			(width 0)
@@ -9882,6 +9678,16 @@
 			(type default)
 		)
 		(uuid "ee3b6723-c3b6-4a2b-a32b-0c7e028e24bd")
+	)
+	(wire
+		(pts
+			(xy 63.5 43.18) (xy 63.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc50dc0-d778-4a2a-a256-482d7a56cbcc")
 	)
 	(wire
 		(pts
@@ -10720,6 +10526,29 @@
 			)
 		)
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 261.62 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dffda9c7-bf3d-4cd3-b095-a7f0fd5eb8c5")
+		(property "Netclass" "power"
+			(at 262.3185 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_100_1206_1%")
 		(at 36.83 187.96 90)
@@ -11336,7 +11165,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 109.22 0)
+		(at 259.08 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11345,7 +11174,7 @@
 		(fields_autoplaced yes)
 		(uuid "172bdaf5-bf07-4282-91c1-d7aa952da12c")
 		(property "Reference" "#PWR010"
-			(at 269.24 115.57 0)
+			(at 259.08 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11354,7 +11183,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 269.24 114.3 0)
+			(at 259.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11362,7 +11191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 109.22 0)
+			(at 259.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 109.22 0)
+			(at 259.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11209,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 109.22 0)
+			(at 259.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +11879,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 246.38 0)
+		(at 195.58 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12059,7 +11888,7 @@
 		(fields_autoplaced yes)
 		(uuid "22371a45-8c62-494e-8511-4e42b9fd20c4")
 		(property "Reference" "#PWR032"
-			(at 200.66 250.19 0)
+			(at 195.58 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12068,7 +11897,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 200.66 241.3 0)
+			(at 195.58 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +11905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 246.38 0)
+			(at 195.58 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12085,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 246.38 0)
+			(at 195.58 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12094,7 +11923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 246.38 0)
+			(at 195.58 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +12948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 43.18 0)
+		(at 63.5 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13128,7 +12957,7 @@
 		(fields_autoplaced yes)
 		(uuid "441d2d79-c3a8-4d7b-b16f-d658f196a5bb")
 		(property "Reference" "#PWR01"
-			(at 63.5 49.53 0)
+			(at 63.5 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +12966,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 63.5 48.26 0)
+			(at 63.5 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,7 +12974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 43.18 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +12983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 43.18 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +12992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 43.18 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,6 +15745,137 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:B5819W")
+		(at 200.66 248.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afbd0ec1-aa6b-40d4-a2ce-6a527584a824")
+		(property "Reference" "D2"
+			(at 200.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B5819W"
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/6/"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.0107"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/schottky-diode-mdd-b5819w-2500218931"
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "B5819W"
+			(at 200.66 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 200.66 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "664303e1-9b11-4dc2-8f35-1a8a20053e12")
+		)
+		(pin "2"
+			(uuid "5de828fd-88ac-43b3-850f-ca20ddcd44a6")
+		)
+		(instances
+			(project "PM-AI1-W"
+				(path "/3e910c54-7792-4c2e-8497-3f8a0979c787"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:PinHeader_01x12_P2.54_THT_straight")
 		(at 248.92 241.3 0)
 		(unit 1)
@@ -16132,150 +16092,6 @@
 			(project ""
 				(path "/3e910c54-7792-4c2e-8497-3f8a0979c787"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Degson_2EDGR-5.08-18P")
-		(at 45.72 25.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6ec543e-32b3-4978-8f6c-448f662f3986")
-		(property "Reference" "J1"
-			(at 46.355 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2EDGR-5.08-18P"
-			(at 46.355 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Degson_2EDGR-5.08-18P"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/19/"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "01x18"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/terminal-blocks-kangnex-wj2edgr-5-08-18p-2500349376"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.17085"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "2EDGR-5.08-18P"
-			(at 45.72 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "bf3233b3-685e-497f-b433-f78736b34bf6")
-		)
-		(pin "10"
-			(uuid "df4d4675-839b-413f-9d08-87e2d6a7109f")
-		)
-		(pin "13"
-			(uuid "7107e6c3-d7a3-44e7-835a-2dfd0717c097")
-		)
-		(pin "3"
-			(uuid "304fc50a-2cd0-4172-95d4-cc1cc220406d")
-		)
-		(pin "2"
-			(uuid "dcc492b3-d5a4-449a-b86e-bb562dc6108f")
-		)
-		(pin "4"
-			(uuid "aec8154c-7882-408f-93c5-ce8c7092dda2")
-		)
-		(pin "17"
-			(uuid "ead239e4-950e-4ae3-bcd4-d8e84f9ddf33")
-		)
-		(pin "18"
-			(uuid "e9a9501f-1e12-499c-8e6e-b650f2d4588b")
-		)
-		(pin "11"
-			(uuid "5f92d16b-301f-4e0a-a202-bf9824cf7848")
-		)
-		(pin "5"
-			(uuid "704d884e-6d0a-4630-a3ee-8d8540c53579")
-		)
-		(pin "8"
-			(uuid "b25e0170-6535-40cc-add6-e1f0a13f9178")
-		)
-		(pin "16"
-			(uuid "438b822d-1994-47c2-a271-088d584bd132")
-		)
-		(pin "12"
-			(uuid "bded6bca-737b-4c40-925c-30c74bb8bd2b")
-		)
-		(pin "1"
-			(uuid "51e7797d-4f01-42ac-a98a-ea584deff906")
-		)
-		(pin "9"
-			(uuid "6f0e4193-39f1-4f1d-8211-93cc5af0a4a0")
-		)
-		(pin "6"
-			(uuid "b45592db-4048-4b12-a167-3fdd07014de8")
-		)
-		(pin "14"
-			(uuid "fe293217-7b25-4fe4-92cb-67e7dc0fd8d5")
-		)
-		(pin "15"
-			(uuid "c6d7d58b-32f5-4752-a0a4-4244a5793b98")
-		)
-		(instances
-			(project ""
-				(path "/3e910c54-7792-4c2e-8497-3f8a0979c787"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -16651,6 +16467,102 @@
 			(project "PM-AI1-W"
 				(path "/3e910c54-7792-4c2e-8497-3f8a0979c787"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Degson_2EDGR-5.08-08P")
+		(at 48.26 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c292cc69-0a99-4e86-86cd-56717c5b5833")
+		(property "Reference" "J4"
+			(at 46.355 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2EDGR-5.08-08P"
+			(at 46.355 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:Degson_2EDGR-5.08-08P"
+			(at 47.498 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/96/"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "01x18"
+			(at 48.26 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "2EDGR-5.08-08P"
+			(at 48.006 47.244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16abca6e-6c8a-4e71-9221-deebbc7dc8b2")
+		)
+		(pin "4"
+			(uuid "f2b08797-43e4-4774-89ec-d531d7c556e6")
+		)
+		(pin "3"
+			(uuid "1fb0278d-ce3b-45fd-bdf8-f40922eea2e7")
+		)
+		(pin "1"
+			(uuid "474534f8-e625-4636-bf0d-d3f52dd04275")
+		)
+		(pin "5"
+			(uuid "77997b0a-c5ef-4ab8-9284-096c50136551")
+		)
+		(pin "6"
+			(uuid "e77e24eb-d49c-41a6-af9e-f746bbcf7486")
+		)
+		(pin "7"
+			(uuid "81b6fb77-bc43-4d25-9680-e573bb22eb0a")
+		)
+		(pin "8"
+			(uuid "4e53df43-ccc5-4cf4-9d00-f71b012bf3f3")
+		)
+		(instances
+			(project ""
+				(path "/3e910c54-7792-4c2e-8497-3f8a0979c787"
+					(reference "J4")
 					(unit 1)
 				)
 			)
