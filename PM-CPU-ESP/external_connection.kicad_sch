@@ -8,104 +8,7 @@
 		(title "Схема внешних подключений")
 		(date "2024-07-11")
 	)
-	(lib_symbols
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-	)
+	(lib_symbols)
 	(polyline
 		(pts
 			(xy 43.18 99.06) (xy 78.74 99.06)
@@ -135,16 +38,6 @@
 			(type dash)
 		)
 		(uuid "6b0cf13e-4f71-479e-b44d-b7f85f92940e")
-	)
-	(polyline
-		(pts
-			(xy 91.44 73.66) (xy 91.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "77bfae83-1b0f-4aa2-b680-d75747dfd902")
 	)
 	(polyline
 		(pts
@@ -218,6 +111,26 @@
 	)
 	(polyline
 		(pts
+			(xy 83.82 58.42) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d96c11d5-1292-44f8-a2fd-679007e453b2")
+	)
+	(polyline
+		(pts
+			(xy 91.44 88.9) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "de421eca-9c1e-4346-99ec-650f3f683433")
+	)
+	(polyline
+		(pts
 			(xy 43.18 83.82) (xy 78.74 83.82)
 		)
 		(stroke
@@ -260,7 +173,7 @@
 		)
 		(uuid 687348d2-61e5-4314-aae4-e9baadfb8c87)
 	)
-	(text_box "N"
+	(text_box "GND"
 		(exclude_from_sim no)
 		(at 78.74 55.88 0)
 		(size 5.08 5.08)
@@ -404,7 +317,7 @@
 		)
 		(uuid "87a9d7d4-afaf-405f-9a6a-3a4652a80c12")
 	)
-	(text_box "3V3"
+	(text_box "3.3V"
 		(exclude_from_sim no)
 		(at 78.74 81.28 0)
 		(size 5.08 5.08)
@@ -422,7 +335,7 @@
 		)
 		(uuid "8ae47b1e-d0a4-4d87-a1a0-66acec74c51f")
 	)
-	(text_box "L"
+	(text_box "24V"
 		(exclude_from_sim no)
 		(at 78.74 50.8 0)
 		(size 5.08 5.08)
@@ -476,7 +389,7 @@
 		)
 		(uuid "9e333502-1de1-4046-b805-8294483fdc6a")
 	)
-	(text_box "Источник питания 230В"
+	(text_box "Источник питания DC 24В"
 		(exclude_from_sim no)
 		(at 17.78 50.8 0)
 		(size 25.4 10.16)
@@ -539,71 +452,5 @@
 			)
 		)
 		(uuid "ecb06e5d-ed40-4185-beeb-bf03bf3f2b78")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b5a208f-cd8a-4f95-a93a-4e1010bb5d64")
-		(property "Reference" "#PWR010"
-			(at 91.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6d59dae-2f22-4ee9-ab52-9f8310c9f03e")
-		)
-		(instances
-			(project ""
-				(path "/b2288a30-52a2-458e-b2e2-58b3f8400513/cdcf3d15-ea2b-45fc-97d2-4ee9cd6f96b7"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
 	)
 )
