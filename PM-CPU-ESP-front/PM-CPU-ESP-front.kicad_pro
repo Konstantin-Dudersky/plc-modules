@@ -502,7 +502,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -512,7 +512,7 @@
         },
         {
           "group_by": false,
-          "label": "Описание",
+          "label": "description",
           "name": "Description",
           "show": true
         },
@@ -524,7 +524,7 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
+          "label": "quantity",
           "name": "${QUANTITY}",
           "show": true
         },
@@ -550,12 +550,18 @@
           "group_by": false,
           "label": "NextPCB_price",
           "name": "NextPCB_price",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "NextPCB_url",
           "name": "NextPCB_url",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "part_ipn",
+          "name": "part_ipn",
           "show": true
         }
       ],

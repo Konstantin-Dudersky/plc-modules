@@ -5,7 +5,212 @@
 	(uuid "75f37919-daf3-4aa3-8640-5f44f638d562")
 	(paper "A4")
 	(lib_symbols
-		(symbol "NextPCB:Conn_02x08_pin"
+		(symbol "kicad_inventree_lib:Kingbright_KPT-3216CGCK"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KPT-3216CGCK"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/35/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_price" "0.15788"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "KPT-3216CGCK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Kingbright_KPT-3216CGCK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Kingbright_KPT-3216CGCK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kicad_inventree_lib:PinHeader_02x08_P2.54_THT_Angle"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,7 +224,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x08_Odd_Even"
+			(property "Value" "PinHeader_02x08_P2.54_THT_Angle"
 				(at 1.27 -12.7 0)
 				(effects
 					(font
@@ -27,7 +232,7 @@
 					)
 				)
 			)
-			(property "Footprint" "NextPCB:Conn_02x08_pin"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -36,7 +241,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "http://inventree.network/part/101/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,16 +259,7 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_price" "0.09571"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/pin-headers-hctl-pz254-2-08-s-2500386589"
+			(property "part_ipn" "PinHeader_02x08_P2.54_THT_Angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -90,7 +286,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x08_pin_1_1"
+			(symbol "PinHeader_02x08_P2.54_THT_Angle_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -288,151 +484,7 @@
 							)
 						)
 					)
-					(number "01"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "05"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "07"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "08"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "09"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -566,188 +618,10 @@
 						)
 					)
 				)
-			)
-		)
-		(symbol "NextPCB:Kingbright_KPT-3216CGCK"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KPT-3216CGCK"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPT-3216CGCK(Ver.20B).pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Kingbright"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_price" "0.15788"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Kingbright_KPT-3216CGCK_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Kingbright_KPT-3216CGCK_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -762,9 +636,135 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-		(symbol "NextPCB:R_120_0.25W"
+		(symbol "kicad_inventree_lib:R_10k_1206_1%"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -780,7 +780,7 @@
 					)
 				)
 			)
-			(property "Value" "120"
+			(property "Value" "10k"
 				(at 0 0 90)
 				(effects
 					(font
@@ -797,7 +797,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://file.elecfans.com/web1/M00/61/0C/o4YBAFt-dwWACUP4AAh1Wgzv73Y460.pdf"
+			(property "Datasheet" "http://inventree.network/part/26/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -815,7 +815,7 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_price" "0.00171"
+			(property "NextPCB_price" "0.00169"
 				(at 0 0 0)
 				(effects
 					(font
@@ -824,7 +824,16 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-uniohm-1206w4f1200t5e-2500227300"
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "R_10k_1206_1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -851,7 +860,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_120_0.25W_0_1"
+			(symbol "R_10k_1206_1%_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -864,146 +873,7 @@
 					)
 				)
 			)
-			(symbol "R_120_0.25W_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "NextPCB:R_270_0.25W"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "270"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_price" "0.00289"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_270_0.25W_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_270_0.25W_1_1"
+			(symbol "R_10k_1206_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1380,6 +1250,12 @@
 		)
 	)
 	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c65a264-5a5d-406b-b7c1-481c0138ef5a")
+	)
+	(junction
 		(at 167.64 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1392,10 +1268,6 @@
 	(no_connect
 		(at 88.9 86.36)
 		(uuid "06d351dc-9e94-43d8-b576-8fbd77f00530")
-	)
-	(no_connect
-		(at 101.6 81.28)
-		(uuid "0a6166a1-0c0b-435d-9a9f-8532447c5299")
 	)
 	(no_connect
 		(at 101.6 91.44)
@@ -1431,16 +1303,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 109.22 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0508898b-ed58-4501-a65a-641fe6df0054")
-	)
-	(wire
-		(pts
 			(xy 167.64 76.2) (xy 167.64 91.44)
 		)
 		(stroke
@@ -1461,6 +1323,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 76.2) (xy 109.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245adb53-28b0-47f4-af9f-97f182f14321")
+	)
+	(wire
+		(pts
 			(xy 184.15 91.44) (xy 190.5 91.44)
 		)
 		(stroke
@@ -1471,7 +1343,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 76.2) (xy 167.64 76.2)
+			(xy 167.64 76.2) (xy 176.53 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1501,23 +1373,33 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ed43174-1e80-4dc1-84e0-475d1654795e")
+	)
+	(wire
+		(pts
 			(xy 101.6 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8dda1fa2-fcbd-46db-b4e3-ad2d7784b866")
+		(uuid "9b7bbe12-8d15-43c4-9702-9fbc1c245177")
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 88.9 93.98)
+			(xy 198.12 60.96) (xy 203.2 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90b0723c-1df9-4ed2-8628-d5872eddaa02")
+		(uuid "b1c66f5e-e0de-49a8-9fd9-75fbfafb2a8c")
 	)
 	(wire
 		(pts
@@ -1541,13 +1423,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 76.2) (xy 88.9 76.2)
+			(xy 176.53 60.96) (xy 167.64 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cee8c554-d977-4445-840e-41b5d47475cb")
+		(uuid "c8ca0ce2-0ae8-4685-affd-0d8b4a9786ad")
+	)
+	(wire
+		(pts
+			(xy 101.6 81.28) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc090f00-3ec2-48f2-87f6-8d85577e13f7")
 	)
 	(wire
 		(pts
@@ -1559,47 +1451,15 @@
 		)
 		(uuid "e34ef2e8-0f7c-4e82-a99f-4e6bb3f34fc9")
 	)
-	(text "R = (5 - 2.1) / 0.01 = 290 Ом"
-		(exclude_from_sim no)
-		(at 224.028 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+	(wire
+		(pts
+			(xy 167.64 60.96) (xy 167.64 76.2)
 		)
-		(uuid "31993afa-cef2-49d6-b2f5-f8223fa12e9a")
-	)
-	(text "R = (3.3 - 2.1) / 0.01 = 120 Ом"
-		(exclude_from_sim no)
-		(at 225.298 91.948 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "37d7a58f-890b-4d79-8cbf-748dac054468")
-	)
-	(label "N"
-		(at 83.82 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c09a822-3e2f-47eb-8824-a2892c2c7946")
-	)
-	(label "L"
-		(at 83.82 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2deeaac2-49f1-432f-ba0c-afa43cd237bb")
+		(uuid "fadde3ac-62d2-467d-93d9-b2cdeb6e8e20")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1611,7 +1471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1887a247-e32a-4717-8768-20b37d8ad67d")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 106.68 100.33 0)
 			(effects
 				(font
@@ -1661,32 +1521,32 @@
 		(instances
 			(project "PM-CPU-ESP-front"
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:R_120_0.25W")
-		(at 194.31 91.44 90)
+		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
+		(at 194.31 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "200f7776-37bd-4a82-a3b7-60dddfa6ed68")
+		(uuid "2e2c67d0-de1f-4180-bae1-0639f114adeb")
 		(property "Reference" "R2"
-			(at 194.31 85.09 90)
+			(at 194.31 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "120"
-			(at 194.31 87.63 90)
+		(property "Value" "10k"
+			(at 194.31 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1554,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 194.31 93.218 90)
+			(at 194.31 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,8 +1562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://file.elecfans.com/web1/M00/61/0C/o4YBAFt-dwWACUP4AAh1Wgzv73Y460.pdf"
-			(at 194.31 91.44 0)
+		(property "Datasheet" "http://inventree.network/part/26/"
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1572,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 91.44 0)
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,8 +1580,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00171"
-			(at 194.31 91.44 0)
+		(property "NextPCB_price" "0.00169"
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,8 +1589,17 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-uniohm-1206w4f1200t5e-2500227300"
-			(at 194.31 91.44 0)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 194.31 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_10k_1206_1%"
+			(at 194.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,10 +1608,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9ef9725-75d4-46ff-b120-a3ad5b6920ec")
+			(uuid "45521b8d-ec53-4b0a-95b4-700b0c6c744f")
 		)
 		(pin "1"
-			(uuid "ab180ad7-ca13-4f9b-8f68-402a9d2d2bc7")
+			(uuid "ba4c053e-a978-409b-ad7b-254dd3df0973")
 		)
 		(instances
 			(project ""
@@ -1754,7 +1623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:Kingbright_KPT-3216CGCK")
+		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
 		(at 180.34 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1763,7 +1632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d3c6888-2cd5-47af-8f87-1ad3b88e91a4")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 178.7525 85.09 0)
 			(effects
 				(font
@@ -1788,7 +1657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPT-3216CGCK(Ver.20B).pdf"
+		(property "Datasheet" "http://inventree.network/part/35/"
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1833,6 +1702,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "KPT-3216CGCK"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a07cdfa8-89f6-4723-80f6-a971697626ab")
 		)
@@ -1842,7 +1720,7 @@
 		(instances
 			(project "PM-CPU-ESP-front"
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1858,7 +1736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "442f4d3a-b1e7-4259-a39a-b4d950cdffce")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 167.64 102.87 0)
 			(effects
 				(font
@@ -1908,7 +1786,7 @@
 		(instances
 			(project ""
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1924,7 +1802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9a6a8f-d836-4441-9460-99ceb74a8b88")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 203.2 95.25 0)
 			(effects
 				(font
@@ -1974,14 +1852,14 @@
 		(instances
 			(project ""
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:Conn_02x08_pin")
+		(lib_id "kicad_inventree_lib:PinHeader_02x08_P2.54_THT_Angle")
 		(at 96.52 83.82 0)
 		(mirror y)
 		(unit 1)
@@ -1989,7 +1867,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8340557f-5bc3-49e9-ba49-8a7bae3e16f9")
+		(uuid "93119c45-9298-4984-b8ea-beb3be22bea1")
 		(property "Reference" "J1"
 			(at 95.25 69.85 0)
 			(effects
@@ -1998,7 +1876,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x08_Odd_Even"
+		(property "Value" "PinHeader_02x08_P2.54_THT_Angle"
 			(at 95.25 72.39 0)
 			(effects
 				(font
@@ -2006,7 +1884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Conn_02x08_pin"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
 			(at 96.52 83.82 0)
 			(effects
 				(font
@@ -2015,7 +1893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://inventree.network/part/101/"
 			(at 96.52 83.82 0)
 			(effects
 				(font
@@ -2033,7 +1911,7 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.09571"
+		(property "part_ipn" "PinHeader_02x08_P2.54_THT_Angle"
 			(at 96.52 83.82 0)
 			(effects
 				(font
@@ -2041,68 +1919,125 @@
 				)
 				(hide yes)
 			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/pin-headers-hctl-pz254-2-08-s-2500386589"
-			(at 96.52 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "16"
-			(uuid "2e77b479-1389-4f76-a491-953a7533aea0")
-		)
-		(pin "12"
-			(uuid "a3c9affb-1e81-4680-87a5-a88b68b6d38b")
-		)
-		(pin "13"
-			(uuid "23d2eb1c-cb0f-4de6-8cfe-9310446c7ab2")
-		)
-		(pin "08"
-			(uuid "93906b76-e904-495e-a336-59998f6b423d")
-		)
-		(pin "04"
-			(uuid "553f5726-fbe8-4c3b-b181-06716d3a358d")
-		)
-		(pin "06"
-			(uuid "4110cc46-979a-4eb6-bb34-77637f53f787")
-		)
-		(pin "11"
-			(uuid "04b2c119-1e45-41eb-9288-1ae1b581730c")
-		)
-		(pin "14"
-			(uuid "3ea07e17-7336-486a-92b7-ea091abb6d57")
-		)
-		(pin "15"
-			(uuid "680f015a-ed86-4c11-a399-d5c2580371ed")
 		)
 		(pin "10"
-			(uuid "0c59ece0-aec9-41d4-8784-3f6c8463eced")
+			(uuid "239f1f72-6923-4c90-ba62-1af048979f4f")
 		)
-		(pin "05"
-			(uuid "37e89081-4fa1-4f0a-a301-1e7de6cf1d34")
+		(pin "11"
+			(uuid "89b09fde-dc18-497c-8d6c-31040bec71fe")
 		)
-		(pin "01"
-			(uuid "2dfd9563-ad79-4d60-a185-d992d73b9b73")
+		(pin "15"
+			(uuid "a0363d27-1a1a-4c70-8580-dfd19bbab097")
 		)
-		(pin "09"
-			(uuid "ce3a1092-f866-4b1b-afa7-acc4176bd99d")
+		(pin "1"
+			(uuid "ba0d21f2-4808-4bb3-bbd8-2229b461aa78")
 		)
-		(pin "03"
-			(uuid "5f1fcb2a-1995-473a-b0dd-0946632f00d0")
+		(pin "16"
+			(uuid "e7f0af88-596d-48a6-ade9-f4869f7fecb6")
 		)
-		(pin "02"
-			(uuid "1045efd4-24e7-498f-a89a-16893b2d7a98")
+		(pin "3"
+			(uuid "f8e68f34-d98e-4754-956a-90b3a2ea6b10")
 		)
-		(pin "07"
-			(uuid "299024b6-a949-464e-aa07-5c21fc80fc0f")
+		(pin "14"
+			(uuid "3c285987-b0e0-42b5-8503-04847fda1881")
+		)
+		(pin "7"
+			(uuid "bdc322b9-d410-4f72-b97a-2af6bd81a2c4")
+		)
+		(pin "6"
+			(uuid "9b72dd08-ddfa-4057-bda3-a0eb040a17d4")
+		)
+		(pin "2"
+			(uuid "10cfc929-a1d5-47e4-89e5-96fefd5ad179")
+		)
+		(pin "8"
+			(uuid "8b6c5230-36d0-43a3-823d-550b5aea0d8a")
+		)
+		(pin "5"
+			(uuid "6bf2df65-d4c6-4f89-844e-6286c46bd6e2")
+		)
+		(pin "13"
+			(uuid "2f18ed4a-9e40-43dd-bce3-ca0cc2556349")
+		)
+		(pin "4"
+			(uuid "120cd809-6705-445e-82dd-b214f4beb062")
+		)
+		(pin "9"
+			(uuid "570b6c40-f6b4-4d54-a8e5-d4a5c7703cd7")
+		)
+		(pin "12"
+			(uuid "2e4d012e-cb6d-4123-9104-0c7c47e4ae38")
 		)
 		(instances
 			(project ""
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b28e9fe-9686-4986-a8e0-935894d17548")
+		(property "Reference" "#PWR02"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfdd5a20-ae88-4381-9d38-41e700a0511f")
+		)
+		(instances
+			(project "PM-CPU-ESP-front"
+				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2118,7 +2053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae291108-2bd1-4633-a8d2-5ed2e6ff23a3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR07"
 			(at 203.2 80.01 0)
 			(effects
 				(font
@@ -2168,7 +2103,7 @@
 		(instances
 			(project ""
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "#PWR01")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2176,16 +2111,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 109.22 76.2 0)
+		(at 203.2 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d102ca17-c3a7-4645-8c07-22aad577d500")
-		(property "Reference" "#PWR04"
-			(at 109.22 80.01 0)
+		(uuid "c56fc0e8-a053-418f-839b-e62b1b1f9867")
+		(property "Reference" "#PWR06"
+			(at 203.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,8 +2128,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 109.22 71.12 0)
+		(property "Value" "+24V"
+			(at 203.2 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2202,7 +2137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +2155,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 76.2 0)
+			(at 203.2 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d38f6a1-66e5-4c3f-b8d3-4df018c5c29a")
+		)
+		(instances
+			(project "PM-CPU-ESP-front"
+				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 114.3 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d102ca17-c3a7-4645-8c07-22aad577d500")
+		(property "Reference" "#PWR03"
+			(at 114.3 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 114.3 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,14 +2235,14 @@
 		(instances
 			(project "PM-CPU-ESP-front"
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:Kingbright_KPT-3216CGCK")
+		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
 		(at 180.34 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2250,7 +2251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1857148-a35d-481b-bfca-475518672326")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 178.7525 69.85 0)
 			(effects
 				(font
@@ -2275,7 +2276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPT-3216CGCK(Ver.20B).pdf"
+		(property "Datasheet" "http://inventree.network/part/35/"
 			(at 180.34 76.2 0)
 			(effects
 				(font
@@ -2320,6 +2321,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "KPT-3216CGCK"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31698037-10b7-47c0-9ce8-fb63906054cf")
 		)
@@ -2329,7 +2339,7 @@
 		(instances
 			(project ""
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -2337,7 +2347,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 114.3 78.74 0)
+		(at 119.38 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2345,8 +2355,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db852c45-b641-497e-9924-d65f2de68e54")
-		(property "Reference" "#PWR05"
-			(at 114.3 82.55 0)
+		(property "Reference" "#PWR04"
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2355,7 +2365,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.3 73.66 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 78.74 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 78.74 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2391,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 78.74 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,32 +2405,32 @@
 		(instances
 			(project "PM-CPU-ESP-front"
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "NextPCB:R_270_0.25W")
-		(at 194.31 76.2 90)
+		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
+		(at 194.31 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f5e7d153-b217-4205-bf9e-9fee9efae81c")
-		(property "Reference" "R1"
-			(at 194.31 69.85 90)
+		(uuid "e42f9928-de1f-40da-b05d-6cfb0fcb8d0c")
+		(property "Reference" "R3"
+			(at 194.31 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "270"
-			(at 194.31 72.39 90)
+		(property "Value" "10k"
+			(at 194.31 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2438,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 194.31 77.978 90)
+			(at 194.31 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,8 +2446,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
-			(at 194.31 76.2 0)
+		(property "Datasheet" "http://inventree.network/part/26/"
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2456,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 76.2 0)
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2454,8 +2464,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00289"
-			(at 194.31 76.2 0)
+		(property "NextPCB_price" "0.00169"
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,8 +2473,216 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
-			(at 194.31 76.2 0)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 194.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_10k_1206_1%"
+			(at 194.31 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ade017d9-05e6-4ed4-b150-dbd5ab08fb53")
+		)
+		(pin "1"
+			(uuid "906b8732-9cd8-4326-a26e-d81521444646")
+		)
+		(instances
+			(project "PM-CPU-ESP-front"
+				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
+		(at 194.31 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4d3903b-2129-447d-82dc-cc92bf3c40fc")
+		(property "Reference" "R1"
+			(at 194.31 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 194.31 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 194.31 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/26/"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_10k_1206_1%"
+			(at 194.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8dee2fd7-28be-470f-86bc-20a3f76b757f")
+		)
+		(pin "1"
+			(uuid "aa98379c-abd5-4022-8a40-bab7cf1ed93a")
+		)
+		(instances
+			(project "PM-CPU-ESP-front"
+				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
+		(at 180.34 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa40abb-3ac1-4061-a5a1-34a1d6b8e1c3")
+		(property "Reference" "D1"
+			(at 178.7525 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KPT-3216CGCK"
+			(at 178.7525 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/35/"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kingbright"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.15788"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "KPT-3216CGCK"
+			(at 180.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,15 +2691,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e1126d8-5745-4447-b0c5-55f14b82c07b")
+			(uuid "f1b8384d-29bf-4079-9110-3d9ca4af31b5")
 		)
 		(pin "2"
-			(uuid "e67e5c1b-6e1e-4053-a5fb-8b187de38521")
+			(uuid "7e650055-046e-428b-b9a0-be57d3ff4309")
 		)
 		(instances
-			(project ""
+			(project "PM-CPU-ESP-front"
 				(path "/75f37919-daf3-4aa3-8640-5f44f638d562"
-					(reference "R1")
+					(reference "D1")
 					(unit 1)
 				)
 			)

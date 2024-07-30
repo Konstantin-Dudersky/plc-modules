@@ -103,7 +103,7 @@
 		(descr "Through hole angled pin header, 2x08, 2.54mm pitch, 6mm pin length, double rows")
 		(tags "Through hole angled pin header THT 2x08 2.54mm double row")
 		(property "Reference" "J2"
-			(at 5.655 2.27 360)
+			(at 5.655 2.27 0)
 			(layer "B.SilkS")
 			(uuid "38b33f6b-d18b-444a-8b28-ce4ea026105f")
 			(effects
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Odd_Even"
-			(at 5.655 -20.05 360)
+			(at 5.655 -20.05 0)
 			(layer "B.Fab")
 			(uuid "c44c3067-8776-45f0-b593-02be7dc391f8")
 			(effects
@@ -1735,7 +1735,7 @@
 		(uuid "517fb741-0b2c-4d88-8d25-2b9b34d31186")
 	)
 	(gr_line
-		(start 62.23 142.24)
+		(start 53.34 142.24)
 		(end 78.74 142.24)
 		(stroke
 			(width 0.1)
@@ -1743,6 +1743,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "16b041fe-1cec-4aff-b6de-505c1f6f3c56")
+	)
+	(gr_arc
+		(start 53.34 142.24)
+		(mid 51.543949 141.496051)
+		(end 50.8 139.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "24694c69-1229-4581-859e-289b0018ecec")
 	)
 	(gr_line
 		(start 78.74 43.18)
@@ -1775,6 +1786,16 @@
 		(layer "Edge.Cuts")
 		(uuid "5d45c297-3672-41d3-ac81-a0b30b031aea")
 	)
+	(gr_line
+		(start 53.34 137.16)
+		(end 57.15 137.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "70dd89d6-c434-407d-9692-63f0dc95fc16")
+	)
 	(gr_arc
 		(start 57.15 48.26)
 		(mid 58.946051 49.003949)
@@ -1798,15 +1819,26 @@
 		(uuid "7478dbf5-0abc-4c65-861a-a19c2a59a51c")
 	)
 	(gr_arc
-		(start 62.23 142.24)
-		(mid 60.433949 141.496051)
-		(end 59.69 139.7)
+		(start 50.8 139.7)
+		(mid 51.543949 137.903949)
+		(end 53.34 137.16)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b6f39e9e-2a7c-40e9-979c-4cb97b9e79ac")
+		(uuid "76344d82-0fb3-4e40-a7b6-6c1a5b80c2bf")
+	)
+	(gr_arc
+		(start 59.69 134.62)
+		(mid 58.946051 136.416051)
+		(end 57.15 137.16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a245817c-7c1c-4d05-860a-5a3f51960cf1")
 	)
 	(gr_arc
 		(start 81.28 139.7)
@@ -1821,7 +1853,7 @@
 	)
 	(gr_line
 		(start 59.69 50.8)
-		(end 59.69 139.7)
+		(end 59.69 134.62)
 		(stroke
 			(width 0.1)
 			(type default)
