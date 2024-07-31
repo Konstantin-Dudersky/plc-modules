@@ -87,21 +87,21 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:FemaleHeader P2.54 01x04 THT Angle"
+		(symbol "kicad_inventree_lib:FemaleHeader_01x05_P2.54_THT_angle"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "FemaleHeader P2.54 01x04 THT Angle"
+			(property "Value" "FemaleHeader_01x05_P2.54_THT_angle"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -109,7 +109,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -118,7 +118,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/65/"
+			(property "Datasheet" "http://inventree.network/part/107/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -127,7 +127,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -136,7 +136,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "http://inventree.network/part/65/"
+			(property "part_ipn" "FemaleHeader_01x05_P2.54_THT_angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -163,7 +163,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FemaleHeader P2.54 01x04 THT Angle_1_1"
+			(symbol "FemaleHeader_01x05_P2.54_THT_angle_1_1"
 				(arc
 					(start 0 -4.572)
 					(mid -0.5058 -5.08)
@@ -236,6 +236,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -260,8 +272,20 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -279,7 +303,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -297,7 +321,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -315,7 +339,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -332,23 +356,41 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-		(symbol "kicad_inventree_lib:FemaleHeader P2.54 01x04 THT Straight"
+		(symbol "kicad_inventree_lib:FemaleHeader_01x05_P2.54_THT_straight"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "FemaleHeader_P2.54_01x08_THT_Straight"
+			(property "Value" "FemaleHeader_01x05_P2.54_THT_straight"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -356,7 +398,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -365,7 +407,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/67/"
+			(property "Datasheet" "http://inventree.network/part/109/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -374,7 +416,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -383,7 +425,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "FemaleHeader P2.54 01x04 THT Straight"
+			(property "part_ipn" "FemaleHeader_01x05_P2.54_THT_straight"
 				(at 0 0 0)
 				(effects
 					(font
@@ -410,7 +452,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FemaleHeader P2.54 01x04 THT Straight_1_1"
+			(symbol "FemaleHeader_01x05_P2.54_THT_straight_1_1"
 				(arc
 					(start 0 -4.572)
 					(mid -0.5058 -5.08)
@@ -483,6 +525,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
 					(start 0 0.508)
 					(mid -0.5058 0)
@@ -507,8 +561,20 @@
 						(type none)
 					)
 				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -526,7 +592,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -544,7 +610,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -562,7 +628,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -579,23 +645,41 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-		(symbol "kicad_inventree_lib:PinHeader P2.54 01x04 THT Angle"
+		(symbol "kicad_inventree_lib:PinHeader_01x05_P2.54_THT_angle"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
+			(property "Value" "PinHeader_01x05_P2.54_THT_angle"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -603,7 +687,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -612,7 +696,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/9/"
+			(property "Datasheet" "http://inventree.network/part/110/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -621,7 +705,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -630,7 +714,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "PinHeader P2.54 01x04 THT Angle"
+			(property "part_ipn" "PinHeader_01x05_P2.54_THT_angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -657,7 +741,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PinHeader P2.54 01x04 THT Angle_1_1"
+			(symbol "PinHeader_01x05_P2.54_THT_angle_1_1"
 				(polyline
 					(pts
 						(xy 1.27 -5.08) (xy 0.8636 -5.08)
@@ -697,6 +781,18 @@
 				(polyline
 					(pts
 						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -750,8 +846,19 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -769,7 +876,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -787,7 +894,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -805,7 +912,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -815,6 +922,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1042,6 +1167,18 @@
 		)
 	)
 	(junction
+		(at 119.38 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f20e8e5-16e4-4fab-b9c8-2ef84dae999e")
+	)
+	(junction
+		(at 165.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1078641a-8c23-43ca-99cb-336e643e0887")
+	)
+	(junction
 		(at 124.46 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1058,6 +1195,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52291958-055d-4c71-8af8-c92b6393f099")
+	)
+	(junction
+		(at 134.62 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79176ec8-4d8f-401e-a03b-ea50d30321ae")
 	)
 	(junction
 		(at 127 71.12)
@@ -1084,20 +1227,20 @@
 		(uuid "b5881b1f-590b-40a8-a4d9-f04e1895fa85")
 	)
 	(junction
-		(at 114.3 71.12)
+		(at 114.3 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ea9a97-26d8-4012-8f74-de3c9fe69861")
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 124.46 68.58)
+			(xy 119.38 71.12) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05ca7998-aff3-4838-b2aa-2cb56fb95028")
+		(uuid "09611373-0cfc-4282-a8ec-514b9f92379b")
 	)
 	(wire
 		(pts
@@ -1108,6 +1251,16 @@
 			(type default)
 		)
 		(uuid "15a3ce39-a537-4aeb-a166-ba9f80893809")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d37f9b0-bdfa-457f-97e3-0981c5ce485e")
 	)
 	(wire
 		(pts
@@ -1131,6 +1284,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 73.66) (xy 175.26 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308a3404-352a-4909-b5de-489b0b5a2c70")
+	)
+	(wire
+		(pts
 			(xy 132.08 76.2) (xy 175.26 76.2)
 		)
 		(stroke
@@ -1151,7 +1314,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 73.66) (xy 175.26 73.66)
+			(xy 129.54 73.66) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1201,6 +1364,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 66.04) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5e341a-64e8-43e2-97c4-281e3dc968ca")
+	)
+	(wire
+		(pts
 			(xy 129.54 106.68) (xy 137.16 106.68)
 		)
 		(stroke
@@ -1231,7 +1404,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 114.3 78.74)
+			(xy 114.3 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d6f1e0-71df-4efe-81d1-128bc933849b")
+	)
+	(wire
+		(pts
+			(xy 114.3 73.66) (xy 114.3 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1251,17 +1434,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 127 71.12)
+			(xy 134.62 78.74) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3c0a61b-88d3-43f9-b2de-0e8e3362ad57")
+		(uuid "b5ed6ec6-555b-4cde-bf6f-94a7bc88be2d")
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 129.54 73.66)
+			(xy 105.41 73.66) (xy 114.3 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +1454,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 71.12) (xy 114.3 71.12)
+			(xy 105.41 71.12) (xy 119.38 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1301,6 +1484,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3afc2c-4135-4d2d-8b9e-74ac68fa1c74")
+	)
+	(wire
+		(pts
 			(xy 127 109.22) (xy 137.16 109.22)
 		)
 		(stroke
@@ -1308,6 +1501,16 @@
 			(type default)
 		)
 		(uuid "de209f40-2c0b-4dc5-b396-fd335fbdd602")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3718d3-cd74-469f-94e0-b16d59b44adc")
 	)
 	(wire
 		(pts
@@ -1321,6 +1524,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 68.58) (xy 124.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb51c9b9-b29f-4efb-ab9a-1b8d9933a431")
+	)
+	(wire
+		(pts
 			(xy 105.41 68.58) (xy 114.3 68.58)
 		)
 		(stroke
@@ -1328,6 +1541,39 @@
 			(type default)
 		)
 		(uuid "efc3d03f-d9ab-4864-b54e-dde8b6ef2b16")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 119.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e8b1ba-d6be-4b2d-9e89-f660befbd4e5")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.1 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d28227e-82d4-4fe1-973f-04dd8d05d4d6")
+		(property "Netclass" "power"
+			(at 165.7985 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -1533,6 +1779,95 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:FemaleHeader_01x05_P2.54_THT_angle")
+		(at 180.34 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fd8be6d-b1f9-4de7-97de-3093141e946d")
+		(property "Reference" "J4"
+			(at 181.61 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FemaleHeader_01x05_P2.54_THT_angle"
+			(at 181.61 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/107/"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "FemaleHeader_01x05_P2.54_THT_angle"
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fb859af5-1e89-4651-a49c-2fc9a6bef275")
+		)
+		(pin "3"
+			(uuid "980008d6-4296-45f9-93e5-fa7adbaf8188")
+		)
+		(pin "4"
+			(uuid "a78e3722-a007-47cc-a0e5-70c0044548eb")
+		)
+		(pin "1"
+			(uuid "c159c3ca-36bf-4779-b8be-cee2b8be5fb5")
+		)
+		(pin "2"
+			(uuid "63b943c2-a73c-4730-9361-cd5b67753b09")
+		)
+		(instances
+			(project ""
+				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 152.4 179.07 0)
 		(unit 1)
@@ -1625,7 +1960,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 78.74 0)
+		(at 114.3 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1634,7 +1969,7 @@
 		(fields_autoplaced yes)
 		(uuid "84bc4b05-9d67-49d5-bd69-581498ac5011")
 		(property "Reference" "#PWR02"
-			(at 114.3 85.09 0)
+			(at 114.3 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1978,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 83.82 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1986,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 78.74 0)
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,7 +1995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 78.74 0)
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,7 +2004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 78.74 0)
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,6 +2019,247 @@
 			(project ""
 				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 119.38 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c5a93eb-416c-45ef-b9dc-46a9faf9fbef")
+		(property "Reference" "#PWR03"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 119.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 119.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69188155-796e-4860-8b5c-8e94245bca69")
+		)
+		(instances
+			(project "PM-Bus"
+				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:FemaleHeader_01x05_P2.54_THT_straight")
+		(at 142.24 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1160e56-558c-48e3-9b98-30da7a755277")
+		(property "Reference" "J2"
+			(at 141.605 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FemaleHeader_01x05_P2.54_THT_straight"
+			(at 141.605 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/109/"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "FemaleHeader_01x05_P2.54_THT_straight"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1c49a5a3-5a41-45a1-93d7-62b13b703905")
+		)
+		(pin "1"
+			(uuid "97b9f3e9-10b5-42de-9857-2489d4de4722")
+		)
+		(pin "2"
+			(uuid "a6f96d81-e674-4d8a-b9d3-deecdecba728")
+		)
+		(pin "4"
+			(uuid "e32f6a0f-bb6a-4836-9976-6f24967bed75")
+		)
+		(pin "5"
+			(uuid "e62d2768-0492-478e-9985-3df7d6002b53")
+		)
+		(instances
+			(project ""
+				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:PinHeader_01x05_P2.54_THT_angle")
+		(at 100.33 73.66 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c169c0eb-3775-462f-8e3e-981b6d64ec95")
+		(property "Reference" "J3"
+			(at 99.06 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PinHeader_01x05_P2.54_THT_angle"
+			(at 99.06 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/110/"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PinHeader_01x05_P2.54_THT_angle"
+			(at 100.33 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "611c4aab-635e-4769-a7ce-83a25c24bc75")
+		)
+		(pin "3"
+			(uuid "8f970ce7-e91f-44e1-bb52-40d2c7bd488f")
+		)
+		(pin "4"
+			(uuid "5b530878-b4a8-4871-8d4b-046ab475503a")
+		)
+		(pin "1"
+			(uuid "8974b0f2-4925-4d5c-8d3f-9df344117d3b")
+		)
+		(pin "5"
+			(uuid "b9d6be9b-669b-41e9-b394-8937fab396a5")
+		)
+		(instances
+			(project ""
+				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1781,176 +2357,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:FemaleHeader P2.54 01x04 THT Angle")
-		(at 180.34 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c41813a6-6afe-4afe-a9c7-6eb79da2174e")
-		(property "Reference" "J3"
-			(at 181.61 73.6601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FemaleHeader P2.54 01x04 THT Angle"
-			(at 181.61 71.1201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
-			(at 180.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/65/"
-			(at 180.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 180.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "http://inventree.network/part/65/"
-			(at 180.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90342a19-7364-4c46-8157-33fab79e15c3")
-		)
-		(pin "3"
-			(uuid "89de8199-6b14-4956-83fb-85fae7930a8f")
-		)
-		(pin "1"
-			(uuid "dd13fc1c-ea3f-4f74-b929-b2c02f6abb51")
-		)
-		(pin "4"
-			(uuid "9acdbeae-e164-46ca-9915-351dc666b454")
-		)
-		(instances
-			(project ""
-				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:FemaleHeader P2.54 01x04 THT Straight")
-		(at 142.24 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c500ca4f-cbfb-4692-a873-d292d471874d")
-		(property "Reference" "J2"
-			(at 143.51 109.2201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FemaleHeader_P2.54_01x08_THT_Straight"
-			(at 143.51 106.6801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/67/"
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "FemaleHeader P2.54 01x04 THT Straight"
-			(at 142.24 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "144a2d6a-ba55-4474-9073-e798616a3c60")
-		)
-		(pin "4"
-			(uuid "f7795e2a-0b14-45ae-bf04-d3e5999d165b")
-		)
-		(pin "1"
-			(uuid "ae65a453-1a04-4370-acf2-f71d5c5dae86")
-		)
-		(pin "2"
-			(uuid "78cc7c5c-b398-47f5-ae2f-3039f09c2572")
-		)
-		(instances
-			(project ""
-				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 152.4 184.15 0)
 		(unit 1)
@@ -2036,89 +2442,6 @@
 			(project "PM-Bus"
 				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:PinHeader P2.54 01x04 THT Angle")
-		(at 100.33 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fec86656-817e-4268-a6f0-bf63b1c46e57")
-		(property "Reference" "J1"
-			(at 100.965 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 100.965 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/9/"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "PinHeader P2.54 01x04 THT Angle"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25f86b3c-32ff-4751-bb70-6bd0c624caa1")
-		)
-		(pin "2"
-			(uuid "dbe5318f-c98a-4b11-b3cd-19241bb8c55d")
-		)
-		(pin "4"
-			(uuid "712ba035-fe5c-4813-beb1-c18a4dbd4ed5")
-		)
-		(pin "3"
-			(uuid "fd456561-b7e3-49b2-ab6e-16145470c92c")
-		)
-		(instances
-			(project ""
-				(path "/0b8d1699-0ea9-4d8a-91e5-d8d8e0054d49"
-					(reference "J1")
 					(unit 1)
 				)
 			)
