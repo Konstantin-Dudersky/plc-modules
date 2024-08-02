@@ -451,34 +451,10 @@
 		(uuid "02d28157-9161-444b-b28b-ae306ea70af5")
 	)
 	(junction
-		(at 157.48 127)
+		(at 81.28 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0593610a-b2ca-4fa8-bb31-90c40782e024")
-	)
-	(junction
-		(at 167.64 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bb77366-eb51-4556-8f36-48fc819701ab")
-	)
-	(junction
-		(at 198.12 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d7072e0-7049-4bd9-9592-44020e4604b9")
-	)
-	(junction
-		(at 182.88 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "155232f4-0948-4dab-8f47-456ec990789c")
-	)
-	(junction
-		(at 182.88 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f4f17ad-e663-4904-b91f-31d46be713d0")
+		(uuid "0c9a2524-8fb7-41fe-8a9e-0e74f9e4c031")
 	)
 	(junction
 		(at 66.04 76.2)
@@ -527,12 +503,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "793771e3-1bb4-4411-a86c-64844805549f")
-	)
-	(junction
-		(at 167.64 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79fbb61a-78f1-4e8c-88cc-8449c9f7516c")
 	)
 	(junction
 		(at 81.28 76.2)
@@ -593,6 +563,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a51a828f-acdb-4d9f-9c2f-a3e35d043d1a")
+	)
+	(junction
+		(at 198.12 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7eedf7f-abd3-4a00-8b82-81c5c6ff47ad")
 	)
 	(junction
 		(at 198.12 66.04)
@@ -697,6 +673,16 @@
 			(type default)
 		)
 		(uuid "12a454eb-6133-47db-8a03-7a77a4801294")
+	)
+	(wire
+		(pts
+			(xy 198.12 127) (xy 198.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17eb4a11-5e17-412b-9fc4-8b988441549c")
 	)
 	(wire
 		(pts
@@ -850,26 +836,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 138.43) (xy 182.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3daa724e-0037-4edd-b5b3-a691471e382e")
-	)
-	(wire
-		(pts
-			(xy 198.12 142.24) (xy 182.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4475d354-42e6-42e2-b0bc-2106699ae684")
-	)
-	(wire
-		(pts
 			(xy 96.52 91.44) (xy 96.52 116.84)
 		)
 		(stroke
@@ -877,16 +843,6 @@
 			(type default)
 		)
 		(uuid "47ba4514-8333-405a-9a9f-83737cf2c977")
-	)
-	(wire
-		(pts
-			(xy 167.64 127) (xy 167.64 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "480a221c-6e64-4f24-b3ce-48719f72b1c0")
 	)
 	(wire
 		(pts
@@ -960,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 157.48 127)
+			(xy 152.4 127) (xy 198.12 127)
 		)
 		(stroke
 			(width 0)
@@ -1000,16 +956,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 142.24) (xy 167.64 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c08de3-475c-4fc3-8f39-417da9bff0ca")
-	)
-	(wire
-		(pts
 			(xy 167.64 87.63) (xy 167.64 91.44)
 		)
 		(stroke
@@ -1027,16 +973,6 @@
 			(type default)
 		)
 		(uuid "6b8f6160-b0e6-4fc8-9850-c28b9f2f8207")
-	)
-	(wire
-		(pts
-			(xy 179.07 127) (xy 182.88 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d4e195f-6e4b-46bc-bf0c-bdd7e8b21457")
 	)
 	(wire
 		(pts
@@ -1077,16 +1013,6 @@
 			(type default)
 		)
 		(uuid "76d7f25f-1fde-40e9-b022-cfb3baed785a")
-	)
-	(wire
-		(pts
-			(xy 182.88 127) (xy 203.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "774d4d80-2d04-4071-894e-2562ef6d8c20")
 	)
 	(wire
 		(pts
@@ -1160,26 +1086,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 171.45 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8351179e-3d36-4e92-be6c-d58f6dcdb45f")
-	)
-	(wire
-		(pts
-			(xy 82.55 91.44) (xy 96.52 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a2f1df-71cd-4335-875a-1dfdd04bbdb0")
-	)
-	(wire
-		(pts
 			(xy 167.64 76.2) (xy 171.45 76.2)
 		)
 		(stroke
@@ -1240,16 +1146,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 127) (xy 182.88 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c88f066-4f48-4186-9c93-b5f58c125691")
-	)
-	(wire
-		(pts
 			(xy 198.12 91.44) (xy 198.12 116.84)
 		)
 		(stroke
@@ -1280,23 +1176,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 144.78) (xy 198.12 142.24)
+			(xy 198.12 116.84) (xy 198.12 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "abded8ab-e81f-48a5-ab7e-457775e6d562")
-	)
-	(wire
-		(pts
-			(xy 157.48 127) (xy 157.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf39e98-b266-4719-b930-b9321bfa69a8")
 	)
 	(wire
 		(pts
@@ -1337,6 +1223,16 @@
 			(type default)
 		)
 		(uuid "b4066766-7471-4d68-8459-f3e2cd05125b")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 96.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6461a42-bf2f-4fab-9179-ec6a407e2c21")
 	)
 	(wire
 		(pts
@@ -1410,13 +1306,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 142.24) (xy 157.48 142.24)
+			(xy 198.12 127) (xy 203.2 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb1ef212-0244-4132-8782-52bd0c90ec66")
+		(uuid "cd7b6004-cda6-4093-8e61-35f7e722ff1c")
 	)
 	(wire
 		(pts
@@ -1550,16 +1446,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 167.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b531d1-f3e0-42ec-9cc0-aae3ce2adf43")
-	)
-	(wire
-		(pts
 			(xy 81.28 50.8) (xy 101.6 50.8)
 		)
 		(stroke
@@ -1567,26 +1453,6 @@
 			(type default)
 		)
 		(uuid "e9da0d8d-01dc-413b-a95e-49fda09f23a1")
-	)
-	(wire
-		(pts
-			(xy 167.64 138.43) (xy 167.64 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed7c2cf-bf77-4eca-bd8b-d52a3ed88be9")
-	)
-	(wire
-		(pts
-			(xy 198.12 116.84) (xy 198.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2eeb4ff-3497-4e81-acc7-bcb3369279d8")
 	)
 	(wire
 		(pts
@@ -2738,83 +2604,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_180R_1206_1%")
-		(at 175.26 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "801a28a1-799e-4107-9b51-e6ced4db2c2a")
-		(property "Reference" "R9"
-			(at 175.26 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "180R"
-			(at 175.26 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 175.26 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/113/"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_180R_1206_1%"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72c63235-2cd0-4dcb-91a2-84912b225de4")
-		)
-		(pin "2"
-			(uuid "1b0d495c-37cf-439e-b035-e0aef464b3cc")
-		)
-		(instances
-			(project ""
-				(path "/bd89bc3d-559e-4d0a-a8e8-272962a7251c/ab27d229-3cea-4c0b-96ba-f1b6fb84e90c"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad_inventree_lib:C_4.7nF_50V_1206")
 		(at 81.28 58.42 0)
 		(unit 1)
@@ -3254,85 +3043,6 @@
 			(project "PM-AI8-I"
 				(path "/bd89bc3d-559e-4d0a-a8e8-272962a7251c/ab27d229-3cea-4c0b-96ba-f1b6fb84e90c"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:C_4.7nF_50V_1206")
-		(at 182.88 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad9894b8-e380-47e8-8b68-9dda24884a61")
-		(property "Reference" "C9"
-			(at 186.69 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 nF"
-			(at 186.69 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 183.8452 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/114/"
-			(at 182.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "C_4.7nF_50V_1206"
-			(at 182.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92c2292d-fda7-4033-bd09-75f35df3cbb5")
-		)
-		(pin "1"
-			(uuid "88b1efda-b9b4-4a3e-bdb3-03547495eef7")
-		)
-		(instances
-			(project ""
-				(path "/bd89bc3d-559e-4d0a-a8e8-272962a7251c/ab27d229-3cea-4c0b-96ba-f1b6fb84e90c"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3867,76 +3577,6 @@
 			(project "PM-AI8-I"
 				(path "/bd89bc3d-559e-4d0a-a8e8-272962a7251c/ab27d229-3cea-4c0b-96ba-f1b6fb84e90c"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ33CA")
-		(at 167.64 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f91b1011-39ea-41ff-98d2-e6d8aba08b3a")
-		(property "Reference" "D9"
-			(at 170.18 133.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ33CA"
-			(at 170.18 135.8899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 172.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 33.0Vr, SMA(DO-214AC)"
-			(at 167.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80dd51ea-8bec-40f1-a4cf-85e007cb32dd")
-		)
-		(pin "2"
-			(uuid "65d49a98-37f7-432e-b5f0-897aeead29be")
-		)
-		(instances
-			(project ""
-				(path "/bd89bc3d-559e-4d0a-a8e8-272962a7251c/ab27d229-3cea-4c0b-96ba-f1b6fb84e90c"
-					(reference "D9")
 					(unit 1)
 				)
 			)
