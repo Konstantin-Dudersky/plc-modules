@@ -5,7 +5,1609 @@
 	(uuid "dd485016-d8ee-4b7f-b164-1c3d485614cd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Interface_Expansion:MCP23S17_ML"
+		(symbol "LED_green_1206_reverse_1"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_2"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_3"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_4"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_4_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_4_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_5"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_5_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_5_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_6"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_6_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_6_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_7"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_7_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_7_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_green_1206_reverse_8"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_8_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_8_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kicad_inventree_lib:LED_green_1206_reverse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/129/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "LED_green_1206_reverse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_green_1206_reverse_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_green_1206_reverse_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "kicad_inventree_lib:MCP23S17_ML"
 			(pin_names
 				(offset 1.016)
 			)
@@ -38,7 +1640,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
+			(property "Datasheet" "http://inventree.network/part/106/"
 				(at 5.08 -27.94 0)
 				(effects
 					(font
@@ -55,6 +1657,14 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "part_ipn" "MCP23S17-E/ML"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "SPI parallel port expander"
@@ -613,234 +2223,29 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:Kingbright_KPT-3216CGCK"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "KPT-3216CGCK"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://inventree.network/part/35/"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Kingbright"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_price" "0.15788"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "part_ipn" "KPT-3216CGCK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Kingbright_KPT-3216CGCK_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Kingbright_KPT-3216CGCK_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "kicad_inventree_lib:PinHeader_02x08_P2.54_THT_Angle"
+		(symbol "kicad_inventree_lib:PinHeader_02x04_P2.54_THT_angle"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 10.16 0)
+				(at 1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PinHeader_02x08_P2.54_THT_Angle"
-				(at 1.27 -12.7 0)
+			(property "Value" "PinHeader_02x04_P2.54_THT_angle"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -849,7 +2254,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/101/"
+			(property "Datasheet" "http://inventree.network/part/128/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -858,7 +2263,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -867,7 +2272,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "PinHeader_02x08_P2.54_THT_Angle"
+			(property "part_ipn" "PinHeader_02x04_P2.54_THT_angle"
 				(at 0 0 0)
 				(effects
 					(font
@@ -894,29 +2299,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PinHeader_02x08_P2.54_THT_Angle_1_1"
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "PinHeader_02x04_P2.54_THT_angle_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -962,58 +2345,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 8.89)
-					(end 3.81 -11.43)
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -1060,30 +2399,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.81 5.207)
-					(end 2.54 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1101,133 +2418,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -10.16 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1245,7 +2436,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1263,7 +2454,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1281,7 +2472,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1299,7 +2490,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1317,7 +2508,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1335,7 +2526,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1345,24 +2536,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1801,7 +2974,7 @@
 		(at 43.18 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9331ff9a-f937-4465-9258-79caa94021f3")
+		(uuid "9014e968-16f4-40d9-8d47-a0dea7c0059d")
 	)
 	(junction
 		(at 152.4 101.6)
@@ -1840,15 +3013,7 @@
 		(uuid "f39d09bd-6a22-4cb5-a675-1845d9d7b60d")
 	)
 	(no_connect
-		(at 69.85 39.37)
-		(uuid "10be8545-c10f-4200-b580-440c2f732dd0")
-	)
-	(no_connect
-		(at 69.85 36.83)
-		(uuid "29466a19-741c-4bac-b46a-161749e3392a")
-	)
-	(no_connect
-		(at 69.85 31.75)
+		(at 68.58 33.02)
 		(uuid "2a643cdd-21bd-4fc3-83c6-2e640b9bfae4")
 	)
 	(no_connect
@@ -1856,23 +3021,15 @@
 		(uuid "7c658a8a-347a-4a90-a1ce-65daf745c82f")
 	)
 	(no_connect
-		(at 69.85 41.91)
-		(uuid "b17d4d08-8a00-40e8-a995-bc38fd3c8e15")
-	)
-	(no_connect
 		(at 27.94 93.98)
 		(uuid "c5f3c438-a17d-4c12-8dfc-ad585a7bfb05")
-	)
-	(no_connect
-		(at 69.85 34.29)
-		(uuid "d37c36cf-65ba-4eb6-a99f-64c65b731f3f")
 	)
 	(no_connect
 		(at 27.94 101.6)
 		(uuid "d4049ecd-d824-432b-be75-204718f9f88f")
 	)
 	(no_connect
-		(at 69.85 29.21)
+		(at 68.58 30.48)
 		(uuid "e0eb08db-191a-42f6-96f0-0925262719c0")
 	)
 	(wire
@@ -2167,7 +3324,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 26.67) (xy 67.31 26.67)
+			(xy 68.58 27.94) (xy 66.04 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 29.21) (xy 90.17 29.21)
+			(xy 81.28 30.48) (xy 88.9 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 44.45) (xy 67.31 46.99)
+			(xy 66.04 35.56) (xy 66.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 34.29) (xy 90.17 34.29)
+			(xy 81.28 35.56) (xy 88.9 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +3844,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 31.75) (xy 90.17 31.75)
+			(xy 81.28 33.02) (xy 88.9 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2707,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 44.45) (xy 67.31 44.45)
+			(xy 68.58 35.56) (xy 66.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 26.67) (xy 67.31 24.13)
+			(xy 66.04 27.94) (xy 66.04 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2827,7 +3984,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 26.67) (xy 90.17 26.67)
+			(xy 81.28 27.94) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2898,7 +4055,7 @@
 		(uuid "12629970-ca7d-4418-a173-09358d9b1b2a")
 	)
 	(label "MISO"
-		(at 90.17 29.21 180)
+		(at 88.9 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3096,7 +4253,7 @@
 		(uuid "77e6152f-2308-4920-a902-f9811aa59e81")
 	)
 	(label "CS2"
-		(at 90.17 34.29 180)
+		(at 88.9 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3283,7 +4440,7 @@
 		(uuid "f9efe7e3-3216-4c2f-9c06-905aca2950ea")
 	)
 	(label "MOSI"
-		(at 90.17 26.67 180)
+		(at 88.9 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3305,7 +4462,7 @@
 		(uuid "fdb44204-1995-4468-a5cf-f819e5d02382")
 	)
 	(label "CLK"
-		(at 90.17 31.75 180)
+		(at 88.9 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3314,6 +4471,84 @@
 			(justify right bottom)
 		)
 		(uuid "fe4ec15d-1fcd-47c7-bb62-f40670cf1e60")
+	)
+	(symbol
+		(lib_name "LED_green_1206_reverse_1")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04da4f0c-ced0-4b87-81df-4e10206dabab")
+		(property "Reference" "D15"
+			(at 190.8175 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70b2661a-aae2-4da1-aaa4-b65abe34c2a0")
+		)
+		(pin "2"
+			(uuid "1d1af632-17db-47b5-a683-e0524bbbca84")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3382,33 +4617,33 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 50.8 180)
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17e9d530-93d9-4c26-bf5b-d5c055f66206")
-		(property "Reference" "D11"
-			(at 190.8175 43.18 0)
+		(uuid "1c965d0d-3be9-4bd2-8461-de546019e1eb")
+		(property "Reference" "D8"
+			(at 140.0175 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 45.72 0)
+		(property "Value" "Green"
+			(at 140.0175 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 50.8 0)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,8 +4651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 50.8 0)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +4661,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 189.23 50.8 0)
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,35 +4669,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 50.8 0)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,119 +4679,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "98a49c0c-5180-4696-8f72-61854c7e864d")
+			(uuid "f15b343b-3702-4a5b-aafb-b1d75f11f543")
 		)
 		(pin "2"
-			(uuid "37e18bc4-6114-47d8-9158-7e0b97feb234")
+			(uuid "2daca2b6-1d06-4b38-9f9d-931e85e03e54")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1864a9d1-7293-4993-8658-c4a30f0c231c")
-		(property "Reference" "D1"
-			(at 140.0175 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "565751ca-9454-4a28-ba2c-60f9b09f1452")
-		)
-		(pin "2"
-			(uuid "8f91680b-1a7c-4c71-8acc-626e6eb52d50")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D1")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3650,542 +4754,6 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ea0415a-0826-4b15-baad-479ff1daa3e1")
-		(property "Reference" "D4"
-			(at 140.0175 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a28fc366-abe2-4b88-815e-c1c59dee833c")
-		)
-		(pin "2"
-			(uuid "d36c67c5-3d5f-4faf-9e86-b527ae7862a0")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fc37d53-4b08-4038-956d-e3ccd4ad1dd7")
-		(property "Reference" "D14"
-			(at 190.8175 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6bc2231-f14f-413e-aa02-e0da96746936")
-		)
-		(pin "2"
-			(uuid "22d416a6-11c7-4fc7-938b-0aa9d9fcd80b")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:PinHeader_02x08_P2.54_THT_Angle")
-		(at 77.47 34.29 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20986eef-85b2-4d43-8659-9d41d7fedaed")
-		(property "Reference" "J1"
-			(at 76.2 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PinHeader_02x08_P2.54_THT_Angle"
-			(at 76.2 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal"
-			(at 77.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/101/"
-			(at 77.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 77.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "PinHeader_02x08_P2.54_THT_Angle"
-			(at 77.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "16"
-			(uuid "7f80d905-068d-49f6-a2cc-696bb07c43f4")
-		)
-		(pin "6"
-			(uuid "6daa84a5-d25f-412e-9b4e-f26f7b297b0d")
-		)
-		(pin "7"
-			(uuid "974c3056-1415-4b61-83e1-71d323aaf14f")
-		)
-		(pin "9"
-			(uuid "d23a73c1-7a4e-4151-b9ab-18bf5dc3bf76")
-		)
-		(pin "4"
-			(uuid "7cd3e817-54a3-420d-a837-f42b250de9c4")
-		)
-		(pin "10"
-			(uuid "84b08139-5b42-4301-94a0-dd45ca9c718c")
-		)
-		(pin "12"
-			(uuid "22224805-71af-453d-b00e-14e361b8284a")
-		)
-		(pin "13"
-			(uuid "c970fff3-1cbf-44ea-a7e0-848c59d0a2e7")
-		)
-		(pin "11"
-			(uuid "5632037b-42e9-492c-8caf-26c0386ebe30")
-		)
-		(pin "1"
-			(uuid "05604c85-6a65-496f-a9a0-dd71a77a739b")
-		)
-		(pin "14"
-			(uuid "c3ff51e0-c6aa-4199-abae-b9db387e19a0")
-		)
-		(pin "15"
-			(uuid "a08d0798-f3ab-4146-8fb9-10d5d28668f2")
-		)
-		(pin "5"
-			(uuid "d2e8cddb-31d1-4d0d-bea5-1740e2ca5990")
-		)
-		(pin "3"
-			(uuid "874b285e-42a7-4843-9f0d-c824432f78c9")
-		)
-		(pin "2"
-			(uuid "1409f3bf-65e3-428c-b3e8-42f5c8b252e6")
-		)
-		(pin "8"
-			(uuid "63b90d63-1649-4913-889e-30aacc9e01cc")
-		)
-		(instances
-			(project ""
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "264bcc54-ada4-4f14-9c4a-7be3dece57a8")
-		(property "Reference" "D12"
-			(at 190.8175 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d618cf4-f84e-4c12-b288-6eabffa23251")
-		)
-		(pin "2"
-			(uuid "04f45311-a971-427b-81d9-e52b35b0bf27")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28d1be2a-8347-4705-ae1c-1d110bb634ee")
-		(property "Reference" "D13"
-			(at 190.8175 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47aff013-703e-45c7-8c85-140f11d371c6")
-		)
-		(pin "2"
-			(uuid "f8d648eb-6638-479f-b037-a6f1d1d94ae4")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 46.99 0)
+		(at 66.04 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4268,7 +4836,7 @@
 		(fields_autoplaced yes)
 		(uuid "39d37c9d-ac55-47fa-86fd-428081adf8c2")
 		(property "Reference" "#PWR02"
-			(at 67.31 53.34 0)
+			(at 66.04 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4845,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 52.07 0)
+			(at 66.04 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 46.99 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 46.99 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 46.99 0)
+			(at 66.04 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4419,33 +4987,33 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 114.3 180)
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f179141-928a-4258-99fc-6c68526bbf72")
-		(property "Reference" "D16"
-			(at 190.8175 106.68 0)
+		(uuid "4773be63-aaee-4c1d-a01f-f5d0ce0b1161")
+		(property "Reference" "D6"
+			(at 140.0175 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 109.22 0)
+		(property "Value" "Green"
+			(at 140.0175 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 114.3 0)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,8 +5021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 114.3 0)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +5031,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 189.23 114.3 0)
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,35 +5039,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 114.3 0)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,48 +5049,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "53b3c28e-0310-42c6-9642-45fd8729db4a")
+			(uuid "9d87164f-cb87-4ddf-8ac8-040b4b513c16")
 		)
 		(pin "2"
-			(uuid "b2ad5c70-b191-425f-93f0-a48dfe10ec45")
+			(uuid "f64cb157-a59f-4a46-bcaf-7766766199cd")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D16")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 101.6 180)
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "508427a8-593c-4216-b2d7-869d2ae5ed15")
-		(property "Reference" "D7"
-			(at 140.0175 93.98 0)
+		(uuid "47f36a1a-459f-410f-8000-0baa54e437e8")
+		(property "Reference" "D3"
+			(at 140.0175 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 96.52 0)
+		(property "Value" "Green"
+			(at 140.0175 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 101.6 0)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,8 +5098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 101.6 0)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +5108,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 138.43 101.6 0)
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,35 +5116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 101.6 0)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,15 +5126,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "603b5a1d-3ea5-4863-8a6c-6793fdf30ca1")
+			(uuid "ec71b7b3-5731-450c-9e4a-e3f29df3b3c9")
 		)
 		(pin "2"
-			(uuid "f1d7ce47-0bda-4a97-921d-12e11c3a6227")
+			(uuid "a55d0b90-e1f9-493f-b361-c543e90cdb8b")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D7")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_green_1206_reverse_5")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a7fe8d9-81fa-4456-a0bc-5c6c09dd6f69")
+		(property "Reference" "D13"
+			(at 190.8175 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9f04b1d-5b4c-4df7-80fd-0f451067d51b")
+		)
+		(pin "2"
+			(uuid "66686244-fe8a-430f-ab94-e933da799d2e")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4817,6 +5409,162 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_green_1206_reverse_2")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a709077-e489-4cba-a88f-08a87ea406d2")
+		(property "Reference" "D10"
+			(at 190.8175 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ecf3f2c-7e74-4a7f-8c9a-17a850241261")
+		)
+		(pin "2"
+			(uuid "32ca4c29-3c37-4f88-9489-1d8f989ff8cb")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_green_1206_reverse_7")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c87efc1-395d-4aa7-8ee0-39cd502d17bd")
+		(property "Reference" "D11"
+			(at 190.8175 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15f9da65-9df9-4a7f-91a3-df6525051e0a")
+		)
+		(pin "2"
+			(uuid "a1426c88-2e56-4cc8-9d5d-38a52562942c")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
 		(at 128.27 114.3 270)
 		(unit 1)
@@ -5001,6 +5749,83 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c4694a-51e6-4a36-83eb-978088a4bcbf")
+		(property "Reference" "D4"
+			(at 140.0175 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 140.0175 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ec78577-13ed-4387-806d-60210458b830")
+		)
+		(pin "2"
+			(uuid "e9698abf-5694-4618-9125-4c438d38fef4")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5197,423 +6022,8 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d101ead-ff74-4c1a-b46b-cae32e5c07c7")
-		(property "Reference" "D6"
-			(at 140.0175 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4b1fee0-c369-4a2d-83b1-5c4bb67c3ad2")
-		)
-		(pin "2"
-			(uuid "ee6e9fa0-2baf-4217-a99d-01ef2d59a8e6")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e1b4922-3d07-4506-b40f-b2ff8d76b48a")
-		(property "Reference" "D10"
-			(at 190.8175 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edfc012d-ac10-4b7f-ab66-df50f40d81e6")
-		)
-		(pin "2"
-			(uuid "4e05df47-6934-443b-b491-b56f3e9abbe0")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bb7e4d7-08c4-490e-be23-7da4a844959b")
-		(property "Reference" "D5"
-			(at 140.0175 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02bd0a78-771d-4d5e-9b22-4a469cdf9209")
-		)
-		(pin "2"
-			(uuid "ca86098d-35f6-4f45-86e9-9ac1951e2755")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 189.23 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9b48808-24b5-4d0d-b487-311e66021515")
-		(property "Reference" "D15"
-			(at 190.8175 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 190.8175 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 189.23 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48ae80c4-1ebf-43e6-b569-38b8ba593451")
-		)
-		(pin "2"
-			(uuid "2a85ffcc-3646-40cc-ba82-750b74fad3fa")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
+		(lib_name "LED_green_1206_reverse_3")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 189.23 25.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5621,7 +6031,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad3ffcbc-beb8-48bb-82ad-c5a9648200b7")
+		(uuid "83254be6-4d3d-46e2-9be0-670ce95064cd")
 		(property "Reference" "D9"
 			(at 190.8175 17.78 0)
 			(effects
@@ -5630,7 +6040,7 @@
 				)
 			)
 		)
-		(property "Value" "KPT-3216CGCK"
+		(property "Value" "Green"
 			(at 190.8175 20.32 0)
 			(effects
 				(font
@@ -5638,7 +6048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -5647,7 +6057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/35/"
+		(property "Datasheet" "http://inventree.network/part/129/"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -5665,34 +6075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 189.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 189.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 189.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
+		(property "part_ipn" "LED_green_1206_reverse"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -5702,10 +6085,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e217c62-0381-48b5-af4d-15e797985aa0")
+			(uuid "69f57dee-ad84-4093-a3a7-73dedefd09f5")
 		)
 		(pin "2"
-			(uuid "a918b227-1531-4ee0-b911-bf426fe1307c")
+			(uuid "1613d8df-7e29-4089-928b-38b7f3a1d3e0")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
@@ -5717,8 +6100,337 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:PinHeader_02x04_P2.54_THT_angle")
+		(at 76.2 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93af7d50-5a7b-48bb-92e0-f67d77783e74")
+		(property "Reference" "J1"
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PinHeader_02x04_P2.54_THT_angle"
+			(at 74.93 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/128/"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PinHeader_02x04_P2.54_THT_angle"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d610af2-f914-4b51-9b2b-a0a268f3f3cf")
+		)
+		(pin "2"
+			(uuid "cc91df40-7509-47a2-85d2-23f42e79da50")
+		)
+		(pin "7"
+			(uuid "e7cde88f-fc34-4871-b07f-75747d853a23")
+		)
+		(pin "4"
+			(uuid "0390f502-de6d-4d8d-8123-4eb56f26cfbe")
+		)
+		(pin "5"
+			(uuid "5c939055-bbab-4636-89d1-5c7cc177707a")
+		)
+		(pin "8"
+			(uuid "0e8a4550-e4b0-461d-9664-66ef2de090f8")
+		)
+		(pin "6"
+			(uuid "56874cde-4124-41df-b1b7-73d41d6e93b2")
+		)
+		(pin "3"
+			(uuid "c6326ff2-656f-4e40-9e07-6ae157823bac")
+		)
+		(instances
+			(project ""
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_green_1206_reverse_6")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c8e6166-339f-4d69-be44-51696a9f1f87")
+		(property "Reference" "D14"
+			(at 190.8175 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d502ba-af5a-4723-9a5f-d381527e9690")
+		)
+		(pin "2"
+			(uuid "c0cd124f-4236-4ad9-a5a6-d88912fd3d79")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_green_1206_reverse_4")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16097ae-87e5-4821-a82f-3cc064c3ee44")
+		(property "Reference" "D12"
+			(at 190.8175 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11ee75fb-bcfc-4f97-be00-d4894f953a1f")
+		)
+		(pin "2"
+			(uuid "8665e1e1-6830-46a1-a7e8-a308a37e2081")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb429940-9542-484b-a0e4-209442139b1d")
+		(property "Reference" "D2"
+			(at 140.0175 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 140.0175 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b98f4e-9333-4b53-8b5a-98e0ee07ad9c")
+		)
+		(pin "2"
+			(uuid "b222be17-7fa5-40e8-aae0-a7270818ea6b")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 67.31 24.13 0)
+		(at 66.04 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5727,7 +6439,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2fc6e5c-04ce-41fd-b092-c6484ab25a00")
 		(property "Reference" "#PWR01"
-			(at 67.31 27.94 0)
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +6448,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 67.31 19.05 0)
+			(at 66.04 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +6456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 24.13 0)
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +6465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 24.13 0)
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +6474,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 67.31 24.13 0)
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,33 +6495,55 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 38.1 180)
+		(lib_id "kicad_inventree_lib:MCP23S17_ML")
+		(at 45.72 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb103fef-9505-4e52-a906-a62c076038ab")
-		(property "Reference" "D2"
-			(at 140.0175 30.48 0)
+		(uuid "c91ae812-fbdb-4462-90e4-7972a0da9f54")
+		(property "Reference" "U1"
+			(at 47.9141 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 33.02 0)
+		(property "Value" "MCP23S17_ML"
+			(at 47.9141 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 38.1 0)
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/106/"
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, SPI, interrupts, w pull-ups, QFN-28"
+			(at 45.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,8 +6551,148 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 38.1 0)
+		(property "part_ipn" "MCP23S17-E/ML"
+			(at 47.9141 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "25"
+			(uuid "110de2dd-345e-4623-9556-baad8164e152")
+		)
+		(pin "18"
+			(uuid "c7b7ffa3-f531-468d-8afb-11e59a7050ea")
+		)
+		(pin "22"
+			(uuid "b00d1f03-cc4d-4274-8f2c-5eb661f4d34f")
+		)
+		(pin "1"
+			(uuid "f6a0c6cb-aa28-4776-9dde-ef794ca2c4c0")
+		)
+		(pin "27"
+			(uuid "e0f3b986-9dde-48df-98b2-557395b5bf39")
+		)
+		(pin "7"
+			(uuid "95feceb7-85a0-41fa-923f-13b368f847a0")
+		)
+		(pin "23"
+			(uuid "930520c2-5947-443b-90d7-1f8ce9952713")
+		)
+		(pin "5"
+			(uuid "7e783e04-e0ca-4f5f-976c-6e336dfcd32e")
+		)
+		(pin "20"
+			(uuid "7f23a068-cf25-407c-8500-a95379f8172c")
+		)
+		(pin "16"
+			(uuid "695d9e02-0a70-4b2a-91a4-39b34d25f065")
+		)
+		(pin "28"
+			(uuid "8f892a9b-b663-4f5e-8936-6e2fa92c825a")
+		)
+		(pin "26"
+			(uuid "cb127cc8-a8a4-4588-ae8f-e163be1ce096")
+		)
+		(pin "6"
+			(uuid "c9717afa-2108-412e-8908-df99392495bf")
+		)
+		(pin "9"
+			(uuid "447b8968-6a0b-43b6-a1e7-f3cb71088bf2")
+		)
+		(pin "24"
+			(uuid "9e062240-f853-425a-ba32-fc4fb6b9f6c4")
+		)
+		(pin "17"
+			(uuid "b0d2988d-2a8b-4bff-aed8-b39a7f1b686b")
+		)
+		(pin "3"
+			(uuid "2bd00de9-2505-49db-81dc-1f2d1eb6b7ae")
+		)
+		(pin "29"
+			(uuid "8b64356f-9a69-441e-b86c-54ed7ea52dcb")
+		)
+		(pin "8"
+			(uuid "b60c8d9c-7653-43b2-a390-d70e582e519c")
+		)
+		(pin "19"
+			(uuid "a2ee3b35-56fc-4fb9-8925-193cf72661a5")
+		)
+		(pin "2"
+			(uuid "14579c15-29e9-4995-bbee-80cfefdfa518")
+		)
+		(pin "14"
+			(uuid "ea2285fb-7cdf-429d-8176-6b50dd3e36c7")
+		)
+		(pin "4"
+			(uuid "fd7e552f-1783-45cf-89a8-966a4a0b9d39")
+		)
+		(pin "21"
+			(uuid "9546836a-a0ca-491a-ab36-e33fb7d523b7")
+		)
+		(pin "10"
+			(uuid "128eabd2-663a-41ca-b10b-fd83b72dcfc6")
+		)
+		(pin "11"
+			(uuid "e814445d-5e62-48d5-825e-ef2bba0416aa")
+		)
+		(pin "13"
+			(uuid "c95f15c1-0c1f-405d-81d0-b67ed20aaf19")
+		)
+		(pin "15"
+			(uuid "a1f11f35-8278-4ee4-b0bc-d15c70034577")
+		)
+		(pin "12"
+			(uuid "8f3f469a-8ac1-44a7-aeb8-3308c6b1ac0d")
+		)
+		(instances
+			(project ""
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb98ae19-6150-4954-b9cb-ddfcf402cc1c")
+		(property "Reference" "D5"
+			(at 140.0175 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 140.0175 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5827,7 +6701,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 138.43 38.1 0)
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,35 +6709,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 38.1 0)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,15 +6719,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed2ffb17-ebb9-4e37-b252-27c17b60569e")
+			(uuid "c17b1143-746e-432c-9462-83b8fafdeb63")
 		)
 		(pin "2"
-			(uuid "efe57f1c-4603-42b4-a553-d131c13e31ce")
+			(uuid "78d8b518-3856-4b23-8ccb-c8cca655fbdf")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5982,33 +6829,33 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 50.8 180)
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d49fae84-664a-4000-9baa-77141eacc6a0")
-		(property "Reference" "D3"
-			(at 140.0175 43.18 0)
+		(uuid "d580acde-e941-4432-a9b6-b4fb4b204326")
+		(property "Reference" "D7"
+			(at 140.0175 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 45.72 0)
+		(property "Value" "Green"
+			(at 140.0175 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 50.8 0)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,8 +6863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 50.8 0)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6873,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 138.43 50.8 0)
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,35 +6881,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 50.8 0)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,272 +6891,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "30e345d8-1a95-4648-ab4a-53f38dbcddfa")
+			(uuid "48261be9-05c4-42e7-b521-30e1be218903")
 		)
 		(pin "2"
-			(uuid "3b0786b0-dd9d-4cd8-bf1a-7f971b22b166")
+			(uuid "ca2d515e-3899-4802-8bc4-eceb699ad1c9")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:Kingbright_KPT-3216CGCK")
-		(at 138.43 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d70c3214-d58c-40dc-84d0-acce8b66fa34")
-		(property "Reference" "D8"
-			(at 140.0175 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KPT-3216CGCK"
-			(at 140.0175 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NextPCB:Kingbright_KPT-3216CGCK"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/35/"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Kingbright"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.15788"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/kingbright-kpt-3216cgck-1028061232"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "KPT-3216CGCK"
-			(at 138.43 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c381a601-051f-4147-9069-966e94e937de")
-		)
-		(pin "2"
-			(uuid "92711840-c374-45ce-8335-7cfc63bc0330")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Expansion:MCP23S17_ML")
-		(at 45.72 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d90b187c-edab-42f2-84a9-286e9a638024")
-		(property "Reference" "U1"
-			(at 47.9141 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP23S17_ML"
-			(at 47.9141 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 50.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf"
-			(at 50.8 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "16-bit I/O expander, SPI, interrupts, w pull-ups, QFN-28"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "24"
-			(uuid "25a86203-509d-4af5-ba84-891d8841f9dd")
-		)
-		(pin "9"
-			(uuid "9ceb2edb-cf3b-4758-ab37-2027d06e0ff4")
-		)
-		(pin "17"
-			(uuid "52e4efc4-da25-43c4-ac97-a53ec68c1e5a")
-		)
-		(pin "23"
-			(uuid "a293db13-f411-4e0a-851a-10f651db7e44")
-		)
-		(pin "22"
-			(uuid "8405af0f-9e08-4df0-bf1e-d92ed91e3951")
-		)
-		(pin "21"
-			(uuid "fb6dd26a-7e5e-4547-a9db-78474d5b3fa4")
-		)
-		(pin "5"
-			(uuid "812e13fb-cb75-403e-b6d7-ef41de5b69f8")
-		)
-		(pin "20"
-			(uuid "79c61eca-3347-4a14-9d06-7b2f8d2e363c")
-		)
-		(pin "1"
-			(uuid "cfabfa84-5d8d-4ed5-9ebb-d78496bcbe40")
-		)
-		(pin "14"
-			(uuid "b8227fed-2ad9-419e-b736-064bbf3186a6")
-		)
-		(pin "25"
-			(uuid "d96319ce-9e99-4f60-b970-b627d8fab733")
-		)
-		(pin "4"
-			(uuid "bc2d19e5-22f5-4d31-ba7c-48a36f8bedf7")
-		)
-		(pin "19"
-			(uuid "737fe380-bddd-4ebc-bdb8-7d3a64f82767")
-		)
-		(pin "29"
-			(uuid "889b1329-5443-4c79-b087-423e00887807")
-		)
-		(pin "3"
-			(uuid "ec3fc287-5328-4452-9899-4de2213ba490")
-		)
-		(pin "16"
-			(uuid "ae530327-1861-46f1-9e68-509678476c58")
-		)
-		(pin "28"
-			(uuid "9aca08c5-7722-495e-b380-4e9638d4beba")
-		)
-		(pin "13"
-			(uuid "0de61203-9b2c-42ca-9965-c9646e2cb03b")
-		)
-		(pin "11"
-			(uuid "6c775891-5253-4184-8351-f44266b891ed")
-		)
-		(pin "2"
-			(uuid "2dc15292-31f9-40f0-88ed-ac2f51fc2b1b")
-		)
-		(pin "7"
-			(uuid "f3fb5970-92cc-44aa-b2fa-425b03ecbc41")
-		)
-		(pin "18"
-			(uuid "6a1f3949-7241-4427-8e1b-4248a9a220e3")
-		)
-		(pin "26"
-			(uuid "c830fef7-9023-4dbb-8f09-d1e70b25221c")
-		)
-		(pin "27"
-			(uuid "520115a5-8b0d-485f-b3bc-3770d5f57688")
-		)
-		(pin "6"
-			(uuid "23f1cbdd-f295-46c6-9c42-1b9650655090")
-		)
-		(pin "12"
-			(uuid "070920d9-c742-40f4-9c33-57097647c7dd")
-		)
-		(pin "10"
-			(uuid "263cf240-6b39-4f95-9bcc-7736d142b24b")
-		)
-		(pin "8"
-			(uuid "5d3a4ab5-2e0e-4720-8d70-d427593e42f3")
-		)
-		(pin "15"
-			(uuid "3d120bde-8f6c-4359-9656-cedd9473b6c0")
-		)
-		(instances
-			(project ""
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "U1")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6950,6 +7513,83 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 138.43 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8c33f9-2db5-46a9-9fa3-5c19f1bff769")
+		(property "Reference" "D1"
+			(at 140.0175 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 140.0175 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 138.43 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b7c08b1-c0ff-48e5-bb58-d8b7b67f0bfd")
+		)
+		(pin "2"
+			(uuid "0746e4eb-99f4-4f8e-be2d-70d5174c538a")
+		)
+		(instances
+			(project ""
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
 		(at 128.27 101.6 270)
 		(unit 1)
@@ -7229,6 +7869,84 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LED_green_1206_reverse_8")
+		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
+		(at 189.23 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3d4e79-21fc-4a5d-8902-74394964927e")
+		(property "Reference" "D16"
+			(at 190.8175 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green"
+			(at 190.8175 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/129/"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "LED_green_1206_reverse"
+			(at 189.23 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbccb65b-349a-4771-a11f-3f7ee5041653")
+		)
+		(pin "2"
+			(uuid "77720c22-7fe2-4934-891f-6cc9fe32abd2")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "D16")
 					(unit 1)
 				)
 			)

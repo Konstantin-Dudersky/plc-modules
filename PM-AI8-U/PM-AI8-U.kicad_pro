@@ -48,11 +48,18 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|124460000|101600000|22c25d20-e0b7-4916-8a8b-e194421376e2|db60bedb-21de-4370-8e4b-d901d1d79c39",
+        "silk_edge_clearance|124460000|104140000|22c25d20-e0b7-4916-8a8b-e194421376e2|480ac512-d969-440b-bd0f-760957f0be04",
+        "silk_edge_clearance|124460000|106740000|22c25d20-e0b7-4916-8a8b-e194421376e2|41588765-14b1-4f38-b3c9-c29024b3a8cd",
+        "silk_edge_clearance|124460000|93920000|22c25d20-e0b7-4916-8a8b-e194421376e2|f6a3a350-9221-4c90-89bc-85a4756585ef",
+        "silk_edge_clearance|124460000|96520000|22c25d20-e0b7-4916-8a8b-e194421376e2|d4445ca3-d449-4140-82cc-1171735c50dd",
+        "silk_edge_clearance|124460000|99060000|22c25d20-e0b7-4916-8a8b-e194421376e2|9b646b34-c680-49d9-87d7-a7a5c743c643"
+      ],
       "meta": {
         "version": 2
       },
@@ -452,6 +459,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -481,7 +505,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "doc/BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -498,46 +522,142 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Value",
+          "group_by": false,
+          "label": "note",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Qty",
+          "label": "quantity",
           "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NextPCB_price",
+          "name": "NextPCB_price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NextPCB_url",
+          "name": "NextPCB_url",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "part_ipn",
+          "name": "part_ipn",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "note",
+          "name": "Description",
           "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Обозначение"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -48,11 +48,19 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|129540000|85800136|6bc241e4-191b-4f60-af11-fec0a3a29589|c7383774-b4ca-4544-bcc7-4cf5f269db3a",
+        "silk_edge_clearance|129540000|86300000|6bc241e4-191b-4f60-af11-fec0a3a29589|b38fe3c5-3f18-478f-b6d0-9efe85ec35eb",
+        "silk_edge_clearance|129540000|88900000|6bc241e4-191b-4f60-af11-fec0a3a29589|7338e364-121e-4775-a55a-f115e12aabfc",
+        "silk_edge_clearance|129540000|91440000|6bc241e4-191b-4f60-af11-fec0a3a29589|7b108791-84a1-4cf0-a906-fea8bdf10c12",
+        "silk_edge_clearance|129540000|93980000|6bc241e4-191b-4f60-af11-fec0a3a29589|a20fb4c1-412d-4550-931e-6eb9de182056",
+        "silk_edge_clearance|129540000|96520000|6bc241e4-191b-4f60-af11-fec0a3a29589|7d2ed6f2-4596-4577-b1a3-5b7f28cf7ee2",
+        "silk_edge_clearance|129540000|99120000|6bc241e4-191b-4f60-af11-fec0a3a29589|2e5d136b-bc4a-4892-bcef-8f96425e7388"
+      ],
       "meta": {
         "version": 2
       },
@@ -481,10 +489,12 @@
     "net_colors": null,
     "netclass_assignments": {
       "+24V": "power",
+      "+3.3V": "power",
       "+5V": "power",
       "/24V_IN": "power",
       "GND": "power",
       "Net-(D2-K)": "power",
+      "Net-(J7-VIN)": "power",
       "VDD": "power"
     },
     "netclass_patterns": []
@@ -527,7 +537,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": false
@@ -731,7 +741,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "part_ipn",
           "name": "part_ipn",
           "show": true

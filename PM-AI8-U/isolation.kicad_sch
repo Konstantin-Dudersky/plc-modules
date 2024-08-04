@@ -57,7 +57,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "http://inventree.network/part/115/"
+			(property "part_ipn" "CA-IS3641HW"
 				(at 20.574 -26.162 0)
 				(effects
 					(font
@@ -144,24 +144,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 40.64 -15.24 180)
-					(length 7.62)
-					(name "SEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -313,24 +295,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "VO4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
 					(at 0 -15.24 0)
 					(length 7.62)
@@ -349,45 +313,27 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "GNDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -17.78 180)
-					(length 7.62)
-					(name "GNDB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(symbol "CA-IS3641HW_1_1"
-				(pin input line
+				(pin unspecified line
+					(at 40.64 -15.24 180)
+					(length 7.62)
+					(name "SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
 					(at 40.64 -10.16 180)
 					(length 7.62)
 					(name "VO3"
@@ -405,7 +351,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "VI3"
@@ -416,6 +362,60 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "VO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -17.78 180)
+					(length 7.62)
+					(name "GNDB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,7 +570,7 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:C_10uF_50V_1206"
+		(symbol "kicad_inventree_lib:C_10uF_50V_1210"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -596,7 +596,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 				(at 0.9652 -3.81 0)
 				(effects
 					(font
@@ -605,7 +605,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/116/"
+			(property "Datasheet" "http://inventree.network/part/125/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -623,7 +623,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "C_10uF_50V_1206"
+			(property "part_ipn" "C_10uF_50V_1210"
 				(at 0 0 0)
 				(effects
 					(font
@@ -650,7 +650,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_10uF_50V_1206_0_1"
+			(symbol "C_10uF_50V_1210_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -676,7 +676,7 @@
 					)
 				)
 			)
-			(symbol "C_10uF_50V_1206_1_1"
+			(symbol "C_10uF_50V_1210_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -924,6 +924,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 91.44) (xy 132.08 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d0791f-844b-4f1d-829d-389e8e2bd744")
+	)
+	(wire
+		(pts
 			(xy 129.54 96.52) (xy 132.08 96.52)
 		)
 		(stroke
@@ -951,16 +961,6 @@
 			(type default)
 		)
 		(uuid "75c4aaeb-7c2b-4136-be5b-4d8545a7fda5")
-	)
-	(wire
-		(pts
-			(xy 127 91.44) (xy 132.08 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7814b469-8ff2-47aa-8b2a-a59e4dded5d9")
 	)
 	(wire
 		(pts
@@ -1306,7 +1306,7 @@
 		(uuid "f9c6fa6e-3689-47b8-a833-7952abb7ea40")
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:C_10uF_50V_1206")
+		(lib_id "kicad_inventree_lib:C_10uF_50V_1210")
 		(at 203.2 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1333,7 +1333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 204.1652 93.98 0)
 			(effects
 				(font
@@ -1342,7 +1342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/116/"
+		(property "Datasheet" "http://inventree.network/part/125/"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -1360,7 +1360,7 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "C_10uF_50V_1206"
+		(property "part_ipn" "C_10uF_50V_1210"
 			(at 203.2 90.17 0)
 			(effects
 				(font
@@ -1385,7 +1385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:C_10uF_50V_1206")
+		(lib_id "kicad_inventree_lib:C_10uF_50V_1210")
 		(at 101.6 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1412,7 +1412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 102.5652 93.98 0)
 			(effects
 				(font
@@ -1421,7 +1421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/116/"
+		(property "Datasheet" "http://inventree.network/part/125/"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -1439,7 +1439,7 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "C_10uF_50V_1206"
+		(property "part_ipn" "C_10uF_50V_1210"
 			(at 101.6 90.17 0)
 			(effects
 				(font
@@ -1677,7 +1677,7 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "http://inventree.network/part/115/"
+		(property "part_ipn" "CA-IS3641HW"
 			(at 152.146 107.442 0)
 			(effects
 				(font
