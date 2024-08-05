@@ -91,6 +91,7 @@
 	(net 9 "/SDA")
 	(net 10 "+5V_BUS")
 	(net 11 "/SCL")
+	(net 12 "unconnected-(PE1-Pad1)")
 	(footprint "kicad_inventree_lib:PM-front-02x04"
 		(layer "F.Cu")
 		(uuid "27372950-3ffb-45cb-9c33-c9a9990c94ea")
@@ -2175,6 +2176,101 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(uuid "61b400d3-def6-4c3e-b119-8dedb7de0123")
+		)
+	)
+	(footprint "kicad_inventree_lib:PE"
+		(layer "F.Cu")
+		(uuid "ec8bc9c3-6c24-4d8e-9d1d-f963dac72ec0")
+		(at 43.18 146.05)
+		(property "Reference" "PE1"
+			(at 0 -6.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c26cf94-57de-4f87-a2df-aa4c79e2a35f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "PE"
+			(at 0 -5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f936d858-6537-4439-b06f-0592f0b722c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:PE"
+			(at 0 -6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09db9b71-951c-4a44-8ebc-801e848a54e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6e82bca-f922-49b4-a531-59e0d806405e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
+			(at 0 -6 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9b20285-dd57-4852-b13f-11728feb1746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d93d76d9-aca8-44eb-8384-f9f6ff465c74")
+		(sheetname "Корневой лист")
+		(sheetfile "main.kicad_sch")
+		(attr smd exclude_from_bom)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dd2bd4f0-8c49-40eb-9baf-10a67e8b694b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole oval
+			(at 0 0)
+			(size 6.35 6.35)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "unconnected-(PE1-Pad1)")
+			(pintype "power_in")
+			(uuid "eb5b2da2-0f33-402b-bef0-6e9cc18a5997")
 		)
 	)
 	(footprint "Symbol:KiCad-Logo2_5mm_SilkScreen"
