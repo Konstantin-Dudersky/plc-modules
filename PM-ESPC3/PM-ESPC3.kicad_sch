@@ -1206,7 +1206,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
+			(property "Footprint" "kicad_inventree_lib:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2965,8 +2965,8 @@
 		(uuid "f874fbd7-d6b4-4d88-8df1-48493c76e1b8")
 	)
 	(no_connect
-		(at 228.6 132.08)
-		(uuid "eb9b6c39-061f-4e8d-a02d-da9546934c7b")
+		(at 228.6 101.6)
+		(uuid "cf5d0a54-3133-4d87-82d5-82142338e373")
 	)
 	(no_connect
 		(at 185.42 76.2)
@@ -2995,6 +2995,16 @@
 			(type default)
 		)
 		(uuid "037119a3-0331-4c04-8fa4-51bce274208e")
+	)
+	(wire
+		(pts
+			(xy 228.6 124.46) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06865120-a497-4b73-9b8d-13ac9799931a")
 	)
 	(wire
 		(pts
@@ -3128,6 +3138,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 109.22) (xy 228.6 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2193aff1-baaf-47a4-aeb1-3cb0b724dc39")
+	)
+	(wire
+		(pts
 			(xy 127 35.56) (xy 127 38.1)
 		)
 		(stroke
@@ -3138,6 +3158,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2901299a-5ee0-4000-8133-9ec8dad6a061")
+	)
+	(wire
+		(pts
 			(xy 165.1 50.8) (xy 165.1 66.04)
 		)
 		(stroke
@@ -3145,6 +3175,16 @@
 			(type default)
 		)
 		(uuid "2cab7460-93ea-4b3c-96d3-8b04e37b80d7")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 213.36 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ca2acb-4d69-4f61-aa58-08525c51aabd")
 	)
 	(wire
 		(pts
@@ -3208,13 +3248,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 213.36 99.06)
+			(xy 218.44 132.08) (xy 228.6 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "444492d7-f5eb-4ffb-8b8a-c2cf80854f99")
+		(uuid "42b52053-9999-4230-83ef-a84978ba93d9")
 	)
 	(wire
 		(pts
@@ -3228,16 +3268,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 129.54) (xy 228.6 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4956c0e2-516d-4208-9d7c-1278b288d05e")
-	)
-	(wire
-		(pts
 			(xy 121.92 27.94) (xy 121.92 50.8)
 		)
 		(stroke
@@ -3245,6 +3275,16 @@
 			(type default)
 		)
 		(uuid "4d7ac2b7-8093-4b1d-acc8-3f7473885816")
+	)
+	(wire
+		(pts
+			(xy 213.36 124.46) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ead8eb0-b002-4dda-8e44-f246678f3748")
 	)
 	(wire
 		(pts
@@ -3295,6 +3335,16 @@
 			(type default)
 		)
 		(uuid "509cb2ea-4360-4783-b8de-75340ea59c6d")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 213.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5185b75c-0144-44a0-a769-1e26e0d8b2c1")
 	)
 	(wire
 		(pts
@@ -3398,6 +3448,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 129.54) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640167b9-948b-4f75-b2fc-1bc3547098de")
+	)
+	(wire
+		(pts
 			(xy 154.94 167.64) (xy 142.24 167.64)
 		)
 		(stroke
@@ -3425,16 +3485,6 @@
 			(type default)
 		)
 		(uuid "71e29f07-d7d1-4dd1-be7a-cc9ea7ad5843")
-	)
-	(wire
-		(pts
-			(xy 218.44 127) (xy 228.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743242f5-d316-4929-9344-89a2404f1993")
 	)
 	(wire
 		(pts
@@ -3508,16 +3558,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 101.6) (xy 228.6 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f78f33b-0097-4b83-86be-b445ad0ed219")
-	)
-	(wire
-		(pts
 			(xy 154.94 165.1) (xy 154.94 167.64)
 		)
 		(stroke
@@ -3525,16 +3565,6 @@
 			(type default)
 		)
 		(uuid "812e783e-3a68-4850-b364-5d5fb920b77d")
-	)
-	(wire
-		(pts
-			(xy 213.36 109.22) (xy 213.36 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e9ba973-2b48-4671-a056-c2859834e290")
 	)
 	(wire
 		(pts
@@ -3575,16 +3605,6 @@
 			(type default)
 		)
 		(uuid "983f918f-1903-47fb-a9d1-de72cea9eb27")
-	)
-	(wire
-		(pts
-			(xy 218.44 124.46) (xy 228.6 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9edeead8-2e3a-41d7-97bf-d18659d17b72")
 	)
 	(wire
 		(pts
@@ -3708,16 +3728,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 109.22) (xy 213.36 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6834521-6c51-4ba2-8974-4857e8ea3430")
-	)
-	(wire
-		(pts
 			(xy 144.78 66.04) (xy 165.1 66.04)
 		)
 		(stroke
@@ -3785,16 +3795,6 @@
 			(type default)
 		)
 		(uuid "d7506a19-685f-47e1-b39c-d61150f59104")
-	)
-	(wire
-		(pts
-			(xy 228.6 106.68) (xy 213.36 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7a32616-9aa1-4c6a-817e-c4f6f194d897")
 	)
 	(wire
 		(pts
@@ -3942,7 +3942,7 @@
 		(uuid "1c5f9d6b-9663-4023-a3d1-45e723844044")
 	)
 	(label "GPIO5"
-		(at 218.44 127 0)
+		(at 218.44 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3953,7 +3953,7 @@
 		(uuid "3eb46d0d-9747-4c49-8e71-8043096b925e")
 	)
 	(label "GPIO3"
-		(at 218.44 114.3 0)
+		(at 218.44 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3964,7 +3964,7 @@
 		(uuid "47b804f4-9eb4-49fc-982e-0e25966f4802")
 	)
 	(label "GPIO6"
-		(at 218.44 124.46 0)
+		(at 218.44 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3986,7 +3986,7 @@
 		(uuid "59e397cf-0546-4e9e-a420-0fabd1d039ec")
 	)
 	(label "GPIO2"
-		(at 218.44 111.76 0)
+		(at 218.44 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4063,7 +4063,7 @@
 		(uuid "a137440a-62f5-465a-8439-08a213c9aa92")
 	)
 	(label "GPIO9"
-		(at 218.44 116.84 0)
+		(at 218.44 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4074,7 +4074,7 @@
 		(uuid "a3bed728-9add-4a58-9da6-44061afcc2a9")
 	)
 	(label "GPIO8"
-		(at 218.44 119.38 0)
+		(at 218.44 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4151,7 +4151,7 @@
 		(uuid "ca01d4ee-29f3-4167-9cb1-119a3ce8a377")
 	)
 	(label "GPIO4"
-		(at 218.44 129.54 0)
+		(at 218.44 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4173,7 +4173,7 @@
 		(uuid "d4cb82a8-3699-4c8c-a80b-829d2b7b7ae9")
 	)
 	(label "SCL"
-		(at 218.44 104.14 0)
+		(at 218.44 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4184,7 +4184,7 @@
 		(uuid "e00d9967-8c5e-4c2c-87d9-64cf65c1049b")
 	)
 	(label "GPIO7"
-		(at 218.44 121.92 0)
+		(at 218.44 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4228,7 +4228,7 @@
 		(uuid "e8bf66dc-f08d-4ef2-9f36-be0738831a42")
 	)
 	(label "SDA"
-		(at 218.44 101.6 0)
+		(at 218.44 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5478,7 +5478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
+		(property "Footprint" "kicad_inventree_lib:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
 			(at 119.38 154.94 0)
 			(effects
 				(font
