@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -112,7 +112,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.4,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -428,13 +428,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "Degson",
-      "kicad_inventree_lib"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PM-RQ8.kicad_pro",
+    "filename": "PM-ESPC3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -455,138 +452,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 1.2,
-        "via_drill": 0.6,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.5,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "relay",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
-        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+3.3V": "power",
-      "+5V": "power",
-      "GND": "power",
-      "Net-(J1-Pin_1)": "power",
-      "Net-(J1-Pin_2)": "power",
-      "Net-(J10-Pin_1)": "relay",
-      "Net-(J10-Pin_10)": "relay",
-      "Net-(J10-Pin_11)": "relay",
-      "Net-(J10-Pin_12)": "relay",
-      "Net-(J10-Pin_13)": "relay",
-      "Net-(J10-Pin_14)": "relay",
-      "Net-(J10-Pin_15)": "relay",
-      "Net-(J10-Pin_16)": "relay",
-      "Net-(J10-Pin_17)": "relay",
-      "Net-(J10-Pin_18)": "relay",
-      "Net-(J10-Pin_2)": "relay",
-      "Net-(J10-Pin_3)": "relay",
-      "Net-(J10-Pin_4)": "relay",
-      "Net-(J10-Pin_5)": "relay",
-      "Net-(J10-Pin_6)": "relay",
-      "Net-(J10-Pin_7)": "relay",
-      "Net-(J10-Pin_8)": "relay",
-      "Net-(J10-Pin_9)": "relay",
-      "Net-(J11-Pin_1)": "relay",
-      "Net-(J11-Pin_2)": "relay",
-      "Net-(J12-Pin_1)": "relay",
-      "Net-(J12-Pin_2)": "relay",
-      "Net-(J13-Pin_1)": "relay",
-      "Net-(J13-Pin_2)": "relay",
-      "Net-(J14-Pin_1)": "relay",
-      "Net-(J14-Pin_2)": "relay",
-      "Net-(J15-Pin_1)": "relay",
-      "Net-(J15-Pin_2)": "relay",
-      "Net-(J16-Pin_1)": "relay",
-      "Net-(J16-Pin_2)": "relay",
-      "Net-(J17-Pin_1)": "relay",
-      "Net-(J17-Pin_10)": "relay",
-      "Net-(J17-Pin_11)": "relay",
-      "Net-(J17-Pin_12)": "relay",
-      "Net-(J17-Pin_13)": "relay",
-      "Net-(J17-Pin_14)": "relay",
-      "Net-(J17-Pin_15)": "relay",
-      "Net-(J17-Pin_16)": "relay",
-      "Net-(J17-Pin_2)": "relay",
-      "Net-(J17-Pin_3)": "relay",
-      "Net-(J17-Pin_4)": "relay",
-      "Net-(J17-Pin_5)": "relay",
-      "Net-(J17-Pin_6)": "relay",
-      "Net-(J17-Pin_7)": "relay",
-      "Net-(J17-Pin_8)": "relay",
-      "Net-(J17-Pin_9)": "relay",
-      "Net-(J18-Pad1)": "power",
-      "Net-(J18-Pin_1)": "power",
-      "Net-(J18-Pin_2)": "power",
-      "Net-(J2-Pin_1)": "power",
-      "Net-(J2-Pin_2)": "power",
-      "Net-(J20-Pin_1)": "power",
-      "Net-(J20-Pin_2)": "power",
-      "Net-(J3-Pin_1)": "power",
-      "Net-(J3-Pin_2)": "power",
-      "Net-(J4-Pin_1)": "power",
-      "Net-(J4-Pin_2)": "power",
-      "Net-(J5-Pin_1)": "power",
-      "Net-(J5-Pin_2)": "power",
-      "Net-(J6-Pin_1)": "power",
-      "Net-(J6-Pin_2)": "power",
-      "Net-(J7-Pin_1)": "power",
-      "Net-(J7-Pin_2)": "power",
-      "Net-(J8-Pin_1)": "power",
-      "Net-(J8-Pin_2)": "power",
-      "Net-(J9-Pin_1)": "power",
-      "Net-(J9-Pin_2)": "relay",
-      "VDD": "power",
-      "unconnected-(J1-Pin_1-Pad1)": "power",
-      "unconnected-(J1-Pin_2-Pad2)": "power",
-      "unconnected-(J2-Pin_1-Pad1)": "power",
-      "unconnected-(J2-Pin_2-Pad2)": "power",
-      "unconnected-(J3-Pin_1-Pad1)": "power",
-      "unconnected-(J3-Pin_2-Pad2)": "power",
-      "unconnected-(J4-Pin_1-Pad1)": "power",
-      "unconnected-(J4-Pin_2-Pad2)": "power",
-      "unconnected-(J5-Pin_1-Pad1)": "power",
-      "unconnected-(J5-Pin_2-Pad2)": "power",
-      "unconnected-(J6-Pin_1-Pad1)": "power",
-      "unconnected-(J6-Pin_2-Pad2)": "power",
-      "unconnected-(J7-Pin_1-Pad1)": "power",
-      "unconnected-(J7-Pin_2-Pad2)": "power",
-      "unconnected-(J8-Pin_1-Pad1)": "power",
-      "unconnected-(J8-Pin_2-Pad2)": "power",
-      "unconnected-(J9-Pin_1-Pad1)": "power"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -594,18 +466,18 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../temp/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../temp/PM-RQ8-base.step",
+      "step": "",
       "svg": "",
-      "vrml": "doc/PM-RQ8-base.wrl"
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "doc/BOM.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -622,7 +494,7 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "reference",
+          "label": "Reference",
           "name": "Reference",
           "show": true
         },
@@ -630,29 +502,23 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "note",
-          "name": "Description",
           "show": true
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "quantity",
+          "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
         },
@@ -660,170 +526,14 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COPYRIGHT",
-          "name": "COPYRIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFR_NAME",
-          "name": "MFR_NAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "NextPCB_price",
-          "name": "NextPCB_price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "NextPCB_url",
-          "name": "NextPCB_url",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Purchase-URL",
-          "name": "Purchase-URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "part_ipn",
-          "name": "part_ipn",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Обозначение"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -854,7 +564,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./doc",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -866,16 +576,8 @@
   },
   "sheets": [
     [
-      "a75183a9-ea53-46d5-9d29-d6271be85780",
+      "929d2426-1853-4dc8-ae6b-e32e36c5ea07",
       "Корневой лист"
-    ],
-    [
-      "fc0fcfd0-1c39-4335-9cf1-525d4a931a16",
-      "external_connection"
-    ],
-    [
-      "057ad752-e4da-4e91-a87c-50365a8cf6dd",
-      "ESP32"
     ]
   ],
   "text_variables": {}
