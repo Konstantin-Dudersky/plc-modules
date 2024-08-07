@@ -9,281 +9,30 @@
 		(date "2024-07-12")
 		(comment 2 "Konstantin")
 	)
-	(lib_symbols
-		(symbol "Device:Lamp"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.0254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LA"
-				(at 0.635 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Lamp"
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Lamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "lamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Lamp_0_1"
-				(polyline
-					(pts
-						(xy -1.778 1.778) (xy 1.778 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.778) (xy -1.778 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Lamp_1_1"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 55.88 30.48) (xy 60.96 35.56)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "0419e7cf-bbd2-432f-905b-aae3d10b22d0")
 	)
 	(polyline
 		(pts
-			(xy 81.28 38.1) (xy 86.36 38.1)
+			(xy 88.9 38.1) (xy 92.71 36.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "09f82a50-f848-4b69-87ab-52bee4422bf6")
+	)
+	(polyline
+		(pts
+			(xy 81.28 38.1) (xy 88.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -301,35 +50,45 @@
 		)
 		(uuid "167415f8-5349-4bcf-b4bb-fe7795ea85a0")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 45.72 33.02) (xy 50.8 33.02)
+			(xy 45.72 43.18) (xy 54.61 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1be5d5a0-e5a3-4f2f-8a4f-316924ab0ff8")
-	)
-	(wire
-		(pts
-			(xy 60.96 43.18) (xy 76.2 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "286e1b45-b8dc-4cc7-92ba-80336ad79147")
+		(uuid "2e39697d-8ff2-4377-87e3-8481fd38f51d")
 	)
 	(polyline
 		(pts
-			(xy 81.28 27.94) (xy 86.36 27.94)
+			(xy 81.28 27.94) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "3626807d-3d13-43d3-a8bd-22c3e9bf3dcf")
+	)
+	(polyline
+		(pts
+			(xy 62.23 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adef9c6-2e45-432f-a672-6e5b5053fa30")
+	)
+	(polyline
+		(pts
+			(xy 45.72 33.02) (xy 54.61 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5337f4f4-7bca-4f37-90c2-c75c4fe188a9")
 	)
 	(polyline
 		(pts
@@ -341,15 +100,25 @@
 		)
 		(uuid "55774577-76a2-4e93-9a8c-85c4aa0aec1f")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 45.72 43.18) (xy 50.8 43.18)
+			(xy 62.23 33.02) (xy 76.2 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66a9cf18-490e-4f07-b148-df2204e351c6")
+		(uuid "5ad9c3cb-a069-4835-b2e2-3e50df5907a5")
+	)
+	(polyline
+		(pts
+			(xy 55.88 40.64) (xy 60.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4f6c5d-c00b-49c9-b8be-736dc42b2673")
 	)
 	(polyline
 		(pts
@@ -361,17 +130,27 @@
 		)
 		(uuid "6e8cb7f2-1c4c-4c7c-ae92-2636b94824f8")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 60.96 33.02) (xy 76.2 33.02)
+			(xy 55.88 35.56) (xy 60.96 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ebc8502-ba56-4ae0-beda-e4f4667fcd54")
+		(uuid "7054a94d-b353-4734-a946-3911f69d44d9")
 	)
-	(wire
+	(polyline
+		(pts
+			(xy 45.72 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b32c453-cfb4-44ba-beb6-47ecc448abbf")
+	)
+	(polyline
 		(pts
 			(xy 45.72 27.94) (xy 76.2 27.94)
 		)
@@ -379,11 +158,11 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "89cc2c1f-12b9-40bc-96a8-cda8be1c7635")
+		(uuid "7df67289-4b2f-4fc7-a079-483429ea2c8d")
 	)
 	(polyline
 		(pts
-			(xy 96.52 38.1) (xy 101.6 38.1)
+			(xy 92.71 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -400,6 +179,16 @@
 			(type default)
 		)
 		(uuid "ca54b0e9-edae-426b-8004-951516048ff2")
+	)
+	(polyline
+		(pts
+			(xy 55.88 45.72) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74fd6d3-33f6-4394-8c2a-40fe9f5d9ff1")
 	)
 	(polyline
 		(pts
@@ -423,7 +212,7 @@
 	)
 	(polyline
 		(pts
-			(xy 96.52 27.94) (xy 101.6 27.94)
+			(xy 92.71 27.94) (xy 101.6 27.94)
 		)
 		(stroke
 			(width 0)
@@ -431,15 +220,15 @@
 		)
 		(uuid "db09aac3-536b-4aa6-adf4-b5febedcc7ad")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 45.72 38.1) (xy 76.2 38.1)
+			(xy 88.9 27.94) (xy 92.71 26.67)
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "e7fd9e74-fe20-4101-9571-e98b421a02ed")
+		(uuid "e34b476f-9618-46c2-b714-406ee2cdb846")
 	)
 	(rectangle
 		(start 76.2 111.76)
@@ -452,6 +241,30 @@
 			(type none)
 		)
 		(uuid 0e728aa0-d77a-4cd4-babd-13534ffaec3c)
+	)
+	(circle
+		(center 58.42 43.18)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e248f7b-b6dc-47a5-a40d-332b052c87cb)
+	)
+	(circle
+		(center 58.42 33.02)
+		(radius 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c4eaacd-8b45-4ef3-beb4-411fd7b5eb3f)
 	)
 	(rectangle
 		(start 76.2 25.4)
@@ -868,429 +681,5 @@
 			)
 		)
 		(uuid "be152c5b-c37d-446e-bc50-410cb52250b2")
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 55.88 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68fde908-329d-4027-bf73-f360fe3b3004")
-		(property "Reference" "LA1"
-			(at 55.88 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Lamp"
-			(at 55.88 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Lamp"
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86f31398-b3ed-4ae1-9cea-7801f8e83fec")
-		)
-		(pin "1"
-			(uuid "67cb45bd-e2fd-41c3-a540-a78d21984d59")
-		)
-		(instances
-			(project ""
-				(path "/a75183a9-ea53-46d5-9d29-d6271be85780/fc0fcfd0-1c39-4335-9cf1-525d4a931a16"
-					(reference "LA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 91.44 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fcae629-577e-4be2-b3b4-d036a14d8ea6")
-		(property "Reference" "SW1"
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 91.44 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "256c1bfc-6095-4101-944a-0492f61a1aca")
-		)
-		(pin "1"
-			(uuid "05985c79-c794-4a0b-9d1f-9140d643c95a")
-		)
-		(instances
-			(project "PM-RQ8-base"
-				(path "/a75183a9-ea53-46d5-9d29-d6271be85780/fc0fcfd0-1c39-4335-9cf1-525d4a931a16"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 55.88 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a69dfc9c-25aa-42e2-b27b-f0378b47c255")
-		(property "Reference" "LA2"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Lamp"
-			(at 55.88 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Lamp"
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" ""
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" ""
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 55.88 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1ab86e4-1dc5-4010-a3ba-1d4a7548f8ed")
-		)
-		(pin "1"
-			(uuid "0f3ee56e-18ce-4b8a-b7fa-4f2c96aaec0c")
-		)
-		(instances
-			(project "PM-RQ8-base"
-				(path "/a75183a9-ea53-46d5-9d29-d6271be85780/fc0fcfd0-1c39-4335-9cf1-525d4a931a16"
-					(reference "LA2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 91.44 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce2dc405-9bff-487c-9029-beb4f3e9a414")
-		(property "Reference" "SW3"
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" ""
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" ""
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7eb58648-c2f5-4255-8dd3-e3454da683a1")
-		)
-		(pin "1"
-			(uuid "ba14f724-a5e4-4f84-99e4-c97da87b1515")
-		)
-		(instances
-			(project "PM-RQ8-base"
-				(path "/a75183a9-ea53-46d5-9d29-d6271be85780/fc0fcfd0-1c39-4335-9cf1-525d4a931a16"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
 	)
 )
