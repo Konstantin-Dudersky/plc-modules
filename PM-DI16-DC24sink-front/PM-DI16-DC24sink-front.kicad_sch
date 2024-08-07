@@ -1665,6 +1665,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SPI parallel port expander"
@@ -1700,7 +1701,7 @@
 			)
 			(symbol "MCP23S17_ML_1_1"
 				(pin bidirectional line
-					(at 17.78 10.16 180)
+					(at 17.78 -12.7 180)
 					(length 5.08)
 					(name "GPB4"
 						(effects
@@ -1844,7 +1845,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -2.54 180)
+					(at 17.78 20.32 180)
 					(length 5.08)
 					(name "GPA0"
 						(effects
@@ -1862,7 +1863,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -5.08 180)
+					(at 17.78 17.78 180)
 					(length 5.08)
 					(name "GPA1"
 						(effects
@@ -1880,7 +1881,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -7.62 180)
+					(at 17.78 15.24 180)
 					(length 5.08)
 					(name "GPA2"
 						(effects
@@ -1898,7 +1899,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 7.62 180)
+					(at 17.78 -15.24 180)
 					(length 5.08)
 					(name "GPB5"
 						(effects
@@ -1916,7 +1917,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -10.16 180)
+					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "GPA3"
 						(effects
@@ -1934,7 +1935,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -12.7 180)
+					(at 17.78 10.16 180)
 					(length 5.08)
 					(name "GPA4"
 						(effects
@@ -1952,7 +1953,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -15.24 180)
+					(at 17.78 7.62 180)
 					(length 5.08)
 					(name "GPA5"
 						(effects
@@ -1970,7 +1971,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -17.78 180)
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "GPA6"
 						(effects
@@ -1988,7 +1989,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 -20.32 180)
+					(at 17.78 2.54 180)
 					(length 5.08)
 					(name "GPA7"
 						(effects
@@ -2006,7 +2007,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 20.32 180)
+					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "GPB0"
 						(effects
@@ -2024,7 +2025,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 17.78 180)
+					(at 17.78 -5.08 180)
 					(length 5.08)
 					(name "GPB1"
 						(effects
@@ -2042,7 +2043,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 15.24 180)
+					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "GPB2"
 						(effects
@@ -2060,7 +2061,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 12.7 180)
+					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "GPB3"
 						(effects
@@ -2096,7 +2097,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 5.08 180)
+					(at 17.78 -17.78 180)
 					(length 5.08)
 					(name "GPB6"
 						(effects
@@ -2114,7 +2115,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 17.78 2.54 180)
+					(at 17.78 -20.32 180)
 					(length 5.08)
 					(name "GPB7"
 						(effects
@@ -2545,7 +2546,7 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:R_10k_1206_1%"
+		(symbol "kicad_inventree_lib:R_1k_1206_1%"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2561,7 +2562,7 @@
 					)
 				)
 			)
-			(property "Value" "10k"
+			(property "Value" "1k"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2578,7 +2579,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/26/"
+			(property "Datasheet" "http://inventree.network/part/60/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2614,7 +2615,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "R_10k_1206_1%"
+			(property "part_ipn" "R_1k_1206_1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2641,7 +2642,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_10k_1206_1%_0_1"
+			(symbol "R_1k_1206_1%_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -2654,7 +2655,7 @@
 					)
 				)
 			)
-			(symbol "R_10k_1206_1%_1_1"
+			(symbol "R_1k_1206_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2693,7 +2694,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -2710,7 +2711,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2736,7 +2737,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2754,7 +2755,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2792,7 +2793,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -3013,10 +3014,6 @@
 		(uuid "f39d09bd-6a22-4cb5-a675-1845d9d7b60d")
 	)
 	(no_connect
-		(at 68.58 33.02)
-		(uuid "2a643cdd-21bd-4fc3-83c6-2e640b9bfae4")
-	)
-	(no_connect
 		(at 27.94 96.52)
 		(uuid "7c658a8a-347a-4a90-a1ce-65daf745c82f")
 	)
@@ -3027,10 +3024,6 @@
 	(no_connect
 		(at 27.94 101.6)
 		(uuid "d4049ecd-d824-432b-be75-204718f9f88f")
-	)
-	(no_connect
-		(at 68.58 30.48)
-		(uuid "e0eb08db-191a-42f6-96f0-0925262719c0")
 	)
 	(wire
 		(pts
@@ -3054,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 119.38) (xy 76.2 119.38)
+			(xy 63.5 96.52) (xy 76.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3144,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 76.2 88.9)
+			(xy 63.5 111.76) (xy 76.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3194,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 76.2 114.3)
+			(xy 63.5 91.44) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3204,13 +3197,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 91.44) (xy 76.2 91.44)
+			(xy 63.5 114.3) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "28826e24-07ed-49dc-b266-6b3c475fb5ef")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a4c9ce-75ec-41b7-9962-f09ecf171c55")
 	)
 	(wire
 		(pts
@@ -3274,7 +3277,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 86.36) (xy 76.2 86.36)
+			(xy 63.5 109.22) (xy 76.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3294,7 +3297,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 101.6) (xy 76.2 101.6)
+			(xy 63.5 78.74) (xy 76.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3447,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 96.52) (xy 76.2 96.52)
+			(xy 63.5 119.38) (xy 76.2 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3484,13 +3487,13 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 30.48) (xy 88.9 30.48)
+			(xy 83.82 27.94) (xy 81.28 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "671bb04a-8e33-4812-8698-bbf70b171fda")
+		(uuid "64e86922-1c5e-4a6e-925d-f4d4cbbb4b7a")
 	)
 	(wire
 		(pts
@@ -3514,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 33.02) (xy 68.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71acda73-ea31-40fb-88e2-52532c61b92d")
+	)
+	(wire
+		(pts
 			(xy 66.04 35.56) (xy 66.04 38.1)
 		)
 		(stroke
@@ -3534,7 +3547,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 88.9 35.56)
+			(xy 81.28 33.02) (xy 88.9 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3551,6 +3564,16 @@
 			(type default)
 		)
 		(uuid "83714343-c624-4fdc-b23d-bdad6ba5fb72")
+	)
+	(wire
+		(pts
+			(xy 83.82 25.4) (xy 83.82 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89156708-f187-4cbd-b5c6-ee5e5bd3b5be")
 	)
 	(wire
 		(pts
@@ -3674,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 109.22) (xy 76.2 109.22)
+			(xy 63.5 86.36) (xy 76.2 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3734,7 +3757,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 76.2 93.98)
+			(xy 63.5 116.84) (xy 76.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 78.74) (xy 76.2 78.74)
+			(xy 63.5 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3804,6 +3827,26 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 35.56) (xy 81.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c1397b-98a6-4f7c-8e19-4ff5bdf5967d")
+	)
+	(wire
+		(pts
+			(xy 83.82 38.1) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c631936b-f0bd-4b42-b85b-b643e0eae9ab")
+	)
+	(wire
+		(pts
 			(xy 203.2 88.9) (xy 203.2 101.6)
 		)
 		(stroke
@@ -3824,7 +3867,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 106.68) (xy 76.2 106.68)
+			(xy 63.5 83.82) (xy 76.2 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3834,7 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 76.2 83.82)
+			(xy 63.5 106.68) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +3887,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 88.9 33.02)
+			(xy 81.28 30.48) (xy 88.9 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3884,7 +3927,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 116.84) (xy 76.2 116.84)
+			(xy 63.5 93.98) (xy 76.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3894,7 +3937,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 104.14) (xy 76.2 104.14)
+			(xy 63.5 81.28) (xy 76.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3944,7 +3987,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 76.2 81.28)
+			(xy 63.5 104.14) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3954,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 76.2 111.76)
+			(xy 63.5 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3981,16 +4024,6 @@
 			(type default)
 		)
 		(uuid "f49da128-a472-46af-bce1-3265a9f2a9a2")
-	)
-	(wire
-		(pts
-			(xy 81.28 27.94) (xy 88.9 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8d3bdae-2940-4b55-8679-1dc7728d4f55")
 	)
 	(wire
 		(pts
@@ -4033,7 +4066,7 @@
 		(uuid "ffc494a5-2b66-4f23-9842-8fd98012b2a3")
 	)
 	(label "a.4"
-		(at 76.2 111.76 180)
+		(at 76.2 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4044,7 +4077,7 @@
 		(uuid "03af437d-e45f-4da4-a347-b69d058bdba0")
 	)
 	(label "b.4"
-		(at 76.2 88.9 180)
+		(at 76.2 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4055,17 +4088,17 @@
 		(uuid "12629970-ca7d-4418-a173-09358d9b1b2a")
 	)
 	(label "MISO"
-		(at 88.9 30.48 180)
+		(at 60.96 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1979f759-3be7-4119-9d93-e43fba6e37fc")
 	)
-	(label "CS2"
+	(label "CS"
 		(at 20.32 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4088,7 +4121,7 @@
 		(uuid "2660a9e8-14a1-4ad7-a07e-c8a324c60b27")
 	)
 	(label "b.6"
-		(at 76.2 93.98 180)
+		(at 76.2 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4099,7 +4132,7 @@
 		(uuid "26da656e-93bd-4c48-8202-9b08ee142d68")
 	)
 	(label "a.1"
-		(at 76.2 104.14 180)
+		(at 76.2 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4110,7 +4143,7 @@
 		(uuid "33309327-5e5d-4b8a-b6ac-fb94ef69238a")
 	)
 	(label "b.5"
-		(at 76.2 91.44 180)
+		(at 76.2 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4121,7 +4154,7 @@
 		(uuid "3f3fb1cc-d1cc-4d62-9a33-343a08632000")
 	)
 	(label "a.7"
-		(at 76.2 119.38 180)
+		(at 76.2 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4132,7 +4165,7 @@
 		(uuid "4be75353-b04f-4e8d-99b7-8531960c7259")
 	)
 	(label "a.5"
-		(at 76.2 114.3 180)
+		(at 76.2 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4165,7 +4198,7 @@
 		(uuid "58469130-5f64-4c82-b13e-5ad98244cbfa")
 	)
 	(label "b.3"
-		(at 76.2 86.36 180)
+		(at 76.2 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4176,7 +4209,7 @@
 		(uuid "59ab5904-8201-4965-872f-736f3b0e82e2")
 	)
 	(label "a.0"
-		(at 76.2 101.6 180)
+		(at 76.2 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4219,7 +4252,7 @@
 		)
 		(uuid "74173e56-231f-402e-a279-3a2555f85301")
 	)
-	(label "CLK"
+	(label "SCK"
 		(at 20.32 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4242,7 +4275,7 @@
 		(uuid "77612d68-f54d-454c-875d-6caef6f0ef0c")
 	)
 	(label "b.7"
-		(at 76.2 96.52 180)
+		(at 76.2 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4252,8 +4285,8 @@
 		)
 		(uuid "77e6152f-2308-4920-a902-f9811aa59e81")
 	)
-	(label "CS2"
-		(at 88.9 35.56 180)
+	(label "CS"
+		(at 88.9 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4275,7 +4308,7 @@
 		(uuid "85bd7e25-4ae0-4f62-91d9-54baacdea019")
 	)
 	(label "b.1"
-		(at 76.2 81.28 180)
+		(at 76.2 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4319,7 +4352,7 @@
 		(uuid "8e6d8709-21c1-4ce0-9050-4cbc04fb0920")
 	)
 	(label "a.6"
-		(at 76.2 116.84 180)
+		(at 76.2 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4352,7 +4385,7 @@
 		(uuid "9e58697e-a20d-4f7b-9458-64c5b8997851")
 	)
 	(label "a.3"
-		(at 76.2 109.22 180)
+		(at 76.2 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4396,7 +4429,7 @@
 		(uuid "cd6f5dc9-a637-461e-b980-3d5dea029815")
 	)
 	(label "b.2"
-		(at 76.2 83.82 180)
+		(at 76.2 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4429,7 +4462,7 @@
 		(uuid "e0077c29-3f1a-4d51-9aa5-5f0d960eb826")
 	)
 	(label "a.2"
-		(at 76.2 106.68 180)
+		(at 76.2 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4440,18 +4473,18 @@
 		(uuid "f9efe7e3-3216-4c2f-9c06-905aca2950ea")
 	)
 	(label "MOSI"
-		(at 88.9 27.94 180)
+		(at 60.96 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fc94e0cb-bf15-4adc-a95e-1a83b4fcde0b")
 	)
 	(label "b.0"
-		(at 76.2 78.74 180)
+		(at 76.2 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4461,8 +4494,8 @@
 		)
 		(uuid "fdb44204-1995-4468-a5cf-f819e5d02382")
 	)
-	(label "CLK"
-		(at 88.9 33.02 180)
+	(label "SCK"
+		(at 88.9 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4545,6 +4578,101 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b18ee7a-176f-48e8-bed2-d5551b2a9b09")
+		(property "Reference" "R3"
+			(at 128.27 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.27 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "01dd89b1-600a-4395-9cb3-76b5e70aff71")
+		)
+		(pin "1"
+			(uuid "8f46357e-7c38-44a3-b82a-3f19f30897cc")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4760,6 +4888,101 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f665f4f-5381-4345-876b-640fc4032765")
+		(property "Reference" "R10"
+			(at 179.07 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6f5cae7-4583-4314-924c-4289d38ca938")
+		)
+		(pin "1"
+			(uuid "f8497cf4-9f2f-4de1-bee6-b83c836fc6a6")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 25.4 127 0)
 		(unit 1)
@@ -4820,6 +5043,101 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34a1c7bd-6719-4b6c-9ffc-82b87821c993")
+		(property "Reference" "R7"
+			(at 128.27 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.27 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d7c0d53-8d12-42f0-a280-6e5c50e3966d")
+		)
+		(pin "1"
+			(uuid "39504f3c-64bb-445d-9525-ddaba32e218b")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4892,33 +5210,17 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 88.9 270)
+		(lib_id "power:GND")
+		(at 83.82 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42c87682-6291-4376-bdac-ae6a80f67667")
-		(property "Reference" "R6"
-			(at 128.27 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 87.122 90)
+		(uuid "3e46f31b-fe7a-4b86-a3e4-2b42884a919d")
+		(property "Reference" "#PWR05"
+			(at 83.82 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,8 +5228,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 88.9 0)
+		(property "Value" "GND"
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,8 +5245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 128.27 88.9 0)
+		(property "Datasheet" ""
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,26 +5254,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,15 +5264,202 @@
 			)
 		)
 		(pin "1"
-			(uuid "844a579b-b48f-43c5-9dad-ceb63f5479e2")
-		)
-		(pin "2"
-			(uuid "269bc9c7-f0c6-4882-9fd1-8de8979a01fc")
+			(uuid "5104836a-3b42-4624-a574-83636ec02db7")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R6")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed527ed-3a83-4233-b8bb-572f9e8eb433")
+		(property "Reference" "R16"
+			(at 179.07 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00d857cd-46b3-4469-a213-837fc0205118")
+		)
+		(pin "1"
+			(uuid "47e22768-1806-4dfb-9ffb-9cad6b7d87d2")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43e121c6-d759-410d-bfc7-bd2d89d8d724")
+		(property "Reference" "R5"
+			(at 128.27 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.27 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34e9248c-677d-478e-9585-dd69cc55aed4")
+		)
+		(pin "1"
+			(uuid "c533948b-138b-4809-822a-a89cdaa1abe4")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5141,6 +5620,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 83.82 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "485f21c5-4f71-4272-acd3-fe737bcce9ca")
+		(property "Reference" "#PWR09"
+			(at 83.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 83.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 83.82 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89cde07e-42c3-4fab-8a76-9fc68ed536f1")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "LED_green_1206_reverse_5")
 		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 189.23 76.2 180)
@@ -5219,33 +5764,17 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 50.8 270)
+		(lib_id "power:+3.3V")
+		(at 66.04 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57ff28df-1e65-4986-b1a8-3007b13e1881")
-		(property "Reference" "R3"
-			(at 128.27 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 49.022 90)
+		(uuid "68cafac3-e0c7-4332-987f-2ef60c222d61")
+		(property "Reference" "#PWR01"
+			(at 66.04 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,8 +5782,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 50.8 0)
+		(property "Value" "+3.3V"
+			(at 66.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,8 +5799,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 128.27 50.8 0)
+		(property "Datasheet" ""
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,26 +5808,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 66.04 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,110 +5818,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "06bd8cfe-6b23-4bc3-978b-ed0fc9fd0a1e")
-		)
-		(pin "2"
-			(uuid "a6502d6b-0473-492d-bb84-3a21ec23a8da")
+			(uuid "492e11c3-8497-4344-8e9e-f931d208bd9e")
 		)
 		(instances
-			(project "PM-DI16-DC24sink-front"
+			(project ""
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58537b3e-990d-4673-bab1-b7da00a21ffc")
-		(property "Reference" "R15"
-			(at 179.07 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 179.07 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "089b23f0-1f04-4178-a576-5e7a478153de")
-		)
-		(pin "2"
-			(uuid "973aa722-3807-4d3a-b82f-2f61c9e114a5")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R15")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5565,196 +5986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d60201e-0410-4dc3-a67b-1e26b5a0b10f")
-		(property "Reference" "R8"
-			(at 128.27 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 112.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e377999-be82-4c09-b422-4ec57ff0d1e2")
-		)
-		(pin "2"
-			(uuid "b571cbf6-f0f5-4cd2-bf15-75f3c625c033")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f3d72f3-493f-4f0c-9851-14a9fa0d9633")
-		(property "Reference" "R2"
-			(at 128.27 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70e9dcff-b6eb-4592-b710-03e503367aee")
-		)
-		(pin "2"
-			(uuid "1f58754e-32b1-483f-9651-34836fc2dca4")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 138.43 63.5 180)
 		(unit 1)
@@ -5832,25 +6063,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 25.4 270)
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "790ab12a-effb-4e66-be1c-03d0cf9f54b3")
-		(property "Reference" "R9"
-			(at 179.07 19.05 90)
+		(uuid "75c7f5fa-81d0-4474-b31b-7f41f4a6b34c")
+		(property "Reference" "R4"
+			(at 128.27 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 179.07 21.59 90)
+		(property "Value" "1k"
+			(at 128.27 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +6089,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 23.622 90)
+			(at 128.27 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,8 +6097,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 25.4 0)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +6107,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 25.4 0)
+			(at 128.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +6116,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.00169"
-			(at 179.07 25.4 0)
+			(at 128.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +6125,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 25.4 0)
+			(at 128.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,120 +6133,25 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 25.4 0)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "38af763d-befc-4620-95fc-92e6fdcf11ad")
 		)
 		(pin "2"
-			(uuid "a9860202-bbc6-4c35-8c79-018ea978ecc8")
-		)
-		(instances
-			(project ""
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ad6b41c-d884-45bc-b8be-af96fbde32f2")
-		(property "Reference" "R10"
-			(at 179.07 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 179.07 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 36.322 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "e800ee7f-1607-471c-976d-a302f38f3dd7")
 		)
 		(pin "1"
-			(uuid "af3205ba-07e7-4721-b5eb-c7c564072e7f")
-		)
-		(pin "2"
-			(uuid "54c24e2d-ce29-47a3-a6be-85f29e1b56b7")
+			(uuid "b441dab0-d615-4c82-9387-0180aad4772d")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R10")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6094,6 +6230,101 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3577d5-b332-49f5-99d0-74454712493b")
+		(property "Reference" "R14"
+			(at 179.07 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c185f54e-79ce-4f1e-9c29-ce49cb2b125e")
+		)
+		(pin "1"
+			(uuid "77202149-e275-4c16-86e8-e8650e5c2a7f")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6196,6 +6427,101 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9874f0e8-e934-4dd3-83e2-872422de11d0")
+		(property "Reference" "R1"
+			(at 128.27 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.27 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 128.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 128.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1de49fa-cf54-4e14-a1ed-6d2a39ff4bd5")
+		)
+		(pin "1"
+			(uuid "cdcf472b-4b49-411a-8217-86ac1efeda4c")
+		)
+		(instances
+			(project ""
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "LED_green_1206_reverse_6")
 		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 189.23 88.9 180)
@@ -6268,6 +6594,386 @@
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9de461e3-39df-4f30-80f4-572bef161251")
+		(property "Reference" "R15"
+			(at 179.07 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "feccd619-b557-4e8c-9d21-14c29e35c6f5")
+		)
+		(pin "1"
+			(uuid "6232de98-fa3e-4d3a-be9e-feccd617f992")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abdb1e18-0d2a-40d1-ade5-f2c1f7f8374f")
+		(property "Reference" "R2"
+			(at 128.27 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.27 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f575f7b-51b7-4d99-84a1-eddbb2ae6abd")
+		)
+		(pin "1"
+			(uuid "094cfff3-56df-4924-b3ab-3713485e99e0")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adfdd905-893d-437d-8aa6-91113bbbf728")
+		(property "Reference" "R12"
+			(at 179.07 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24c25129-3354-4e30-987b-3f54246d22f6")
+		)
+		(pin "1"
+			(uuid "9a696a45-fbad-4e3c-b244-4a9cd19fe7e9")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb841a0-5a9c-4c58-8691-1a8f5b16dfef")
+		(property "Reference" "R6"
+			(at 128.27 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 128.27 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac6edb45-d5e3-4fe6-aef3-96b3bbdc5fbf")
+		)
+		(pin "1"
+			(uuid "780f281f-218c-4b6b-b719-577b270263dc")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6429,17 +7135,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 66.04 25.4 0)
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c2fc6e5c-04ce-41fd-b092-c6484ab25a00")
-		(property "Reference" "#PWR01"
-			(at 66.04 29.21 0)
+		(uuid "c0537c9a-63c2-4763-b489-b45641ca3628")
+		(property "Reference" "R11"
+			(at 179.07 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,16 +7169,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 66.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 25.4 0)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,8 +7178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 25.4 0)
+		(property "Description" "Resistor"
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,22 +7187,138 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 25.4 0)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b86090e8-4cce-4a29-8d67-bc5ba7588e80")
 		)
 		(pin "1"
-			(uuid "39c3a7a2-8e62-4ba8-8874-32eccde664a7")
+			(uuid "b8eeefdc-b878-4930-a7a8-dd90c84dfa42")
 		)
 		(instances
-			(project ""
+			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "#PWR01")
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c36d675e-1f9c-4104-bdb4-ade6df934264")
+		(property "Reference" "R13"
+			(at 179.07 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 179.07 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 179.07 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00169"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23002aab-209e-462f-accc-9081fe24c4bd")
+		)
+		(pin "1"
+			(uuid "bf0f2433-5be3-4159-ba1f-550961d0610c")
+		)
+		(instances
+			(project "PM-DI16-DC24sink-front"
+				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6505,7 +7335,7 @@
 		(fields_autoplaced yes)
 		(uuid "c91ae812-fbdb-4462-90e4-7972a0da9f54")
 		(property "Reference" "U1"
-			(at 47.9141 68.58 0)
+			(at 47.9141 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +7344,7 @@
 			)
 		)
 		(property "Value" "MCP23S17_ML"
-			(at 47.9141 71.12 0)
+			(at 47.9141 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,6 +7388,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "25"
@@ -6734,101 +7565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd66e7b9-bb8d-4586-835a-adfa2185e7f3")
-		(property "Reference" "R4"
-			(at 128.27 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8456c04e-2fce-44bb-b091-2bde3a5ca4b1")
-		)
-		(pin "2"
-			(uuid "10770fd2-41cc-4ff1-ae76-42b4e0e5b347")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 138.43 101.6 180)
 		(unit 1)
@@ -6906,197 +7642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db3e4292-87d1-4aec-bac4-819a7ebd8d9e")
-		(property "Reference" "R1"
-			(at 128.27 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 23.622 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0bf630f-0486-40c1-b88b-305c6da75af4")
-		)
-		(pin "2"
-			(uuid "e0625122-bd20-4b7d-89d3-d73f8afc9cfb")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc7cc901-7aff-404a-92b3-189de91b28bb")
-		(property "Reference" "R12"
-			(at 179.07 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 179.07 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 61.722 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bd11eb2-b582-4cc8-a9b6-097841db2e24")
-		)
-		(pin "2"
-			(uuid "e25222b0-9049-45e7-8d65-84f4a66341ce")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
+		(lib_id "power:+3.3V")
 		(at 45.72 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7104,8 +7650,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1c4bd40-d8f5-4ef7-ae4e-e7eda861f672")
-		(property "Reference" "#PWR05"
+		(uuid "db472294-5b9b-4abd-abb5-b334139a9cae")
+		(property "Reference" "#PWR08"
 			(at 45.72 74.93 0)
 			(effects
 				(font
@@ -7114,7 +7660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3.3V"
 			(at 45.72 66.04 0)
 			(effects
 				(font
@@ -7140,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 45.72 71.12 0)
 			(effects
 				(font
@@ -7150,37 +7696,37 @@
 			)
 		)
 		(pin "1"
-			(uuid "d988286f-9b77-420c-8da4-c11362b5e8e1")
+			(uuid "37807334-c038-4bb5-b72a-5e89b0a0c130")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 50.8 270)
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 179.07 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3121b3d-d9b1-4981-8f86-95ebd0dbbf12")
-		(property "Reference" "R11"
-			(at 179.07 44.45 90)
+		(uuid "e64ef408-e04f-42ad-b11d-3efdd2af10ad")
+		(property "Reference" "R9"
+			(at 179.07 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 179.07 46.99 90)
+		(property "Value" "1k"
+			(at 179.07 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,7 +7734,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 49.022 90)
+			(at 179.07 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,8 +7742,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 50.8 0)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 179.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +7752,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 50.8 0)
+			(at 179.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,7 +7761,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.00169"
-			(at 179.07 50.8 0)
+			(at 179.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,7 +7770,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 50.8 0)
+			(at 179.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7232,120 +7778,25 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 50.8 0)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 179.07 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "e5dcc056-7683-43c7-a0ed-2ca0c26c0f62")
 		)
 		(pin "2"
-			(uuid "5cdfea75-9a4d-4dad-ba88-ae37f8ee2d19")
+			(uuid "939320e4-b0c3-41a6-825f-fddf667ffe1f")
+		)
+		(pin "1"
+			(uuid "f2309c59-b3cd-48a7-a6a6-7aeccb4787ee")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 114.3 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e71dae49-70db-4889-a926-c50daa1afd28")
-		(property "Reference" "R16"
-			(at 179.07 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 179.07 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 112.522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "285569a8-be0d-45d9-bbf6-fb9a6fb0af09")
-		)
-		(pin "2"
-			(uuid "d298a7e1-b883-4b16-8343-4ec2201579f4")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R16")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7418,25 +7869,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 76.2 270)
+		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(at 128.27 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eca3601a-8ec8-40ce-8403-58d1508732e1")
-		(property "Reference" "R13"
-			(at 179.07 69.85 90)
+		(uuid "ed9d9328-80d0-47c6-aa00-0a30927215d8")
+		(property "Reference" "R8"
+			(at 128.27 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 179.07 72.39 90)
+		(property "Value" "1k"
+			(at 128.27 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7444,7 +7895,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 74.422 90)
+			(at 128.27 116.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,8 +7903,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 76.2 0)
+		(property "Datasheet" "http://inventree.network/part/60/"
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +7913,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 76.2 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7922,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.00169"
-			(at 179.07 76.2 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7931,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 76.2 0)
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,25 +7939,25 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 76.2 0)
+		(property "part_ipn" "R_1k_1206_1%"
+			(at 128.27 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "6243c89a-0061-4a62-9d5a-d51a05641381")
 		)
 		(pin "2"
-			(uuid "bb05aa32-3bf0-46cf-bad2-e2492a0ddcd1")
+			(uuid "a435efad-7c5f-4de5-9ef0-86da0adc168d")
+		)
+		(pin "1"
+			(uuid "1a9456d1-4234-4dd3-bd18-b24874702d1b")
 		)
 		(instances
 			(project "PM-DI16-DC24sink-front"
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7584,291 +8035,6 @@
 			(project ""
 				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 101.6 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0efb375-2c4e-4a5d-ac24-ab44dca527c2")
-		(property "Reference" "R7"
-			(at 128.27 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c1c42ff-0934-4e43-8816-ac491fd9ebbc")
-		)
-		(pin "2"
-			(uuid "86d01e72-f36a-43a7-81db-7a09b22072fe")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 128.27 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f536b280-eac2-4764-a15c-3ec2ca947756")
-		(property "Reference" "R5"
-			(at 128.27 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 128.27 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 128.27 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 128.27 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41a9ee7e-6ed9-4525-b9f4-44c7fcd97c08")
-		)
-		(pin "2"
-			(uuid "52400a77-b514-41f7-bdba-7ad0f7fab023")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_1206_1%")
-		(at 179.07 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7dbb3f9-5e9c-456c-b3ad-33234ad94beb")
-		(property "Reference" "R14"
-			(at 179.07 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 179.07 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 179.07 87.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/26/"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_1206_1%"
-			(at 179.07 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5a89a77-7e12-459a-a852-4ef011caaf12")
-		)
-		(pin "2"
-			(uuid "5d2ed4eb-f6f5-4475-9806-7feddf1927bf")
-		)
-		(instances
-			(project "PM-DI16-DC24sink-front"
-				(path "/dd485016-d8ee-4b7f-b164-1c3d485614cd"
-					(reference "R14")
 					(unit 1)
 				)
 			)

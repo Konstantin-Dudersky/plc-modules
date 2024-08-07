@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -81,7 +81,7 @@
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -761,6 +761,10 @@
     [
       "0d48c30d-54a2-4cf9-bb36-41abe522be17",
       "isolation"
+    ],
+    [
+      "38069249-9be9-4b5b-929f-3f95e8018928",
+      "external_connection"
     ]
   ],
   "text_variables": {}
