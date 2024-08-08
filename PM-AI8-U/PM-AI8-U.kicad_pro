@@ -52,14 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "silk_edge_clearance|124460000|101600000|22c25d20-e0b7-4916-8a8b-e194421376e2|db60bedb-21de-4370-8e4b-d901d1d79c39",
-        "silk_edge_clearance|124460000|104140000|22c25d20-e0b7-4916-8a8b-e194421376e2|480ac512-d969-440b-bd0f-760957f0be04",
-        "silk_edge_clearance|124460000|106740000|22c25d20-e0b7-4916-8a8b-e194421376e2|41588765-14b1-4f38-b3c9-c29024b3a8cd",
-        "silk_edge_clearance|124460000|93920000|22c25d20-e0b7-4916-8a8b-e194421376e2|f6a3a350-9221-4c90-89bc-85a4756585ef",
-        "silk_edge_clearance|124460000|96520000|22c25d20-e0b7-4916-8a8b-e194421376e2|d4445ca3-d449-4140-82cc-1171735c50dd",
-        "silk_edge_clearance|124460000|99060000|22c25d20-e0b7-4916-8a8b-e194421376e2|9b646b34-c680-49d9-87d7-a7a5c743c643"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -434,7 +427,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "kicad_inventree_lib"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -483,6 +478,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3.3V": "power",
       "+5V": "power",
       "GND": "power",
       "Net-(D13-K)": "power"
