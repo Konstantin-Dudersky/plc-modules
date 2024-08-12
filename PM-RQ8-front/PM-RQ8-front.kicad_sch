@@ -1194,7 +1194,7 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:R_1k_1206_1%"
+		(symbol "kicad_inventree_lib:R_270_1206_1%"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1210,7 +1210,7 @@
 					)
 				)
 			)
-			(property "Value" "1k"
+			(property "Value" "270"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1227,7 +1227,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/60/"
+			(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1245,7 +1245,7 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_price" "0.00169"
+			(property "NextPCB_price" "0.00289"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1254,7 +1254,7 @@
 					(hide yes)
 				)
 			)
-			(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1263,7 +1263,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "R_1k_1206_1%"
+			(property "part_ipn" "R_270_1206_1%"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1290,7 +1290,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_1k_1206_1%_0_1"
+			(symbol "R_270_1206_1%_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -1303,7 +1303,7 @@
 					)
 				)
 			)
-			(symbol "R_1k_1206_1%_1_1"
+			(symbol "R_270_1206_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1644,10 +1644,6 @@
 		(uuid "7a91fc94-c979-4a78-87ed-acc837b40ed7")
 	)
 	(no_connect
-		(at 33.02 127)
-		(uuid "a21146cf-ca5a-4e28-ac47-1c17a882ad33")
-	)
-	(no_connect
 		(at 68.58 129.54)
 		(uuid "af76597d-72e0-4c9f-aa5b-30ff72df7fc3")
 	)
@@ -1802,6 +1798,16 @@
 			(type default)
 		)
 		(uuid "3a812e20-0aaf-4d01-b084-45e9f6a10242")
+	)
+	(wire
+		(pts
+			(xy 25.4 127) (xy 25.4 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc26bdb-64ab-464c-8962-8c6198939665")
 	)
 	(wire
 		(pts
@@ -2302,6 +2308,16 @@
 			(type default)
 		)
 		(uuid "fd3274e2-d0a6-4299-95b9-02fce284302f")
+	)
+	(wire
+		(pts
+			(xy 33.02 127) (xy 25.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff349bcd-a503-41f3-82fc-9e0735ddaf95")
 	)
 	(label "3"
 		(at 127 88.9 0)
@@ -2920,101 +2936,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34d50064-2a52-433f-84f0-19a8ad517935")
-		(property "Reference" "R8"
-			(at 133.35 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 133.35 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3a706ff8-1d59-45b5-b882-aa44b781c583")
-		)
-		(pin "1"
-			(uuid "6a52589c-0080-452c-b13c-29f772f84364")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 59.69 49.53 0)
 		(unit 1)
@@ -3213,25 +3134,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 101.6 90)
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "63bbc318-c6de-40b9-8e67-9dbe969dfb24")
-		(property "Reference" "R5"
-			(at 133.35 95.25 90)
+		(uuid "4964af96-3d12-4c73-b2e8-cb4e92192318")
+		(property "Reference" "R3"
+			(at 133.35 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 133.35 97.79 90)
+		(property "Value" "270"
+			(at 133.35 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3160,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 103.378 90)
+			(at 133.35 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3247,8 +3168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 101.6 0)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3178,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 101.6 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3265,8 +3186,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 101.6 0)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,8 +3195,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 101.6 0)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,25 +3204,281 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 101.6 0)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "2f5d355e-adc7-41bd-a05d-66483368832e")
 		)
 		(pin "1"
-			(uuid "82091825-3011-47fb-ba50-1d4a7d6d4658")
+			(uuid "443f24e5-29ee-430f-9a6f-482357499844")
+		)
+		(pin "2"
+			(uuid "bdf90b5f-f666-4aaf-8006-a4a45e379daa")
 		)
 		(instances
 			(project "PM-RQ8-front"
 				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R5")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e40864f-79c8-48bf-a87c-af67cad86170")
+		(property "Reference" "R8"
+			(at 133.35 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 133.35 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.35 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1215ebe9-4cde-4a0f-998d-0722582256be")
+		)
+		(pin "2"
+			(uuid "2794694d-11fa-4406-af8d-4896d592a391")
+		)
+		(instances
+			(project "PM-RQ8-front"
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b55bc1c-7681-4f8a-8f25-21ce73d6db7c")
+		(property "Reference" "R2"
+			(at 133.35 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 133.35 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.35 65.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c685e189-d11e-41f6-ac67-614782fb4c6a")
+		)
+		(pin "2"
+			(uuid "dc9518dc-ad8b-46d9-804a-a4453634790e")
+		)
+		(instances
+			(project "PM-RQ8-front"
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68eedcd1-8706-4d6e-a1b7-44748ff64a76")
+		(property "Reference" "#PWR09"
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 25.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6393ba7d-64ca-4589-ae98-9a18aad342bb")
+		)
+		(instances
+			(project "PM-RQ8-front"
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3374,6 +3551,101 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7439eef7-6e50-4b50-b953-98530933b951")
+		(property "Reference" "R1"
+			(at 133.35 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 133.35 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.35 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4f1f6c-f32d-4820-a483-8edd50f5d84f")
+		)
+		(pin "2"
+			(uuid "7ee7d305-cd85-40b2-819b-cf5e14266b7e")
+		)
+		(instances
+			(project ""
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 142.24 0)
 		(unit 1)
@@ -3440,25 +3712,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 76.2 90)
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7666fc10-51e8-40a4-a279-9fc6e77bbd26")
-		(property "Reference" "R3"
-			(at 133.35 69.85 90)
+		(uuid "84b0b20c-b601-4f24-a4ae-64d0ac969090")
+		(property "Reference" "R4"
+			(at 133.35 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 133.35 72.39 90)
+		(property "Value" "270"
+			(at 133.35 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3466,7 +3738,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 77.978 90)
+			(at 133.35 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,8 +3746,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 76.2 0)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +3756,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 76.2 0)
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,8 +3764,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 76.2 0)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,8 +3773,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 76.2 0)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,25 +3782,25 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 76.2 0)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "acccfe15-52f0-403e-b6a6-7bae9e427d23")
 		)
 		(pin "1"
-			(uuid "5ec7cc73-0c5f-4838-a299-63140e98f587")
+			(uuid "84a7f301-9b29-4f91-9598-efe04b2a4ba7")
+		)
+		(pin "2"
+			(uuid "0ef11642-4740-42c7-929d-88c54626a7a3")
 		)
 		(instances
 			(project "PM-RQ8-front"
 				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3612,7 +3884,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
 		(at 133.35 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3620,7 +3892,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88488016-9a1e-4b9e-bd5e-301cc30a7b6e")
+		(uuid "a0a270d3-b544-45d6-a6e2-08c99b69db7d")
 		(property "Reference" "R7"
 			(at 133.35 120.65 90)
 			(effects
@@ -3629,7 +3901,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "270"
 			(at 133.35 123.19 90)
 			(effects
 				(font
@@ -3646,7 +3918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/60/"
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -3664,7 +3936,7 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00169"
+		(property "NextPCB_price" "0.00289"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -3673,7 +3945,7 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -3682,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_1k_1206_1%"
+		(property "part_ipn" "R_270_1206_1%"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -3690,12 +3962,12 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c5c4bfe5-fa3e-4f5f-a1e5-5a388ab5154d")
 		)
 		(pin "1"
-			(uuid "e77cb227-2d15-4edc-a59d-3e7570c0bd53")
+			(uuid "a4b5ef70-bd62-4ae3-8d16-5571907eceb5")
+		)
+		(pin "2"
+			(uuid "c2ee90d1-be74-4037-8653-51f7961c865b")
 		)
 		(instances
 			(project "PM-RQ8-front"
@@ -3984,6 +4256,101 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aec22164-7a04-4700-b6b4-be0cd8ef3c80")
+		(property "Reference" "R6"
+			(at 133.35 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 133.35 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 133.35 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaf67c88-53db-4bc0-94be-c8cf3b806f52")
+		)
+		(pin "2"
+			(uuid "d9111f37-823a-4a14-9fb0-f69f0c346967")
+		)
+		(instances
+			(project "PM-RQ8-front"
+				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 143.51 101.6 180)
 		(unit 1)
@@ -4055,101 +4422,6 @@
 			(project "PM-RQ8-front"
 				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bab667bf-35da-409e-b32a-d497806308a1")
-		(property "Reference" "R6"
-			(at 133.35 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 133.35 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 116.078 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4fa0fca3-ec09-4c12-81e5-8e0cfc32490f")
-		)
-		(pin "1"
-			(uuid "23ea3705-75a8-4360-acf0-427a2aa8c2d2")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4550,196 +4822,6 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4b5d5c5-22b8-468b-b0c6-2c1bdd56202f")
-		(property "Reference" "R4"
-			(at 133.35 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 133.35 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e078eeb7-7fe6-420e-ba3e-efff9eaa77d3")
-		)
-		(pin "1"
-			(uuid "7cac7621-0b8a-4c1a-953c-7b7e51f9cfdb")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa9b5f8a-5c93-4b3e-843d-79334cbae5ca")
-		(property "Reference" "R1"
-			(at 133.35 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 133.35 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d51302eb-2275-4a93-bc91-275de987cbcc")
-		)
-		(pin "1"
-			(uuid "9f634764-56a8-4185-9b4d-fc0e3565f8b6")
-		)
-		(instances
-			(project "PM-RQ8-front"
-				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kicad_inventree_lib:LED_green_1206_reverse")
 		(at 143.51 88.9 180)
 		(unit 1)
@@ -4817,25 +4899,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:R_1k_1206_1%")
-		(at 133.35 63.5 90)
+		(lib_id "kicad_inventree_lib:R_270_1206_1%")
+		(at 133.35 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb5401b8-5c26-492b-9934-5561b84560aa")
-		(property "Reference" "R2"
-			(at 133.35 57.15 90)
+		(uuid "fd103760-9adc-4733-99c8-768f01007511")
+		(property "Reference" "R5"
+			(at 133.35 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 133.35 59.69 90)
+		(property "Value" "270"
+			(at 133.35 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4925,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 133.35 65.278 90)
+			(at 133.35 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,8 +4933,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://inventree.network/part/60/"
-			(at 133.35 63.5 0)
+		(property "Datasheet" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc2512f1101ts-2500371841"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4943,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 63.5 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,8 +4951,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_price" "0.00169"
-			(at 133.35 63.5 0)
+		(property "NextPCB_price" "0.00289"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,8 +4960,8 @@
 				(hide yes)
 			)
 		)
-		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-fojan-frc1206f3301ts-2500354421"
-			(at 133.35 63.5 0)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/chip-resistors-ralec-rtt062700ftp-2500346938"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4887,25 +4969,25 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "R_1k_1206_1%"
-			(at 133.35 63.5 0)
+		(property "part_ipn" "R_270_1206_1%"
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "cdecbc86-b364-49dd-a7b9-8cf14b9de6f9")
 		)
 		(pin "1"
-			(uuid "05c61106-194a-44d4-9a43-4ca76d45a8a2")
+			(uuid "bdcbb7f0-ee26-4f13-b5ca-f8d7dcd26a1b")
+		)
+		(pin "2"
+			(uuid "d0ad2fd0-e1ee-4458-be16-4dd2c9f96db5")
 		)
 		(instances
 			(project "PM-RQ8-front"
 				(path "/6d901444-339c-4c40-ad60-577cd2d69bb2"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
