@@ -7,6 +7,9 @@
 		(legacy_teardrops no)
 	)
 	(paper "A5" portrait)
+	(title_block
+		(title "${article} v${version}")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -79,6 +82,8 @@
 			(outputdirectory "")
 		)
 	)
+	(property "article" "ARTICLE")
+	(property "version" "VERSION")
 	(net 0 "")
 	(net 1 "unconnected-(J1-Pad3)")
 	(net 2 "unconnected-(J1-Pad1)")
@@ -3829,7 +3834,7 @@
 			)
 		)
 	)
-	(gr_text "PM-DI16-DC24sink v0.0.1"
+	(gr_text "${article} v${version}"
 		(at 123.19 142.24 90)
 		(layer "F.SilkS" knockout)
 		(uuid "c9462061-e2c8-435a-a20e-428a1df51b96")
