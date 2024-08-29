@@ -298,151 +298,6 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:C_1uF_50V_1206"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1uF"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://inventree.network/part/44/"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "part_ipn" "C_1uF_50V_1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_1uF_50V_1206_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1uF_50V_1206_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "kicad_inventree_lib:DIP_SW-3P-P2.54-THT-Top"
 			(pin_names
 				(offset 0) hide)
@@ -4383,6 +4238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bd19daa-eeb1-48f3-b1dd-4caae6ac82b1")
 		)
@@ -4456,6 +4320,15 @@
 			)
 		)
 		(property "part_ipn" "TS-1088-AR02016 "
+			(at 63.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 63.5 55.88 0)
 			(effects
 				(font
@@ -4543,6 +4416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed59f35a-4191-49f6-9ea4-4134757437f7")
 		)
@@ -4614,6 +4496,15 @@
 			)
 		)
 		(property "part_ipn" "PinHeader_01x01_P2.54_THT_straight"
+			(at 259.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 259.08 88.9 0)
 			(effects
 				(font
@@ -4698,6 +4589,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 50.8 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9005a89a-3e13-4fdf-84aa-105945058864")
 		)
@@ -4708,6 +4608,94 @@
 			(project "PM-ESPC3"
 				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:C_1uF_16V_1206")
+		(at 50.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d513529-1c5b-4c41-8f38-c01fce5314e3")
+		(property "Reference" "C1"
+			(at 54.61 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 54.61 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 51.7652 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/141/"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "C_1uF_16V_1206"
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cb3777c-e391-429c-a9ab-79a6257b130b")
+		)
+		(pin "2"
+			(uuid "5b13ecfa-c83a-4a22-8d95-e4821307245f")
+		)
+		(instances
+			(project "PM-ESPC3"
+				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4861,6 +4849,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aad1796b-25fd-468b-ba10-834ace6d2700")
 		)
@@ -4940,6 +4937,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5139,6 +5145,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 129.54 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e687daaa-c1ae-4f12-b2e0-d2d3c9f06f73")
 		)
@@ -5278,6 +5293,15 @@
 			)
 		)
 		(property "part_ipn" "TS-1088-AR02016 "
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 50.8 127 0)
 			(effects
 				(font
@@ -5515,6 +5539,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 165.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "372be225-7909-47c7-9804-e824ec3d4c07")
 		)
@@ -5585,6 +5618,15 @@
 			)
 		)
 		(property "part_ipn" "DIP_SW-3P-P2.54-THT-Top"
+			(at 119.38 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 119.38 152.4 0)
 			(effects
 				(font
@@ -5752,6 +5794,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "010fb802-f999-4ff4-899b-e546a6cb3d1c")
 		)
@@ -5840,6 +5891,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 139.7 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1e87bdc-686b-43a3-919d-350100cf7bf7")
 		)
@@ -5850,85 +5910,6 @@
 			(project "PM-ESPC3"
 				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:C_1uF_50V_1206")
-		(at 50.8 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70e73900-2e18-4931-aa2b-a9a0a391723a")
-		(property "Reference" "C1"
-			(at 54.61 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 54.61 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 51.7652 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/44/"
-			(at 50.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 50.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "C_1uF_50V_1206"
-			(at 50.8 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fbc4f4ee-597b-443f-aa8a-c357efa6ce6d")
-		)
-		(pin "1"
-			(uuid "9b0a03d1-c95e-46d0-be98-28c27ada22bd")
-		)
-		(instances
-			(project "PM-ESPC3"
-				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5992,6 +5973,15 @@
 			)
 		)
 		(property "part_ipn" "ESP32-C3-WROOM-02U-N4"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 121.92 58.42 0)
 			(effects
 				(font
@@ -6214,6 +6204,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 142.24 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b3ceb059-fc7f-40bd-9d1b-5cd5ca9eba58")
 		)
@@ -6377,6 +6376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "570d6474-7dc4-45ec-b1e4-434707b89d09")
 		)
@@ -6532,6 +6540,15 @@
 			)
 		)
 		(property "part_ipn" "R_10k_1206_1%"
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 50.8 31.75 0)
 			(effects
 				(font
