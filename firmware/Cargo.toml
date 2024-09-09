@@ -1,0 +1,12 @@
+[package]
+name = "firmware"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+esp-idf-svc = { version = "*" }
+tokio = { version = "*", features = ["rt", "macros", "time"] }
+esp-idf-hal = { version = "*" }
+
+[build-dependencies]
+embuild = { version = "*", features = ["espidf"] }

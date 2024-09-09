@@ -380,6 +380,185 @@
 				)
 			)
 		)
+		(symbol "kicad_inventree_lib:Degson_2EDGK-5.08-02P"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2EDGK-5.08-02P"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/18/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "NextPCB_price" "0.11828"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "2EDGK-5.08-02P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Degson_2EDGK-5.08-02P_1_1"
+				(rectangle
+					(start -4.2164 -2.413)
+					(end -5.08 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -4.2164 0.127)
+					(end -5.08 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.2164 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -4.2164 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "kicad_inventree_lib:Degson_2EDGR-5.08-10P"
 			(pin_names
 				(offset 1.016) hide)
@@ -2732,7 +2911,7 @@
 		(uuid "1def852c-3836-4aa2-8449-c9a89f7e6d69")
 	)
 	(junction
-		(at 40.64 45.72)
+		(at 53.34 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "249717b3-1130-4e3c-9815-6a3a7e515ffe")
@@ -2744,10 +2923,16 @@
 		(uuid "25b5bdf0-86bb-44f6-80d6-c3364bee77af")
 	)
 	(junction
-		(at 40.64 40.64)
+		(at 53.34 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27ae77d3-7e4c-4020-9783-6b8273f92191")
+	)
+	(junction
+		(at 45.72 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c020e07-77d0-4eec-9b48-56f0c851c81c")
 	)
 	(junction
 		(at 236.22 111.76)
@@ -2780,13 +2965,13 @@
 		(uuid "5e2120ce-d189-4541-92ba-c3d9063074f6")
 	)
 	(junction
-		(at 35.56 55.88)
+		(at 48.26 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "729e9abb-1460-4e9c-b30f-c6d49886e02d")
 	)
 	(junction
-		(at 50.8 71.12)
+		(at 63.5 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95190ddb-621e-42b2-90f7-8f0242146bf3")
@@ -2802,6 +2987,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d197df7d-b941-4fd0-bc87-36851fb8707f")
+	)
+	(junction
+		(at 45.72 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db17f4a0-b4b7-4e3e-9927-491dfa0f041d")
 	)
 	(junction
 		(at 251.46 48.26)
@@ -2820,12 +3011,52 @@
 		(uuid "12e3e72e-8762-42ae-9f16-564d43966f6f")
 	)
 	(no_connect
+		(at 33.02 53.34)
+		(uuid "25448a4e-518a-41af-ace6-ca6275c778e2")
+	)
+	(no_connect
+		(at 33.02 40.64)
+		(uuid "298c6095-408f-4454-88c3-74c811d47082")
+	)
+	(no_connect
 		(at 106.68 127)
 		(uuid "2e292473-b813-4958-85fa-8ceebaa2efb3")
 	)
+	(no_connect
+		(at 33.02 33.02)
+		(uuid "5ab33272-379f-409d-bfa7-102ab17d1784")
+	)
+	(no_connect
+		(at 33.02 45.72)
+		(uuid "70738a23-a084-4d1a-a652-a8622d46628e")
+	)
+	(no_connect
+		(at 33.02 50.8)
+		(uuid "748244ed-0e27-44cc-9bb8-58fc298b5c99")
+	)
+	(no_connect
+		(at 33.02 43.18)
+		(uuid "77dc649d-9f1e-4e13-b668-8ad12890e6f9")
+	)
+	(no_connect
+		(at 33.02 35.56)
+		(uuid "8b5935be-9830-473d-8b09-f4b2bb2bd1d9")
+	)
+	(no_connect
+		(at 33.02 38.1)
+		(uuid "9cd48b3b-10ab-44a2-8e1e-f9d83a50eb07")
+	)
+	(no_connect
+		(at 33.02 55.88)
+		(uuid "e092b3c8-5b17-48f9-a5b7-b083d52bcf71")
+	)
+	(no_connect
+		(at 33.02 48.26)
+		(uuid "eb53d218-e455-49d4-8f80-24e04c577aa4")
+	)
 	(wire
 		(pts
-			(xy 35.56 53.34) (xy 33.02 53.34)
+			(xy 48.26 53.34) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 40.64) (xy 40.64 35.56)
+			(xy 53.34 40.64) (xy 53.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 60.96) (xy 35.56 55.88)
+			(xy 48.26 60.96) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 71.12) (xy 50.8 71.12)
+			(xy 54.61 71.12) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2945,7 +3176,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 71.12) (xy 50.8 76.2)
+			(xy 63.5 71.12) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2965,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 33.02 35.56)
+			(xy 53.34 35.56) (xy 45.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3005,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 43.18) (xy 45.72 43.18)
+			(xy 45.72 43.18) (xy 58.42 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3035,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 55.88) (xy 35.56 53.34)
+			(xy 48.26 55.88) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3286,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 45.72 38.1)
+			(xy 45.72 38.1) (xy 58.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 40.64) (xy 40.64 40.64)
+			(xy 45.72 40.64) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3255,7 +3486,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 35.56 55.88)
+			(xy 45.72 48.26) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d181011-509a-4e07-9fb1-ca3760494891")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3265,7 +3506,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 71.12) (xy 63.5 76.2)
+			(xy 76.2 71.12) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 76.2) (xy 41.91 71.12)
+			(xy 54.61 76.2) (xy 54.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3295,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 86.36 48.26)
+			(xy 33.02 48.26) (xy 45.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3335,7 +3576,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 45.72) (xy 40.64 60.96)
+			(xy 53.34 45.72) (xy 53.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3596,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 50.8) (xy 88.9 50.8)
+			(xy 33.02 50.8) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3385,7 +3626,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 63.5 71.12)
+			(xy 73.66 71.12) (xy 76.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 50.8 71.12)
+			(xy 66.04 71.12) (xy 63.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3425,13 +3666,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 45.72 33.02)
+			(xy 45.72 33.02) (xy 58.42 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0a14b03-1c7a-4f12-b19a-d9a971dfa130")
+	)
+	(wire
+		(pts
+			(xy 45.72 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d462fc-7b58-49fd-a616-02216c626382")
 	)
 	(wire
 		(pts
@@ -3445,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 45.72) (xy 40.64 40.64)
+			(xy 53.34 45.72) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3706,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 45.72) (xy 40.64 45.72)
+			(xy 45.72 45.72) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3619,7 +3870,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 43.18 38.1 0)
+		(at 55.88 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3629,7 +3880,7 @@
 		)
 		(uuid "087db202-ecc0-4ae2-97d2-f1526ede741d")
 		(property "Netclass" "power"
-			(at 43.8785 35.56 0)
+			(at 56.5785 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3939,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 43.18 43.18 0)
+		(at 55.88 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3698,7 +3949,7 @@
 		)
 		(uuid "1e6e3151-5b55-4455-ae22-da2dbd553f01")
 		(property "Netclass" "power"
-			(at 43.8785 40.64 0)
+			(at 56.5785 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3962,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 43.18 33.02 0)
+		(at 55.88 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3721,7 +3972,7 @@
 		)
 		(uuid "2005272c-e957-4108-b87e-9c343e46fb48")
 		(property "Netclass" "power"
-			(at 43.8785 30.48 0)
+			(at 56.5785 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3985,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 40.64 58.42 270)
+		(at 53.34 58.42 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3744,7 +3995,7 @@
 		)
 		(uuid "208a86dc-df05-4e96-9e37-c87c5ce06392")
 		(property "Netclass" "power"
-			(at 43.18 57.7215 90)
+			(at 55.88 57.7215 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4100,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 58.42 50.8 180)
+		(at 71.12 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3859,7 +4110,7 @@
 		)
 		(uuid "a5313819-e455-4e0d-b700-4fdcb019aa6f")
 		(property "Netclass" "power"
-			(at 59.1185 53.34 0)
+			(at 71.8185 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +4123,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 58.42 48.26 0)
+		(at 71.12 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3882,7 +4133,7 @@
 		)
 		(uuid "c7c4ae91-3b09-4170-aa25-ebe2cdc9d955")
 		(property "Netclass" "power"
-			(at 59.1185 45.72 0)
+			(at 71.8185 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,7 +4341,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 45.72 33.02 270)
+		(at 58.42 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4099,7 +4350,7 @@
 		(fields_autoplaced yes)
 		(uuid "06f6b7db-1cd6-4bd6-9cfe-4873711c0f2e")
 		(property "Reference" "#PWR09"
-			(at 41.91 33.02 0)
+			(at 54.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4108,7 +4359,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 49.53 33.0199 90)
+			(at 62.23 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4117,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 33.02 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4126,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 33.02 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +4386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 45.72 33.02 0)
+			(at 58.42 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4408,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:PE")
-		(at 50.8 76.2 0)
+		(at 63.5 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4166,7 +4417,7 @@
 		(fields_autoplaced yes)
 		(uuid "1987f176-1d63-4e68-ae1d-8243a437962b")
 		(property "Reference" "PE1"
-			(at 50.8 86.36 0)
+			(at 63.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4426,7 @@
 			)
 		)
 		(property "Value" "PE"
-			(at 54.61 79.3749 0)
+			(at 67.31 79.3749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:PE"
-			(at 50.8 78.74 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4444,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 78.74 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4453,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 50.8 76.2 0)
+			(at 63.5 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5479,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 45.72 38.1 270)
+		(at 58.42 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5237,7 +5488,7 @@
 		(fields_autoplaced yes)
 		(uuid "4067ba72-10e1-49b8-9c3b-e47aeb33d9ca")
 		(property "Reference" "#PWR010"
-			(at 41.91 38.1 0)
+			(at 54.61 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5497,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 38.0999 90)
+			(at 62.23 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5546,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:Degson_2EDGR-5.08-10P")
-		(at 27.94 33.02 0)
+		(at 40.64 33.02 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5305,7 +5556,7 @@
 		(fields_autoplaced yes)
 		(uuid "43679b02-6149-409e-aefd-d303f07fb4d4")
 		(property "Reference" "J3"
-			(at 28.575 27.94 0)
+			(at 41.275 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5564,7 @@
 			)
 		)
 		(property "Value" "2EDGR-5.08-10P"
-			(at 28.575 30.48 0)
+			(at 41.275 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5572,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:Degson_2EDGR-5.08-10P"
-			(at 26.162 66.548 0)
+			(at 38.862 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5581,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/144/"
-			(at 27.94 66.548 0)
+			(at 40.64 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5590,7 @@
 			)
 		)
 		(property "Description" "01x10"
-			(at 28.194 66.802 0)
+			(at 40.894 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5599,7 @@
 			)
 		)
 		(property "part_ipn" "2EDGR-5.08-10P"
-			(at 27.686 66.294 0)
+			(at 40.386 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,6 +6440,175 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:Degson_2EDGK-5.08-02P")
+		(at 33.02 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "6ac68914-4fc8-427a-94fd-c59abf7f1ca2")
+		(property "Reference" "J8"
+			(at 28.448 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2EDGK-5.08-02P"
+			(at 13.462 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/18/"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.11828"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "2EDGK-5.08-02P"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc163dba-8914-4e45-bfe9-077176377e27")
+		)
+		(pin "1"
+			(uuid "0eb744ad-0221-4416-ae63-2968a7a9a416")
+		)
+		(instances
+			(project "PM-PS"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:K7803-2000R3")
 		(at 236.22 96.52 0)
 		(unit 1)
@@ -6585,7 +7005,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 60.96 0)
+		(at 48.26 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6594,7 +7014,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f10a93-1912-4690-bbbb-ed83d12b9b63")
 		(property "Reference" "#PWR012"
-			(at 35.56 67.31 0)
+			(at 48.26 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +7023,7 @@
 			)
 		)
 		(property "Value" "PE"
-			(at 35.56 66.04 0)
+			(at 48.26 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +7031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +7040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +7049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,6 +7064,175 @@
 			(project ""
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Degson_2EDGK-5.08-02P")
+		(at 33.02 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "79a018ea-6210-4222-94da-87dbaef9b7c3")
+		(property "Reference" "J10"
+			(at 28.448 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2EDGK-5.08-02P"
+			(at 13.462 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/18/"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.11828"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "2EDGK-5.08-02P"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49cac299-7eaa-452e-b1ff-f76fbb2cc301")
+		)
+		(pin "1"
+			(uuid "8e181467-7ca0-48ea-870f-05072ed18aed")
+		)
+		(instances
+			(project "PM-PS"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6851,7 +7440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 60.96 0)
+		(at 53.34 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6860,7 +7449,7 @@
 		(fields_autoplaced yes)
 		(uuid "83a19f7e-8e0a-4b95-9b4f-8ca8c31411d1")
 		(property "Reference" "#PWR08"
-			(at 40.64 67.31 0)
+			(at 53.34 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +7458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 66.04 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +7466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 60.96 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +7475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 60.96 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +7484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 60.96 0)
+			(at 53.34 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,8 +7800,177 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:Degson_2EDGK-5.08-02P")
+		(at 33.02 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a058f4cd-b40f-4cd0-98e5-c616469e1568")
+		(property "Reference" "J7"
+			(at 28.448 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2EDGK-5.08-02P"
+			(at 13.462 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/18/"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.11828"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "2EDGK-5.08-02P"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7bb5d63-db98-49de-9a26-63e98ea9857c")
+		)
+		(pin "1"
+			(uuid "7610dc64-ef7d-44e1-b005-faddd691d359")
+		)
+		(instances
+			(project "PM-PS"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 45.72 43.18 270)
+		(at 58.42 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7221,7 +7979,7 @@
 		(fields_autoplaced yes)
 		(uuid "a46cb17a-d415-4dc8-95ee-2da32c106b3a")
 		(property "Reference" "#PWR011"
-			(at 41.91 43.18 0)
+			(at 54.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7988,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 49.53 43.1799 90)
+			(at 62.23 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +8006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +8015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 45.72 43.18 0)
+			(at 58.42 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +8235,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 76.2 0)
+		(at 76.2 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7486,7 +8244,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa4c9067-6d74-4fa6-9f34-d74fc4693a42")
 		(property "Reference" "#PWR013"
-			(at 63.5 82.55 0)
+			(at 76.2 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +8253,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 81.28 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +8261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 76.2 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +8270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 76.2 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +8279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 76.2 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7536,6 +8294,175 @@
 			(project "PM-PS-AC230-W20"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Degson_2EDGK-5.08-02P")
+		(at 33.02 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b4227012-4f7e-4849-a533-7df79b5751ca")
+		(property "Reference" "J6"
+			(at 28.448 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2EDGK-5.08-02P"
+			(at 13.462 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/18/"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.11828"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "2EDGK-5.08-02P"
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 33.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6e3b44c-91f9-4f97-96f9-836566fecd2a")
+		)
+		(pin "1"
+			(uuid "0138fc4f-9653-49e8-8d7a-41a5f40981fb")
+		)
+		(instances
+			(project "PM-PS"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -7798,6 +8725,175 @@
 			(project "PM-PS-AC230-W20"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:Degson_2EDGK-5.08-02P")
+		(at 33.02 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "bf371b42-3f51-4504-b6bb-ab774f0296b4")
+		(property "Reference" "J9"
+			(at 28.448 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2EDGK-5.08-02P"
+			(at 13.462 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/18/"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" "https://www.hqonline.com/product-detail/max-maixu--mx2edgk-5-08-02p-gn01-cu-y-a-1027943030"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" "0.11828"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "2EDGK-5.08-02P"
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 33.02 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4481a99-a54d-4409-8dfe-c9363de0a337")
+		)
+		(pin "1"
+			(uuid "05269dd9-3649-4882-8441-c3e3ce3064ff")
+		)
+		(instances
+			(project "PM-PS"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -8325,7 +9421,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_4.7nF_2kV_1812")
-		(at 57.15 71.12 90)
+		(at 69.85 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8334,7 +9430,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc7633e1-b277-4187-8ccc-9e465ae76fab")
 		(property "Reference" "C1"
-			(at 57.15 63.5 90)
+			(at 69.85 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +9438,7 @@
 			)
 		)
 		(property "Value" "4.7nF 2kV"
-			(at 57.15 66.04 90)
+			(at 69.85 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +9446,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
-			(at 60.96 70.1548 0)
+			(at 73.66 70.1548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +9455,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/112/"
-			(at 57.15 71.12 0)
+			(at 69.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +9464,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 71.12 0)
+			(at 69.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +9473,7 @@
 			)
 		)
 		(property "part_ipn" "C_4.7nF_2kV_1812"
-			(at 57.15 71.12 0)
+			(at 69.85 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8536,7 +9632,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 76.2 0)
+		(at 54.61 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8545,7 +9641,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4fd5532-cf51-4d58-9903-9af90edd5936")
 		(property "Reference" "#PWR027"
-			(at 41.91 82.55 0)
+			(at 54.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +9650,7 @@
 			)
 		)
 		(property "Value" "PE"
-			(at 41.91 81.28 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,7 +9658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 76.2 0)
+			(at 54.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +9667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 76.2 0)
+			(at 54.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +9676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 76.2 0)
+			(at 54.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
