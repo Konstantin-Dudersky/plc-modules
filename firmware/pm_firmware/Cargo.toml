@@ -1,0 +1,19 @@
+[package]
+name = "pm_firmware"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+crc = { version = "3.2.1" }
+esp-idf-svc = { version = "*" }
+postcard = { version = "1.0.8", features = ["use-std", "use-crc"] }
+tokio = { version = "*", features = ["rt", "macros", "time"] }
+serde = { version = "*", features = ["derive"] }
+thiserror = { version = "*" }
+tracing = { version = "*" }
+tracing-subscriber = { version = "*" }
+
+pm_firmware_lib = { path = "../pm_firmware_lib" }
+
+[build-dependencies]
+embuild = { version = "*", features = ["espidf"] }
