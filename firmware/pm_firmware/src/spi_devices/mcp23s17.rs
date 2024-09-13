@@ -46,6 +46,15 @@ impl<'a> MCP23S17<'a> {
         self.device.write(&buffer).unwrap()
     }
 
+    pub fn get_iodira(&mut self) -> u8 {
+        let buffer = [READ_ADDR, REG_IODIRA];
+        let mut read_buf = [0; 1];
+        self.device
+            .transaction(&mut [Operation::Write(&buffer), Operation::Read(&mut read_buf)])
+            .unwrap();
+        read_buf[0]
+    }
+
     pub fn set_iodirb(&mut self, value: u8) {
         let buffer = [WRITE_ADDR, REG_IODIRB, value];
         self.device.write(&buffer).unwrap()
@@ -57,7 +66,16 @@ impl<'a> MCP23S17<'a> {
     }
 
     pub fn get_gpioa(&mut self) -> u8 {
-        let buffer = [READ_ADDR, REG_IODIRA];
+        let buffer = [READ_ADDR, REG_GPIOA];
+        let mut read_buf = [0; 1];
+        self.device
+            .transaction(&mut [Operation::Write(&buffer), Operation::Read(&mut read_buf)])
+            .unwrap();
+        read_buf[0]
+    }
+
+    pub fn get_gpiob(&mut self) -> u8 {
+        let buffer = [READ_ADDR, REG_GPIOB];
         let mut read_buf = [0; 1];
         self.device
             .transaction(&mut [Operation::Write(&buffer), Operation::Read(&mut read_buf)])

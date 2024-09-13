@@ -1,5 +1,5 @@
 use esp_idf_svc::hal::{gpio::AnyIOPin, i2c::I2cSlaveDriver, spi::SpiDriver};
-use tracing::{trace, warn};
+use tracing::{info, trace, warn};
 
 use crate::{error::Error, i2c_slave, postcard_serde, spi_devices::mcp23s17::MCP23S17};
 
@@ -16,7 +16,14 @@ impl<'a> Module<'a> {
         let mut gpio_expander = MCP23S17::new(&self.spi_master_driver, self.pin_cs_gpio_expander);
 
         // Инициализация модуля
-        gpio_expander.set_iodira(0x00);
+        gpio_expander.set_gpioa(0xFF);
+
+        loop {
+            gpio_expander.set_iodira(0x00);
+            gpio_expander.set_gpioa(0xFF);
+            gpio_expander.get_gpioa();
+            // sleep(Duration::from_mil)
+        }
 
         loop {
             let result = module_loop(&mut self.i2c_slave_driver, &mut gpio_expander);

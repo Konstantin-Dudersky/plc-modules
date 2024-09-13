@@ -35,10 +35,9 @@ impl<'a> Module<'a> {
 
 pub async fn task_read<'a>(gpio_expander: &mut MCP23S17<'a>) {
     loop {
-        let read = gpio_expander.get_gpioa();
-    // info!("Read gpio: {read}");
-    // sleep(Duration::from_millis(10)).await;
-
+        let read = gpio_expander.get_gpiob();
+        info!("Read gpio: {read}");
+        sleep(Duration::from_millis(500)).await;
     }
 }
 
