@@ -1,7 +1,7 @@
 use esp_idf_svc::hal::{
     i2c::{I2cSlaveConfig, I2cSlaveDriver},
     prelude::Peripherals,
-    spi::{SpiDriver, SpiDriverConfig, SPI2},
+    spi::{SpiDriver, SpiDriverConfig},
 };
 
 use pm_firmware::{define_address, plc_modules::pm_di16_dc24sink_V0_0_2};
@@ -30,7 +30,7 @@ async fn main() {
     let pin_cs_gpio_expander = peripherals.pins.gpio8;
     let pin_sck = peripherals.pins.gpio9;
 
-    let spi_master_driver = SpiDriver::new::<SPI2>(
+    let spi_master_driver = SpiDriver::new(
         spi,
         pin_sck,
         pin_mosi,
