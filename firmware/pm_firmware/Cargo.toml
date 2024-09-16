@@ -5,9 +5,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = { version = "*" }
-crc = { version = "3.2.1" }
 esp-idf-svc = { version = "*" }
-postcard = { version = "1.0.8", features = ["use-std", "use-crc"] }
 tokio = { version = "*", features = ["rt", "macros", "time"] }
 serde = { version = "*", features = ["derive"] }
 thiserror = { version = "*" }

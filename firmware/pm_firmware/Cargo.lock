@@ -1623,11 +1623,9 @@ name = "pm_firmware"
 version = "0.0.1"
 dependencies = [
  "anyhow",
- "crc",
  "embuild 0.32.0",
  "esp-idf-svc",
  "pm_firmware_lib",
- "postcard",
  "rsiot",
  "serde",
  "thiserror",

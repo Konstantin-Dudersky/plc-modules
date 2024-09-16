@@ -1,10 +1,7 @@
-use esp_idf_svc::sys::EspError;
+use rsiot::drivers_i2c::postcard_serde;
 
 #[derive(Debug, thiserror::Error)]
 pub enum Error {
     #[error(transparent)]
-    I2cSlave(EspError),
-
-    #[error(transparent)]
-    Postcard(#[from] super::postcard_serde::Error),
+    Postcard(#[from] postcard_serde::Error),
 }
