@@ -2,7 +2,10 @@
 
 use rsiot::message::ServiceBound;
 
+#[allow(non_camel_case_types)]
 #[derive(Debug, Clone, PartialEq)]
-pub enum Service {}
+pub enum Service {
+    PM_RQ8,
+}
 
 impl ServiceBound for Service {}

@@ -2,9 +2,9 @@
   "lsp": {
     "rust-analyzer": {
       "initialization_options": {
-        // "check": {
-        //   "command": "clippy"
-        // },
+        "check": {
+          "command": "clippy"
+        },
         "cargo": {
           "target": "riscv32imc-esp-espidf"
         }

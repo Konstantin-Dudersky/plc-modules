@@ -2,7 +2,7 @@ use std::time::Duration;
 
 use esp_idf_svc::hal::{gpio::AnyIOPin, i2c::I2cSlaveDriver, spi::SpiDriver};
 use tokio::time::sleep;
-use tracing::{info, trace, warn};
+use tracing::{info, trace};
 
 use crate::{error::Error, i2c_slave, postcard_serde, spi_devices::mcp23s17::MCP23S17};
 
