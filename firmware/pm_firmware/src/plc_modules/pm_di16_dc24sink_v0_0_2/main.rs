@@ -1,6 +1,6 @@
 use esp_idf_svc::hal::prelude::Peripherals;
 use rsiot::{
-    components::{cmp_esp_gpio, cmp_esp_i2c_slave, cmp_esp_spi_master, cmp_logger},
+    components::{cmp_derive, cmp_esp_gpio, cmp_esp_i2c_slave, cmp_esp_spi_master, cmp_logger},
     executor::{ComponentExecutor, ComponentExecutorConfig},
 };
 use tokio::task::LocalSet;
@@ -33,6 +33,9 @@ pub async fn main() -> anyhow::Result<()> {
     // I2C address ---------------------------------------------------------------------------------
     let slave_address = define_address(10, pin_a0.into(), pin_a1.into(), pin_a2.into());
 
+    // cmp_derive ----------------------------------------------------------------------------------
+    let config_derive = super::config_derive::config();
+
     // cmp_esp_gpio --------------------------------------------------------------------------------
     let config_esp_gpio = super::config_esp_gpio::config(pin_int_gpio_expander.into());
 
@@ -64,6 +67,7 @@ pub async fn main() -> anyhow::Result<()> {
     local_set.spawn_local(async {
         ComponentExecutor::<Custom>::new(executor_config)
             .add_cmp(cmp_logger::Cmp::new(config_logger))
+            .add_cmp(cmp_derive::Cmp::new(config_derive))
             .add_cmp(cmp_esp_i2c_slave::Cmp::new(config_esp_i2c_slave))
             .add_cmp(cmp_esp_spi_master::Cmp::new(config_esp_spi_master))
             .add_cmp(cmp_esp_gpio::Cmp::new(config_esp_gpio))

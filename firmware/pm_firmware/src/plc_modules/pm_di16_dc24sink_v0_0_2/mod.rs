@@ -1,3 +1,4 @@
+mod config_derive;
 mod config_esp_gpio;
 mod config_esp_i2c_slave;
 mod config_esp_spi_master;

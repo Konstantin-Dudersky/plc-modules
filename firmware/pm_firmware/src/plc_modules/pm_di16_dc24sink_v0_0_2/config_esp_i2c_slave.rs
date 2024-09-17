@@ -36,12 +36,13 @@ fn fn_input(msg: &Message<Custom>, buffer: &mut I2cBuffer) {
         return;
     };
     match msg {
-        Custom::GetInput => (),
         Custom::InputsState { a, b } => {
             buffer.input_state_a = a;
             buffer.input_state_b = b;
         }
+        Custom::GetInput => (),
         Custom::GpioExpanderInt(_) => (),
+        Custom::LedState { a: _, b: _ } => (),
     }
 }
 

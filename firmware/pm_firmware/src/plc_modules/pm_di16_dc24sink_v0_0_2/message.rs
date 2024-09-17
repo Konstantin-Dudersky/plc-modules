@@ -6,6 +6,7 @@ use crate::Service;
 pub enum Custom {
     GetInput,
     InputsState { a: u8, b: u8 },
+    LedState { a: u8, b: u8 },
     GpioExpanderInt(bool),
 }
 

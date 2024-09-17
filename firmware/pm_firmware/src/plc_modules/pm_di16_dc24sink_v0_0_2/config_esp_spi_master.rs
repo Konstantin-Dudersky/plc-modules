@@ -83,9 +83,7 @@ fn gpio_led_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>)
     MCP23S17::iodir_a_set(device_driver, 0x00);
     MCP23S17::iodir_b_set(device_driver, 0x00);
     // TODO - удалить
-    MCP23S17::gpio_a_set(device_driver, 0xFF);
-    let data = MCP23S17::gpio_a_get(device_driver);
-    println!("DATA: {data}");
+    MCP23S17::gpio_a_set(device_driver, 0x00);
 }
 
 fn gpio_led_fn_input<'a>(
@@ -97,12 +95,11 @@ fn gpio_led_fn_input<'a>(
     };
 
     match msg {
-        Custom::InputsState { a, b } => {
+        Custom::LedState { a, b } => {
             MCP23S17::gpio_a_set(device_driver, a);
             MCP23S17::gpio_b_set(device_driver, b);
         }
-        Custom::GetInput => return,
-        Custom::GpioExpanderInt(_) => return,
+        _ => return,
     }
 }
 

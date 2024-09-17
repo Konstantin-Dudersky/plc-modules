@@ -1,5 +1,7 @@
 //! cargo run --release --bin PM_DI16_DC24sink_front_test
 
+#![allow(non_snake_case)]
+
 use esp_idf_svc::hal::{
     prelude::Peripherals,
     spi::{config, SpiDeviceDriver, SpiDriver, SpiDriverConfig},
@@ -39,8 +41,8 @@ async fn main() {
         // Задаем gpio как выходы
         MCP23S17::iodir_a_set(&mut spi_slave, 0x00);
         MCP23S17::iodir_b_set(&mut spi_slave, 0x00);
-        // TODO - удалить
+        // Устанавливаем все выходы
         MCP23S17::gpio_a_set(&mut spi_slave, 0xFF);
-        let data = MCP23S17::gpio_a_get(&mut spi_slave);
+        MCP23S17::gpio_b_set(&mut spi_slave, 0xFF);
     }
 }
