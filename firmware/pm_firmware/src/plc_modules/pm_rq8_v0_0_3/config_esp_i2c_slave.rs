@@ -29,10 +29,10 @@ where
         fn_i2c_comm: |req: I2cRequest, buffer: &mut I2cBuffer| match req {
             I2cRequest::SetOutputs(data) => {
                 buffer.output = data;
-                Ok(I2cResponse::Ok)
+                Ok(I2cResponse::Ok(123))
             }
         },
-        buffer_data_default: I2cBuffer::default(),
+        buffer_data_default: I2cBuffer { output: 0xFF },
     }
 }
 

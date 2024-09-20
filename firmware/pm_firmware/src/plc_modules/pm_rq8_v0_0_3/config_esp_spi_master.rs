@@ -6,6 +6,7 @@ use esp_idf_svc::hal::{
     spi::{Spi, SpiDeviceDriver, SpiDriver},
 };
 use rsiot::{components::cmp_esp_spi_master, message::Message};
+use tracing::info;
 
 use crate::spi_devices::mcp23s17::MCP23S17;
 
@@ -16,17 +17,25 @@ pub fn config<TSpi, TPeripheral>(
     pin_mosi: AnyIOPin,
     pin_miso: AnyIOPin,
     pin_sck: AnyIOPin,
-    pin_cs_gpio_expander: AnyIOPin,
+    pin_cs_gpio_output: AnyIOPin,
+    pin_cs_gpio_led: AnyIOPin,
 ) -> cmp_esp_spi_master::Config<Custom, TSpi, TPeripheral>
 where
     TSpi: Peripheral<P = TPeripheral> + 'static,
     TPeripheral: Spi,
 {
-    let device_gpio_expander = cmp_esp_spi_master::ConfigDevice {
-        pin_cs: pin_cs_gpio_expander,
-        fn_init: gpio_expander_fn_init,
-        fn_input: gpio_expander_fn_input,
+    let gpio_relay = cmp_esp_spi_master::ConfigDevice {
+        pin_cs: pin_cs_gpio_output,
+        fn_init: gpio_relay_fn_init,
+        fn_input: gpio_relay_fn_input,
         fn_output: |_| vec![],
+    };
+
+    let gpio_led = cmp_esp_spi_master::ConfigDevice {
+        pin_cs: pin_cs_gpio_led,
+        fn_init: gpio_led_fn_init,
+        fn_input: gpio_led_fn_input,
+        fn_output: gpio_led_fn_output,
     };
 
     cmp_esp_spi_master::Config {
@@ -34,16 +43,18 @@ where
         pin_miso,
         pin_mosi,
         pin_sck,
-        devices: vec![device_gpio_expander],
-        fn_output_period: Duration::from_millis(1000),
+        devices: vec![gpio_relay, gpio_led],
+        fn_output_period: Duration::from_millis(100),
     }
 }
 
-fn gpio_expander_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>) {
+fn gpio_relay_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>) {
     MCP23S17::iodir_a_set(device_driver, 0x00);
+    MCP23S17::gpio_a_set(device_driver, 0xFF);
+    info!("MCP23S17 for relay inited");
 }
 
-fn gpio_expander_fn_input<'a>(
+fn gpio_relay_fn_input<'a>(
     msg: &Message<Custom>,
     device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>,
 ) {
@@ -53,4 +64,28 @@ fn gpio_expander_fn_input<'a>(
     match msg {
         Custom::SetOutput(data) => MCP23S17::gpio_a_set(device_driver, data),
     }
+}
+
+fn gpio_led_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>) {
+    MCP23S17::iodir_a_set(device_driver, 0x00);
+    MCP23S17::gpio_a_set(device_driver, 0xFF);
+    info!("MCP23S17 for led inited");
+}
+
+fn gpio_led_fn_input<'a>(
+    msg: &Message<Custom>,
+    device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>,
+) {
+    let Some(msg) = msg.get_custom_data() else {
+        return;
+    };
+    match msg {
+        Custom::SetOutput(data) => MCP23S17::gpio_a_set(device_driver, data),
+    }
+}
+
+fn gpio_led_fn_output<'a>(
+    _device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>,
+) -> Vec<Message<Custom>> {
+    vec![]
 }

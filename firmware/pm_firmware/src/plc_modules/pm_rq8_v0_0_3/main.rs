@@ -26,7 +26,8 @@ pub async fn main() -> anyhow::Result<()> {
     let pin_mosi = peripherals.pins.gpio2;
     let pin_miso = peripherals.pins.gpio3;
     let pin_sck = peripherals.pins.gpio9;
-    let pin_cs_gpio_expander = peripherals.pins.gpio8;
+    let pin_cs_gpio_output = peripherals.pins.gpio8;
+    let pin_cs_gpio_led = peripherals.pins.gpio7;
 
     // I2C address ---------------------------------------------------------------------------------
     let slave_address = define_address(20, pin_a0.into(), pin_a1.into(), pin_a2.into());
@@ -41,7 +42,8 @@ pub async fn main() -> anyhow::Result<()> {
         pin_mosi.into(),
         pin_miso.into(),
         pin_sck.into(),
-        pin_cs_gpio_expander.into(),
+        pin_cs_gpio_output.into(),
+        pin_cs_gpio_led.into(),
     );
 
     // cmp_logger ----------------------------------------------------------------------------------
