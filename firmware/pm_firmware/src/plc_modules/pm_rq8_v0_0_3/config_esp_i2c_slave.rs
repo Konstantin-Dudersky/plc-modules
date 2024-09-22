@@ -32,7 +32,7 @@ where
                 Ok(I2cResponse::Ok(123))
             }
         },
-        buffer_data_default: I2cBuffer { output: 0xFF },
+        buffer_data_default: I2cBuffer { output: 0x00 },
     }
 }
 
