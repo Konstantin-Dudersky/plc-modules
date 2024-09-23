@@ -1,8 +1,8 @@
 mod define_address;
 mod error;
-// mod i2c_slave;
 pub mod plc_modules;
 mod service;
+mod settings;
 pub mod spi_devices;
 
 pub use define_address::define_address;

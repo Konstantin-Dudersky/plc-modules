@@ -8,7 +8,7 @@ use esp_idf_svc::hal::{
 use rsiot::{components::cmp_esp_spi_master, message::Message};
 use tracing::info;
 
-use crate::spi_devices::mcp23s17::MCP23S17;
+use crate::{settings::DEBUG, spi_devices::mcp23s17::MCP23S17};
 
 use super::Custom;
 
@@ -50,7 +50,9 @@ where
 
 fn gpio_relay_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>) {
     MCP23S17::iodir_a_set(device_driver, 0x00);
-    MCP23S17::gpio_a_set(device_driver, 0x00);
+    if DEBUG {
+        MCP23S17::gpio_a_set(device_driver, 0x00);
+    }
     info!("MCP23S17 for relay inited");
 }
 

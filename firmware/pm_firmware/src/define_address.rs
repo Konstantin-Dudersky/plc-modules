@@ -1,6 +1,7 @@
 use esp_idf_svc::hal::gpio::{AnyIOPin, Level, PinDriver, Pull};
 use tracing::info;
 
+/// Определить адрес по DIP-переключателям
 pub fn define_address(
     base_address: u8,
     pin_a0: AnyIOPin,
