@@ -1,4 +1,4 @@
-use std::time::Duration;
+use std::{thread::sleep, time::Duration};
 
 use esp_idf_svc::hal::{
     gpio::AnyIOPin,
@@ -50,7 +50,7 @@ where
 
 fn gpio_relay_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>) {
     MCP23S17::iodir_a_set(device_driver, 0x00);
-    MCP23S17::gpio_a_set(device_driver, 0xFF);
+    MCP23S17::gpio_a_set(device_driver, 0x00);
     info!("MCP23S17 for relay inited");
 }
 
@@ -68,7 +68,17 @@ fn gpio_relay_fn_input<'a>(
 
 fn gpio_led_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>) {
     MCP23S17::iodir_a_set(device_driver, 0x00);
-    MCP23S17::gpio_a_set(device_driver, 0xFF);
+
+    MCP23S17::gpio_a_set(device_driver, 0x55);
+    sleep(Duration::from_millis(200));
+    MCP23S17::gpio_a_set(device_driver, 0xAA);
+    sleep(Duration::from_millis(200));
+    MCP23S17::gpio_a_set(device_driver, 0x55);
+    sleep(Duration::from_millis(200));
+    MCP23S17::gpio_a_set(device_driver, 0xAA);
+    sleep(Duration::from_millis(200));
+
+    MCP23S17::gpio_a_set(device_driver, 0x00);
     info!("MCP23S17 for led inited");
 }
 

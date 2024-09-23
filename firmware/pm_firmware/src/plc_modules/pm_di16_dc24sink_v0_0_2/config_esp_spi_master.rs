@@ -1,4 +1,4 @@
-use std::time::Duration;
+use std::{thread::sleep, time::Duration};
 
 use esp_idf_svc::hal::{
     gpio::AnyIOPin,
@@ -82,8 +82,22 @@ fn gpio_led_fn_init<'a>(device_driver: &mut SpiDeviceDriver<'a, &SpiDriver<'a>>)
     // Задаем gpio как выходы
     MCP23S17::iodir_a_set(device_driver, 0x00);
     MCP23S17::iodir_b_set(device_driver, 0x00);
-    // TODO - удалить
+
+    MCP23S17::gpio_a_set(device_driver, 0x55);
+    MCP23S17::gpio_b_set(device_driver, 0x55);
+    sleep(Duration::from_millis(200));
+    MCP23S17::gpio_a_set(device_driver, 0xAA);
+    MCP23S17::gpio_b_set(device_driver, 0xAA);
+    sleep(Duration::from_millis(200));
+    MCP23S17::gpio_a_set(device_driver, 0x55);
+    MCP23S17::gpio_b_set(device_driver, 0x55);
+    sleep(Duration::from_millis(200));
+    MCP23S17::gpio_a_set(device_driver, 0xAA);
+    MCP23S17::gpio_b_set(device_driver, 0xAA);
+    sleep(Duration::from_millis(200));
+
     MCP23S17::gpio_a_set(device_driver, 0x00);
+    MCP23S17::gpio_b_set(device_driver, 0x00);
 }
 
 fn gpio_led_fn_input<'a>(
