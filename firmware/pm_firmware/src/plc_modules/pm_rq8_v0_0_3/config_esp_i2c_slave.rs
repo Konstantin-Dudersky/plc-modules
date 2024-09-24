@@ -33,6 +33,7 @@ where
             }
         },
         buffer_data_default: I2cBuffer { output: 0x00 },
+        start_delay: Duration::from_millis(2000),
     }
 }
 

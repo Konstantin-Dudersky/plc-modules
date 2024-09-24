@@ -28,6 +28,7 @@ where
         fn_output_period: Duration::from_millis(100),
         fn_i2c_comm,
         buffer_data_default: I2cBuffer::default(),
+        start_delay: Duration::from_millis(2000),
     }
 }
 
