@@ -1,3 +1,5 @@
+use std::time::Duration;
+
 use esp_idf_svc::hal::prelude::Peripherals;
 use rsiot::{
     components::{cmp_esp_i2c_slave, cmp_esp_spi_master, cmp_logger},
@@ -54,6 +56,7 @@ pub async fn main() -> anyhow::Result<()> {
         buffer_size: 50,
         service: Service::PM_RQ8,
         fn_auth: |msg, _| Some(msg),
+        delay_publish: Duration::from_millis(100),
     };
 
     let local_set = LocalSet::new();
