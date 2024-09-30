@@ -27,9 +27,11 @@ async fn main() {
     println!("Pin A0: {:?}", level_0);
 
     let mut pin_a0_output = PinDriver::output(pin_a0).unwrap();
-    pin_a0_output.set_high().unwrap();
 
     loop {
-        sleep(Duration::from_millis(1000)).await;
+        pin_a0_output.set_low().unwrap();
+        sleep(Duration::from_millis(2000)).await;
+        pin_a0_output.set_high().unwrap();
+        sleep(Duration::from_millis(2000)).await;
     }
 }
