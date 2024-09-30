@@ -1400,7 +1400,7 @@
 				)
 			)
 		)
-		(symbol "kicad_inventree_lib:DIP_SW-3P-P2.54-THT-Top"
+		(symbol "kicad_inventree_lib:DA-03BLP"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1414,7 +1414,7 @@
 					)
 				)
 			)
-			(property "Value" "DIP_SW-3P-P2.54-THT-Top"
+			(property "Value" "DIP 3 pos"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -1422,7 +1422,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_inventree_lib:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
+			(property "Footprint" "kicad_inventree_lib:DA03BLP"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1431,7 +1431,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/122/"
+			(property "Datasheet" "http://inventree.network/part/175/"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1440,7 +1440,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+			(property "Description" " 3 positions SPST 24V Blue 25mA 3000 Times Flat Toggle, Raised Style Plugin DIP Switches"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1449,7 +1449,7 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "DIP_SW-3P-P2.54-THT-Top"
+			(property "part_ipn" "DA-03BLP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1476,7 +1476,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DIP_SW-3P-P2.54-THT-Top_0_0"
+			(symbol "DA-03BLP_0_0"
 				(circle
 					(center -2.032 -2.54)
 					(radius 0.508)
@@ -1580,7 +1580,7 @@
 					)
 				)
 			)
-			(symbol "DIP_SW-3P-P2.54-THT-Top_0_1"
+			(symbol "DA-03BLP_0_1"
 				(rectangle
 					(start -3.81 5.08)
 					(end 3.81 -5.08)
@@ -1593,7 +1593,7 @@
 					)
 				)
 			)
-			(symbol "DIP_SW-3P-P2.54-THT-Top_1_1"
+			(symbol "DA-03BLP_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 5.08)
@@ -3583,13 +3583,13 @@
 		)
 	)
 	(junction
-		(at 245.11 66.04)
+		(at 246.38 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09c19cc5-7e57-43e0-b609-c1f68d0bc070")
 	)
 	(junction
-		(at 248.92 144.78)
+		(at 248.92 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a6c4036-2527-49b4-83d7-54b17d203299")
@@ -3619,13 +3619,13 @@
 		(uuid "1bd6970c-55d7-4090-ad23-055f8a96cd49")
 	)
 	(junction
-		(at 238.76 63.5)
+		(at 238.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33011079-df96-4676-a88c-b697a168fd4c")
 	)
 	(junction
-		(at 238.76 30.48)
+		(at 238.76 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3799e497-b75f-4369-8ee6-454c01da8285")
@@ -3649,7 +3649,7 @@
 		(uuid "5b2df517-0034-49ab-8da7-35880392d0da")
 	)
 	(junction
-		(at 245.11 93.98)
+		(at 246.38 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611253e2-b329-4b4b-92f1-f642876e4013")
@@ -3667,7 +3667,7 @@
 		(uuid "6388a406-3474-430b-afb6-3527f407f60a")
 	)
 	(junction
-		(at 238.76 91.44)
+		(at 238.76 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67f31f2b-e236-43ea-bcda-244b704902e9")
@@ -3703,13 +3703,13 @@
 		(uuid "ad8ec073-2319-48ea-83d9-7fc237ee8c4d")
 	)
 	(junction
-		(at 245.11 33.02)
+		(at 246.38 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ca23ed-f4e4-4738-a4a3-a3e4d2141bdb")
 	)
 	(junction
-		(at 248.92 83.82)
+		(at 248.92 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0778e1d-7381-48e1-aee1-a4f35a035793")
@@ -3751,7 +3751,7 @@
 		(uuid "ef10edc2-820a-46f7-9c79-8a502443e3c5")
 	)
 	(junction
-		(at 248.92 114.3)
+		(at 248.92 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6b12d42-9421-49a6-8b52-29cfe3bbc3ea")
@@ -3763,59 +3763,59 @@
 		(uuid "fa89decb-ca3e-480b-8056-14183e428540")
 	)
 	(no_connect
-		(at 264.16 106.68)
+		(at 264.16 109.22)
 		(uuid "080d4fdd-4cfa-4da0-8762-fa3e99ee4c94")
 	)
 	(no_connect
-		(at 264.16 101.6)
+		(at 264.16 104.14)
 		(uuid "132b0092-7ea9-49ec-89ec-40df9628efe7")
 	)
 	(no_connect
-		(at 264.16 109.22)
+		(at 264.16 111.76)
 		(uuid "1ff13d6b-a78b-40cd-8ce2-55f61b7e0fca")
 	)
 	(no_connect
-		(at 264.16 129.54)
+		(at 264.16 132.08)
 		(uuid "4956058e-d649-4680-ae2c-bbd7a4af9663")
 	)
 	(no_connect
-		(at 264.16 96.52)
+		(at 264.16 99.06)
 		(uuid "5695021e-a615-4908-b4d4-8ad38d90ee02")
 	)
 	(no_connect
-		(at 264.16 104.14)
+		(at 264.16 106.68)
 		(uuid "57829acf-ee25-4a62-9944-485ae8b1a275")
 	)
 	(no_connect
-		(at 264.16 60.96)
+		(at 264.16 63.5)
 		(uuid "682955fe-a81f-4516-baf5-5aca6fddcf02")
 	)
 	(no_connect
-		(at 264.16 78.74)
+		(at 264.16 81.28)
 		(uuid "9c13528f-5a2b-43ed-8d8d-3599a296de96")
 	)
 	(no_connect
-		(at 264.16 111.76)
+		(at 264.16 114.3)
 		(uuid "9cde30db-49be-460a-8a77-c66d54b028aa")
 	)
 	(no_connect
-		(at 264.16 38.1)
+		(at 264.16 40.64)
 		(uuid "af268dc4-14eb-4e9f-89ec-758a83e859be")
 	)
 	(no_connect
-		(at 264.16 81.28)
+		(at 264.16 83.82)
 		(uuid "ba4f9ec7-9c3f-4941-8d85-2d9f7dabf279")
 	)
 	(no_connect
-		(at 264.16 127)
+		(at 264.16 129.54)
 		(uuid "bb9f3c52-e110-438c-a649-996aade88198")
 	)
 	(no_connect
-		(at 264.16 99.06)
+		(at 264.16 101.6)
 		(uuid "c75644ee-3270-4eb2-931d-4440d7ba6cc5")
 	)
 	(no_connect
-		(at 264.16 35.56)
+		(at 264.16 38.1)
 		(uuid "d8cc44b9-c083-4869-a411-50e5428d88fc")
 	)
 	(no_connect
@@ -3824,7 +3824,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 33.02) (xy 264.16 33.02)
+			(xy 246.38 35.56) (xy 264.16 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3854,7 +3854,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 73.66) (xy 264.16 73.66)
+			(xy 256.54 76.2) (xy 264.16 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3864,7 +3864,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 50.8) (xy 264.16 50.8)
+			(xy 256.54 53.34) (xy 264.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3914,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 238.76 63.5)
+			(xy 238.76 33.02) (xy 238.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3924,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 48.26) (xy 264.16 48.26)
+			(xy 256.54 50.8) (xy 264.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3964,7 +3964,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 142.24) (xy 264.16 142.24)
+			(xy 256.54 144.78) (xy 264.16 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3974,7 +3974,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 124.46) (xy 245.11 124.46)
+			(xy 264.16 127) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -4074,7 +4074,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 68.58) (xy 264.16 68.58)
+			(xy 256.54 71.12) (xy 264.16 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4094,7 +4094,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 53.34) (xy 248.92 83.82)
+			(xy 248.92 55.88) (xy 248.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4154,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 93.98) (xy 264.16 93.98)
+			(xy 246.38 96.52) (xy 264.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4164,7 +4164,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 45.72) (xy 264.16 45.72)
+			(xy 256.54 48.26) (xy 264.16 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4174,7 +4174,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 139.7) (xy 264.16 139.7)
+			(xy 256.54 142.24) (xy 264.16 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4234,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 53.34) (xy 248.92 53.34)
+			(xy 264.16 55.88) (xy 248.92 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4364,7 +4364,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 248.92 144.78)
+			(xy 248.92 116.84) (xy 248.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4394,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 17.78) (xy 238.76 30.48)
+			(xy 238.76 27.94) (xy 238.76 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4484,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 83.82) (xy 248.92 83.82)
+			(xy 264.16 86.36) (xy 248.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4514,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 63.5) (xy 238.76 91.44)
+			(xy 238.76 66.04) (xy 238.76 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4524,7 +4524,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 134.62) (xy 264.16 134.62)
+			(xy 256.54 137.16) (xy 264.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4534,7 +4534,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 144.78) (xy 248.92 144.78)
+			(xy 264.16 147.32) (xy 248.92 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4644,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 121.92) (xy 238.76 121.92)
+			(xy 264.16 124.46) (xy 238.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4654,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 63.5) (xy 238.76 63.5)
+			(xy 251.46 66.04) (xy 238.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4734,7 +4734,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 264.16 132.08)
+			(xy 256.54 134.62) (xy 264.16 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4754,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 76.2) (xy 264.16 76.2)
+			(xy 256.54 78.74) (xy 264.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4764,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 144.78) (xy 248.92 147.32)
+			(xy 248.92 147.32) (xy 248.92 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4774,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 33.02) (xy 245.11 66.04)
+			(xy 246.38 35.56) (xy 246.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4834,7 +4834,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 17.78) (xy 245.11 33.02)
+			(xy 246.38 27.94) (xy 246.38 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4864,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 264.16 66.04)
+			(xy 246.38 68.58) (xy 264.16 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4924,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 93.98) (xy 245.11 124.46)
+			(xy 246.38 96.52) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -4934,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 264.16 30.48)
+			(xy 238.76 33.02) (xy 264.16 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4964,7 +4964,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 91.44) (xy 238.76 121.92)
+			(xy 238.76 93.98) (xy 238.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4974,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 137.16) (xy 264.16 137.16)
+			(xy 256.54 139.7) (xy 264.16 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5034,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 43.18) (xy 264.16 43.18)
+			(xy 256.54 45.72) (xy 264.16 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5044,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 40.64) (xy 264.16 40.64)
+			(xy 256.54 43.18) (xy 264.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5054,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 71.12) (xy 264.16 71.12)
+			(xy 256.54 73.66) (xy 264.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5074,7 +5074,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 63.5) (xy 259.08 63.5)
+			(xy 264.16 66.04) (xy 259.08 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5104,7 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 83.82) (xy 248.92 114.3)
+			(xy 248.92 86.36) (xy 248.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5134,7 +5134,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 264.16 114.3)
+			(xy 248.92 116.84) (xy 264.16 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5154,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 245.11 93.98)
+			(xy 246.38 68.58) (xy 246.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5204,7 +5204,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 91.44) (xy 264.16 91.44)
+			(xy 238.76 93.98) (xy 264.16 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5281,7 +5281,7 @@
 		(uuid "047373d0-4bc1-4885-a096-4761bf506056")
 	)
 	(label "MISO"
-		(at 256.54 134.62 0)
+		(at 256.54 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5314,7 +5314,7 @@
 		(uuid "155efca8-0c7d-40bc-9030-37b209222d38")
 	)
 	(label "LED2"
-		(at 256.54 73.66 0)
+		(at 256.54 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +5380,7 @@
 		(uuid "225022c7-925b-4725-a00b-c936b05cb398")
 	)
 	(label "CS1"
-		(at 256.54 139.7 0)
+		(at 256.54 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5413,7 +5413,7 @@
 		(uuid "2fe6ad19-b4e7-4407-85eb-88bb2eefede1")
 	)
 	(label "MOSI"
-		(at 256.54 40.64 0)
+		(at 256.54 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5424,7 +5424,7 @@
 		(uuid "37d4c033-4a3f-4eea-a3e3-797cb24075ff")
 	)
 	(label "MOSI"
-		(at 256.54 132.08 0)
+		(at 256.54 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5435,7 +5435,7 @@
 		(uuid "43b1a2a3-fe32-407b-96e8-8ebc1c4dffc7")
 	)
 	(label "CS0"
-		(at 256.54 48.26 0)
+		(at 256.54 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5446,7 +5446,7 @@
 		(uuid "519180b2-6726-4bb3-8668-9df8539ac001")
 	)
 	(label "SCK"
-		(at 256.54 45.72 0)
+		(at 256.54 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5457,7 +5457,7 @@
 		(uuid "5c44d5f8-f0eb-4ff7-9eca-5e7fa9db88b1")
 	)
 	(label "LED0"
-		(at 256.54 68.58 0)
+		(at 256.54 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5501,7 +5501,7 @@
 		(uuid "8e11120d-348f-4a4f-ad58-2ad5cb5e9a1d")
 	)
 	(label "MISO"
-		(at 256.54 43.18 0)
+		(at 256.54 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5545,7 +5545,7 @@
 		(uuid "a137440a-62f5-465a-8439-08a213c9aa92")
 	)
 	(label "INT0"
-		(at 256.54 50.8 0)
+		(at 256.54 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5567,7 +5567,7 @@
 		(uuid "b22b69e2-285f-4e98-ace1-d12c9af0c2ac")
 	)
 	(label "SCK"
-		(at 256.54 137.16 0)
+		(at 256.54 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5589,7 +5589,7 @@
 		(uuid "b613e641-86d4-4095-84fb-6122dadc27cd")
 	)
 	(label "LED3"
-		(at 256.54 76.2 0)
+		(at 256.54 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5633,7 +5633,7 @@
 		(uuid "d5cf9e0a-5b48-4765-91cd-a1d085a05054")
 	)
 	(label "INT1"
-		(at 256.54 142.24 0)
+		(at 256.54 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5666,7 +5666,7 @@
 		(uuid "e8bf66dc-f08d-4ef2-9f36-be0738831a42")
 	)
 	(label "LED1"
-		(at 256.54 71.12 0)
+		(at 256.54 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5879,6 +5879,95 @@
 			(project "PM-ESPC3"
 				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:DA-03BLP")
+		(at 193.04 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0934ffec-0765-4741-85b0-5389ea88b837")
+		(property "Reference" "SW4"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIP 3 pos"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:DA03BLP"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/175/"
+			(at 193.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " 3 positions SPST 24V Blue 25mA 3000 Times Flat Toggle, Raised Style Plugin DIP Switches"
+			(at 193.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "DA-03BLP"
+			(at 193.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf8e091-f8e1-4be4-bb21-eb17cad86531")
+		)
+		(pin "2"
+			(uuid "7916bd79-0af5-4750-86ea-e766971e3f9e")
+		)
+		(pin "3"
+			(uuid "86331b0d-a3df-4e24-a11c-52a0bdf91958")
+		)
+		(pin "4"
+			(uuid "0c81bcb5-c902-4500-8362-79a2bb7e2fe3")
+		)
+		(pin "6"
+			(uuid "d933c261-5c70-46ec-bcf5-5f8ecad959ea")
+		)
+		(pin "5"
+			(uuid "76e8838e-b479-48b1-8e0f-d39318da8c57")
+		)
+		(instances
+			(project ""
+				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6663,7 +6752,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 238.76 17.78 0)
+		(at 238.76 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6672,7 +6761,7 @@
 		(fields_autoplaced yes)
 		(uuid "28d38154-1b4a-417f-96e8-56c7319ad620")
 		(property "Reference" "#PWR03"
-			(at 238.76 21.59 0)
+			(at 238.76 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6770,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 12.7 0)
+			(at 238.76 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 17.78 0)
+			(at 238.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 17.78 0)
+			(at 238.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 17.78 0)
+			(at 238.76 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7160,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:AFA07-S10FCC-00")
-		(at 269.24 101.6 0)
+		(at 269.24 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7080,7 +7169,7 @@
 		(fields_autoplaced yes)
 		(uuid "55715f4d-c600-478c-9240-3598608209f4")
 		(property "Reference" "J2"
-			(at 270.51 102.8699 0)
+			(at 270.51 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7178,7 @@
 			)
 		)
 		(property "Value" "AFA07-S10FCC-00"
-			(at 270.51 104.1399 0)
+			(at 270.51 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7188,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:CONN10_AFA07-S10_JUS"
-			(at 269.24 101.6 0)
+			(at 269.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7197,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/170/"
-			(at 269.24 101.6 0)
+			(at 269.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7206,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 269.24 101.6 0)
+			(at 269.24 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7439,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:AFA07-S10FCC-00")
-		(at 269.24 132.08 0)
+		(at 269.24 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7359,7 +7448,7 @@
 		(fields_autoplaced yes)
 		(uuid "58f63545-5f77-45a6-97ff-bfb70cd1f2a3")
 		(property "Reference" "J6"
-			(at 270.51 133.3499 0)
+			(at 270.51 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7368,7 +7457,7 @@
 			)
 		)
 		(property "Value" "AFA07-S10FCC-00"
-			(at 270.51 134.6199 0)
+			(at 270.51 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,7 +7467,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:CONN10_AFA07-S10_JUS"
-			(at 269.24 132.08 0)
+			(at 269.24 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7387,7 +7476,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/170/"
-			(at 269.24 132.08 0)
+			(at 269.24 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7485,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 269.24 132.08 0)
+			(at 269.24 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7534,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 245.11 17.78 0)
+		(at 246.38 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7454,7 +7543,7 @@
 		(fields_autoplaced yes)
 		(uuid "592e6196-8de0-4391-8298-633142dfd753")
 		(property "Reference" "#PWR04"
-			(at 245.11 21.59 0)
+			(at 246.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,7 +7552,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 245.11 12.7 0)
+			(at 246.38 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 17.78 0)
+			(at 246.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +7569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 17.78 0)
+			(at 246.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,7 +7578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 17.78 0)
+			(at 246.38 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7504,104 +7593,6 @@
 			(project ""
 				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:DIP_SW-3P-P2.54-THT-Top")
-		(at 193.04 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cf3045f-d60a-4f47-bca0-7c3d3bd43ec2")
-		(property "Reference" "SW3"
-			(at 193.04 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DIP_SW-3P-P2.54-THT-Top"
-			(at 193.04 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "kicad_inventree_lib:SW_DIP_SPSTx03_Slide_9.78x9.8mm_W7.62mm_P2.54mm"
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/122/"
-			(at 193.04 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "DIP_SW-3P-P2.54-THT-Top"
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 193.04 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "91941c16-e19b-474e-8472-2d061309cd8a")
-		)
-		(pin "3"
-			(uuid "dd48bb89-822f-45ed-993f-482de36ac0e7")
-		)
-		(pin "5"
-			(uuid "1457ae68-9aea-40e5-a5a8-d8cfced8df6c")
-		)
-		(pin "1"
-			(uuid "b89bd55c-e56f-439a-85da-841e92466705")
-		)
-		(pin "2"
-			(uuid "d703d2d7-32e6-4896-90ab-d571f949d153")
-		)
-		(pin "6"
-			(uuid "f5ba0c0e-1865-4444-8a2c-848354bdae74")
-		)
-		(instances
-			(project "PM-ESPC3"
-				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8016,7 +8007,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_330R_1206_1%")
-		(at 255.27 63.5 90)
+		(at 255.27 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8025,14 +8016,6 @@
 		(fields_autoplaced yes)
 		(uuid "84c640cb-47e7-446a-b5df-ae507f863245")
 		(property "Reference" "R7"
-			(at 255.27 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
 			(at 255.27 59.69 90)
 			(effects
 				(font
@@ -8040,8 +8023,16 @@
 				)
 			)
 		)
+		(property "Value" "330R"
+			(at 255.27 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 255.27 65.278 90)
+			(at 255.27 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8041,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/140/"
-			(at 255.27 63.5 0)
+			(at 255.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 63.5 0)
+			(at 255.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8059,7 @@
 			)
 		)
 		(property "part_ipn" "R_330R_1206_1% "
-			(at 255.27 63.5 0)
+			(at 255.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8289,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:AFA07-S10FCC-00")
-		(at 269.24 40.64 0)
+		(at 269.24 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8307,7 +8298,7 @@
 		(fields_autoplaced yes)
 		(uuid "9be340d9-9a15-4100-8d04-8676acc8ea10")
 		(property "Reference" "J8"
-			(at 270.51 41.9099 0)
+			(at 270.51 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8307,7 @@
 			)
 		)
 		(property "Value" "AFA07-S10FCC-00"
-			(at 270.51 43.1799 0)
+			(at 270.51 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:CONN10_AFA07-S10_JUS"
-			(at 269.24 40.64 0)
+			(at 269.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,7 +8326,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/170/"
-			(at 269.24 40.64 0)
+			(at 269.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8344,7 +8335,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 269.24 40.64 0)
+			(at 269.24 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8513,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 147.32 0)
+		(at 248.92 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8531,7 +8522,7 @@
 		(fields_autoplaced yes)
 		(uuid "b38c40f8-fb26-489d-85cb-109742e9f5c3")
 		(property "Reference" "#PWR011"
-			(at 248.92 153.67 0)
+			(at 248.92 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8531,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 152.4 0)
+			(at 248.92 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8548,7 +8539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 147.32 0)
+			(at 248.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 147.32 0)
+			(at 248.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,7 +8557,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 147.32 0)
+			(at 248.92 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8767,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:AFA07-S10FCC-00")
-		(at 269.24 71.12 0)
+		(at 269.24 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8785,7 +8776,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd7fae0d-d21e-42ad-9884-e147578dfce7")
 		(property "Reference" "J5"
-			(at 270.51 72.3899 0)
+			(at 270.51 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8785,7 @@
 			)
 		)
 		(property "Value" "AFA07-S10FCC-00"
-			(at 270.51 73.6599 0)
+			(at 270.51 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,7 +8795,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:CONN10_AFA07-S10_JUS"
-			(at 269.24 71.12 0)
+			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8813,7 +8804,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/170/"
-			(at 269.24 71.12 0)
+			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +8813,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
-			(at 269.24 71.12 0)
+			(at 269.24 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
