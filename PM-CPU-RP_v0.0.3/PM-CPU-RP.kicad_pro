@@ -482,6 +482,23 @@
         "via_diameter": 1.0,
         "via_drill": 0.5,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power_2mm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -496,6 +513,7 @@
       "/N": "power",
       "GND": "power",
       "Net-(D1-5V-Pad2)": "power",
+      "Net-(J1-Pin_1)": "power_2mm",
       "Net-(J4-VIN)": "power",
       "Net-(PS1-Pad+V)": "power",
       "Net-(PS1-PadAC{slash}L)": "power"
