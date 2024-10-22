@@ -4232,16 +4232,20 @@
 		)
 	)
 	(no_connect
-		(at 99.06 43.18)
-		(uuid "23d7a528-8053-4e47-9c63-6ca2a8919ff3")
+		(at 99.06 58.42)
+		(uuid "119930ac-74b4-4d15-a05c-ef1f6d70ea05")
+	)
+	(no_connect
+		(at 99.06 55.88)
+		(uuid "2e316295-62a9-4b80-84b9-5b547b8937da")
+	)
+	(no_connect
+		(at 99.06 53.34)
+		(uuid "79a2bfc3-8e29-4024-861f-5f77cc9f3dca")
 	)
 	(no_connect
 		(at 109.22 104.14)
 		(uuid "d850dfc2-fecd-4a46-9518-5b6d664679b9")
-	)
-	(no_connect
-		(at 99.06 45.72)
-		(uuid "e566b37b-a16c-451b-a859-48036f1b38aa")
 	)
 	(no_connect
 		(at 109.22 137.16)
@@ -4279,23 +4283,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 99.06 48.26)
+			(xy 91.44 43.18) (xy 99.06 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "39332b78-5f49-4ee5-85a9-34ebc237d644")
-	)
-	(wire
-		(pts
-			(xy 91.44 58.42) (xy 99.06 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50d81c57-a1ff-4516-a0a4-08dae4c9c4a7")
 	)
 	(wire
 		(pts
@@ -4319,7 +4313,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 99.06 55.88)
+			(xy 91.44 50.8) (xy 99.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4329,7 +4323,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 50.8) (xy 99.06 50.8)
+			(xy 91.44 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4359,7 +4353,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 53.34) (xy 99.06 53.34)
+			(xy 91.44 48.26) (xy 99.06 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4489,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 91.44 50.8 180)
+		(at 91.44 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4519,7 +4513,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 91.44 55.88 180)
+		(at 91.44 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4555,7 +4549,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 91.44 48.26 180)
+		(at 91.44 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4576,18 +4570,6 @@
 			(justify left)
 		)
 		(uuid "a8ed19b9-b245-4b4a-a423-c6da3d509f59")
-	)
-	(hierarchical_label "INT"
-		(shape input)
-		(at 91.44 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a91120a7-c645-4c36-92a1-fdc879343137")
 	)
 	(hierarchical_label "a0.5"
 		(shape input)
@@ -4699,7 +4681,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 91.44 53.34 180)
+		(at 91.44 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -5891,12 +5891,6 @@
 		(uuid "3f3830fa-5360-4e10-a420-11efabdeb90f")
 	)
 	(junction
-		(at 195.58 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43b33dda-6e11-4e93-8153-986322a08f6f")
-	)
-	(junction
 		(at 160.02 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6420,7 +6414,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 43.18) (xy 213.36 43.18)
+			(xy 187.96 43.18) (xy 213.36 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6727,16 +6721,6 @@
 			(type default)
 		)
 		(uuid "504fec86-924f-4950-a26b-7d268f500ce2")
-	)
-	(wire
-		(pts
-			(xy 187.96 43.18) (xy 195.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51086119-2f6e-46fb-b488-4de8a717ffc8")
 	)
 	(wire
 		(pts
@@ -7807,16 +7791,6 @@
 			(type default)
 		)
 		(uuid "f57911de-2ecd-4427-9d9c-b6f4ab0ff032")
-	)
-	(wire
-		(pts
-			(xy 195.58 40.64) (xy 195.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f81cd143-c77b-4fff-9828-3e1bceecb6e1")
 	)
 	(wire
 		(pts
@@ -9187,7 +9161,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 392.43 240.03 0)
+		(at 381 238.76 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9196,7 +9170,7 @@
 		(fields_autoplaced yes)
 		(uuid "186f7a56-c656-474b-a190-6ba97ca0e7f0")
 		(property "Reference" "H3"
-			(at 394.97 238.7599 0)
+			(at 383.54 237.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9179,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 394.97 241.2999 0)
+			(at 383.54 240.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +9188,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +9197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,7 +9206,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9241,7 +9215,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9250,7 +9224,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9233,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9268,7 +9242,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9251,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +9260,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9269,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9278,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9287,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9296,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9305,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 392.43 240.03 0)
+			(at 381 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13328,7 +13302,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 392.43 234.95 0)
+		(at 381 233.68 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13337,7 +13311,7 @@
 		(fields_autoplaced yes)
 		(uuid "c51d090f-d3b7-45da-bdb6-d48b21863f3c")
 		(property "Reference" "H2"
-			(at 394.97 233.6799 0)
+			(at 383.54 232.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,7 +13320,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 394.97 236.2199 0)
+			(at 383.54 234.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,7 +13329,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,7 +13338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +13347,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13356,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13365,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,7 +13374,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13383,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13392,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13427,7 +13401,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13436,7 +13410,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13445,7 +13419,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13454,7 +13428,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13463,7 +13437,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +13446,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 392.43 234.95 0)
+			(at 381 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14087,7 +14061,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 392.43 229.87 0)
+		(at 381 228.6 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14096,7 +14070,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1410e93-fc3a-49ba-ba6a-dab4eab42662")
 		(property "Reference" "H1"
-			(at 394.97 228.5999 0)
+			(at 383.54 227.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,7 +14079,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 394.97 231.1399 0)
+			(at 383.54 229.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14114,7 +14088,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14123,7 +14097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14132,7 +14106,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14141,7 +14115,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14150,7 +14124,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14159,7 +14133,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +14142,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +14151,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +14160,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +14169,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14178,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14187,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14196,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14231,7 +14205,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 392.43 229.87 0)
+			(at 381 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14461,7 +14435,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 392.43 245.11 0)
+		(at 381 243.84 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14470,7 +14444,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeba655c-711e-4975-9b6f-895e24e71c2d")
 		(property "Reference" "H4"
-			(at 394.97 243.8399 0)
+			(at 383.54 242.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14479,7 +14453,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 394.97 246.3799 0)
+			(at 383.54 245.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14488,7 +14462,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14497,7 +14471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14506,7 +14480,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14515,7 +14489,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14524,7 +14498,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14533,7 +14507,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14542,7 +14516,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14551,7 +14525,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14560,7 +14534,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14569,7 +14543,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14578,7 +14552,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14587,7 +14561,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14596,7 +14570,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,7 +14579,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 392.43 245.11 0)
+			(at 381 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

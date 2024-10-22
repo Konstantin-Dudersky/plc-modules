@@ -2072,6 +2072,10 @@
 		(at 157.48 73.66)
 		(uuid "85a58f5e-6ded-4b10-b5d6-e196fd3a518d")
 	)
+	(no_connect
+		(at 157.48 76.2)
+		(uuid "e489d7e7-6e5b-4b43-a5c3-3a04660f7c1a")
+	)
 	(wire
 		(pts
 			(xy 40.64 148.59) (xy 40.64 152.4)
@@ -2231,16 +2235,6 @@
 			(type default)
 		)
 		(uuid "2b5d75d9-dbce-4982-926e-c662971d4322")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 163.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c6ac04f-17a7-43cc-b1a6-9bb72178b647")
 	)
 	(wire
 		(pts
@@ -2601,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "956d6925-fd2c-4741-be32-e64581a1c447")
-	)
-	(wire
-		(pts
-			(xy 203.2 180.34) (xy 213.36 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9c76f7-e6e5-4378-a52f-106e455ebf09")
 	)
 	(wire
 		(pts
@@ -3058,17 +3042,6 @@
 		)
 		(uuid "46b5f19a-fe73-46d3-a637-c601bfbd6b20")
 	)
-	(label "INT"
-		(at 163.83 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "47d28866-d526-4971-a6d1-848ff18736b5")
-	)
 	(label "b0.3-IS"
 		(at 165.1 185.42 0)
 		(fields_autoplaced yes)
@@ -3376,17 +3349,6 @@
 			(justify right bottom)
 		)
 		(uuid "9fbed045-e1c0-4c37-a6d2-74509d84f89a")
-	)
-	(label "INT"
-		(at 213.36 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ac2653a3-4a5f-4547-9e74-a00860fd3ee6")
 	)
 	(label "MOSI"
 		(at 167.64 63.5 180)
@@ -5841,16 +5803,6 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "INT" input
-			(at 203.2 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "377f028e-ff87-4584-883f-5be896cbd58f")
 		)
 		(pin "GND" input
 			(at 190.5 198.12 270)
