@@ -3521,20 +3521,20 @@
 		)
 	)
 	(no_connect
+		(at 129.54 50.8)
+		(uuid "03ad7b15-a0e3-4e4d-8d7a-a67064e88fa1")
+	)
+	(no_connect
+		(at 129.54 53.34)
+		(uuid "52c92f97-e517-4bc0-8394-389c31a3924e")
+	)
+	(no_connect
 		(at 139.7 134.62)
 		(uuid "75de8ec0-c9d5-4ad5-80d7-fda2dd447169")
 	)
 	(no_connect
-		(at 129.54 40.64)
-		(uuid "c10efbc1-7c7e-43ea-9070-43b7cb7c9110")
-	)
-	(no_connect
 		(at 129.54 55.88)
 		(uuid "d2b02492-3134-4d08-ba6c-a1e315d9def6")
-	)
-	(no_connect
-		(at 129.54 43.18)
-		(uuid "e87ab4b4-b7b5-40aa-aef1-90b06d50e895")
 	)
 	(wire
 		(pts
@@ -3548,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 50.8) (xy 129.54 50.8)
+			(xy 116.84 45.72) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3578,7 +3578,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 48.26) (xy 129.54 48.26)
+			(xy 116.84 43.18) (xy 129.54 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3608,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 129.54 45.72)
+			(xy 116.84 40.64) (xy 129.54 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3698,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 129.54 53.34)
+			(xy 116.84 48.26) (xy 129.54 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3774,7 +3774,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 116.84 50.8 180)
+		(at 116.84 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3798,7 +3798,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 116.84 53.34 180)
+		(at 116.84 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3846,7 +3846,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 116.84 45.72 180)
+		(at 116.84 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3870,7 +3870,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 116.84 48.26 180)
+		(at 116.84 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
