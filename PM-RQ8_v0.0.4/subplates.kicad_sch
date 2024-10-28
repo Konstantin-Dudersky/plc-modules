@@ -5,6 +5,905 @@
 	(uuid "f9cc70a8-f580-4a8b-a4e0-6e9eba371037")
 	(paper "A4")
 	(lib_symbols
+		(symbol "AFA07-S10FCC-00_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AFA07-S10FCC-00"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:CONN10_AFA07-S10_JUS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/part/170/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "AFA07-S10FCC-00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AFA07-S10FCC-00_1_1_1"
+				(arc
+					(start 0 -12.192)
+					(mid -0.5058 -12.7)
+					(end 0 -13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -9.652)
+					(mid -0.5058 -10.16)
+					(end 0 -10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -7.112)
+					(mid -0.5058 -7.62)
+					(end 0 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.588)
+					(mid -0.5058 5.08)
+					(end 0 4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 8.128)
+					(mid -0.5058 7.62)
+					(end 0 7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 10.668)
+					(mid -0.5058 10.16)
+					(end 0 9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PM-LED8_v0.0.1_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PM-LED8_v0.0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:PM-LED_v0.0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "PM-LED8_v0.0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PM-LED8_v0.0.1_1_0_1"
+				(rectangle
+					(start -5.08 -2.54)
+					(end 5.08 -33.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PM-LED8_v0.0.1_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -27.94) (xy 7.1098 -27.94)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -25.4) (xy 7.1098 -25.4)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -22.86) (xy 7.1098 -22.86)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -20.32) (xy 7.1098 -20.32)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -17.78) (xy 7.1098 -17.78)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 7.1098 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -12.7) (xy 7.1098 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 7.1098 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 7.1098 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.1098 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -27.432)
+					(mid 7.112 -27.94)
+					(end 7.6178 -28.448)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -24.892)
+					(mid 7.112 -25.4)
+					(end 7.6178 -25.908)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -22.352)
+					(mid 7.112 -22.86)
+					(end 7.6178 -23.368)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -19.812)
+					(mid 7.112 -20.32)
+					(end 7.6178 -20.828)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -17.272)
+					(mid 7.112 -17.78)
+					(end 7.6178 -18.288)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -14.732)
+					(mid 7.112 -15.24)
+					(end 7.6178 -15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -12.192)
+					(mid 7.112 -12.7)
+					(end 7.6178 -13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -9.652)
+					(mid 7.112 -10.16)
+					(end 7.6178 -10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -7.112)
+					(mid 7.112 -7.62)
+					(end 7.6178 -8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.6178 -4.572)
+					(mid 7.112 -5.08)
+					(end 7.6178 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "-"
+					(at 0 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "GND"
+					(at 0 -27.94 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED0"
+					(at 0 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED1"
+					(at 0 -10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED2"
+					(at 0 -12.7 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED3"
+					(at 0 -15.24 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED4"
+					(at 0 -17.78 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED5"
+					(at 0 -20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED6"
+					(at 0 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "LED7"
+					(at 0 -25.4 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "PM-LED8 v0.0.1"
+					(at -7.62 -17.78 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "kicad_inventree_lib:AFA07-S10FCC-00"
 			(pin_names
 				(offset 1.016) hide)
@@ -46,6 +945,15 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x10, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "AFA07-S10FCC-00"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1782,7 +2690,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 10.16 -49.53 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1824,10 +2732,19 @@
 					(hide yes)
 				)
 			)
+			(property "part_ipn" "PM-ESP32C3_v0.0.2"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "PM-ESP32C3_v0.0.2_0_1"
 				(rectangle
 					(start -5.08 -2.54)
-					(end 5.08 -132.08)
+					(end 5.08 -96.52)
 					(stroke
 						(width 0)
 						(type default)
@@ -1838,126 +2755,6 @@
 				)
 			)
 			(symbol "PM-ESP32C3_v0.0.2_1_1"
-				(arc
-					(start -7.6178 -127.508)
-					(mid -7.112 -127)
-					(end -7.6178 -126.492)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -124.968)
-					(mid -7.112 -124.46)
-					(end -7.6178 -123.952)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -122.428)
-					(mid -7.112 -121.92)
-					(end -7.6178 -121.412)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -119.888)
-					(mid -7.112 -119.38)
-					(end -7.6178 -118.872)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -117.348)
-					(mid -7.112 -116.84)
-					(end -7.6178 -116.332)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -114.808)
-					(mid -7.112 -114.3)
-					(end -7.6178 -113.792)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -112.268)
-					(mid -7.112 -111.76)
-					(end -7.6178 -111.252)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -109.728)
-					(mid -7.112 -109.22)
-					(end -7.6178 -108.712)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -107.188)
-					(mid -7.112 -106.68)
-					(end -7.6178 -106.172)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -104.648)
-					(mid -7.112 -104.14)
-					(end -7.6178 -103.632)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start -7.6178 -94.488)
 					(mid -7.112 -93.98)
@@ -2310,126 +3107,6 @@
 					(start -7.6178 -5.588)
 					(mid -7.112 -5.08)
 					(end -7.6178 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -127) (xy -7.1098 -127)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -124.46) (xy -7.1098 -124.46)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -121.92) (xy -7.1098 -121.92)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -119.38) (xy -7.1098 -119.38)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -116.84) (xy -7.1098 -116.84)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -114.3) (xy -7.1098 -114.3)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -111.76) (xy -7.1098 -111.76)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -109.22) (xy -7.1098 -109.22)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -106.68) (xy -7.1098 -106.68)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -104.14) (xy -7.1098 -104.14)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2799,15 +3476,7 @@
 					)
 				)
 				(text "+3.3V"
-					(at 0 -106.68 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "+3.3V"
-					(at 0 -73.66 0)
+					(at 0 -40.64 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2823,15 +3492,7 @@
 					)
 				)
 				(text "+5V"
-					(at 0 -104.14 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "+5V"
-					(at 0 -71.12 0)
+					(at 0 -38.1 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2840,22 +3501,6 @@
 				)
 				(text "+5V"
 					(at 0 -5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -111.76 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -109.22 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2879,7 +3524,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -86.36 0)
+					(at 0 -71.12 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2887,7 +3532,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -83.82 0)
+					(at 0 -50.8 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2895,7 +3540,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -81.28 0)
+					(at 0 -48.26 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2903,7 +3548,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -78.74 0)
+					(at 0 -45.72 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2911,47 +3556,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -76.2 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -58.42 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -55.88 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -38.1 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -12.7 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -10.16 0)
+					(at 0 -43.18 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2959,7 +3564,7 @@
 					)
 				)
 				(text "CS0"
-					(at 0 -22.86 0)
+					(at 0 -17.78 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2967,15 +3572,23 @@
 					)
 				)
 				(text "CS1"
-					(at 0 -121.92 0)
+					(at 0 -20.32 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "GND"
-					(at 0 -127 0)
+				(text "CS2"
+					(at 0 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "CS3"
+					(at 0 -25.4 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3006,16 +3619,8 @@
 						)
 					)
 				)
-				(text "INT0"
-					(at 0 -124.46 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "INT0"
-					(at 0 -25.4 0)
+				(text "INT"
+					(at 0 -58.42 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3023,7 +3628,7 @@
 					)
 				)
 				(text "LED0"
-					(at 0 -45.72 0)
+					(at 0 -78.74 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3031,7 +3636,7 @@
 					)
 				)
 				(text "LED1"
-					(at 0 -48.26 0)
+					(at 0 -81.28 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3039,7 +3644,7 @@
 					)
 				)
 				(text "LED2"
-					(at 0 -50.8 0)
+					(at 0 -83.82 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3047,7 +3652,7 @@
 					)
 				)
 				(text "LED3"
-					(at 0 -53.34 0)
+					(at 0 -86.36 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3055,7 +3660,7 @@
 					)
 				)
 				(text "LED_3.3V"
-					(at 0 -43.18 0)
+					(at 0 -76.2 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3063,7 +3668,7 @@
 					)
 				)
 				(text "LED_5V"
-					(at 0 -40.64 0)
+					(at 0 -73.66 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3071,15 +3676,7 @@
 					)
 				)
 				(text "MISO"
-					(at 0 -116.84 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "MISO"
-					(at 0 -17.78 0)
+					(at 0 -12.7 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3087,15 +3684,7 @@
 					)
 				)
 				(text "MOSI"
-					(at 0 -114.3 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "MOSI"
-					(at 0 -15.24 0)
+					(at 0 -10.16 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3103,7 +3692,7 @@
 					)
 				)
 				(text "PM-ESP32C3 v0.0.2"
-					(at 7.62 -66.04 900)
+					(at 7.62 -49.53 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3111,15 +3700,23 @@
 					)
 				)
 				(text "SCK"
-					(at 0 -119.38 0)
+					(at 0 -15.24 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "SCK"
-					(at 0 -20.32 0)
+				(text "SCL"
+					(at 0 -55.88 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SDA"
+					(at 0 -53.34 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3167,6 +3764,15 @@
 				)
 			)
 			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "part_ipn" "PM-LED8_v0.0.1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3429,7 +4035,7 @@
 						(type none)
 					)
 				)
-				(text "0"
+				(text "-"
 					(at 0 -5.08 0)
 					(effects
 						(font
@@ -4007,7 +4613,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "3211cf19-1597-4c06-878d-6301eab180a2")
 		(property "Reference" "U4"
@@ -4080,6 +4686,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "PM-LED8_v0.0.1"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PM-RQ8"
 				(path "/a75183a9-ea53-46d5-9d29-d6271be85780/65361c6d-df66-4aed-a762-0d7df9cf24c1"
@@ -4136,6 +4751,15 @@
 		)
 		(property "Description" ""
 			(at 172.72 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PM-ESP32C3_v0.0.2"
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,6 +4832,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "AFA07-S10FCC-00"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "b73e1d11-a748-4e25-ba92-8851740d83c2")
 		)
@@ -4248,6 +4881,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AFA07-S10FCC-00_1")
 		(lib_id "kicad_inventree_lib:AFA07-S10FCC-00")
 		(at 134.62 45.72 0)
 		(unit 1)
@@ -4294,6 +4928,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "AFA07-S10FCC-00"
 			(at 134.62 45.72 0)
 			(effects
 				(font
@@ -4486,6 +5129,7 @@
 		)
 	)
 	(symbol
+		(lib_name "PM-LED8_v0.0.1_1")
 		(lib_id "kicad_inventree_lib:PM-LED8_v0.0.1")
 		(at 96.52 129.54 0)
 		(unit 1)
@@ -4529,6 +5173,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PM-LED8_v0.0.1"
 			(at 96.52 129.54 0)
 			(effects
 				(font

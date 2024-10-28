@@ -54,6 +54,15 @@
 					(hide yes)
 				)
 			)
+			(property "part_ipn" "AFA07-S10FCC-00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
@@ -1141,7 +1150,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at 10.16 -49.53 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1183,10 +1192,19 @@
 					(hide yes)
 				)
 			)
+			(property "part_ipn" "PM-ESP32C3_v0.0.2"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "PM-ESP32C3_v0.0.2_0_1"
 				(rectangle
 					(start -5.08 -2.54)
-					(end 5.08 -132.08)
+					(end 5.08 -96.52)
 					(stroke
 						(width 0)
 						(type default)
@@ -1197,126 +1215,6 @@
 				)
 			)
 			(symbol "PM-ESP32C3_v0.0.2_1_1"
-				(arc
-					(start -7.6178 -127.508)
-					(mid -7.112 -127)
-					(end -7.6178 -126.492)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -124.968)
-					(mid -7.112 -124.46)
-					(end -7.6178 -123.952)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -122.428)
-					(mid -7.112 -121.92)
-					(end -7.6178 -121.412)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -119.888)
-					(mid -7.112 -119.38)
-					(end -7.6178 -118.872)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -117.348)
-					(mid -7.112 -116.84)
-					(end -7.6178 -116.332)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -114.808)
-					(mid -7.112 -114.3)
-					(end -7.6178 -113.792)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -112.268)
-					(mid -7.112 -111.76)
-					(end -7.6178 -111.252)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -109.728)
-					(mid -7.112 -109.22)
-					(end -7.6178 -108.712)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -107.188)
-					(mid -7.112 -106.68)
-					(end -7.6178 -106.172)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.6178 -104.648)
-					(mid -7.112 -104.14)
-					(end -7.6178 -103.632)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start -7.6178 -94.488)
 					(mid -7.112 -93.98)
@@ -1669,126 +1567,6 @@
 					(start -7.6178 -5.588)
 					(mid -7.112 -5.08)
 					(end -7.6178 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -127) (xy -7.1098 -127)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -124.46) (xy -7.1098 -124.46)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -121.92) (xy -7.1098 -121.92)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -119.38) (xy -7.1098 -119.38)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -116.84) (xy -7.1098 -116.84)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -114.3) (xy -7.1098 -114.3)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -111.76) (xy -7.1098 -111.76)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -109.22) (xy -7.1098 -109.22)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -106.68) (xy -7.1098 -106.68)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -104.14) (xy -7.1098 -104.14)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -2158,15 +1936,7 @@
 					)
 				)
 				(text "+3.3V"
-					(at 0 -106.68 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "+3.3V"
-					(at 0 -73.66 0)
+					(at 0 -40.64 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2182,15 +1952,7 @@
 					)
 				)
 				(text "+5V"
-					(at 0 -104.14 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "+5V"
-					(at 0 -71.12 0)
+					(at 0 -38.1 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2199,22 +1961,6 @@
 				)
 				(text "+5V"
 					(at 0 -5.08 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -111.76 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -109.22 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2238,7 +1984,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -86.36 0)
+					(at 0 -71.12 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2246,7 +1992,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -83.82 0)
+					(at 0 -50.8 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2254,7 +2000,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -81.28 0)
+					(at 0 -48.26 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2262,7 +2008,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -78.74 0)
+					(at 0 -45.72 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2270,47 +2016,7 @@
 					)
 				)
 				(text "-"
-					(at 0 -76.2 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -58.42 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -55.88 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -38.1 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -12.7 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 0 -10.16 0)
+					(at 0 -43.18 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2318,7 +2024,7 @@
 					)
 				)
 				(text "CS0"
-					(at 0 -22.86 0)
+					(at 0 -17.78 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2326,15 +2032,23 @@
 					)
 				)
 				(text "CS1"
-					(at 0 -121.92 0)
+					(at 0 -20.32 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "GND"
-					(at 0 -127 0)
+				(text "CS2"
+					(at 0 -22.86 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "CS3"
+					(at 0 -25.4 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2365,16 +2079,8 @@
 						)
 					)
 				)
-				(text "INT0"
-					(at 0 -124.46 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "INT0"
-					(at 0 -25.4 0)
+				(text "INT"
+					(at 0 -58.42 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2382,7 +2088,7 @@
 					)
 				)
 				(text "LED0"
-					(at 0 -45.72 0)
+					(at 0 -78.74 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2390,7 +2096,7 @@
 					)
 				)
 				(text "LED1"
-					(at 0 -48.26 0)
+					(at 0 -81.28 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2398,7 +2104,7 @@
 					)
 				)
 				(text "LED2"
-					(at 0 -50.8 0)
+					(at 0 -83.82 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2406,7 +2112,7 @@
 					)
 				)
 				(text "LED3"
-					(at 0 -53.34 0)
+					(at 0 -86.36 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2414,7 +2120,7 @@
 					)
 				)
 				(text "LED_3.3V"
-					(at 0 -43.18 0)
+					(at 0 -76.2 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2422,7 +2128,7 @@
 					)
 				)
 				(text "LED_5V"
-					(at 0 -40.64 0)
+					(at 0 -73.66 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2430,15 +2136,7 @@
 					)
 				)
 				(text "MISO"
-					(at 0 -116.84 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "MISO"
-					(at 0 -17.78 0)
+					(at 0 -12.7 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2446,15 +2144,7 @@
 					)
 				)
 				(text "MOSI"
-					(at 0 -114.3 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "MOSI"
-					(at 0 -15.24 0)
+					(at 0 -10.16 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2462,7 +2152,7 @@
 					)
 				)
 				(text "PM-ESP32C3 v0.0.2"
-					(at 7.62 -66.04 900)
+					(at 7.62 -49.53 900)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2470,15 +2160,23 @@
 					)
 				)
 				(text "SCK"
-					(at 0 -119.38 0)
+					(at 0 -15.24 0)
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(text "SCK"
-					(at 0 -20.32 0)
+				(text "SCL"
+					(at 0 -55.88 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "SDA"
+					(at 0 -53.34 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3162,6 +2860,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "AFA07-S10FCC-00"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "99cb4c44-c34c-4d20-b23f-c7202b0eac48")
 		)
@@ -3256,6 +2963,15 @@
 				(hide yes)
 			)
 		)
+		(property "part_ipn" "PM-LED8_v0.0.1"
+			(at 55.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/3e910c54-7792-4c2e-8497-3f8a0979c787/7d555927-6fb4-4d9c-913f-2891cdab6894"
@@ -3313,6 +3029,15 @@
 		)
 		(property "Description" ""
 			(at 101.6 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PM-ESP32C3_v0.0.2"
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
