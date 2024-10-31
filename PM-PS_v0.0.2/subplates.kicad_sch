@@ -542,6 +542,15 @@
 					(hide yes)
 				)
 			)
+			(property "part_ipn" "PM-LED8_v0.0.1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "PM-LED8_v0.0.1_0_1"
 				(rectangle
 					(start -5.08 -2.54)
@@ -896,10 +905,6 @@
 		(uuid "6bce1435-9fca-4caf-801b-afd039ec8991")
 	)
 	(no_connect
-		(at 104.14 48.26)
-		(uuid "8f6e24f7-ce84-4c3e-944c-a9a9012218f7")
-	)
-	(no_connect
 		(at 104.14 50.8)
 		(uuid "a9e419dc-db6e-4753-a9ef-5e466b128660")
 	)
@@ -911,7 +916,19 @@
 		(at 104.14 40.64)
 		(uuid "e013da13-10ec-41ec-9989-749727e14eb9")
 	)
-	(hierarchical_label "+5V_LED"
+	(hierarchical_label "+5V_USB"
+		(shape input)
+		(at 104.14 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00a55170-0f9c-4219-9494-f421dfe6608c")
+	)
+	(hierarchical_label "+5V_BUS"
 		(shape input)
 		(at 104.14 45.72 0)
 		(fields_autoplaced yes)
@@ -1101,6 +1118,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "PM-LED8_v0.0.1"
 			(at 76.2 35.56 0)
 			(effects
 				(font
