@@ -32,7 +32,12 @@ pub async fn main() -> anyhow::Result<()> {
     let pin_cs_gpio_led = peripherals.pins.gpio7;
 
     // I2C address ---------------------------------------------------------------------------------
-    let slave_address = define_address(20, pin_a0.into(), pin_a1.into(), pin_a2.into());
+    let slave_address = define_address(
+        20,
+        &mut pin_a0.into(),
+        &mut pin_a1.into(),
+        &mut pin_a2.into(),
+    );
 
     // cmp_esp_i2c_slave ---------------------------------------------------------------------------
     let config_esp_i2c_slave =

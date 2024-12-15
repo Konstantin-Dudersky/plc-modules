@@ -1,4 +1,4 @@
-use rsiot::drivers_i2c::postcard_serde;
+use rsiot::serde_utils::postcard_serde;
 
 #[derive(Debug, thiserror::Error)]
 pub enum Error {

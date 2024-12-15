@@ -4,9 +4,9 @@ use tracing::info;
 /// Определить адрес по DIP-переключателям
 pub fn define_address(
     base_address: u8,
-    pin_a0: AnyIOPin,
-    pin_a1: AnyIOPin,
-    pin_a2: AnyIOPin,
+    pin_a0: &mut AnyIOPin,
+    pin_a1: &mut AnyIOPin,
+    pin_a2: &mut AnyIOPin,
 ) -> u8 {
     let mut address = base_address;
 
@@ -30,7 +30,7 @@ pub fn define_address(
         address += 4;
     }
 
-    info!("I2C address based on DIP: {address}");
+    info!("ESP address based on DIP: {address}");
 
     address
 }

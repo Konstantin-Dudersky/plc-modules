@@ -33,7 +33,12 @@ pub async fn main() -> anyhow::Result<()> {
     let pin_int_gpio_expander = peripherals.pins.gpio6;
 
     // I2C address ---------------------------------------------------------------------------------
-    let slave_address = define_address(10, pin_a0.into(), pin_a1.into(), pin_a2.into());
+    let slave_address = define_address(
+        10,
+        &mut pin_a0.into(),
+        &mut pin_a1.into(),
+        &mut pin_a2.into(),
+    );
 
     // cmp_derive ----------------------------------------------------------------------------------
     let config_derive = super::config_derive::config();

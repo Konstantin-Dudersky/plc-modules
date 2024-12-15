@@ -14,6 +14,7 @@ tracing-subscriber = { version = "*" }
 
 rsiot = { path = "../../../rsiot", features = ["cmp_esp"] }
 pm_firmware_lib = { path = "../pm_firmware_lib" }
+pm_firmware_uart_shared = { path = "../pm_firmware_uart_shared" }
 
 [build-dependencies]
 embuild = { version = "*", features = ["espidf"] }

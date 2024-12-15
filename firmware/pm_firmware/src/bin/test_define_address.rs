@@ -3,7 +3,7 @@
 use std::time::Duration;
 
 use esp_idf_svc::hal::{
-    gpio::{Level, PinDriver, Pull},
+    gpio::{PinDriver, Pull},
     peripheral::Peripheral,
     prelude::Peripherals,
 };
@@ -16,8 +16,6 @@ async fn main() {
     let peripherals = Peripherals::take().unwrap();
 
     let mut pin_a0 = peripherals.pins.gpio0;
-    let pin_a1 = peripherals.pins.gpio1;
-    let pin_a2 = peripherals.pins.gpio2;
 
     let pin_a0_clone = unsafe { pin_a0.clone_unchecked() };
 
