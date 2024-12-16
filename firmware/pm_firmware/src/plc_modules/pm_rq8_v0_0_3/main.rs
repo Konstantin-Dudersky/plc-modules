@@ -66,7 +66,7 @@ pub async fn main() -> anyhow::Result<()> {
 
     let local_set = LocalSet::new();
     local_set.spawn_local(async {
-        ComponentExecutor::<Custom>::new(executor_config)
+        ComponentExecutor::<Custom, Service>::new(executor_config)
             .add_cmp(cmp_esp_i2c_slave::Cmp::new(config_esp_i2c_slave))
             .add_cmp(cmp_esp_spi_master::Cmp::new(config_esp_spi_master))
             .add_cmp(cmp_logger::Cmp::new(config_logger))
