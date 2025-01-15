@@ -6,10 +6,10 @@
 
 #figure(
     caption: "Внешний вид платы PM-CPU-RP",
-    image("../../PM-CPU-RP_v0.0.3/doc/PM-CPU-RP.png")
+    image("../../archive/PM-CPU-RP_v0.0.3/doc/PM-CPU-RP.png")
 )
 
 #figure(
     caption: "Схема внешних подключений PM-CPU-RP",
-    image("../../PM-CPU-RP_v0.0.3/doc/PM-CPU-RP-external_connection.svg")
+    image("../../archive/PM-CPU-RP_v0.0.3/doc/PM-CPU-RP-external_connection.svg")
 )

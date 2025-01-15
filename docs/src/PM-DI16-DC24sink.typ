@@ -4,10 +4,10 @@
 
 #figure(
     caption: "Внешний вид платы PM-DI16-DC24sink",
-    image("../../PM-DI16-DC24sink_v0.0.3/doc/PM-DI16-DC24sink.png")
+    image("../../archive/PM-DI16-DC24sink_v0.0.3/doc/PM-DI16-DC24sink.png")
 )
 
 #figure(
     caption: "Схема внешних подключений PM-DI16-DC24sink",
-    image("../../PM-DI16-DC24sink_v0.0.3/doc/PM-DI16-DC24sink-external_connection.svg")
+    image("../../archive/PM-DI16-DC24sink_v0.0.3/doc/PM-DI16-DC24sink-external_connection.svg")
 )

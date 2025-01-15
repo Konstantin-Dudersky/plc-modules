@@ -98,6 +98,9 @@
     link(<PM-DI16-DC24sink>)[PM-DI16-DC24sink],
     "Модуль для подключения 16 дискретных входов постоянного напряжения",
 
+    link(<PM-DQ16-source>)[PM-DQ16-source],
+    "Модуль для подключения 16 дискретных выходов постоянного напряжения до 50 VDC",
+
     link(<PM-RQ8>)[PM-RQ8],
     "Модуль для подключение 8 релейных выходов",
 
@@ -133,6 +136,7 @@
 #include "PM-CPU-RP.typ"
 
 #include "PM-DI16-DC24sink.typ"
+#include "PM-DQ16-source.typ"
 #include "PM-RQ8.typ"
 
 #include "PM-PS.typ"

@@ -4,5 +4,5 @@
 
 #figure(
     caption: "Внешний вид платы PM-PS",
-    image("../../PM-PS_v0.0.2/doc/PM-PS.png")
+    image("../../archive/PM-PS_v0.0.2/doc/PM-PS.png")
 )

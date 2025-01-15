@@ -4,11 +4,11 @@
 
 #figure(
     caption: "Внешний вид платы PM-RQ8",
-    image("../../PM-RQ8_v0.0.4/doc/PM-RQ8.png")
+    image("../../archive/PM-RQ8_v0.0.4/doc/PM-RQ8.png")
 )
 
 
 #figure(
     caption: "Схема внешних подключений PM-RQ8",
-    image("../../PM-RQ8_v0.0.4/doc/PM-RQ8-base-external_connection.svg")
+    image("../../archive/PM-RQ8_v0.0.4/doc/PM-RQ8-base-external_connection.svg")
 )
