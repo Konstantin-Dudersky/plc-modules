@@ -458,7 +458,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -492,7 +492,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -509,7 +509,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.4,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -534,6 +534,8 @@
       "/CS0_ISO": "digital",
       "/CS1": "digital",
       "/CS1_ISO": "digital",
+      "/CS2": "digital",
+      "/CS3": "digital",
       "/LED0": "digital",
       "/LED1": "digital",
       "/LED2": "digital",
@@ -546,6 +548,9 @@
       "/SCK_ISO": "digital",
       "AGND": "ground",
       "AVDD": "power",
+      "GND": "ground",
+      "Net-(JP1-B)": "digital",
+      "Net-(JP5-B)": "digital",
       "Net-(L1-Pad1)": "power"
     },
     "netclass_patterns": []
@@ -819,6 +824,6 @@
   ],
   "text_variables": {
     "article": "PM-AI4-W",
-    "version": "0.0.2"
+    "version": "0.0.1"
   }
 }
