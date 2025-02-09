@@ -1,0 +1,23 @@
+[package]
+name = "pm_mod_uart_master"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+async-trait = { version = "0.1.77" }
+serde = { version = "*", features = ["derive"] }
+tokio = { version = "*", features = ["sync"] }
+rsiot = { path = "../../../rsiot", features = ["cmp_linux_uart_master"] }
+tracing = { version = "*" }
+
+pm_firmware_uart_shared = { path = "../pm_firmware_uart_shared" }
+
+
+[dev-dependencies]
+tracing-subscriber = { version = "*" }
+tokio = { version = "*", features = ["rt-multi-thread", "macros"] }
+
+
+[features]
+
+single-thread = []

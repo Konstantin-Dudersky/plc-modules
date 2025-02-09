@@ -21,3 +21,10 @@ PM-LED16:
 - массив резисторов
 - метка катода LED
 - Заменить светодиоды на 27-21/GHC-YR1S2M/3C
+
+
+
+
+DAC:
+- MS5614
+- XTR117 4-20mA Current-Loop Transmitter

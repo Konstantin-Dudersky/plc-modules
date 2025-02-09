@@ -1,0 +1,18 @@
+[package]
+name = "pm_cnv"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+rsiot = { path = "../../../rsiot", features = ["executor"] }
+tokio = { version = "*", features = ["sync"] }
+async-trait = "*"
+serde = { version = "*", features = ["derive"] }
+tracing = "*"
+strum = { version = "*", features = ["derive"] }
+bit-vec = "0.8"
+
+
+[features]
+default = []
+single-thread = ["rsiot/single-thread"]
