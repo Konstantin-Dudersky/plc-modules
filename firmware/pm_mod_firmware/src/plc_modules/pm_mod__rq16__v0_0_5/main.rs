@@ -53,42 +53,42 @@ pub async fn main() -> anyhow::Result<()> {
     // cmp_inject_periodic -------------------------------------------------------------------------
     let mut relay_cs0 = 0;
     let mut relay_cs1 = 7;
-    let config_inject_periodic = cmp_inject_periodic::Config {
-        period: Duration::from_millis(1000),
-        fn_periodic: move || {
-            let msg_cs0 = Message::new_custom(Custom::SetOutputs1([
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-                relay_cs0 == 0,
-            ]));
-            relay_cs0 += 0;
-            if relay_cs0 >= 8 {
-                relay_cs0 = 0;
-            }
+    // let config_inject_periodic = cmp_inject_periodic::Config {
+    //     period: Duration::from_millis(1000),
+    //     fn_periodic: move || {
+    //         let msg_cs0 = Message::new_custom(Custom::SetOutputs1([
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //             relay_cs0 == 0,
+    //         ]));
+    //         relay_cs0 += 0;
+    //         if relay_cs0 >= 8 {
+    //             relay_cs0 = 0;
+    //         }
 
-            let msg_cs1 = Message::new_custom(Custom::SetOutputs2([
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-                relay_cs1 == 7,
-            ]));
-            relay_cs1 -= 0;
-            if relay_cs1 <= -1 {
-                relay_cs1 = 7;
-            }
+    //         let msg_cs1 = Message::new_custom(Custom::SetOutputs2([
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //             relay_cs1 == 7,
+    //         ]));
+    //         relay_cs1 -= 0;
+    //         if relay_cs1 <= -1 {
+    //             relay_cs1 = 7;
+    //         }
 
-            vec![msg_cs0, msg_cs1]
-        },
-    };
+    //         vec![msg_cs0, msg_cs1]
+    //     },
+    // };
 
     // cmp_logger ----------------------------------------------------------------------------------
     let config_logger = super::config_logger::config();
@@ -105,7 +105,7 @@ pub async fn main() -> anyhow::Result<()> {
     local_set.spawn_local(async {
         ComponentExecutor::<Custom, Service>::new(executor_config)
             // .add_cmp(cmp_esp_uart_slave::Cmp::new(config_esp_uart_slave))
-            .add_cmp(cmp_inject_periodic::Cmp::new(config_inject_periodic))
+            // .add_cmp(cmp_inject_periodic::Cmp::new(config_inject_periodic))
             .add_cmp(cmp_esp_spi_master::Cmp::new(config_esp_spi_master))
             .add_cmp(cmp_logger::Cmp::new(config_logger))
             .wait_result()

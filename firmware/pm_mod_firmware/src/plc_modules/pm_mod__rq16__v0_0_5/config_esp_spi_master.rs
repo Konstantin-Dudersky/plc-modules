@@ -1,7 +1,7 @@
 use esp_idf_svc::hal::{gpio::AnyIOPin, peripheral::Peripheral, spi::Spi, units::FromValueType};
 use rsiot::components::cmp_esp_spi_master;
 
-use pm_cnv::PM_CNV__RQ8__v0_0_5::Device;
+use pm_cnv::pm_cnv__rq8__v0_0_5::Device;
 
 use super::message::Custom;
 

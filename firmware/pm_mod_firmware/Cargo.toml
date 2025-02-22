@@ -12,10 +12,9 @@ thiserror = { version = "*" }
 tracing = { version = "*" }
 tracing-subscriber = { version = "*" }
 
-rsiot = { path = "../../../rsiot", features = ["cmp_esp"] }
-# pm_firmware_lib = { path = "../pm_firmware_lib" }
-# pm_firmware_uart_shared = { path = "../pm_firmware_uart_shared" }
+rsiot = { path = "../../../rsiot", features = ["cmp_esp", "logging"] }
 pm_cnv = { path = "../pm_cnv" }
+pm_uart_integration = { path = "../pm_uart_integration" }
 
 [build-dependencies]
 embuild = { version = "*", features = ["espidf"] }

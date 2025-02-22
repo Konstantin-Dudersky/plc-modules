@@ -1,0 +1,18 @@
+[package]
+name = "rpi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rsiot = { path = "../../../../rsiot", features = [
+    "cmp_linux_uart_master",
+    "logging",
+] }
+tokio = { version = "*", features = ["macros", "rt-multi-thread"] }
+tracing = "*"
+tracing-subscriber = "*"
+async-trait = "*"
+serde = { version = "*", features = ["derive"] }
+
+pm_uart_integration = { path = "../../pm_uart_integration" }
+messages = { version = "*", path = "../messages" }

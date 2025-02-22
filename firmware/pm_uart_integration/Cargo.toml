@@ -1,0 +1,11 @@
+[package]
+name = "pm_uart_integration"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+async-trait = { version = "0.1.77" }
+rsiot = { path = "../../../rsiot", features = ["executor"] }
+serde = { version = "*", features = ["derive"] }
+tokio = { version = "*", features = ["sync"] }
+bitvec = { version = "1.0.1" }
