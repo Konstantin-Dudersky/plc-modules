@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3a6e3c4e-4c65-4ec1-9427-766f29c1c200")
 	(paper "A5" portrait)
 	(title_block
@@ -9,6 +9,325 @@
 		(date "2024-07-11")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 78.74 50.8)
+		(end 83.82 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d17adebf-2279-4410-9521-90d859ce72b2)
+	)
+	(rectangle
+		(start 78.74 50.8)
+		(end 129.54 106.68)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3b8bbf1-1637-473e-a36b-d464f3d8983a)
+	)
+	(text "PM-CPU-RP"
+		(exclude_from_sim no)
+		(at 121.158 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "821789ee-f87d-47c3-afc3-c310fcd6c4e1")
+	)
+	(text_box "Интерфейс I2C для дополнительных устройств"
+		(exclude_from_sim no)
+		(at 17.78 96.52 0)
+		(size 25.4 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3bf72595-feff-42e4-8d28-5ee084611349")
+	)
+	(text_box "Внутренняя шина между модулями"
+		(exclude_from_sim no)
+		(at 119.38 116.84 90)
+		(size 10.16 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ea5165b-72ba-4808-9063-88cc60899f1b")
+	)
+	(text_box "3V3"
+		(exclude_from_sim no)
+		(at 78.74 81.28 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "457c42d1-20c4-455d-b310-377d9a0eee79")
+	)
+	(text_box "N"
+		(exclude_from_sim no)
+		(at 78.74 55.88 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51733f6e-4aca-474e-864d-8ceba3106a5a")
+	)
+	(text_box "L"
+		(exclude_from_sim no)
+		(at 78.74 50.8 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59f25555-6434-4dfd-8eee-593457fd9233")
+	)
+	(text_box "Выход +5В от встроенного источника питания"
+		(exclude_from_sim no)
+		(at 17.78 66.04 0)
+		(size 25.4 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6384ffe3-063d-4161-bbc6-5d5cd4ed8b59")
+	)
+	(text_box "5V"
+		(exclude_from_sim no)
+		(at 78.74 66.04 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ba97f35-e8ce-487d-ac03-1ccbc79202c6")
+	)
+	(text_box "SCL"
+		(exclude_from_sim no)
+		(at 78.74 101.6 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81e0f66f-7c6f-4289-8e55-fc6d07b94930")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 78.74 71.12 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "88119d20-e4e0-4ac2-8005-ee8faec1f6d0")
+	)
+	(text_box "Bus"
+		(exclude_from_sim no)
+		(at 119.38 101.6 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96df44db-9b25-4971-83ec-fe7d4ea300df")
+	)
+	(text_box "GND"
+		(exclude_from_sim no)
+		(at 78.74 86.36 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a627ffdf-d34c-4dd3-a7ea-d114a3f9685c")
+	)
+	(text_box "Bus"
+		(exclude_from_sim no)
+		(at 124.46 101.6 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e61601bd-c4f3-47c4-b94c-8c32bbd89bad")
+	)
+	(text_box "Источник питания 230В"
+		(exclude_from_sim no)
+		(at 17.78 50.8 0)
+		(size 25.4 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee1e2b10-c547-4d7e-9113-eaec9f2ebcbd")
+	)
+	(text_box "SDA"
+		(exclude_from_sim no)
+		(at 78.74 96.52 0)
+		(size 5.08 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f59841f2-0d3f-43f5-b1f7-e704ba158933")
+	)
+	(text_box "Выход +3.3В от встроенного источника питания"
+		(exclude_from_sim no)
+		(at 17.78 81.28 0)
+		(size 25.4 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f76c2b35-0210-444c-ad2d-2ab6ed6f17df")
+	)
 	(polyline
 		(pts
 			(xy 43.18 68.58) (xy 78.74 68.58)
@@ -138,309 +457,5 @@
 			(type default)
 		)
 		(uuid "f8a2fb43-80aa-46b2-9e4b-a50af9e59e92")
-	)
-	(rectangle
-		(start 78.74 50.8)
-		(end 83.82 106.68)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d17adebf-2279-4410-9521-90d859ce72b2)
-	)
-	(rectangle
-		(start 78.74 50.8)
-		(end 129.54 106.68)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d3b8bbf1-1637-473e-a36b-d464f3d8983a)
-	)
-	(text_box "Интерфейс I2C для дополнительных устройств"
-		(exclude_from_sim no)
-		(at 17.78 96.52 0)
-		(size 25.4 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3bf72595-feff-42e4-8d28-5ee084611349")
-	)
-	(text_box "Внутренняя шина между модулями"
-		(exclude_from_sim no)
-		(at 119.38 116.84 90)
-		(size 10.16 25.4)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3ea5165b-72ba-4808-9063-88cc60899f1b")
-	)
-	(text_box "3V3"
-		(exclude_from_sim no)
-		(at 78.74 81.28 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "457c42d1-20c4-455d-b310-377d9a0eee79")
-	)
-	(text_box "N"
-		(exclude_from_sim no)
-		(at 78.74 55.88 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "51733f6e-4aca-474e-864d-8ceba3106a5a")
-	)
-	(text_box "L"
-		(exclude_from_sim no)
-		(at 78.74 50.8 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "59f25555-6434-4dfd-8eee-593457fd9233")
-	)
-	(text_box "Выход +5В от встроенного источника питания"
-		(exclude_from_sim no)
-		(at 17.78 66.04 0)
-		(size 25.4 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6384ffe3-063d-4161-bbc6-5d5cd4ed8b59")
-	)
-	(text_box "5V"
-		(exclude_from_sim no)
-		(at 78.74 66.04 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ba97f35-e8ce-487d-ac03-1ccbc79202c6")
-	)
-	(text_box "SCL"
-		(exclude_from_sim no)
-		(at 78.74 101.6 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "81e0f66f-7c6f-4289-8e55-fc6d07b94930")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 78.74 71.12 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "88119d20-e4e0-4ac2-8005-ee8faec1f6d0")
-	)
-	(text_box "Bus"
-		(exclude_from_sim no)
-		(at 119.38 101.6 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "96df44db-9b25-4971-83ec-fe7d4ea300df")
-	)
-	(text_box "GND"
-		(exclude_from_sim no)
-		(at 78.74 86.36 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a627ffdf-d34c-4dd3-a7ea-d114a3f9685c")
-	)
-	(text_box "Bus"
-		(exclude_from_sim no)
-		(at 124.46 101.6 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e61601bd-c4f3-47c4-b94c-8c32bbd89bad")
-	)
-	(text_box "Источник питания 230В"
-		(exclude_from_sim no)
-		(at 17.78 50.8 0)
-		(size 25.4 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ee1e2b10-c547-4d7e-9113-eaec9f2ebcbd")
-	)
-	(text_box "SDA"
-		(exclude_from_sim no)
-		(at 78.74 96.52 0)
-		(size 5.08 5.08)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f59841f2-0d3f-43f5-b1f7-e704ba158933")
-	)
-	(text_box "Выход +3.3В от встроенного источника питания"
-		(exclude_from_sim no)
-		(at 17.78 81.28 0)
-		(size 25.4 10.16)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f76c2b35-0210-444c-ad2d-2ab6ed6f17df")
-	)
-	(text "PM-CPU-RP"
-		(exclude_from_sim no)
-		(at 121.158 53.594 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "821789ee-f87d-47c3-afc3-c310fcd6c4e1")
 	)
 )
