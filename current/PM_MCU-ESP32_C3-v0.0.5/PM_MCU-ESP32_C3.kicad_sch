@@ -6940,12 +6940,6 @@
 		(uuid "16a4a6c6-c6d7-4cd5-973e-f32c93791a38")
 	)
 	(junction
-		(at 175.26 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bd6970c-55d7-4090-ad23-055f8a96cd49")
-	)
-	(junction
 		(at 233.68 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7004,6 +6998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b2df517-0034-49ab-8da7-35880392d0da")
+	)
+	(junction
+		(at 187.96 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f6df442-c52a-4fe8-84e8-f07206aa051c")
 	)
 	(junction
 		(at 330.2 22.86)
@@ -7090,12 +7090,6 @@
 		(uuid "a12859af-2797-44b1-ab8d-44abb398a75e")
 	)
 	(junction
-		(at 175.26 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad8ec073-2319-48ea-83d9-7fc237ee8c4d")
-	)
-	(junction
 		(at 231.14 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7118,6 +7112,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c31db960-98de-409f-8a6a-5c5edadc857d")
+	)
+	(junction
+		(at 175.26 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf885f93-4868-4e66-9895-233255805c3b")
 	)
 	(junction
 		(at 340.36 180.34)
@@ -7485,6 +7485,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 27.94) (xy 187.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10556074-e9df-491f-b871-211d3451d183")
+	)
+	(wire
+		(pts
 			(xy 160.02 119.38) (xy 160.02 109.22)
 		)
 		(stroke
@@ -7492,16 +7502,6 @@
 			(type default)
 		)
 		(uuid "1125c3b3-5a68-404c-82a8-18a381cd7269")
-	)
-	(wire
-		(pts
-			(xy 172.72 45.72) (xy 175.26 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c94924-a4b0-4aa2-b00c-916f0aa91766")
 	)
 	(wire
 		(pts
@@ -7772,6 +7772,16 @@
 			(type default)
 		)
 		(uuid "32f262fa-af38-405c-a8ac-81ae53bac5fe")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 175.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33176330-b0e0-4182-8097-edd6d579aec7")
 	)
 	(wire
 		(pts
@@ -8335,6 +8345,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 48.26) (xy 198.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0f20a1-a63d-444a-b334-b1a77abca634")
+	)
+	(wire
+		(pts
 			(xy 347.98 55.88) (xy 358.14 55.88)
 		)
 		(stroke
@@ -8735,6 +8755,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 26.67) (xy 175.26 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88ede7d-fe85-410d-81b0-9b0c3a8398c3")
+	)
+	(wire
+		(pts
 			(xy 180.34 110.49) (xy 180.34 119.38)
 		)
 		(stroke
@@ -8835,16 +8865,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 45.72) (xy 175.26 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2995fcd-c712-4028-929f-94b90cbdfd21")
-	)
-	(wire
-		(pts
 			(xy 99.06 48.26) (xy 109.22 48.26)
 		)
 		(stroke
@@ -8852,16 +8872,6 @@
 			(type default)
 		)
 		(uuid "b2e1b822-bc64-4c40-891e-d242f5049469")
-	)
-	(wire
-		(pts
-			(xy 172.72 48.26) (xy 175.26 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3631c39-7107-4e70-b033-48cfbd35a61c")
 	)
 	(wire
 		(pts
@@ -8925,6 +8935,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 27.94) (xy 175.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd13123-6d73-49cc-ac1b-80c03e4a9622")
+	)
+	(wire
+		(pts
 			(xy 340.36 180.34) (xy 340.36 185.42)
 		)
 		(stroke
@@ -8975,13 +8995,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 175.26 45.72)
+			(xy 172.72 48.26) (xy 198.12 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c72ea17d-6ffa-4e8f-b155-b3c63265744a")
+		(uuid "c6ed97ab-4c30-4357-b6da-f83230872644")
 	)
 	(wire
 		(pts
@@ -8992,6 +9012,16 @@
 			(type default)
 		)
 		(uuid "c964c081-086d-4032-88d4-83e9de300de9")
+	)
+	(wire
+		(pts
+			(xy 187.96 27.94) (xy 187.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaee7bc-1db3-429a-a7d4-1fc7ab865f9e")
 	)
 	(wire
 		(pts
@@ -9165,6 +9195,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 30.48) (xy 198.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d87ffc-229d-4a16-8174-2fe7f4383355")
+	)
+	(wire
+		(pts
 			(xy 378.46 45.72) (xy 378.46 76.2)
 		)
 		(stroke
@@ -9172,6 +9212,16 @@
 			(type default)
 		)
 		(uuid "eaa5a6d5-2eea-4b2c-b682-a771000eadeb")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 187.96 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae8a900-f69b-4610-9edf-6340cb0d36ec")
 	)
 	(wire
 		(pts
@@ -9212,6 +9262,16 @@
 			(type default)
 		)
 		(uuid "ef1554c5-aa0c-49b7-af8a-1649ce91b6cb")
+	)
+	(wire
+		(pts
+			(xy 187.96 45.72) (xy 187.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd963be-3e6d-4a1e-a2bb-631d7bde4a67")
 	)
 	(wire
 		(pts
@@ -10898,7 +10958,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
-		(at 368.3 41.91 180)
+		(at 198.12 34.29 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10906,7 +10966,7 @@
 		(dnp no)
 		(uuid "112d017d-d27b-4a82-a296-06f09d01de8a")
 		(property "Reference" "RN1"
-			(at 365.76 43.1801 0)
+			(at 195.58 35.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +10975,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 365.76 40.6401 0)
+			(at 195.58 33.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +10984,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 370.332 41.91 90)
+			(at 200.152 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10993,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/233/"
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10942,7 +11002,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +11011,7 @@
 			)
 		)
 		(property "part_ipn" "R_10k_0603x4_1%"
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10960,7 +11020,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +11029,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10978,7 +11038,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +11047,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11056,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11065,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +11074,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11023,7 +11083,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11092,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11041,7 +11101,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11050,7 +11110,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11059,7 +11119,7 @@
 			)
 		)
 		(property "optional" ""
-			(at 368.3 41.91 0)
+			(at 198.12 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11102,7 +11162,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 175.26 30.48 0)
+		(at 175.26 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11111,7 +11171,7 @@
 		(fields_autoplaced yes)
 		(uuid "18aa9b76-c6c9-4bf2-936f-618136fad081")
 		(property "Reference" "#PWR012"
-			(at 175.26 34.29 0)
+			(at 175.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11120,7 +11180,7 @@
 			)
 		)
 		(property "Value" "+3.3V_MCU"
-			(at 175.26 25.4 0)
+			(at 175.26 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11128,7 +11188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 30.48 0)
+			(at 175.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,7 +11197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 30.48 0)
+			(at 175.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 30.48 0)
+			(at 175.26 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11827,7 +11887,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
-		(at 388.62 41.91 180)
+		(at 368.3 41.91 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11835,7 +11895,7 @@
 		(dnp no)
 		(uuid "32ada9b3-7f78-42f4-b026-3593d6e7c0b1")
 		(property "Reference" "RN2"
-			(at 391.16 40.6399 0)
+			(at 370.84 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11904,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 391.16 43.1799 0)
+			(at 370.84 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,7 +11913,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 390.652 41.91 90)
+			(at 370.332 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11862,7 +11922,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/233/"
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,7 +11931,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +11940,7 @@
 			)
 		)
 		(property "part_ipn" "R_10k_0603x4_1%"
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,7 +11949,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11898,7 +11958,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11907,7 +11967,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11916,7 +11976,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,7 +11985,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +11994,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,7 +12003,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +12012,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +12021,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +12030,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,7 +12039,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +12048,7 @@
 			)
 		)
 		(property "optional" ""
-			(at 388.62 41.91 0)
+			(at 368.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13340,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
-		(at 220.98 27.94 180)
+		(at 231.14 27.94 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13289,7 +13349,7 @@
 		(fields_autoplaced yes)
 		(uuid "59bcf170-e973-438c-abf7-2d665079cc66")
 		(property "Reference" "RN2"
-			(at 223.52 26.6699 0)
+			(at 233.68 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13298,7 +13358,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 223.52 29.2099 0)
+			(at 233.68 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13307,7 +13367,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 223.012 27.94 90)
+			(at 233.172 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13316,7 +13376,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/233/"
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,7 +13385,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,7 +13394,7 @@
 			)
 		)
 		(property "part_ipn" "R_10k_0603x4_1%"
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13343,7 +13403,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13352,7 +13412,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13361,7 +13421,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13370,7 +13430,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13379,7 +13439,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13388,7 +13448,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13397,7 +13457,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,7 +13466,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13415,7 +13475,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,7 +13484,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13433,7 +13493,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13442,7 +13502,7 @@
 			)
 		)
 		(property "optional" ""
-			(at 220.98 27.94 0)
+			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18142,7 +18202,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
-		(at 378.46 41.91 180)
+		(at 187.96 34.29 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18150,6 +18210,211 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3c6a858-476b-4aff-9b8c-4989acaafb4d")
+		(property "Reference" "RN1"
+			(at 190.5 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
+			(at 189.992 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/part/233/"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "part_ipn" "R_10k_0603x4_1%"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_price" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "NextPCB_url" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "optional" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552fd361-7877-4e9e-9f54-b8cf81e170bd")
+		)
+		(pin "2"
+			(uuid "c3a2ad76-18a6-41de-9930-1bd84cffaa1e")
+		)
+		(pin "4"
+			(uuid "ee0b9d72-238d-4f1a-9e3a-ae1db61d7152")
+		)
+		(pin "6"
+			(uuid "4718700a-9ca5-4409-a482-3c18eb9f67ff")
+		)
+		(pin "5"
+			(uuid "4a2bfd96-4a85-4f31-91e5-b5b66f5f6c67")
+		)
+		(pin "3"
+			(uuid "02631bdc-5d80-4a89-855f-9f1b8df6f4a0")
+		)
+		(pin "8"
+			(uuid "39e2cfe6-c810-45eb-9c10-e2aaaa3663bf")
+		)
+		(pin "7"
+			(uuid "e8cb6385-db1d-43e5-b885-47920ee25f17")
+		)
+		(instances
+			(project ""
+				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
+					(reference "RN1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
+		(at 378.46 41.91 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e724c39a-bdc3-4aa9-849f-728975e95838")
 		(property "Reference" "RN1"
 			(at 381 40.6399 0)
 			(effects
@@ -18305,211 +18570,6 @@
 		)
 		(property "optional" ""
 			(at 378.46 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "552fd361-7877-4e9e-9f54-b8cf81e170bd")
-		)
-		(pin "2"
-			(uuid "c3a2ad76-18a6-41de-9930-1bd84cffaa1e")
-		)
-		(pin "4"
-			(uuid "ee0b9d72-238d-4f1a-9e3a-ae1db61d7152")
-		)
-		(pin "6"
-			(uuid "4718700a-9ca5-4409-a482-3c18eb9f67ff")
-		)
-		(pin "5"
-			(uuid "4a2bfd96-4a85-4f31-91e5-b5b66f5f6c67")
-		)
-		(pin "3"
-			(uuid "02631bdc-5d80-4a89-855f-9f1b8df6f4a0")
-		)
-		(pin "8"
-			(uuid "39e2cfe6-c810-45eb-9c10-e2aaaa3663bf")
-		)
-		(pin "7"
-			(uuid "e8cb6385-db1d-43e5-b885-47920ee25f17")
-		)
-		(instances
-			(project ""
-				(path "/929d2426-1853-4dc8-ae6b-e32e36c5ea07"
-					(reference "RN1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
-		(at 231.14 27.94 180)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e724c39a-bdc3-4aa9-849f-728975e95838")
-		(property "Reference" "RN1"
-			(at 233.68 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 233.68 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 233.172 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://inventree.network/part/233/"
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4 resistor network, parallel topology, split"
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "part_ipn" "R_10k_0603x4_1%"
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_price" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "NextPCB_url" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 231.14 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "optional" ""
-			(at 231.14 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19048,7 +19108,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:R_10k_0603x4_1%")
-		(at 210.82 27.94 180)
+		(at 220.98 27.94 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19057,7 +19117,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7a45830-60ff-43e3-8d75-9af6f9bab9af")
 		(property "Reference" "RN2"
-			(at 213.36 26.6699 0)
+			(at 223.52 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19066,7 +19126,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 213.36 29.2099 0)
+			(at 223.52 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19075,7 +19135,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
-			(at 212.852 27.94 90)
+			(at 223.012 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19084,7 +19144,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/233/"
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19093,7 +19153,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19102,7 +19162,7 @@
 			)
 		)
 		(property "part_ipn" "R_10k_0603x4_1%"
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19111,7 +19171,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19120,7 +19180,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19129,7 +19189,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19138,7 +19198,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19147,7 +19207,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19156,7 +19216,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19165,7 +19225,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19174,7 +19234,7 @@
 			)
 		)
 		(property "NextPCB_price" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,7 +19243,7 @@
 			)
 		)
 		(property "NextPCB_url" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19192,7 +19252,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19201,7 +19261,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19210,7 +19270,7 @@
 			)
 		)
 		(property "optional" ""
-			(at 210.82 27.94 0)
+			(at 220.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)

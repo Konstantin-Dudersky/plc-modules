@@ -11,7 +11,7 @@ pub fn config<TSpi, TPeripheral>(
     pin_mosi: AnyIOPin,
     pin_miso: AnyIOPin,
     pin_sck: AnyIOPin,
-    pin_cs_inputs: AnyIOPin,
+    pin_cs: AnyIOPin,
 ) -> cmp_esp_spi_master::Config<Custom, TSpi, TPeripheral>
 where
     TSpi: Peripheral<P = TPeripheral> + 'static,
@@ -22,7 +22,11 @@ where
         pin_miso,
         pin_mosi,
         pin_sck,
-        pin_cs: vec![pin_cs_inputs],
+        devices_comm_settings: vec![cmp_esp_spi_master::ConfigDevicesCommSettings {
+            pin_cs,
+            baudrate: SPI_BAUDRATE,
+            spi_mode: cmp_esp_spi_master::ConfigDeviceSpiMode::Mode0,
+        }],
         devices: vec![Box::new(Device {
             address: 0,
             fn_input: |msg, buffer| {
@@ -38,6 +42,5 @@ where
                 }
             },
         })],
-        baudrate: SPI_BAUDRATE,
     }
 }

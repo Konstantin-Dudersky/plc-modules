@@ -3,6 +3,8 @@ use rsiot::components::cmp_esp_spi_master;
 
 use pm_cnv::pm_cnv__rq8__v0_0_5::Device;
 
+use crate::settings::SPI_BAUDRATE;
+
 use super::message::Custom;
 
 pub fn config<TSpi, TPeripheral>(
@@ -22,7 +24,18 @@ where
         pin_miso,
         pin_mosi,
         pin_sck,
-        pin_cs: vec![pin_cs0, pin_cs1],
+        devices_comm_settings: vec![
+            cmp_esp_spi_master::ConfigDevicesCommSettings {
+                pin_cs: pin_cs0,
+                baudrate: SPI_BAUDRATE,
+                spi_mode: cmp_esp_spi_master::ConfigDeviceSpiMode::Mode0,
+            },
+            cmp_esp_spi_master::ConfigDevicesCommSettings {
+                pin_cs: pin_cs1,
+                baudrate: SPI_BAUDRATE,
+                spi_mode: cmp_esp_spi_master::ConfigDeviceSpiMode::Mode0,
+            },
+        ],
         devices: vec![
             Box::new(Device {
                 address: 0,
@@ -47,6 +60,5 @@ where
                 },
             }),
         ],
-        baudrate: 5.MHz().into(),
     }
 }

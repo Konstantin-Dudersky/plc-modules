@@ -28,7 +28,8 @@ pub async fn main() -> anyhow::Result<()> {
     let pin_uart_rts = peripherals.pins.gpio4;
 
     // UART address --------------------------------------------------------------------------------
-    let uart_slave_address = define_address(20, &mut pin_mosi, &mut pin_miso, &mut pin_sck);
+    // let uart_slave_address = define_address(20, &mut pin_mosi, &mut pin_miso, &mut pin_sck);
+    let uart_slave_address = 0;
 
     // cmp_esp_uart_slave --------------------------------------------------------------------------
     // let config_esp_uart_slave = super::config_esp_uart_slave::config::<_, _, MESSAGE_LEN>(

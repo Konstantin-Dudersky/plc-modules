@@ -3,6 +3,8 @@ use rsiot::{components::cmp_esp_spi_master, message::Message};
 
 use pm_cnv::pm_cnv__di16_sink__v0_0_4::Device;
 
+use crate::settings::SPI_BAUDRATE;
+
 use super::message::Custom;
 
 pub fn config<TSpi, TPeripheral>(
@@ -10,7 +12,7 @@ pub fn config<TSpi, TPeripheral>(
     pin_mosi: AnyIOPin,
     pin_miso: AnyIOPin,
     pin_sck: AnyIOPin,
-    pin_cs_inputs: AnyIOPin,
+    pin_cs: AnyIOPin,
 ) -> cmp_esp_spi_master::Config<Custom, TSpi, TPeripheral>
 where
     TSpi: Peripheral<P = TPeripheral> + 'static,
@@ -18,11 +20,14 @@ where
 {
     cmp_esp_spi_master::Config {
         spi,
-        baudrate: 1.MHz().into(),
         pin_miso,
         pin_mosi,
         pin_sck,
-        pin_cs: vec![pin_cs_inputs],
+        devices_comm_settings: vec![cmp_esp_spi_master::ConfigDevicesCommSettings {
+            pin_cs,
+            baudrate: SPI_BAUDRATE,
+            spi_mode: cmp_esp_spi_master::ConfigDeviceSpiMode::Mode0,
+        }],
         devices: vec![Box::new(Device {
             address: 0,
             fn_output: |buffer| {
