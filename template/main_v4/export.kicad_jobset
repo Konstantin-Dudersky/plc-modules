@@ -2,10 +2,96 @@
   "jobs": [
     {
       "description": "",
+      "id": "5d3f003d-695a-4b3e-883c-4d50aae9babb",
+      "settings": {
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "include_netlist_attributes": true,
+        "layers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "In3.Cu",
+          "In4.Cu",
+          "In5.Cu",
+          "In6.Cu",
+          "In7.Cu",
+          "In8.Cu",
+          "In9.Cu",
+          "In10.Cu",
+          "In11.Cu",
+          "In12.Cu",
+          "In13.Cu",
+          "In14.Cu",
+          "In15.Cu",
+          "In16.Cu",
+          "In17.Cu",
+          "In18.Cu",
+          "In19.Cu",
+          "In20.Cu",
+          "In21.Cu",
+          "In22.Cu",
+          "In23.Cu",
+          "In24.Cu",
+          "In25.Cu",
+          "In26.Cu",
+          "In27.Cu",
+          "In28.Cu",
+          "In29.Cu",
+          "In30.Cu",
+          "B.Cu",
+          "F.Paste",
+          "B.Paste",
+          "F.SilkS",
+          "B.SilkS",
+          "F.Mask",
+          "B.Mask",
+          "Edge.Cuts"
+        ],
+        "layers_include_on_all": [],
+        "layers_include_on_all_set": false,
+        "layers_to_include_on_all_layers": [],
+        "output_filename": "./v${version}/${article}-v${version} (gerber)",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_invisible_text": false,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 6,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": true,
+        "use_protel_file_extension": false,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "afd0d998-1af3-4fa0-9a6e-edf930d2fad9",
+      "settings": {
+        "description": "",
+        "drill_origin": "plot",
+        "excellon.combine_pth_npth": false,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": true,
+        "format": "gerber",
+        "generate_map": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "./v${version}/${article}-v${version} (gerber)",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
       "id": "4fdf95e7-acc4-4c50-94de-dd9cc066d2e2",
       "settings": {
         "black_and_white": false,
-        "color_theme": "KiCad Default",
+        "color_theme": "Skyline",
         "description": "",
         "drawing_sheet": "",
         "format": "pdf",
@@ -13,7 +99,7 @@
         "hpgl_pen_size": 1.0,
         "hpgl_plot_origin": "A3",
         "min_pen_width": 847,
-        "output_filename": "${article}-v${version} (схема).pdf",
+        "output_filename": "./v${version}/${article}-v${version} (schematic).pdf",
         "page_size": "auto",
         "pdf_hierarchical_links": true,
         "pdf_metadata": true,
@@ -59,7 +145,8 @@
           "Sim.Pins",
           "Height",
           "Manufacturer_Name",
-          "optional"
+          "optional",
+          "note"
         ],
         "fields_ordered": [
           "Reference",
@@ -83,13 +170,14 @@
           "__Sim.Pins",
           "__Height",
           "__Manufacturer_Name",
-          "optional"
+          "optional",
+          "__note"
         ],
         "filter_string": "",
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "${article}-v${version}.csv",
+        "output_filename": "./v${version}/${article}-v${version} (BOM).csv",
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
@@ -121,7 +209,7 @@
         "include_unspecified": true,
         "occt_format": 0,
         "optimize_step": true,
-        "output_filename": "${article}-v${version}.step",
+        "output_filename": "v${version}/${article}-v${version} (3D).step",
         "overwrite": false,
         "subst_models": true,
         "use_drill_origin": false,
@@ -184,17 +272,14 @@
           "F.Mask",
           "B.Mask",
           "Edge.Cuts",
-          "F.CrtYd",
-          "B.CrtYd",
-          "F.Fab",
-          "B.Fab"
+          "B.CrtYd"
         ],
         "layers_to_include_on_all_layers": [
           "Edge.Cuts"
         ],
         "mirror": false,
         "negative": false,
-        "output_filename": "",
+        "output_filename": "./v${version}/${article}-v${version} (PCB schematic)",
         "pdf_gen_mode": "one-page-per-layer-one-file",
         "pdf_metadata": true,
         "plot_drawing_sheet": true,
@@ -204,7 +289,7 @@
         "plot_ref_des": true,
         "single_document": true,
         "sketch_pads_on_fab_layers": false,
-        "use_drill_origin": false
+        "use_drill_origin": true
       },
       "type": "pcb_export_pdf"
     },
@@ -216,7 +301,7 @@
         "description": "",
         "floor": false,
         "format": "png",
-        "height": 1000,
+        "height": 2000,
         "light_bottom_intensity": [
           0.0,
           0.0,
@@ -238,7 +323,7 @@
           0.0,
           0.0
         ],
-        "output_filename": "${article}-v${version}.png",
+        "output_filename": "./v${version}/${article}-v${version} (render).png",
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
@@ -251,7 +336,7 @@
         "rotation_y": 0.0,
         "rotation_z": 0.0,
         "side": "top",
-        "width": 1000,
+        "width": 2000,
         "zoom": 1.0
       },
       "type": "pcb_render"
@@ -266,7 +351,7 @@
       "id": "8ed48eb0-7175-4b4b-be11-1eee5ac4f8dd",
       "only": [],
       "settings": {
-        "output_path": "./doc"
+        "output_path": "./export"
       },
       "type": "folder"
     }
