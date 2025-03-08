@@ -2,92 +2,6 @@
   "jobs": [
     {
       "description": "",
-      "id": "5d3f003d-695a-4b3e-883c-4d50aae9babb",
-      "settings": {
-        "description": "",
-        "disable_aperture_macros": false,
-        "drawing_sheet": "",
-        "include_netlist_attributes": true,
-        "layers": [
-          "F.Cu",
-          "In1.Cu",
-          "In2.Cu",
-          "In3.Cu",
-          "In4.Cu",
-          "In5.Cu",
-          "In6.Cu",
-          "In7.Cu",
-          "In8.Cu",
-          "In9.Cu",
-          "In10.Cu",
-          "In11.Cu",
-          "In12.Cu",
-          "In13.Cu",
-          "In14.Cu",
-          "In15.Cu",
-          "In16.Cu",
-          "In17.Cu",
-          "In18.Cu",
-          "In19.Cu",
-          "In20.Cu",
-          "In21.Cu",
-          "In22.Cu",
-          "In23.Cu",
-          "In24.Cu",
-          "In25.Cu",
-          "In26.Cu",
-          "In27.Cu",
-          "In28.Cu",
-          "In29.Cu",
-          "In30.Cu",
-          "B.Cu",
-          "F.Paste",
-          "B.Paste",
-          "F.SilkS",
-          "B.SilkS",
-          "F.Mask",
-          "B.Mask",
-          "Edge.Cuts"
-        ],
-        "layers_include_on_all": [],
-        "layers_include_on_all_set": false,
-        "layers_to_include_on_all_layers": [],
-        "output_filename": "./v${version}/GERBER-${article}-v${version}",
-        "plot_drawing_sheet": false,
-        "plot_footprint_values": true,
-        "plot_invisible_text": false,
-        "plot_pad_numbers": false,
-        "plot_ref_des": true,
-        "precision": 6,
-        "subtract_solder_mask_from_silk": false,
-        "use_drill_origin": true,
-        "use_protel_file_extension": false,
-        "use_x2_format": true
-      },
-      "type": "pcb_export_gerbers"
-    },
-    {
-      "description": "",
-      "id": "afd0d998-1af3-4fa0-9a6e-edf930d2fad9",
-      "settings": {
-        "description": "",
-        "drill_origin": "plot",
-        "excellon.combine_pth_npth": false,
-        "excellon.minimal_header": false,
-        "excellon.mirror_y": false,
-        "excellon.oval_drill_route": true,
-        "format": "excellon",
-        "generate_map": false,
-        "gerber_precision": 5,
-        "map_format": "pdf",
-        "output_dir": "./v${version}/GERBER-${article}-v${version}",
-        "units": "in",
-        "zero_format": "decimal"
-      },
-      "type": "pcb_export_drill"
-    },
-    {
-      "description": "",
       "id": "4fdf95e7-acc4-4c50-94de-dd9cc066d2e2",
       "settings": {
         "black_and_white": false,
@@ -99,7 +13,7 @@
         "hpgl_pen_size": 1.0,
         "hpgl_plot_origin": "A3",
         "min_pen_width": 847,
-        "output_filename": "./v${version}/Diagram ${article}-v${version}.pdf",
+        "output_filename": "${article}-v${version} (schematic).pdf",
         "page_size": "auto",
         "pdf_hierarchical_links": true,
         "pdf_metadata": true,
@@ -109,6 +23,30 @@
         "use_background_color": true
       },
       "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "8e8f359d-0375-402e-9f14-518752600f1c",
+      "settings": {
+        "black_and_white": true,
+        "color_theme": "KiCad Default",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "svg",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "",
+        "page_size": "A4",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": false
+      },
+      "type": "sch_export_plot_svg"
     },
     {
       "description": "",
@@ -177,7 +115,7 @@
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "./v${version}/BOM ${article}-v${version}.csv",
+        "output_filename": "./BOM.csv",
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
@@ -185,6 +123,92 @@
         "string_delimiter": "\""
       },
       "type": "sch_export_bom"
+    },
+    {
+      "description": "",
+      "id": "5d3f003d-695a-4b3e-883c-4d50aae9babb",
+      "settings": {
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "include_netlist_attributes": true,
+        "layers": [
+          "F.Cu",
+          "In1.Cu",
+          "In2.Cu",
+          "In3.Cu",
+          "In4.Cu",
+          "In5.Cu",
+          "In6.Cu",
+          "In7.Cu",
+          "In8.Cu",
+          "In9.Cu",
+          "In10.Cu",
+          "In11.Cu",
+          "In12.Cu",
+          "In13.Cu",
+          "In14.Cu",
+          "In15.Cu",
+          "In16.Cu",
+          "In17.Cu",
+          "In18.Cu",
+          "In19.Cu",
+          "In20.Cu",
+          "In21.Cu",
+          "In22.Cu",
+          "In23.Cu",
+          "In24.Cu",
+          "In25.Cu",
+          "In26.Cu",
+          "In27.Cu",
+          "In28.Cu",
+          "In29.Cu",
+          "In30.Cu",
+          "B.Cu",
+          "F.Paste",
+          "B.Paste",
+          "F.SilkS",
+          "B.SilkS",
+          "F.Mask",
+          "B.Mask",
+          "Edge.Cuts"
+        ],
+        "layers_include_on_all": [],
+        "layers_include_on_all_set": false,
+        "layers_to_include_on_all_layers": [],
+        "output_filename": "./gerber",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_invisible_text": false,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 6,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": true,
+        "use_protel_file_extension": false,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "afd0d998-1af3-4fa0-9a6e-edf930d2fad9",
+      "settings": {
+        "description": "",
+        "drill_origin": "plot",
+        "excellon.combine_pth_npth": false,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": true,
+        "format": "gerber",
+        "generate_map": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "./gerber",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
     },
     {
       "description": "",
@@ -209,7 +233,7 @@
         "include_unspecified": true,
         "occt_format": 0,
         "optimize_step": true,
-        "output_filename": "v${version}/3D ${article}-v${version}.step",
+        "output_filename": "3D.step",
         "overwrite": false,
         "subst_models": true,
         "use_drill_origin": false,
@@ -272,17 +296,14 @@
           "F.Mask",
           "B.Mask",
           "Edge.Cuts",
-          "F.CrtYd",
-          "B.CrtYd",
-          "F.Fab",
-          "B.Fab"
+          "B.CrtYd"
         ],
         "layers_to_include_on_all_layers": [
           "Edge.Cuts"
         ],
         "mirror": false,
         "negative": false,
-        "output_filename": "./v${version}/PCB ${article}-v${version}",
+        "output_filename": "PCB schematic",
         "pdf_gen_mode": "one-page-per-layer-one-file",
         "pdf_metadata": true,
         "plot_drawing_sheet": true,
@@ -292,7 +313,7 @@
         "plot_ref_des": true,
         "single_document": true,
         "sketch_pads_on_fab_layers": false,
-        "use_drill_origin": false
+        "use_drill_origin": true
       },
       "type": "pcb_export_pdf"
     },
@@ -326,7 +347,7 @@
           0.0,
           0.0
         ],
-        "output_filename": "./v${version}/${article}-v${version}.png",
+        "output_filename": "render.png",
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
@@ -343,6 +364,45 @@
         "zoom": 1.0
       },
       "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "b3548c6e-0ab2-4ba4-93db-30b9b02a6fe5",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "./export/v${version}/${article}.svg",
+        "zero_copies_error": true
+      },
+      "type": "special_copyfiles"
+    },
+    {
+      "description": "",
+      "id": "ad8cfa9f-ebc6-40f4-85f5-4720a7b1733e",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "./export/v${version}/BOM.csv",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
+    },
+    {
+      "description": "",
+      "id": "f14dc322-5cee-40b8-8105-54eb30f6268c",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "./export/v${version}/render.png",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
     }
   ],
   "meta": {
@@ -352,9 +412,31 @@
     {
       "description": "",
       "id": "8ed48eb0-7175-4b4b-be11-1eee5ac4f8dd",
-      "only": [],
+      "only": [
+        "4fdf95e7-acc4-4c50-94de-dd9cc066d2e2",
+        "8e8f359d-0375-402e-9f14-518752600f1c",
+        "00eab350-9686-43d9-aa98-def12435e08a",
+        "5d3f003d-695a-4b3e-883c-4d50aae9babb",
+        "afd0d998-1af3-4fa0-9a6e-edf930d2fad9",
+        "42ca86d4-9e09-4652-b0b9-b14a4517e39c",
+        "e2bc3de2-e6dd-4a37-97eb-9d145fcf8d62",
+        "448b6df7-a570-4f01-adc0-26bba47525b1"
+      ],
       "settings": {
-        "output_path": "./export"
+        "output_path": "./export/v${version}"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "",
+      "id": "8acdc1b2-bd4d-446d-aaca-e1811ae53a7f",
+      "only": [
+        "b3548c6e-0ab2-4ba4-93db-30b9b02a6fe5",
+        "ad8cfa9f-ebc6-40f4-85f5-4720a7b1733e",
+        "f14dc322-5cee-40b8-8105-54eb30f6268c"
+      ],
+      "settings": {
+        "output_path": "../../docs/pcb/${article}"
       },
       "type": "folder"
     }
