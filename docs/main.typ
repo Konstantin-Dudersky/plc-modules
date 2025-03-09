@@ -1,28 +1,8 @@
-#set text(lang: "ru", font: "PT Serif", hyphenate: true)
-#set heading(numbering: "1.1.")
-
-
-
-// #show heading.where(level: 1): it => {
-//   pagebreak(weak: true)
-//   it.body
-//   v(1em)
-// }
-#show heading.where(level: 1): it => {
-  pagebreak(weak: true)
-  it
-}
-#show heading.where(level: 2): it => {
-  pagebreak(weak: true)
-  it
-}
-#show link: underline
-
-#set page("a4")
+#import "style.typ": style
+#show: style
 
 #outline()
 
-#pagebreak()
 = Описание системы управления
 
 #figure(
@@ -52,7 +32,7 @@
 
 
 
-= Функциональная схема модуля ввода / вывода <dsfsdfs>
+= Функциональная схема модуля ввода / вывода
 
 #figure(
   caption: "Функциональная cхема модуля ввода / вывода",
@@ -85,6 +65,30 @@
 
 Вспомогательная плата со светодиодами для отображения состояния микроконтроллера и электрических сигналов. В модуле может использоваться одна или две таких платы. Есть версии на 8 и на 16 светодиодов.
 
+
+= Протоколы обмена данными между модулями
+
+= Гальваническая изоляция
+
+
+= Габаритные размеры
+
+Основную плату можно крепить к корпусу двумя способами:
+
+- используя 4 отверстия диаметром 3.2 мм
+- используя 4 выступа по краям сверху и снизу платы
+
+#figure(
+  caption: "Размеры основной печатной платы",
+  image("images/plate_size.svg"),
+)
+
+Плата светодиодов крепится к основной плате с помощью стоек диаметром 2 мм.
+
+#figure(
+  caption: "Размеры платы светодиодов",
+  image("images/plate_led_size.svg"),
+)
 
 = Описание модулей и вспомогательных плат
 
@@ -132,33 +136,23 @@
 //   )
 // )
 
-// #figure(
-//   caption: "Размеры основной печатной платы",
-//   image("../../PM-CPU-ESP/doc/PM-CPU-ESP-User_Comments.svg")
-// )
 
-// #figure(
-//   caption: "Размеры фронтальной печатной платы",
-//   image("../../PM-RQ8-front/doc/PM-RQ8-front-User_Comments.svg")
-// )
-
-
-// #include "PM-DI16-DC24sink.typ"
-// #include "PM-DQ16-source.typ"
-// #include "PM-RQ8.typ"
-
-// #include "PM-PS.typ"
-
-// #include "PM-ESP32C3.typ"
-// #include "PM-LED8.typ"
-// #include "PM-LED16.typ"
 
 
 #include "PM_CPU-RP.typ"
+#include "PM_CPU-ESP32_C3.typ"
+#include "PM_MCU-ESP32_C3.typ"
+#include "PM_LED-10.typ"
+#include "PM_LED-18.typ"
+#include "PM_CNV-DI16_sink.typ"
+#include "PM_CNV-DQ16_src.typ"
+#include "PM_CNV-RQ8.typ"
 #include "PM_CNV-AI4_W.typ"
+#include "PM_CNV-AI8_IU.typ"
+#include "PM_CNV-AI4-RTD.typ"
+#include "PM_CNV-AI4-TC.typ"
+#include "PM_HMI-Keyboard.typ"
+#include "PM_HMI-Touch.typ"
+#include "PM_DBG-FFC.typ"
 
-
-#bibliography(
-  "bibliography.yml",
-  style: "gost-r-705-2008-numeric",
-)
+#bibliography("bibliography.yml")

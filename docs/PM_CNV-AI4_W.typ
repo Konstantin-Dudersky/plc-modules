@@ -1,13 +1,9 @@
 #import "functions.typ": all_pcb_data
 
 #let name = "PM_CNV-AI4_W"
-#let path_render_x0y0z0 = "pcb/" + name + "/render_x0y0z0.png"
-#let path_render_x0y180z0 = "pcb/" + name + "/render_x0y180z0.png"
-#let path_scheme = "pcb/" + name + "/" + name + ".svg"
-#let file_bom = "./pcb/" + name + "/BOM.csv"
 
 
-== #name - плата аналогового ввода сигналов тензодатчиков <PM_CNV-AI4_W>
+== #name - плата аналогового ввода 4 тензодатчиков <PM_CNV-AI4_W>
 
 Плата аналогового ввода для опроса сигналов тензодатчиков. Можно подключить до 4 тензодатчиков.
 
@@ -25,10 +21,4 @@
 
 Пример отладочной платы от производителя CN0102 - @CN0102.
 
-#all_pcb_data(
-  name: name,
-  render_x0y0z0: path_render_x0y0z0,
-  render_x0y180z0: path_render_x0y180z0,
-  scheme: path_scheme,
-  bom: file_bom,
-)
+#all_pcb_data(name: name)

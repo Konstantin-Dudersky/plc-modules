@@ -4,7 +4,6 @@
   render_x0y180z0: "path",
 ) = {
   set page(
-    paper: "a4",
     flipped: true,
     margin: 1cm,
   )
@@ -13,14 +12,11 @@
     caption: "Внешний вид платы " + name,
     table(
       columns: (50%, 50%),
-      stroke: none,
-      gutter: 1em,
       image(render_x0y0z0), image(render_x0y180z0),
     ),
   )
 
   set page(
-    paper: "a4",
     flipped: false,
     margin: auto,
   )
@@ -31,7 +27,6 @@
   path: "path",
 ) = {
   set page(
-    paper: "a4",
     flipped: true,
     margin: 1cm,
   )
@@ -40,8 +35,8 @@
     caption: "Принципиальная электрическая схема платы " + name,
     image(path, width: 95%),
   )
+
   set page(
-    paper: "a4",
     flipped: false,
     margin: auto,
   )
@@ -50,7 +45,12 @@
 // Загрузить данные с перечнем элементов
 #let load_bom(path) = {
   let results = csv(path, row-type: dictionary)
-  let results = results.map(el => (el.reference, el.quantity, el.part_ipn))
+  let results = results.map(el => {
+    let reference = el.reference.replace(",", ", ")
+    let quantity = el.quantity
+    let part_ipn = el.part_ipn
+    (reference, quantity, part_ipn)
+  })
   results.flatten()
 }
 
@@ -63,8 +63,9 @@
 
   figure(
     caption: "Перечень элементов платы " + name,
+
     table(
-      columns: 3,
+      columns: (30%, 20%, 50%),
       table.header(
         repeat: true,
         [*Обозначение*],
@@ -78,22 +79,23 @@
 
 #let all_pcb_data(
   name: "plate_name",
-  render_x0y0z0: "path",
-  render_x0y180z0: "path",
-  scheme: "path",
-  bom: "bom.csv",
 ) = {
+  let path_render_x0y0z0 = "pcb/" + name + "/render_x0y0z0.png"
+  let path_render_x0y180z0 = "pcb/" + name + "/render_x0y180z0.png"
+  let path_scheme = "pcb/" + name + "/" + name + ".svg"
+  let path_bom = "./pcb/" + name + "/BOM.csv"
+
   image_render(
     name: name,
-    render_x0y0z0: render_x0y0z0,
-    render_x0y180z0: render_x0y180z0,
+    render_x0y0z0: path_render_x0y0z0,
+    render_x0y180z0: path_render_x0y180z0,
   )
   image_scheme(
     name: name,
-    path: scheme,
+    path: path_scheme,
   )
   table_bom(
     name: name,
-    path: bom,
+    path: path_bom,
   )
 }
