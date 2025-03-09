@@ -321,7 +321,7 @@
       "description": "",
       "id": "448b6df7-a570-4f01-adc0-26bba47525b1",
       "settings": {
-        "bg_style": "opaque",
+        "bg_style": "transparent",
         "description": "",
         "floor": false,
         "format": "png",
@@ -347,7 +347,7 @@
           0.0,
           0.0
         ],
-        "output_filename": "render.png",
+        "output_filename": "render_x0y0z0.png",
         "pan_x": 0.0,
         "pan_y": 0.0,
         "pan_z": 0.0,
@@ -358,6 +358,54 @@
         "quality": "high",
         "rotation_x": 0.0,
         "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "width": 2000,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "4bd47fe0-296e-480b-8c8e-28f26876eb7d",
+      "settings": {
+        "bg_style": "transparent",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 2000,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "render_x0y180z0.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "high",
+        "rotation_x": 0.0,
+        "rotation_y": 180.0,
         "rotation_z": 0.0,
         "side": "top",
         "width": 2000,
@@ -399,7 +447,20 @@
         "dest": "",
         "output_filename": "",
         "overwrite": true,
-        "source": "./export/v${version}/render.png",
+        "source": "./export/v${version}/render_x0y0z0.png",
+        "zero_copies_error": false
+      },
+      "type": "special_copyfiles"
+    },
+    {
+      "description": "",
+      "id": "02b534d2-da74-491a-b441-bc89467c64ce",
+      "settings": {
+        "description": "",
+        "dest": "",
+        "output_filename": "",
+        "overwrite": true,
+        "source": "./export/v${version}/render_x0y180z0.png",
         "zero_copies_error": false
       },
       "type": "special_copyfiles"
@@ -420,7 +481,8 @@
         "afd0d998-1af3-4fa0-9a6e-edf930d2fad9",
         "42ca86d4-9e09-4652-b0b9-b14a4517e39c",
         "e2bc3de2-e6dd-4a37-97eb-9d145fcf8d62",
-        "448b6df7-a570-4f01-adc0-26bba47525b1"
+        "448b6df7-a570-4f01-adc0-26bba47525b1",
+        "4bd47fe0-296e-480b-8c8e-28f26876eb7d"
       ],
       "settings": {
         "output_path": "./export/v${version}"
@@ -433,7 +495,8 @@
       "only": [
         "b3548c6e-0ab2-4ba4-93db-30b9b02a6fe5",
         "ad8cfa9f-ebc6-40f4-85f5-4720a7b1733e",
-        "f14dc322-5cee-40b8-8105-54eb30f6268c"
+        "f14dc322-5cee-40b8-8105-54eb30f6268c",
+        "02b534d2-da74-491a-b441-bc89467c64ce"
       ],
       "settings": {
         "output_path": "../../docs/pcb/${article}"
