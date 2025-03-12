@@ -1,3 +1,8 @@
+// Переменные
+
+#let i2c = [I#super[2]C]
+
+
 #let image_render(
   name: "plate_name",
   render_x0y0z0: "path",
@@ -84,6 +89,8 @@
   let path_render_x0y180z0 = "pcb/" + name + "/render_x0y180z0.png"
   let path_scheme = "pcb/" + name + "/" + name + ".svg"
   let path_bom = "./pcb/" + name + "/BOM.csv"
+
+  [=== Внешний вид платы, схема и спецификация]
 
   image_render(
     name: name,

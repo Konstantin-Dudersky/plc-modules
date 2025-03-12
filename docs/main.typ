@@ -68,115 +68,14 @@
 Вспомогательная плата со светодиодами для отображения состояния микроконтроллера и электрических сигналов. В модуле может использоваться одна или две таких платы. Есть версии на 8 и на 16 светодиодов.
 
 #include "ch_galvanic.typ"
-
-= Протоколы обмена данными между модулями
-
-== Физический уровень
-
-RS-485
-
-Выбор скорости - скрины с логанализатора
-
-Формула рассчета времени передачи для Raspberry.
-
-== Прикладной уровень
-
-Сериализация данный - MessagePack.
-
-Контрольная сумма
-
-Примеры структур обмена данных между модулями
-
+#include "ch_protocol_betweenmodule.typ"
+#include "ch_protocol_insidemodule.typ"
 #include "ch_components.typ"
-
-= Описание плат
-
-// Линейка простых модулей ввода/вывода с гальванической изоляцией. Модули подключаются по шине I#super[2]C к контроллеру. Контроллером может выступать любое устройство с поддержкой данного протокола. Для унификации разрботаны модули CPU на базе микроконтроллера ESP32-C3 и мини-компьютера Raspberry Pi.
-
-// Размеры всех плат одинаковы. Отверстия для крепления также располагаются одинакого.
-
-// #figure(
-//   caption: "Перечень модулей",
-//   table(
-//     columns: (auto, 1fr),
-//     align: (center + horizon, left),
-
-//     table.cell(colspan: 2)[ЦПУ],
-
-//     link(<PM-CPU-RP>)[PM-CPU-RP],
-//     "ЦПУ на базе мини-компьютера Raspberry Pi или совместимого с ним",
-
-//     table.cell(colspan: 2)[Модули ввода / вывода],
-
-//     link(<PM-DI16-DC24sink>)[PM-DI16-DC24sink],
-//     "Модуль для подключения 16 дискретных входов постоянного напряжения",
-
-//     link(<PM-DQ16-source>)[PM-DQ16-source],
-//     "Модуль для подключения 16 дискретных выходов постоянного напряжения до 50 VDC",
-
-//     link(<PM-RQ8>)[PM-RQ8],
-//     "Модуль для подключение 8 релейных выходов",
-
-//     table.cell(colspan: 2)[Блоки питания],
-
-//     link(<PM-PS>)[PM-PS],
-//     "Модуль блока питания",
-
-//     table.cell(colspan: 2)[Вспомогательные платы],
-
-//     link(<PM-ESP32C3>)[PM-ESP32C3],
-//     "Плата с микроконтроллером управления модулем на базе ESP32-C3",
-
-//     link(<PM-LED8>)[PM-LED8],
-//     "Плата с 8 светодиодами",
-
-//     link(<PM-LED16>)[PM-LED16],
-//     "Плата с 16 светодиодами",
-//   )
-// )
-
-#include "PM_CPU-RP.typ"
-#include "PM_CPU-ESP32_C3.typ"
-#include "PM_MCU-ESP32_C3.typ"
-#include "PM_LED-10.typ"
-#include "PM_LED-18.typ"
-#include "PM_CNV-DI16_sink.typ"
-#include "PM_CNV-DQ16_src.typ"
-#include "PM_CNV-RQ8.typ"
-#include "PM_CNV-AI4_W.typ"
-#include "PM_CNV-AI8_IU.typ"
-#include "PM_CNV-AI4-RTD.typ"
-#include "PM_CNV-AI4-TC.typ"
-#include "PM_HMI-Keyboard.typ"
-#include "PM_HMI-Touch.typ"
-#include "PM_DBG-FFC.typ"
+#include "ch_plates.typ"
 
 = Комбинирование плат в модули
 
-= Габаритные размеры плат
+#include "ch_dimensions.typ"
 
-На @plate_size[рисунке] показаны габаритные размеры и отверстия для крепления основных плат. Плату можно крепить к корпусу двумя способами:
-
-- используя 4 отверстия диаметром 3.2 мм
-- используя 4 выступа по краям сверху и снизу платы
-
-На @plate_led_size[рисунке] показаны габаритные размеры плат светодиодов #link(<PM_LED-10>)[PM_LED-10] и #link(<PM_LED-18>)[PM_LED-18]. Плата крепится к основной плате с помощью стоек диаметром 2 мм.
-
-На @plate_mcu_size[рисунке] показаны габаритные размеры платы микроконтроллера #link(<PM_MCU-ESP32_C3>)[PM_MCU-ESP32_C3]. Плата крепится к основной плате с помощью стоек диаметром 2 мм.
-
-#figure(
-  caption: "Размеры основной печатной платы",
-  image("images/plate_size.svg"),
-) <plate_size>
-
-#figure(
-  caption: "Размеры платы светодиодов",
-  image("images/plate_led_size.svg"),
-) <plate_led_size>
-
-#figure(
-  caption: "Размеры платы микроконтроллера",
-  image("images/plate_mcu_size.svg"),
-) <plate_mcu_size>
 
 #bibliography("bibliography.yml")

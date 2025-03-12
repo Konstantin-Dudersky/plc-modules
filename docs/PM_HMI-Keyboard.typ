@@ -4,7 +4,7 @@
 
 #pagebreak()
 
-== #name <PM_HMI-Keybard>
+== #name <PM_HMI-Keyboard>
 
 
 #all_pcb_data(name: name)
