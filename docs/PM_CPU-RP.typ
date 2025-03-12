@@ -2,8 +2,9 @@
 
 #let name = "PM_CPU-RP"
 
+#pagebreak()
 
-== #name - контроллер на базе Raspberry Pi <PM-CPU-RP>
+== #name - контроллер на базе Raspberry Pi <PM_CPU-RP>
 
 ЦПУ на базе мини-компьютера Raspberry Pi, или совместимого по габаритам, креплению и 40-пиновому штекеру.
 

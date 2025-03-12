@@ -2,6 +2,7 @@
 
 #let name = "PM_CNV-AI4_W"
 
+#pagebreak()
 
 == #name - плата аналогового ввода 4 тензодатчиков <PM_CNV-AI4_W>
 

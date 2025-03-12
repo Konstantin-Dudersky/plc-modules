@@ -9,16 +9,23 @@
     v(1em, weak: true)
   }
   #show heading.where(level: 2): it => {
-    pagebreak(weak: true)
     it
     v(1em, weak: true)
   }
 
   #show link: underline
 
-  #set page("a4")
+  #set page(paper: "a4", numbering: "1")
 
-  #set bibliography(style: "gost-r-705-2008-numeric")
+  #set par(
+    justify: true,
+    linebreaks: "optimized",
+    // first-line-indent: 2em,
+    // spacing: 0.65em,
+  )
+
+  // #set bibliography(style: "gost-r-705-2008-numeric")
+  #set bibliography(title: "Список использованных источников")
 
   #doc
 ]

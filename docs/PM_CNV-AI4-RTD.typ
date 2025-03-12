@@ -2,5 +2,6 @@
 
 #let name = "PM_CNV-AI4-RTD"
 
+#pagebreak()
 
 == #name - плата аналогового ввода 4 термосопротивлений <PM_CNV-AI4-RTD>

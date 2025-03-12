@@ -2,6 +2,7 @@
 
 #let name = "PM_HMI-Touch"
 
+#pagebreak()
 
 == #name <PM_HMI-Touch>
 

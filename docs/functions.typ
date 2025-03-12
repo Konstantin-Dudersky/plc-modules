@@ -65,7 +65,7 @@
     caption: "Перечень элементов платы " + name,
 
     table(
-      columns: (30%, 20%, 50%),
+      columns: (35%, 15%, 50%),
       table.header(
         repeat: true,
         [*Обозначение*],

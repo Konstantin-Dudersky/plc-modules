@@ -2,6 +2,7 @@
 
 #let name = "PM_CNV-AI8_IU"
 
+#pagebreak()
 
 == #name - плата аналогового ввода 8 датчиков 0..20 мА или 0..10 В <PM_CNV-AI8_IU>
 

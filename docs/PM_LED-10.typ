@@ -2,6 +2,7 @@
 
 #let name = "PM_LED-10"
 
+#pagebreak()
 
 == #name - плата с 10 светодиодами <PM_LED-10>
 

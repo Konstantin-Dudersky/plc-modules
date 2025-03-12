@@ -2,5 +2,6 @@
 
 #let name = "PM_CPU-ESP32_C3"
 
+#pagebreak()
 
 == #name <PM_CPU-ESP32_C3>
