@@ -2,7 +2,7 @@
   #set text(lang: "ru", font: "PT Serif", hyphenate: true)
 
   #set math.equation(numbering: "(1)")
-  // #show math.equation: set text(font: "STIX Two Math")
+  #show math.equation: set text(font: "STIX Two Math")
 
   #set heading(numbering: "1.1.")
 
