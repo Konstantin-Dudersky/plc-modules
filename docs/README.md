@@ -1,7 +1,7 @@
 ```bash
-typst compile --font-path ./fonts main.typ  ./output/plc-modules.pdf
+typst compile --ignore-system-fonts --font-path ./fonts main.typ  ./output/plc-modules.pdf
 
-typst watch --font-path ./fonts main.typ  ./output/plc-modules.pdf
+typst watch --ignore-system-fonts --font-path ./fonts main.typ  ./output/plc-modules.pdf
 
 typst compile --font-path ./fonts main.typ --features html --format html ./output/html
 ```
