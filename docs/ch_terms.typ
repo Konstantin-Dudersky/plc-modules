@@ -7,6 +7,7 @@
 / ESD: Electrostatic Discharge - разряд электростатического электричества.
 / EFT: Electrical Fast Transient - кратковременный выброс повышенного напряжения.
 / FFC: Flat flexible cable - плоский гибкий кабель для электрического соединения печатных плат.
+/ GPIO: General-Purpose Input / Output - интерфейс ввода/вывода общего назначения.
 / LDO: Low-dropout regulator - линейный регулятор напряжения с малым падением напряжения
 / SPI: Serial Peripheral Interface - последовательный синхронный стандарт передачи данных для связи между интегральными схемами
 / UART: Universal Asynchronous Receiver-Transmitter - узел вычислительных устройств, предназначенный для организации связи с другими цифровыми устройствами.

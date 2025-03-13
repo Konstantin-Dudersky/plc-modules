@@ -15,6 +15,7 @@
 
   figure(
     caption: "Внешний вид платы " + name,
+    kind: image,
     table(
       columns: (50%, 50%),
       image(render_x0y0z0), image(render_x0y180z0),

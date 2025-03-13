@@ -4,4 +4,4 @@
 
 #pagebreak()
 
-== #name - плата аналогового вывода <PM_CNV-AQ>
+== #name - аналоговый выход <PM_CNV-AQ>

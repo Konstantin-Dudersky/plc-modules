@@ -81,16 +81,24 @@
 
 == CA-IS3741HW - изоляция SPI
 
-== CA-IS3980S - изоляция цифровых входов
+== CA-IS3980S - изоляция цифровых входов <CA-IS3980S>
 
 В промышленности для подключения цифровых датчиков наиболее часто применяется постоянное напряжение 24 В, тогда как микроконтроллеры работают, как правило, на напряжении 3,3 В или 5 В.
 
-В данном проекте в качестве изолятора применяется чип CA-IS3980S @CA-IS3980S_datasheet. Чип обеспечивает изоляцию 2500 $V_("RMS")$ и $±300 "kV"/"µs"$ CMTI. Фунциональная схема показана на @CA-IS3980S[рисунке].
+В данном проекте в качестве изолятора применяется чип CA-IS3980S @CA-IS3980S_datasheet. Фунциональная схема показана на @CA-IS3980S_functional[рисунке].
 
 #figure(
   caption: "Функциональная схема изолятора цифровых входов",
   image("images/CA-IS3980P.png", height: 200pt),
-) <CA-IS3980S>
+) <CA-IS3980S_functional>
+
+Основные характеристики:
+
+- Совместимость со стандартом IEC 61131-2, тип входов 1, 2 и 3.
+- 8 параллельных каналов.
+- Скорость передачи до 2 Mbps.
+- $±300 "kV"/"µs"$ CMTI.
+- $2500 V_("RMS")$ изоляция.
 
 На @CA-IS3980S_channel[рисунке] показана упрощенная схема отдельного канала. The internal LED emulator output drives an ON-OFF keying (OOK) modulator, to transfer digital signals across the SiO2 based isolation barrier between circuits with different power domains. In many applications, this capacitive isolation technology is replacing optocoupler-based solution because it can reduce the power requirements and take up less board space while offering the same isolation capability.
 
@@ -101,13 +109,14 @@
 
 On the output side, the signal is either passed directly to the output stage in the case of a high-speed channel (BHx), or the signal is routed through a debounce filter block in the case of a low-speed channel (Bx) for robust operation in industrial environments.
 
-Данный чип применен на плате #link(<PM_CNV-DI16_sink>)[PM_CNV-DI16_sink].
+Используется в платах:
+- #link(<PM_CNV-DI16_sink>)[PM_CNV-DI16_sink].
 
-== DS3231 - часы реального времени
+== DS3231 - часы реального времени <DS3231>
 
 
 
-== MCP23S17/SS - 16-битный расширитель входов / выходов
+== MCP23S17 - 16-битный расширитель входов / выходов <MCP23S17>
 
 Применяется для опроса состояния входов (на платах входов) и управления выходами (на платах выходов).
 
@@ -132,7 +141,7 @@ On the output side, the signal is either passed directly to the output stage in 
 - #link(<PM_HMI-Keyboard>)[PM_HMI-Keyboard]
 
 
-== TBD62783AFG - матрица из 8 DMOS транзисторов
+== TBD62783AFG - матрица из 8 DMOS транзисторов <TBD62783AFG>
 
 Используется для управления силовыми нагрузками, посколько нагрузочная способность выходов микроконтроллера довольно низкая.
 
@@ -156,7 +165,7 @@ On the output side, the signal is either passed directly to the output stage in 
 
 
 
-== Светодиоды серии XL-1606
+== Светодиоды серии XL-1606 <XL-1606>
 
 Серия светодиодов бокового свечения компании XinLight. Устанавливаются в посадочное место размера 0602.
 
