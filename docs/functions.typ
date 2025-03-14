@@ -91,8 +91,6 @@
   let path_scheme = "pcb/" + name + "/" + name + ".svg"
   let path_bom = "./pcb/" + name + "/BOM.csv"
 
-  [=== Внешний вид платы, схема и спецификация]
-
   image_render(
     name: name,
     render_x0y0z0: path_render_x0y0z0,
