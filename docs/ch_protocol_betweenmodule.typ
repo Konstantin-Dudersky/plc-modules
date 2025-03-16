@@ -8,9 +8,19 @@ RS-485
 
 Выбор скорости - скрины с логанализатора
 
+#figure(
+  caption: "Распиновка коннектора протокола SPI",
+  image("images/speed_115200.png"),
+) <speed_115200>
+
 === Формула рассчета времени передачи для Raspberry.
 
 TODO - задержка передачи с логанализатора.
+
+#figure(
+  caption: "Распиновка коннектора протокола SPI",
+  image("images/rpi_uart_rts_long.png"),
+) <rpi_uart_rts_long>
 
 $ v_("data") = v_("uart") dot "data_bits" / ("start_bits" + "data_bits" + "parity_bits" + "stop_bits") $
 
@@ -33,6 +43,10 @@ $ t = V_("data") / v_("data") $
 - $V_("data")$ - объем данных для передачи, [бит]
 - $v_("data")$ - скорость передачи данных, [бит/с]
 
+#figure(
+  caption: "Распиновка коннектора протокола SPI",
+  image("images/rpi_uart_rts_short.png"),
+) <rpi_uart_rts_short>
 
 == Прикладной уровень
 
