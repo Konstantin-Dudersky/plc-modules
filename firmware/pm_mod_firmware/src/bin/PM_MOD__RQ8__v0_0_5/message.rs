@@ -1,8 +1,8 @@
-use rsiot::message::{Deserialize, MsgDataBound, Serialize};
+use rsiot::message::{Deserialize, MsgDataBound, MsgKey, Serialize};
 
 use pm_mod_firmware::Service;
 
-#[derive(Clone, Debug, Deserialize, PartialEq, Serialize)]
+#[derive(Clone, Debug, Deserialize, MsgKey, PartialEq, Serialize)]
 pub enum Custom {
     SetOutputs(u8),
     SlaveLiveCounter(u8),

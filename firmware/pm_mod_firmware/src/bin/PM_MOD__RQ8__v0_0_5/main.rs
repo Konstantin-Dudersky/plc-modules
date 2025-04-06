@@ -38,8 +38,8 @@ async fn main() -> anyhow::Result<()> {
     let pin_uart_rts = peripherals.pins.gpio4;
 
     // UART address --------------------------------------------------------------------------------
-    let uart_slave_address = define_address(0, &mut pin_sck, &mut pin_miso, &mut pin_mosi);
-
+    // let uart_slave_address = define_address(0, &mut pin_sck, &mut pin_miso, &mut pin_mosi);
+    let uart_slave_address = 1;
     // Конфигурация компонентов --------------------------------------------------------------------
     let config_esp_uart_slave = config_esp_uart_slave::config::<_, _>(
         uart_slave_address,

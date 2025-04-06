@@ -2089,13 +2089,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "pm_firmware_lib"
-version = "0.1.0"
-dependencies = [
- "serde",
-]
-
-[[package]]
 name = "pm_mod_firmware"
 version = "0.0.1"
 dependencies = [
@@ -2409,7 +2402,7 @@ dependencies = [
 
 [[package]]
 name = "rsiot"
-version = "0.0.82"
+version = "0.0.83"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2431,7 +2424,6 @@ dependencies = [
  "heapless 0.8.0",
  "log",
  "openssl",
- "pm_firmware_lib",
  "postcard",
  "rsiot-macros",
  "serde",
@@ -2451,9 +2443,7 @@ dependencies = [
 
 [[package]]
 name = "rsiot-macros"
-version = "0.0.72"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e685e4e61653f83ab3a01d3d855f4b6c1795b59054acd617c06a4334f7ded673"
+version = "0.0.73"
 dependencies = [
  "proc-macro-error",
  "proc-macro2",
@@ -3200,8 +3190,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ced87ca4be083373936a67f8de945faa23b6b42384bd5b64434850802c6dccd0"
 dependencies = [
  "getrandom 0.3.1",
+ "js-sys",
  "serde",
  "uuid-macro-internal",
+ "wasm-bindgen",
 ]
 
 [[package]]
@@ -3559,9 +3551,9 @@ checksum = "1e9df38ee2d2c3c5948ea468a8406ff0db0b29ae1ffde1bcf20ef305bcc95c51"
 
 [[package]]
 name = "ws2812-esp32-rmt-driver"
-version = "0.11.0"
+version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ed77e431b0c0a6e3f3ec4a74e3afe42202fab9ffeb2630bf98ba283c3c24ca27"
+checksum = "56c578740a03455e0a88e01c7233384c4e1c1fa9e181898547110b4911e98b69"
 dependencies = [
  "embuild 0.32.0",
  "esp-idf-hal",

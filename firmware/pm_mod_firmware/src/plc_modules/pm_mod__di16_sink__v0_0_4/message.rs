@@ -1,8 +1,8 @@
-use rsiot::message::{Deserialize, MsgDataBound, Serialize};
+use rsiot::message::{Deserialize, MsgDataBound, MsgKey, Serialize};
 
 use crate::Service;
 
-#[derive(Clone, Copy, Debug, Deserialize, PartialEq, Serialize)]
+#[derive(Clone, Copy, Debug, Deserialize, MsgKey, PartialEq, Serialize)]
 pub enum Custom {
     AllInputs([bool; 16]),
 }

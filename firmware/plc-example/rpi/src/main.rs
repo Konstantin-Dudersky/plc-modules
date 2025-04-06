@@ -39,10 +39,10 @@ async fn main() {
         period: Duration::from_millis(2000),
         fn_periodic: move || {
             let msg = Message::new_custom(Custom::CounterRpi(counter));
+            counter += 1;
 
             let msg2 = Message::new_custom(Custom::Hmi(Hmi::SetRelay0(output_0)));
             output_0 = !output_0;
-            counter += 1;
             vec![msg, msg2]
         },
     };

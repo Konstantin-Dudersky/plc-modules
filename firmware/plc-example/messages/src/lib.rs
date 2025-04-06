@@ -1,7 +1,7 @@
-use rsiot::message::{MsgDataBound, ServiceBound};
+use rsiot::message::{MsgDataBound, MsgKey, ServiceBound};
 use serde::{Deserialize, Serialize};
 
-#[derive(Clone, Debug, Deserialize, PartialEq, Serialize)]
+#[derive(Clone, Debug, Deserialize, MsgKey, PartialEq, Serialize)]
 pub enum Custom {
     CounterEsp(u32),
     CounterRpi(u32),
@@ -10,7 +10,7 @@ pub enum Custom {
     ConnectionState(bool),
 }
 
-#[derive(Clone, Debug, Deserialize, PartialEq, Serialize)]
+#[derive(Clone, Debug, Deserialize, MsgKey, PartialEq, Serialize)]
 pub enum Hmi {
     SetRelay0(bool),
     SetRelay1(bool),

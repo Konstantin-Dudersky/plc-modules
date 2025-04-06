@@ -1675,7 +1675,7 @@ dependencies = [
 
 [[package]]
 name = "rsiot"
-version = "0.0.82"
+version = "0.0.83"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1704,9 +1704,7 @@ dependencies = [
 
 [[package]]
 name = "rsiot-macros"
-version = "0.0.72"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e685e4e61653f83ab3a01d3d855f4b6c1795b59054acd617c06a4334f7ded673"
+version = "0.0.73"
 dependencies = [
  "proc-macro-error",
  "proc-macro2",
@@ -2127,8 +2125,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ced87ca4be083373936a67f8de945faa23b6b42384bd5b64434850802c6dccd0"
 dependencies = [
  "getrandom 0.3.1",
+ "js-sys",
  "serde",
  "uuid-macro-internal",
+ "wasm-bindgen",
 ]
 
 [[package]]
