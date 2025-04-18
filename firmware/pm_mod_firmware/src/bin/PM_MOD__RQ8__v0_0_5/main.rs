@@ -1,5 +1,5 @@
 mod config_esp_spi_master;
-mod config_esp_uart_slave;
+// mod config_esp_uart_slave;
 mod config_livecounter;
 mod config_logger;
 mod message;
@@ -14,7 +14,7 @@ use rsiot::{
 };
 use tokio::task::LocalSet;
 
-use pm_mod_firmware::{define_address, Service};
+use pm_mod_firmware::define_address;
 
 use message::Custom;
 use tracing::level_filters::LevelFilter;
@@ -41,13 +41,13 @@ async fn main() -> anyhow::Result<()> {
     // let uart_slave_address = define_address(0, &mut pin_sck, &mut pin_miso, &mut pin_mosi);
     let uart_slave_address = 1;
     // Конфигурация компонентов --------------------------------------------------------------------
-    let config_esp_uart_slave = config_esp_uart_slave::config::<_, _>(
-        uart_slave_address,
-        uart,
-        pin_uart_rx.into(),
-        pin_uart_tx.into(),
-        pin_uart_rts.into(),
-    );
+    // let config_esp_uart_slave = config_esp_uart_slave::config::<_, _>(
+    //     uart_slave_address,
+    //     uart,
+    //     pin_uart_rx.into(),
+    //     pin_uart_tx.into(),
+    //     pin_uart_rts.into(),
+    // );
 
     let config_esp_spi_master =
         config_esp_spi_master::config(spi, pin_mosi, pin_miso, pin_sck, pin_cs0.into());
@@ -59,15 +59,14 @@ async fn main() -> anyhow::Result<()> {
     // executor ------------------------------------------------------------------------------------
     let executor_config = ComponentExecutorConfig {
         buffer_size: 50,
-        service: Service::PM_RQ8,
         fn_auth: |msg, _| Some(msg),
         delay_publish: Duration::from_millis(100),
     };
 
     let local_set = LocalSet::new();
     local_set.spawn_local(async {
-        ComponentExecutor::<Custom, Service>::new(executor_config)
-            .add_cmp(cmp_esp_uart_slave::Cmp::new(config_esp_uart_slave))
+        ComponentExecutor::<Custom>::new(executor_config)
+            // .add_cmp(cmp_esp_uart_slave::Cmp::new(config_esp_uart_slave))
             .add_cmp(cmp_esp_spi_master::Cmp::new(config_esp_spi_master))
             .add_cmp(cmp_livecounter::Cmp::new(config_livecounter))
             .add_cmp(cmp_logger::Cmp::new(config_logger))

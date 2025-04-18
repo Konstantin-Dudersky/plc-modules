@@ -13,8 +13,11 @@ tracing = { version = "*" }
 tracing-subscriber = { version = "*" }
 
 rsiot = { path = "../../../rsiot", features = ["cmp_esp", "logging"] }
+rsiot-devices = { path = "../../../rsiot-devices" }
+
 pm_cnv = { path = "../pm_cnv" }
 pm_uart_integration = { path = "../pm_uart_integration" }
+
 
 [build-dependencies]
 embuild = { version = "*", features = ["espidf"] }

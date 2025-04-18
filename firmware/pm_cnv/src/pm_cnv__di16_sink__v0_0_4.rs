@@ -21,11 +21,11 @@ where
     TMsg: MsgDataBound,
 {
     pub address: u8,
-    pub fn_output: fn(&Buffer) -> Vec<Message<TMsg>>,
+    pub fn_output: fn(&mut Buffer) -> Vec<Message<TMsg>>,
 }
 
 #[async_trait]
-impl<TMsg> DeviceTrait<TMsg, spi_master::FieldbusRequest, spi_master::FieldbusResponse, u8>
+impl<TMsg> DeviceTrait<TMsg, spi_master::FieldbusRequest, spi_master::FieldbusResponse>
     for Device<TMsg>
 where
     Self: Debug + Send + Sync,
@@ -35,7 +35,7 @@ where
         self: Box<Self>,
         ch_rx_msgbus_to_device: broadcast::Receiver<Message<TMsg>>,
         ch_tx_device_to_fieldbus: mpsc::Sender<spi_master::FieldbusRequest>,
-        ch_rx_fieldbus_to_device: broadcast::Receiver<spi_master::FieldbusResponse>,
+        ch_rx_fieldbus_to_device: mpsc::Receiver<spi_master::FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<
@@ -43,10 +43,8 @@ where
             spi_master::FieldbusRequest,
             spi_master::FieldbusResponse,
             Buffer,
-            u8,
         > = DeviceBase {
-            address: 0,
-            fn_init_requests: || {
+            fn_init_requests: |_| {
                 vec![spi_master::FieldbusRequest::new(
                     RequestKind::Init,
                     vec![MCP23S17::write_iodir_a(0xFF), MCP23S17::write_iodir_b(0xFF)],
@@ -55,14 +53,14 @@ where
             periodic_requests: vec![ConfigPeriodicRequest {
                 period: Duration::from_millis(1000),
                 fn_requests: |_| {
-                    vec![spi_master::FieldbusRequest::new(
+                    Ok(vec![spi_master::FieldbusRequest::new(
                         RequestKind::ReadInputs,
                         vec![MCP23S17::read_gpio_a(), MCP23S17::read_gpio_b()],
-                    )]
+                    )])
                 },
             }],
             fn_msgs_to_buffer: |_, _| (),
-            fn_buffer_to_request: |_| vec![],
+            fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
                 let request_kind: RequestKind = response.request_kind.into();
                 let el = response.request_creation_time.elapsed();
@@ -95,6 +93,8 @@ where
 
                     buffer.all_inputs = all;
                 }
+
+                Ok(())
             },
             fn_buffer_to_msgs: self.fn_output,
             buffer_default: Buffer::default(),

@@ -20,12 +20,12 @@ pub struct Device<TMsg>
 where
     TMsg: MsgDataBound,
 {
-    pub address: u8,
     pub fn_input: fn(&Message<TMsg>, &mut Buffer),
+    pub fn_output: fn(&mut Buffer) -> Vec<Message<TMsg>>,
 }
 
 #[async_trait]
-impl<TMsg> DeviceTrait<TMsg, spi_master::FieldbusRequest, spi_master::FieldbusResponse, u8>
+impl<TMsg> DeviceTrait<TMsg, spi_master::FieldbusRequest, spi_master::FieldbusResponse>
     for Device<TMsg>
 where
     Self: Debug + Send + Sync,
@@ -35,7 +35,7 @@ where
         self: Box<Self>,
         ch_rx_msgbus_to_device: broadcast::Receiver<Message<TMsg>>,
         ch_tx_device_to_fieldbus: mpsc::Sender<spi_master::FieldbusRequest>,
-        ch_rx_fieldbus_to_device: broadcast::Receiver<spi_master::FieldbusResponse>,
+        ch_rx_fieldbus_to_device: mpsc::Receiver<spi_master::FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<
@@ -43,16 +43,32 @@ where
             spi_master::FieldbusRequest,
             spi_master::FieldbusResponse,
             Buffer,
-            u8,
         > = DeviceBase {
-            address: self.address,
-            fn_init_requests: || {
+            fn_init_requests: |buffer| {
                 let mut requests = vec![];
 
                 // Первый запрос к чипу возвращает почему-то ff. Запрашиваем статус
                 let spi_operations = vec![ad7190::SpiOperations::read_status_register()];
                 let request = spi_master::FieldbusRequest::new(
                     RequestKind::ReadStatusRegister,
+                    spi_operations,
+                );
+                requests.push(request);
+
+                // Регистр конфигурации
+                let reg = &buffer.write_registers.conf_register;
+                let spi_operations = vec![ad7190::SpiOperations::write_configuration_register(reg)];
+                let request = spi_master::FieldbusRequest::new(
+                    RequestKind::WriteConfigurationRegister,
+                    spi_operations,
+                );
+                requests.push(request);
+
+                // Регистр режима работы
+                let reg = &buffer.write_registers.mode_register;
+                let spi_operations = vec![ad7190::SpiOperations::write_mode_register(reg)];
+                let request = spi_master::FieldbusRequest::new(
+                    RequestKind::WriteModeRegister,
                     spi_operations,
                 );
                 requests.push(request);
@@ -135,12 +151,12 @@ where
                         );
                         requests.push(request);
 
-                        requests
+                        Ok(requests)
                     },
                 },
-                //Периодический запрос сконвертированных данных
+                // Периодический запрос сконвертированных данных
                 ConfigPeriodicRequest {
-                    period: Duration::from_millis(200),
+                    period: Duration::from_millis(50),
                     fn_requests: |_| {
                         let mut requests = vec![];
 
@@ -151,12 +167,12 @@ where
                         );
                         requests.push(request);
 
-                        requests
+                        Ok(requests)
                     },
                 },
             ],
             fn_msgs_to_buffer: self.fn_input,
-            fn_buffer_to_request: |_| vec![],
+            fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
                 let request_kind: RequestKind = response.request_kind.into();
                 let response_payload = response.payload;
@@ -187,7 +203,7 @@ where
                             ad7190::StatusRegister::decode(response_payload[0][3]);
 
                         if let ad7190::SRReady::NotReady = status_register.ready {
-                            return;
+                            return Ok(());
                         }
 
                         let bytes = &response_payload[0][0..=2];
@@ -207,16 +223,17 @@ where
                             .read_registers
                             .data_registers
                             .insert(status_register.channel.clone(), value);
-                        info!("Data: {:?}", buffer.read_registers.data_registers);
+                        // info!("Data: {:?}", buffer.read_registers.data_registers);
                     }
                 }
+                Ok(())
             },
-            fn_buffer_to_msgs: |_| vec![],
+            fn_buffer_to_msgs: self.fn_output,
             buffer_default: Buffer {
                 write_registers: WriteRegisters {
                     conf_register: ad7190::ConfigurationRegister {
                         chop: ad7190::CONChop::Enabled,
-                        refsel: ad7190::CONRefSel::RefIn2,
+                        refsel: ad7190::CONRefSel::RefIn1,
                         channel_selected: ad7190::CONChannelSelect {
                             ain1_ain2: true,
                             ain3_ain4: true,
@@ -230,7 +247,7 @@ where
                         burn: ad7190::CONBurn::Disabled,
                         ref_det: ad7190::CONRefDet::Enabled,
                         buffer: ad7190::CONBuffer::Enabled,
-                        polarity: ad7190::CONPolarity::Unipolar,
+                        polarity: ad7190::CONPolarity::Bipolar,
                         gain: ad7190::CONGain::_128,
                     },
                     mode_register: ad7190::ModeRegister {
@@ -241,7 +258,7 @@ where
                         parity: ad7190::MRParity::Enabled,
                         single: ad7190::MRSingle::Disabled,
                         reject60: ad7190::MRReject60::Disabled,
-                        filter_word: ad7190::MRFilterWord(1023),
+                        filter_word: ad7190::MRFilterWord(50),
                     },
                     gpocon_register: ad7190::GPOCONRegister {
                         bpdsw: ad7190::GPBpdsw::On,
@@ -343,6 +360,7 @@ fn code_to_voltage(code: u32, gain: ad7190::CONGain, polarity: ad7190::CONPolari
 /// Температура выражена в Кельвинах
 fn code_to_temp(code: u32) -> f64 {
     const CODE_AT_0K: f64 = 0x800000 as f64;
+
     const SENSITIVITY: f64 = 2815.0;
 
     (code as f64 - CODE_AT_0K) / SENSITIVITY

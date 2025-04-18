@@ -1,8 +1,12 @@
+use rsiot::components_config::uart_general::protocol::Protocol;
+
 use super::{BitView, BufferBound, Msb0};
 
 /// Буфер данных коммуникации с модулем PM-RQ8
 #[derive(Clone, Copy, Debug, Default, PartialEq)]
 pub struct Buffer {
+    pub protocol: Protocol,
+
     /// Состояние выхода 0
     pub output_0: bool,
     /// Состояние выхода 1

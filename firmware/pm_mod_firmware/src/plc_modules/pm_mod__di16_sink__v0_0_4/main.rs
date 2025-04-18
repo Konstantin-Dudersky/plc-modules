@@ -7,7 +7,7 @@ use rsiot::{
 };
 use tokio::task::LocalSet;
 
-use crate::{define_address, service::Service};
+use crate::define_address;
 
 use super::message::Custom;
 
@@ -28,7 +28,7 @@ pub async fn main() -> anyhow::Result<()> {
     // let pin_uart_rts = peripherals.pins.gpio10;
 
     // UART address --------------------------------------------------------------------------------
-    let uart_slave_address = define_address(20, &mut pin_mosi, &mut pin_miso, &mut pin_sck);
+    let uart_slave_address = define_address(&mut pin_mosi, &mut pin_miso, &mut pin_sck);
 
     // cmp_esp_uart_slave --------------------------------------------------------------------------
     // let config_esp_uart_slave = super::config_esp_uart_slave::config::<_, _, MESSAGE_LEN>(
@@ -54,14 +54,13 @@ pub async fn main() -> anyhow::Result<()> {
     // executor ------------------------------------------------------------------------------------
     let executor_config = ComponentExecutorConfig {
         buffer_size: 50,
-        service: Service::PM_RQ8,
         fn_auth: |msg, _| Some(msg),
         delay_publish: Duration::from_millis(100),
     };
 
     let local_set = LocalSet::new();
     local_set.spawn_local(async {
-        ComponentExecutor::<Custom, Service>::new(executor_config)
+        ComponentExecutor::<Custom>::new(executor_config)
             // .add_cmp(cmp_esp_uart_slave::Cmp::new(config_esp_uart_slave))
             .add_cmp(cmp_esp_spi_master::Cmp::new(config_esp_spi_master))
             .add_cmp(cmp_logger::Cmp::new(config_logger))

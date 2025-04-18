@@ -7,6 +7,8 @@ const REG_IODIRA: u8 = 0x00;
 const REG_IODIRB: u8 = 0x01;
 const REG_IPOLA: u8 = 0x02;
 const REG_IPOLB: u8 = 0x03;
+const REG_GPPUA: u8 = 0x0C;
+const REG_GPPUB: u8 = 0x0D;
 const REG_GPIOA: u8 = 0x12;
 const REG_GPIOB: u8 = 0x13;
 
@@ -45,6 +47,20 @@ impl MCP23S17 {
     /// - 0xFF - обратная полярность
     pub fn write_ipol_b(value: u8) -> Operation {
         Operation::Write([WRITE_ADDR, REG_IPOLB, value].to_vec())
+    }
+
+    /// Резисторы подтяжки Pull-Up:
+    /// - 0x00 - резисторы отключены
+    /// - 0xFF - резисторы подключены
+    pub fn write_gppua(value: u8) -> Operation {
+        Operation::Write([WRITE_ADDR, REG_GPPUA, value].to_vec())
+    }
+
+    /// Резисторы подтяжки Pull-Up:
+    /// - 0x00 - резисторы отключены
+    /// - 0xFF - резисторы подключены
+    pub fn write_gppub(value: u8) -> Operation {
+        Operation::Write([WRITE_ADDR, REG_GPPUB, value].to_vec())
     }
 
     pub fn write_gpio_a(value: u8) -> Operation {

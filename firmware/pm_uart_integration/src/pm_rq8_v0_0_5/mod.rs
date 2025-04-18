@@ -8,7 +8,7 @@ use bitvec::{order::Msb0, view::BitView};
 use rsiot::{
     components_config::{
         master_device::{BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, Result},
-        uart_general::{UartRequest, UartResponse},
+        uart_general::{FieldbusRequest, FieldbusResponse},
     },
     message::{Message, MsgDataBound},
 };

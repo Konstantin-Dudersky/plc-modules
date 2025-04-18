@@ -52,9 +52,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.95"
+version = "1.0.97"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "34ac096ce696dc2fcabef30516bb13c0a68a11d30131d3df6f04711467681b04"
+checksum = "dcfed56ad506cb2c684a14971b8861fdc3baaaae314b9e5f9bb532cbe3ba7a4f"
 
 [[package]]
 name = "as-slice"
@@ -300,9 +300,9 @@ checksum = "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724"
 
 [[package]]
 name = "chrono"
-version = "0.4.39"
+version = "0.4.40"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7e36cc9d416881d2e24f9a963be5fb1cd90966419ac844274161d10488b3e825"
+checksum = "1a7964611d71df112cb1730f2ee67324fcf4d0fc6606acbbe9bfe06df124637c"
 dependencies = [
  "android-tzdata",
  "iana-time-zone",
@@ -310,7 +310,7 @@ dependencies = [
  "num-traits",
  "serde",
  "wasm-bindgen",
- "windows-targets",
+ "windows-link",
 ]
 
 [[package]]
@@ -503,7 +503,7 @@ version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3983b127f13995e68c1e29071e5d115cd96f215ccb5e6812e3728cd6f92653b3"
 dependencies = [
- "thiserror 2.0.11",
+ "thiserror 2.0.12",
 ]
 
 [[package]]
@@ -1638,6 +1638,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "instant"
+version = "0.1.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e0242819d153cba4b4b05a5a8f2a7e9bbf97b6055b2a002b395c96b5ff3c0222"
+dependencies = [
+ "cfg-if",
+ "js-sys",
+ "wasm-bindgen",
+ "web-sys",
+]
+
+[[package]]
 name = "ipnet"
 version = "2.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2083,7 +2095,7 @@ dependencies = [
  "bitvec",
  "rsiot",
  "serde",
- "strum 0.27.0",
+ "strum 0.27.1",
  "tokio",
  "tracing",
 ]
@@ -2098,8 +2110,9 @@ dependencies = [
  "pm_cnv",
  "pm_uart_integration",
  "rsiot",
+ "rsiot-devices",
  "serde",
- "thiserror 2.0.11",
+ "thiserror 2.0.12",
  "tokio",
  "tracing",
  "tracing-subscriber",
@@ -2109,11 +2122,13 @@ dependencies = [
 name = "pm_uart_integration"
 version = "0.0.1"
 dependencies = [
+ "anyhow",
  "async-trait",
  "bitvec",
  "rsiot",
  "serde",
  "tokio",
+ "tracing",
 ]
 
 [[package]]
@@ -2422,6 +2437,7 @@ dependencies = [
  "getrandom 0.2.15",
  "gloo",
  "heapless 0.8.0",
+ "instant",
  "log",
  "openssl",
  "postcard",
@@ -2429,8 +2445,8 @@ dependencies = [
  "serde",
  "serde_json",
  "ssd1306",
- "strum 0.26.3",
- "thiserror 2.0.11",
+ "strum 0.27.1",
+ "thiserror 2.0.12",
  "tokio",
  "tracing",
  "tracing-loki",
@@ -2438,7 +2454,19 @@ dependencies = [
  "tracing-web",
  "url",
  "uuid",
+ "web-time",
  "ws2812-esp32-rmt-driver",
+]
+
+[[package]]
+name = "rsiot-devices"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "rsiot",
+ "strum 0.24.1",
+ "tokio",
+ "tracing",
 ]
 
 [[package]]
@@ -2727,20 +2755,11 @@ dependencies = [
 
 [[package]]
 name = "strum"
-version = "0.26.3"
+version = "0.27.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8fec0f0aef304996cf250b31b5a10dee7980c85da9d759361292b8bca5a18f06"
+checksum = "f64def088c51c9510a8579e3c5d67c65349dcf755e5479ad3d010aa6454e2c32"
 dependencies = [
- "strum_macros 0.26.4",
-]
-
-[[package]]
-name = "strum"
-version = "0.27.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ce1475c515a4f03a8a7129bb5228b81a781a86cb0b3fbbc19e1c556d491a401f"
-dependencies = [
- "strum_macros 0.27.0",
+ "strum_macros 0.27.1",
 ]
 
 [[package]]
@@ -2771,22 +2790,9 @@ dependencies = [
 
 [[package]]
 name = "strum_macros"
-version = "0.26.4"
+version = "0.27.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4c6bee85a5a24955dc440386795aa378cd9cf82acd5f764469152d2270e581be"
-dependencies = [
- "heck 0.5.0",
- "proc-macro2",
- "quote",
- "rustversion",
- "syn 2.0.98",
-]
-
-[[package]]
-name = "strum_macros"
-version = "0.27.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9688894b43459159c82bfa5a5fa0435c19cbe3c9b427fa1dd7b1ce0c279b18a7"
+checksum = "c77a8c5abcaf0f9ce05d62342b7d298c346515365c36b673df4ebe3ced01fde8"
 dependencies = [
  "heck 0.5.0",
  "proc-macro2",
@@ -2868,11 +2874,11 @@ dependencies = [
 
 [[package]]
 name = "thiserror"
-version = "2.0.11"
+version = "2.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d452f284b73e6d76dd36758a0c8684b1d5be31f92b89d07fd5822175732206fc"
+checksum = "567b8a2dae586314f7be2a752ec7474332959c6460e02bde30d702a66d488708"
 dependencies = [
- "thiserror-impl 2.0.11",
+ "thiserror-impl 2.0.12",
 ]
 
 [[package]]
@@ -2888,9 +2894,9 @@ dependencies = [
 
 [[package]]
 name = "thiserror-impl"
-version = "2.0.11"
+version = "2.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "26afc1baea8a989337eeb52b6e72a039780ce45c3edfcc9c5b9d112feeb173c2"
+checksum = "7f7cf42b4507d8ea322120659672cf1b9dbb93f8f2d4ecfd6e51350ff5b17a1d"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -3347,6 +3353,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "web-time"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a6580f308b1fad9207618087a65c04e7a10bc77e02c8e84e9b00dd4b12fa0bb"
+dependencies = [
+ "js-sys",
+ "serde",
+ "wasm-bindgen",
+]
+
+[[package]]
 name = "which"
 version = "4.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3397,6 +3414,12 @@ checksum = "33ab640c8d7e35bf8ba19b884ba838ceb4fba93a4e8c65a9059d08afcfc683d9"
 dependencies = [
  "windows-targets",
 ]
+
+[[package]]
+name = "windows-link"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "76840935b766e1b0a05c0066835fb9ec80071d4c09a16f6bd5f7e655e3c14c38"
 
 [[package]]
 name = "windows-registry"

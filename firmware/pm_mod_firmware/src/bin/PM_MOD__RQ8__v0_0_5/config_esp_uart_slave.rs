@@ -1,14 +1,15 @@
 use std::time::Duration;
 
 use esp_idf_svc::hal::{gpio::AnyIOPin, peripheral::Peripheral, uart::Uart};
-use pm_mod_firmware::settings::{UART_BAUDRATE, UART_DATABITS, UART_PARITY, UART_STOPBITS};
 use rsiot::{
     components::cmp_esp_uart_slave::{self},
-    components_config::uart_general::{UartRequest, UartResponse},
+    components_config::uart_general::{protocol::Protocol, FieldbusRequest, FieldbusResponse},
     message::Message,
 };
 
 use pm_uart_integration::pm_rq8_v0_0_5::{Request, Response};
+
+use pm_mod_firmware::settings::{UART_BAUDRATE, UART_DATABITS, UART_PARITY, UART_STOPBITS};
 
 use super::message::Custom;
 
@@ -24,7 +25,6 @@ where
     TPeripheral: Uart,
 {
     cmp_esp_uart_slave::Config {
-        address,
         uart,
         pin_rx,
         pin_tx,
@@ -42,7 +42,7 @@ where
                 buffer.slave_live_counter = live_counter
             }
         },
-        fn_uart_comm: |mut uart_request: UartRequest, buffer: &mut UartSlaveBuffer| {
+        fn_uart_comm: |mut uart_request: FieldbusRequest, buffer: &mut UartSlaveBuffer| {
             let request: Request = uart_request.get_payload()?;
             let response = match request {
                 Request::SetOutputs(data) => {
@@ -57,7 +57,7 @@ where
                     Response::SlaveLiveCounter(buffer.slave_live_counter)
                 }
             };
-            let uart_response = UartResponse::new(response);
+            let uart_response = FieldbusResponse::new(response);
             Ok(uart_response)
         },
         fn_output: |buffer: &UartSlaveBuffer| {
@@ -72,6 +72,7 @@ where
 
 #[derive(Clone, Debug, Default)]
 pub struct UartSlaveBuffer {
+    pub protocol: Protocol,
     pub outputs: u8,
     pub master_live_counter: u8,
     pub slave_live_counter: u8,

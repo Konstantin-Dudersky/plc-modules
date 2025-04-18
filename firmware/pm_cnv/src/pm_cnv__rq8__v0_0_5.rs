@@ -22,7 +22,7 @@ where
 }
 
 #[async_trait]
-impl<TMsg> DeviceTrait<TMsg, spi_master::FieldbusRequest, spi_master::FieldbusResponse, u8>
+impl<TMsg> DeviceTrait<TMsg, spi_master::FieldbusRequest, spi_master::FieldbusResponse>
     for Device<TMsg>
 where
     Self: Debug + Send + Sync,
@@ -32,7 +32,7 @@ where
         self: Box<Self>,
         ch_rx_msgbus_to_device: broadcast::Receiver<Message<TMsg>>,
         ch_tx_device_to_fieldbus: mpsc::Sender<spi_master::FieldbusRequest>,
-        ch_rx_fieldbus_to_device: broadcast::Receiver<spi_master::FieldbusResponse>,
+        ch_rx_fieldbus_to_device: mpsc::Receiver<spi_master::FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<
@@ -40,10 +40,8 @@ where
             spi_master::FieldbusRequest,
             spi_master::FieldbusResponse,
             Buffer,
-            u8,
         > = DeviceBase {
-            address: self.address,
-            fn_init_requests: || {
+            fn_init_requests: |_| {
                 vec![spi_master::FieldbusRequest::new(
                     RequestKind::Init,
                     vec![MCP23S17::write_iodir_a(0x00)],
@@ -53,21 +51,21 @@ where
                 period: Duration::from_millis(500),
                 fn_requests: |buffer| {
                     let outputs = buffer.outputs;
-                    vec![spi_master::FieldbusRequest::new(
+                    Ok(vec![spi_master::FieldbusRequest::new(
                         RequestKind::SetOutputs,
                         vec![MCP23S17::write_gpio_a(outputs)],
-                    )]
+                    )])
                 },
             }],
             fn_msgs_to_buffer: self.fn_input,
             fn_buffer_to_request: |buffer| {
                 let outputs = buffer.outputs;
-                vec![spi_master::FieldbusRequest::new(
+                Ok(vec![spi_master::FieldbusRequest::new(
                     RequestKind::SetOutputs,
                     vec![MCP23S17::write_gpio_a(outputs)],
-                )]
+                )])
             },
-            fn_response_to_buffer: |_, _| (),
+            fn_response_to_buffer: |_, _| Ok(()),
             fn_buffer_to_msgs: |_| vec![],
             buffer_default: Buffer::default(),
         };

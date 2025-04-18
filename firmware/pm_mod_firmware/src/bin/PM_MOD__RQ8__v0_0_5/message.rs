@@ -1,7 +1,5 @@
 use rsiot::message::{Deserialize, MsgDataBound, MsgKey, Serialize};
 
-use pm_mod_firmware::Service;
-
 #[derive(Clone, Debug, Deserialize, MsgKey, PartialEq, Serialize)]
 pub enum Custom {
     SetOutputs(u8),
@@ -11,6 +9,4 @@ pub enum Custom {
     ConnectionState(bool),
 }
 
-impl MsgDataBound for Custom {
-    type TService = Service;
-}
+impl MsgDataBound for Custom {}
