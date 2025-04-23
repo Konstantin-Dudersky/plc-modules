@@ -86,15 +86,61 @@ where
                 match request_kind {
                     RequestKind::Init => (),
                     RequestKind::CheckButtons => {
-                        let col_index = check_buttons_in_row(response.payload[0][0]);
+                        let mut row: usize;
+
+                        row = 0;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
-                            buffer.pressed_button = Some((0, col_index));
+                            buffer.pressed_button = Some((row as u8, col_index));
                             return Ok(());
                         }
 
-                        let col_index = check_buttons_in_row(response.payload[1][0]);
+                        row = 1;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
-                            buffer.pressed_button = Some((1, col_index));
+                            buffer.pressed_button = Some((row as u8, col_index));
+                            return Ok(());
+                        }
+
+                        row = 2;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
+                        if let Some(col_index) = col_index {
+                            buffer.pressed_button = Some((row as u8, col_index));
+                            return Ok(());
+                        }
+
+                        row = 3;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
+                        if let Some(col_index) = col_index {
+                            buffer.pressed_button = Some((row as u8, col_index));
+                            return Ok(());
+                        }
+
+                        row = 4;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
+                        if let Some(col_index) = col_index {
+                            buffer.pressed_button = Some((row as u8, col_index));
+                            return Ok(());
+                        }
+
+                        row = 5;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
+                        if let Some(col_index) = col_index {
+                            buffer.pressed_button = Some((row as u8, col_index));
+                            return Ok(());
+                        }
+
+                        row = 6;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
+                        if let Some(col_index) = col_index {
+                            buffer.pressed_button = Some((row as u8, col_index));
+                            return Ok(());
+                        }
+
+                        row = 7;
+                        let col_index = check_buttons_in_row(response.payload[row][0]);
+                        if let Some(col_index) = col_index {
+                            buffer.pressed_button = Some((row as u8, col_index));
                             return Ok(());
                         }
                     }
