@@ -5,7 +5,7 @@ use bitvec::{field::BitField, order::Msb0, view::BitView};
 use rsiot::{
     components_config::{
         master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
-        spi_master,
+        spi_master::{self},
     },
     message::{Message, MsgDataBound},
 };
@@ -47,13 +47,19 @@ where
             fn_init_requests: |buffer| {
                 let mut requests = vec![];
 
-                // Первый запрос к чипу возвращает почему-то ff. Запрашиваем статус
-                let spi_operations = vec![ad7190::SpiOperations::read_status_register()];
                 let request = spi_master::FieldbusRequest::new(
-                    RequestKind::ReadStatusRegister,
-                    spi_operations,
+                    RequestKind::Reset,
+                    ad7190::SpiOperations::reset(),
                 );
                 requests.push(request);
+
+                // Первый запрос к чипу возвращает почему-то ff. Запрашиваем статус
+                // let spi_operations = vec![ad7190::SpiOperations::read_status_register()];
+                // let request = spi_master::FieldbusRequest::new(
+                //     RequestKind::ReadStatusRegister,
+                //     spi_operations,
+                // );
+                // requests.push(request);
 
                 // Регистр конфигурации
                 let reg = &buffer.write_registers.conf_register;
@@ -94,6 +100,14 @@ where
                     period: Duration::from_millis(1000),
                     fn_requests: |buffer| {
                         let mut requests = vec![];
+
+                        // let spi_operations =
+                        //     vec![ad7190::SpiOperations::read_configuration_register()];
+                        // let request = spi_master::FieldbusRequest::new(
+                        //     RequestKind::ReadConfigurationRegister,
+                        //     spi_operations,
+                        // );
+                        // requests.push(request);
 
                         // Записываем регистр конфигурации, если он изменился
                         if buffer.write_registers.conf_register
@@ -178,6 +192,14 @@ where
                 let response_payload = response.payload;
 
                 match request_kind {
+                    RequestKind::Reset => (),
+                    RequestKind::ReadIdRegister => {
+                        info!("Read ID Register: {:x?}", response_payload[0]);
+                    }
+                    RequestKind::ReadConfigurationRegister => {
+                        let con_reg = ad7190::ConfigurationRegister::decode(&response_payload[0]);
+                        buffer.read_registers.conf_register = con_reg;
+                    }
                     RequestKind::RequestAllRegisters => {
                         let status_register =
                             ad7190::StatusRegister::decode(response_payload[0][0]);
@@ -292,8 +314,11 @@ pub enum RequestKind {
     WriteConfigurationRegister,
     WriteModeRegister,
     WriteGPOCONRegister,
+    ReadConfigurationRegister,
     ReadStatusRegister,
     ReadDataRegister,
+    Reset,
+    ReadIdRegister,
 }
 impl From<RequestKind> for u8 {
     fn from(value: RequestKind) -> Self {

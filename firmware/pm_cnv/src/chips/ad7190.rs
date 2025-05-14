@@ -1,4 +1,5 @@
 use core::f64;
+use std::time::Duration;
 
 use bitvec::{
     bitvec, field::BitField, order::Msb0, prelude::BitVec, slice::BitSlice, view::BitView,
@@ -8,6 +9,13 @@ use rsiot::components_config::spi_master::Operation;
 pub struct SpiOperations {}
 
 impl SpiOperations {
+    pub fn reset() -> Vec<Operation> {
+        vec![
+            Operation::Write(vec![0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF]),
+            Operation::Delay(Duration::from_millis(5)),
+        ]
+    }
+
     pub fn read_status_register() -> Operation {
         let comm_reg = CommunicationRegister {
             read_write: CRReadWrite::Read,

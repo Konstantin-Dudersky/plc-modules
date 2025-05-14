@@ -41,7 +41,8 @@ async fn main() -> anyhow::Result<()> {
     let pin_uart_rts = peripherals.pins.gpio4;
 
     // UART address --------------------------------------------------------------------------------
-    let uart_slave_address = define_address(&mut pin_mosi, &mut pin_miso, &mut pin_sck);
+    // let uart_slave_address = define_address(&mut pin_mosi, &mut pin_miso, &mut pin_sck);
+    let uart_slave_address = 0x0;
 
     // cmp_esp_spi_master --------------------------------------------------------------------------
     let config_esp_spi_master = config_esp_spi_master::config(

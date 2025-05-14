@@ -108,6 +108,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -188,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.4,
         0.6,
         2.0
@@ -590,16 +592,24 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "+3.3V": "power",
+      "+3.3V": [
+        "power"
+      ],
       "+3.3V_MCU": [
         "power"
       ],
-      "+5V": "power",
+      "+5V": [
+        "power"
+      ],
       "+5V_CNV": [
+        "power"
+      ],
+      "+5V_FLD": [
         "power_iso"
       ],
-      "+5V_FLD": "power_iso",
-      "+5V_ISO": "power_iso",
+      "+5V_ISO": [
+        "power_iso"
+      ],
       "+5V_MCU": [
         "power"
       ],
@@ -657,12 +667,18 @@
       "/b.7_out": [
         "field"
       ],
-      "GND": "ground",
+      "GND": [
+        "ground"
+      ],
       "GND_CNV": [
+        "ground"
+      ],
+      "GND_FLD": [
         "ground_iso"
       ],
-      "GND_FLD": "ground_iso",
-      "GND_ISO": "ground_iso",
+      "GND_ISO": [
+        "ground_iso"
+      ],
       "GND_MCU": [
         "ground"
       ],
@@ -672,7 +688,9 @@
       "Net-(U7-VCC)": [
         "field"
       ],
-      "Net-(XG2-Pin_5)": "field"
+      "Net-(XG2-Pin_5)": [
+        "field"
+      ]
     },
     "netclass_patterns": [
       {

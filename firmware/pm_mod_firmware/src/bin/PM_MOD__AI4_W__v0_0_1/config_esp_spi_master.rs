@@ -22,7 +22,7 @@ where
 {
     let adc1_comm = cmp_esp_spi_master::ConfigDevicesCommSettings {
         pin_cs: pin_cs0,
-        baudrate: 100_000,
+        baudrate: 1_000_000,
         spi_mode: cmp_esp_spi_master::ConfigDeviceSpiMode::Mode2,
     };
     let adc2_comm = cmp_esp_spi_master::ConfigDevicesCommSettings {
@@ -48,7 +48,6 @@ where
                 .unwrap_or(&0.0);
             let ch_1 = Message::new_custom(MRoot::SpiMaster(MSpiMaster::ValueCh1(ch_1)));
 
-            // println!("ch_0: {:02.2?}, ch_1: {:02.2?}", ch_0, ch_1);
             vec![ch_0, ch_1]
         },
     };
@@ -81,6 +80,9 @@ where
         pin_mosi,
         pin_sck,
         devices_comm_settings: vec![adc1_comm, adc2_comm],
-        devices: vec![Box::new(adc1), Box::new(adc2)],
+        devices: vec![
+            Box::new(adc1),
+            // Box::new(adc2)
+        ],
     }
 }
