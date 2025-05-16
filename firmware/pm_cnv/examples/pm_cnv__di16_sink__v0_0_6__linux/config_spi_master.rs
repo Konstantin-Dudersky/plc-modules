@@ -8,7 +8,8 @@ use super::messages::*;
 
 pub fn cmp() -> Component<Config<MRoot>, MRoot> {
     let di16_comm = ConfigDevicesCommSettings {
-        spi_adapter_path: "/dev/spidev1.0",
+        // spi_adapter_path: "/dev/spidev1.0",
+        spi_adapter_path: "/dev/spidev0.0",
         baudrate: 100_000,
         spi_mode: ConfigDeviceSpiMode::Mode0,
     };
