@@ -24,9 +24,9 @@
 
 Используется в платах:
 
-- #link(<PM_CNV-AI4_W>)[PM_CNV-AI4_W]
-- #link(<PM_CNV-AI4_RTD>)[PM_CNV-AI4_RTD]
-- #link(<PM_CNV-AI4_TC>)[PM_CNV-AI4_TC]
+- #link(<PM-CNV_AI4-W>)[PM-CNV_AI4-W]
+- #link(<PMCNV-AI4R>)[PMCNV-AI4R]
+- #link(<PMCNV-AI4T>)[PMCNV-AI4T]
 
 == ADS8688 <ADS8688>
 
@@ -42,7 +42,7 @@
 
 Используется в платах:
 
-- #link(<PM_MCU-ESP32_C3>)[PM_MCU-ESP32_C3]
+- #link(<PMMCU-ESP32C3>)[PMMCU-ESP32C3]
 
 == CA-IS3098W - приемопередатчик интерфейса RS-485 <CA-IS3098W>
 
@@ -74,7 +74,7 @@
 Используется в платах:
 
 - #link(<PM_CPU-RP>)[PM_CPU-RP]
-- #link(<PM_MCU-ESP32_C3>)[PM_MCU-ESP32_C3]
+- #link(<PMMCU-ESP32C3>)[PMMCU-ESP32C3]
 
 == CA-IS3105W - изоляция питания
 
@@ -109,7 +109,7 @@
 On the output side, the signal is either passed directly to the output stage in the case of a high-speed channel (BHx), or the signal is routed through a debounce filter block in the case of a low-speed channel (Bx) for robust operation in industrial environments.
 
 Используется в платах:
-- #link(<PM_CNV-DI16_sink>)[PM_CNV-DI16_sink].
+- #link(<PM-CNV_DI16-sink>)[PM-CNV_DI16-sink].
 
 == DS3231 - часы реального времени <DS3231>
 
@@ -134,10 +134,10 @@ On the output side, the signal is either passed directly to the output stage in 
 
 Используется в платах:
 
-- #link(<PM_CNV-DI16_sink>)[PM_CNV-DI16_sink]
-- #link(<PM_CNV-DQ16_src>)[PM_CNV-DQ16_src]
-- #link(<PM_CNV-RQ8>)[PM_CNV-RQ8]
-- #link(<PM_HMI-Keyboard>)[PM_HMI-Keyboard]
+- #link(<PM-CNV_DI16-sink>)[PM-CNV_DI16-sink]
+- #link(<PM-CNV_DQ16-src>)[PM-CNV_DQ16-src]
+- #link(<PMCNV-RQ8>)[PMCNV-RQ8]
+- #link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard]
 
 
 == TBD62783AFG - матрица из 8 DMOS транзисторов <TBD62783AFG>
@@ -158,8 +158,8 @@ On the output side, the signal is either passed directly to the output stage in 
 
 Используется в платах:
 
-- #link(<PM_CNV-DQ16_src>)[PM_CNV-DQ16_src]
-- #link(<PM_CNV-RQ8>)[PM_CNV-RQ8]
+- #link(<PM-CNV_DQ16-src>)[PM-CNV_DQ16-src]
+- #link(<PMCNV-RQ8>)[PMCNV-RQ8]
 
 
 
