@@ -225,6 +225,10 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
           "diameter": 1.0,
           "drill": 0.6
         }
@@ -452,7 +456,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",

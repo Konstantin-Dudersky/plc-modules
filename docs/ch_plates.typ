@@ -6,15 +6,18 @@
     columns: (auto, auto),
     align: (center + horizon, left),
 
-    table.cell(colspan: 2)[ЦПУ],
+    table.cell(colspan: 2)[Платы ЦПУ],
 
-    link(<PM_CPU-RP>)[PM_CPU-RP],
+    link(<PMCPU-RP>)[PMCPU-RP],
     "ЦПУ на базе мини-компьютера Raspberry Pi или совместимого с ним",
+
+    link(<PMCPU-LLP>)[PMCPU-LLP],
+    "ЦПУ на базе мини-компьютера Luckfox Lyra / Luckfox Lyra Plus",
 
     link(<PMCPU-LLU>)[PMCPU-LLU],
     "ЦПУ на базе мини-компьютера Luckfox Lyra Ultra",
 
-    link(<PM-CPU_ESP32>)[PM_CPU-ESP32],
+    link(<PMCPU_ESP32>)[PMCPU-ESP32],
     "ЦПУ на базе микроконтроллера ESP32",
 
     table.cell(colspan: 2)[Платы микроконтроллеров],
@@ -35,7 +38,7 @@
     link(<PM-CNV_DI16-sink>)[PM-CNV_DI16-sink],
     "Подключение 16 дискретных входов постоянного напряжения",
 
-    link(<PM-CNV_DQ16-src>)[PM-CNV_DQ16-src],
+    link(<PMCNV-DQ16src>)[PMCNV-DQ16src],
     "Подключение 16 дискретных выходов постоянного напряжения",
 
     link(<PMCNV-RQ8>)[PMCNV-RQ8],
@@ -72,6 +75,7 @@
 )
 
 #include "PMCPU-RP.typ"
+#include "PMCPU-LLP.typ"
 #include "PMCPU-LLU.typ"
 #include "PMCPU-ESP32.typ"
 

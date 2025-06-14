@@ -73,7 +73,7 @@
 
 Используется в платах:
 
-- #link(<PM_CPU-RP>)[PM_CPU-RP]
+- #link(<PMCPU-RP>)[PM_CPU-RP]
 - #link(<PMMCU-ESP32C3>)[PMMCU-ESP32C3]
 
 == CA-IS3105W - изоляция питания
@@ -115,30 +115,49 @@ On the output side, the signal is either passed directly to the output stage in 
 
 
 
-== MCP23S17 - 16-битный расширитель входов / выходов <MCP23S17>
+== MCP23x17 - 16-битный расширитель входов / выходов <MCP23S17>
 
 Применяется для опроса состояния входов (на платах входов) и управления выходами (на платах выходов).
 
 Основные характеристики:
 
 - 16 двунаправленных входов / выходов
-- Связь с микроконтроллером по протоколу SPI. Есть аналогичная версия с поддрежкой протокола #i2c.
+- Связь с микроконтроллером по протоколу SPI (MCP32S17) или #i2c (MCP32017).
 - Выходы с прерываниями по событию срабатывания входов.
 
 Функциональная схема показана на @MCP23S17_channel[рисунке].
 
 #figure(
-  caption: "Упрощенная схема для отдельного канала",
+  caption: "Функциональная схема MCP23x17",
   image("images/MCP23S17.png", height: 250pt),
 ) <MCP23S17_channel>
+
+Адрес устройства определяется замыканием пинов A0..A2 на "-" или "+".
+
+#figure(
+  caption: "Адрес микросхемы MCP23x17",
+  table(
+    columns: (auto, auto, auto, auto),
+    align: (center, center, center, center),
+
+    "A2", "A1", "A0", "Адрес",
+    "-", "-", "-", "32",
+    "-", "-", "+", "33",
+    "-", "+", "-", "34",
+    "-", "+", "+", "35",
+    "+", "-", "-", "36",
+    "+", "-", "+", "37",
+    "+", "+", "-", "38",
+    "+", "+", "+", "39",
+  )
+)<MCP23x17_address>
 
 Используется в платах:
 
 - #link(<PM-CNV_DI16-sink>)[PM-CNV_DI16-sink]
-- #link(<PM-CNV_DQ16-src>)[PM-CNV_DQ16-src]
+- #link(<PMCNV-DQ16src>)[PMCNV-DQ16src]
 - #link(<PMCNV-RQ8>)[PMCNV-RQ8]
 - #link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard]
-
 
 == TBD62783AFG - матрица из 8 DMOS транзисторов <TBD62783AFG>
 
@@ -158,7 +177,7 @@ On the output side, the signal is either passed directly to the output stage in 
 
 Используется в платах:
 
-- #link(<PM-CNV_DQ16-src>)[PM-CNV_DQ16-src]
+- #link(<PMCNV-DQ16src>)[PMCNV-DQ16src]
 - #link(<PMCNV-RQ8>)[PMCNV-RQ8]
 
 

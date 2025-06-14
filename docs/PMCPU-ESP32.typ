@@ -4,4 +4,4 @@
 
 #pagebreak()
 
-== #name <PM-CPU_ESP32>
+== #name <PMCPU_ESP32>

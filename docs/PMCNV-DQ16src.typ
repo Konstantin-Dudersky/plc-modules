@@ -1,10 +1,10 @@
 #import "functions.typ": all_pcb_data
 
-#let name = "PM_CNV-DQ16_src"
+#let name = "PMCNV-DQ16src"
 
 #pagebreak()
 
-== #name - 16 дискретных выходов <PM-CNV_DQ16-src>
+== #name - 16 дискретных выходов <PMCNV-DQ16src>
 
 Модуль для управления 16 дискретными выходами. Питание выходов внешнее, до 50 В постоянного напряжения.
 
