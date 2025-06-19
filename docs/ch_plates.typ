@@ -22,10 +22,6 @@
     "ЦПУ на базе мини-компьютера Luckfox Lyra Ultra",
     "0.0.0",
 
-    link(<PMCPU_ESP32>)[PMCPU-ESP32],
-    "ЦПУ на базе микроконтроллера ESP32",
-    "0.0.0",
-
     table.cell(colspan: 3)[Платы микроконтроллеров],
 
     link(<PMMCU-ESP32C3>)[PMMCU-ESP32C3],
@@ -34,17 +30,17 @@
 
     table.cell(colspan: 3)[Платы светодиодов],
 
-    link(<PM-LED_10>)[PM-LED_10],
+    link(<PM-LED_10>)[PMLED-10],
     "Плата на 10 светодиодов",
     "0.0.0",
 
-    link(<PM-LED_18>)[PM-LED_18],
+    link(<PM-LED_18>)[PMLED-18],
     "Плата на 18 светодиодов",
     "0.0.0",
 
     table.cell(colspan: 3)[Платы конвертирования цифровых и электрических сигналов],
 
-    link(<PM-CNV_DI16-sink>)[PM-CNV_DI16-sink],
+    link(<PM-CNV_DI16-sink>)[PMCNV-DI16sink],
     "Подключение 16 дискретных входов постоянного напряжения",
     "0.0.0",
 
@@ -64,7 +60,7 @@
     "Подключение 4 термопар",
     "0.0.0",
 
-    link(<PM-CNV_AI4-W>)[PM-CNV_AI4-W],
+    link(<PM-CNV_AI4-W>)[PMCNV-AI4W],
     "Подключение 4 тензодатчиков",
     "0.0.0",
 
@@ -92,7 +88,7 @@
 
     table.cell(colspan: 3)[Платы для отладки],
 
-    link(<PM-DBG_FFC>)[PM-DBG_FFC],
+    link(<PM-DBG_FFC>)[PMDBG-FFC],
     "Для подключения осциллографа в разрыв кабеля FFC",
     "0.0.0",
   ),
@@ -101,7 +97,6 @@
 #include "PMCPU-RP.typ"
 #include "PMCPU-LLP.typ"
 #include "PMCPU-LLU.typ"
-#include "PMCPU-ESP32.typ"
 
 #include "PMMCU-ESP32C3.typ"
 
