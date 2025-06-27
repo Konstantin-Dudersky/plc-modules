@@ -19,7 +19,7 @@ pub struct Device<TMsg>
 where
     TMsg: MsgDataBound,
 {
-    pub fn_output: fn(&mut Buffer) -> Vec<Message<TMsg>>,
+    pub fn_output: fn(&mut Buffer) -> Vec<TMsg>,
 }
 
 #[async_trait]

@@ -18,7 +18,7 @@ where
     TMsg: MsgDataBound,
 {
     pub address: u8,
-    pub fn_input: fn(&Message<TMsg>, &mut Buffer),
+    pub fn_input: fn(&TMsg, &mut Buffer),
 }
 
 #[async_trait]
