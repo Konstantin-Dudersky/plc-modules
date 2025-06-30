@@ -491,61 +491,34 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.15,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "field",
+        "name": "GND_CNV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "via_diameter": 1.2,
-        "via_drill": 0.3,
+        "schematic_color": "rgb(0, 0, 255)",
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "ground",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(0, 0, 72)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "ground_iso",
+        "name": "GND_MCU",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 0, 132)",
-        "track_width": 0.2,
+        "schematic_color": "rgb(0, 0, 194)",
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -554,35 +527,50 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "power",
+        "name": "PWR_CNV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(72, 0, 0)",
-        "track_width": 0.2,
+        "priority": 4,
+        "schematic_color": "rgb(132, 0, 0)",
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "power_iso",
+        "name": "PWR_MCU",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgb(132, 0, 0)",
-        "track_width": 0.2,
+        "priority": 3,
+        "schematic_color": "rgb(72, 0, 0)",
+        "track_width": 0.3,
         "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "field",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 1.2,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -596,13 +584,13 @@
         "power"
       ],
       "+3.3V_MCU": [
-        "power"
+        "PWR_MCU"
       ],
       "+5V": [
         "power"
       ],
       "+5V_CNV": [
-        "power"
+        "PWR_CNV"
       ],
       "+5V_FLD": [
         "power_iso"
@@ -611,7 +599,7 @@
         "power_iso"
       ],
       "+5V_MCU": [
-        "power"
+        "PWR_MCU"
       ],
       "+V_a": [
         "field"
@@ -671,7 +659,7 @@
         "ground"
       ],
       "GND_CNV": [
-        "ground"
+        "GND_CNV"
       ],
       "GND_FLD": [
         "ground_iso"
@@ -680,7 +668,7 @@
         "ground_iso"
       ],
       "GND_MCU": [
-        "ground"
+        "GND_MCU"
       ],
       "Net-(U6-VCC)": [
         "field"

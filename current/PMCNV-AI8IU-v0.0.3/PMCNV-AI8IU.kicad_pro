@@ -189,7 +189,7 @@
       ],
       "track_widths": [
         0.0,
-        0.0,
+        0.3,
         0.6,
         2.0
       ],
@@ -520,6 +520,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3.3V_MCU": [
+        "PWR_MCU"
+      ],
       "+5V_CNV": [
         "power"
       ],
@@ -528,6 +531,9 @@
       ],
       "+5V_M": [
         "power"
+      ],
+      "+5V_MCU": [
+        "PWR_MCU"
       ],
       "GND_CNV": [
         "ground"

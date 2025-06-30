@@ -512,7 +512,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "ground",
+        "name": "GND_MCU",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(0, 0, 194)",
@@ -529,7 +529,7 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "power",
+        "name": "PWR_MCU",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(194, 0, 0)",
@@ -565,13 +565,13 @@
         "power"
       ],
       "+3.3V_MCU": [
-        "power"
+        "PWR_MCU"
       ],
       "+5V": [
         "power"
       ],
       "+5V_MCU": [
-        "power"
+        "PWR_MCU"
       ],
       "/K1": [
         "power"
@@ -601,7 +601,7 @@
         "ground"
       ],
       "GND_MCU": [
-        "ground"
+        "GND_MCU"
       ],
       "Net-(J1-Pin_1)": [
         "power"
