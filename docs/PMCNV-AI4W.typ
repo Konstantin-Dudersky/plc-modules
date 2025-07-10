@@ -1,4 +1,4 @@
-#import "functions.typ": all_pcb_data
+#import "functions.typ": all_pcb_data, table_calc_power
 
 #let name = "PM_CNV-AI4_W"
 
@@ -14,5 +14,18 @@
 - CA-IS3741HW - преобразователь сигналов.
 
 Схемотехника платы разработана на основе примера отладочной платы от производителя - @CN0102.
+
+=== Расчёт потребления
+
+#let values = (
+  [AD7193],     [1], [], [24], [], [24],
+  [Светодиоды], [7], [], [22], [], [154],
+)
+
+#table_calc_power(
+  values: values,
+  total_3V3: 0,
+  total_5V: 0,
+)
 
 #all_pcb_data(name: name)
