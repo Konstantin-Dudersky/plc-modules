@@ -747,7 +747,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "08a3071f-daff-4136-a646-aa5228ab6281")
+			(uuid "741a6c14-95bf-4db9-8d92-60860e73166a")
 			(effects
 				(font
 					(size 1 1)
@@ -758,7 +758,7 @@
 		(property "Value" "MountingHole_M3"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "2b425b13-ee2d-4b18-8e77-383ddec78f9e")
+			(uuid "f86c2139-b19a-43f8-a104-406604d5f0e4")
 			(effects
 				(font
 					(size 1 1)
@@ -771,7 +771,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04d8149b-199c-44cd-be80-013e6ca8d827")
+			(uuid "967d9c37-91d1-43b9-9be6-e21e6a8bb79b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +784,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07e70bb3-9c82-4a2d-9693-e4dc87b352b6")
+			(uuid "a38c4dfc-9017-472c-9955-a8dee825bfe0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,7 +806,7 @@
 			)
 			(fill no)
 			(layer "Edge.Cuts")
-			(uuid "48dcd9d7-59da-498e-b8cb-ce3360eda097")
+			(uuid "5b48d0db-df44-41a7-bf11-1b1cec683fa2")
 		)
 		(fp_circle
 			(center 0 0)
@@ -817,7 +817,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "61744f38-de8f-40d1-b35e-c4ec83fae7ef")
+			(uuid "2eab17c7-3089-4210-b634-fc077ed7c5c5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2309,7 +2309,7 @@
 	(footprint "kicad_inventree_lib:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "861fd5de-ee7f-444a-acab-46b1e755fc26")
-		(at 42.5 40.5)
+		(at 39 67.5)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP6"
@@ -3274,7 +3274,7 @@
 	(footprint "kicad_inventree_lib:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "94127a9f-c121-424d-bca0-e4557a68be13")
-		(at 42.5 43)
+		(at 39 70)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP7"
@@ -4118,7 +4118,7 @@
 	(footprint "kicad_inventree_lib:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "B.Cu")
 		(uuid "a8d44390-6388-4bd6-aca9-09a2a5c5480d")
-		(at 42.5 38)
+		(at 39 65)
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP5"
@@ -4822,8 +4822,8 @@
 		(embedded_fonts no)
 	)
 	(gr_rect
-		(start 40 36.5)
-		(end 47.5 46)
+		(start 36.5 63.5)
+		(end 44 73)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -4843,23 +4843,13 @@
 		(layer "B.SilkS")
 		(uuid "e8a6e6ef-f028-419a-b1d8-f33e57d29f28")
 	)
-	(gr_line
-		(start 32.472973 52)
-		(end 81 52)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "06623b23-e4e6-4da5-b349-d3c560112e3b")
-	)
 	(gr_arc
 		(start 92 149)
 		(mid 91.707107 149.707107)
 		(end 91 150)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "255cbe7d-84b2-4973-aeb7-97990dab71ba")
@@ -4869,10 +4859,20 @@
 		(end 83 50)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "34b0cf31-25a2-44fe-bfbb-c76ddf399ff1")
+	)
+	(gr_line
+		(start 32.464101 52)
+		(end 81 52)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5d2eaaef-9aad-4dee-b684-6d9c96bfac4c")
 	)
 	(gr_arc
 		(start 32.464101 148)
@@ -4880,7 +4880,7 @@
 		(end 25 146)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "5e83da0a-7781-4741-8be0-fa6545ed5669")
@@ -4891,10 +4891,20 @@
 		(end 81 52)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "6873619b-d562-4b55-905f-aa45c3eb76ca")
+	)
+	(gr_line
+		(start 81 148)
+		(end 32.464101 148)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b75fab5-a9cc-476a-9138-d8e1f3826a93")
 	)
 	(gr_arc
 		(start 91 50)
@@ -4902,10 +4912,52 @@
 		(end 92 51)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "6d568006-a73b-48fd-8a11-2c0e357d2469")
+	)
+	(gr_line
+		(start 93 52)
+		(end 102 52)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "798d0f77-2f22-4d2e-ad04-cb92ec26224d")
+	)
+	(gr_line
+		(start 93 148)
+		(end 102 148)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8707a14d-8895-47db-a50d-3cd54c250c90")
+	)
+	(gr_arc
+		(start 25.000001 54)
+		(mid 27.964724 50.136298)
+		(end 32.464101 52)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "92d437ed-7239-4b2a-a6b4-421600ab201d")
+	)
+	(gr_arc
+		(start 102 52)
+		(mid 104.12132 52.87868)
+		(end 105 55)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b3403af6-7e92-4edf-bbc3-d92b61eb4d52")
 	)
 	(gr_line
 		(start 105 55)
@@ -4915,58 +4967,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7098f066-71fa-4558-b0fc-bf72872206fd")
-	)
-	(gr_line
-		(start 25 54)
-		(end 25 146)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "750e5a39-c56a-424b-a949-8f232f3bb34e")
-	)
-	(gr_line
-		(start 102 52)
-		(end 93 52)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "784f1d18-24f3-4234-b121-d7250381cc9c")
-	)
-	(gr_line
-		(start 81 148)
-		(end 32.4641 148)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9f5aa768-e0bc-4138-818a-75cf5e3e309f")
-	)
-	(gr_line
-		(start 93 148)
-		(end 102 148)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "abe29689-0037-4cf0-ab59-b0c1eece62e8")
-	)
-	(gr_arc
-		(start 102 52)
-		(mid 104.12132 52.87868)
-		(end 105 55)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b3403af6-7e92-4edf-bbc3-d92b61eb4d52")
+		(uuid "b34a331c-add4-4e0d-8ddd-b4501d001578")
 	)
 	(gr_arc
 		(start 105 145)
@@ -4974,31 +4975,30 @@
 		(end 102 148)
 		(stroke
 			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bd47e96e-3872-436b-a9ea-68bab3f4add5")
-	)
-	(gr_arc
-		(start 29 50)
-		(mid 31.001917 50.537006)
-		(end 32.466314 52.003836)
-		(stroke
-			(width 0.2)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "bddaa702-d6df-4920-86ac-d1300fd0f76f")
+		(uuid "bd47e96e-3872-436b-a9ea-68bab3f4add5")
 	)
 	(gr_line
 		(start 83 150)
 		(end 91 150)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "c23c2b49-d6f9-4294-b8cc-f68f6ad1ed36")
+	)
+	(gr_line
+		(start 25 146)
+		(end 25 54)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cdb7d6fa-85ad-449e-83d3-b641e5b03ede")
 	)
 	(gr_arc
 		(start 81 148)
@@ -5006,21 +5006,10 @@
 		(end 82 149)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "d2138a46-104b-4e82-a64f-26a29a4f8eb0")
-	)
-	(gr_arc
-		(start 25 54)
-		(mid 26.171573 51.171573)
-		(end 29 50)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "dc4dece4-8a79-411b-a098-1c4d1f81a6c2")
 	)
 	(gr_arc
 		(start 82 51)
@@ -5028,7 +5017,7 @@
 		(end 83 50)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "df829ade-0e57-4fb1-a4e2-385c5289f347")
@@ -5039,20 +5028,10 @@
 		(end 92 51)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "ee2bcbf7-8028-48eb-96ad-0845146b5553")
-	)
-	(gr_line
-		(start 35 69)
-		(end 35 71)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "efe02716-f2f0-4233-b265-b8fd4bb15dad")
 	)
 	(gr_arc
 		(start 83 150)
@@ -5060,7 +5039,7 @@
 		(end 82 149)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f27f54c0-c885-41ac-8006-45cb20567064")
@@ -5071,7 +5050,7 @@
 		(end 93 148)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "fd0279aa-f720-43ef-8395-c7bea16a2cb2")
@@ -5102,7 +5081,7 @@
 		)
 	)
 	(gr_text "A1"
-		(at 45 40.5 0)
+		(at 41.5 67.5 0)
 		(layer "B.SilkS" knockout)
 		(uuid "0b7eee09-0565-4fa5-aa29-9ffff2f2adc5")
 		(effects
@@ -5284,7 +5263,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 41 45 0)
+		(at 37.5 72 0)
 		(layer "B.SilkS" knockout)
 		(uuid "630e1cb7-6b43-4f04-8bc5-cb42603b6e5b")
 		(effects
@@ -5297,7 +5276,7 @@
 		)
 	)
 	(gr_text "A0"
-		(at 45 38 0)
+		(at 41.5 65 0)
 		(layer "B.SilkS" knockout)
 		(uuid "66c26c27-149a-4a34-9bcc-74231b04a9fc")
 		(effects
@@ -5401,7 +5380,7 @@
 		)
 	)
 	(gr_text "A2"
-		(at 45 43 0)
+		(at 41.5 70 0)
 		(layer "B.SilkS" knockout)
 		(uuid "c3e8a100-9daf-400a-a09e-da2acf1d50cd")
 		(effects
@@ -5427,7 +5406,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 44 45 0)
+		(at 40.5 72 0)
 		(layer "B.SilkS" knockout)
 		(uuid "cda86a7b-cb29-4be0-a5d0-20578b121c82")
 		(effects

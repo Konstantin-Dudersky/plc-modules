@@ -32,7 +32,7 @@
 
     link(<PMMCU-ESP32C3>)[PMMCU-ESP32C3],
     "Плата на базе микроконтроллера ES32-C3 для работы плат конвертирования и передачи данных на ЦПУ",
-    "0.0.0",
+    "0.0.7",
     [],
     [],
 
@@ -58,6 +58,12 @@
     [70 мА \ 232 мВт],
     [-],
 
+    link(<PMCNV-DI16src>)[PMCNV-DI16src],
+    "Подключение 16 дискретных выходов постоянного напряжения",
+    "0.0.0",
+    [70 мА \ 232 мВт],
+    [-],
+
     link(<PMCNV-DQ16src>)[PMCNV-DQ16src],
     "Подключение 16 дискретных выходов постоянного напряжения",
     "0.0.0",
@@ -78,13 +84,13 @@
 
     link(<PMCNV-AI4T>)[PMCNV-AI4T],
     "Подключение 4 термопар",
-    "0.0.0",
+    "0.0.2",
     [],
     [],
 
     link(<PM-CNV_AI4-W>)[PMCNV-AI4W],
     "Подключение 4 тензодатчиков",
-    "0.0.0",
+    "0.0.3",
     [],
     [],
 
@@ -127,6 +133,12 @@
     "0.0.0",
     [],
     [],
+
+    link(<PMDBG-FFC20>)[PMDBG-FFC20],
+    "Для подключения осциллографа в разрыв кабеля FFC 20-пинов",
+    "0.0.1",
+    [],
+    [],
   ),
 )
 
@@ -140,6 +152,7 @@
 #include "PMLED-18.typ"
 
 #include "PMCNV-DI16sink.typ"
+#include "PMCNV-DI16src.typ"
 #include "PMCNV-DQ16src.typ"
 #include "PMCNV-RQ8.typ"
 #include "PMCNV-AI8IU.typ"
@@ -152,3 +165,4 @@
 #include "PMHMI-Touch.typ"
 
 #include "PMDBG-FFC.typ"
+#include "PMDBG-FFC20.typ"

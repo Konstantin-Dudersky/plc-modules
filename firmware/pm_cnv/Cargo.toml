@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 rsiot = { path = "../../../rsiot", features = ["executor"] }
+rsiot-physical-quantities = { path = "../../../rsiot-physical-quantities" }
 tokio = { version = "*", features = ["sync"] }
 async-trait = "*"
 serde = { version = "*", features = ["derive"] }
@@ -20,6 +21,7 @@ rsiot = { path = "../../../rsiot", features = [
     "logging",
     "cmp_linux_spi_master",
 ] }
+
 tokio = { version = "*", features = ["rt-multi-thread"] }
 
 

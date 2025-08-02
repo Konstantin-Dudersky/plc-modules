@@ -1,6 +1,6 @@
 #import "functions.typ": all_pcb_data, table_calc_power
 
-#let name = "PM_CNV-AI4_W"
+#let name = "PMCNV-AI4W"
 
 #pagebreak()
 

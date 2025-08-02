@@ -174,6 +174,7 @@ impl CRReadWrite {
     }
 }
 
+/// Register address bits
 #[derive(Clone, Debug, Default, PartialEq)]
 pub enum CRRegAddress {
     #[default]
