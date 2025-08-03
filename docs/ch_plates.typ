@@ -53,16 +53,22 @@
     table.cell(colspan: 5)[Платы конвертирования цифровых и электрических сигналов],
 
     link(<PMCNV-DI16sink>)[PMCNV-DI16sink],
-    "Подключение 16 дискретных входов постоянного напряжения",
+    "Подключение 16 дискретных входов постоянного напряжения (PNP)",
     "0.0.0",
     [70 мА \ 232 мВт],
     [-],
 
     link(<PMCNV-DI16src>)[PMCNV-DI16src],
-    "Подключение 16 дискретных выходов постоянного напряжения",
+    "Подключение 16 дискретных выходов постоянного напряжения (NPN)",
     "0.0.0",
     [70 мА \ 232 мВт],
     [-],
+
+    link(<PMCNV-CountX>)[PMCNV-CountX],
+    "Подключение 16 дискретных входов постоянного напряжения (PNP)",
+    "0.0.0",
+    [],
+    [],
 
     link(<PMCNV-DQ16src>)[PMCNV-DQ16src],
     "Подключение 16 дискретных выходов постоянного напряжения",
@@ -154,6 +160,7 @@
 #include "PMCNV-DI16sink.typ"
 #include "PMCNV-DI16src.typ"
 #include "PMCNV-DQ16src.typ"
+#include "PMCNV-CountX.typ"
 #include "PMCNV-RQ8.typ"
 #include "PMCNV-AI8IU.typ"
 #include "PMCNV-AI4R.typ"
