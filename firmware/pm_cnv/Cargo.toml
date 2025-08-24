@@ -18,7 +18,8 @@ bitvec = "1.0.1"
 [dev-dependencies]
 rsiot = { path = "../../../rsiot", features = [
     "executor",
-    "logging",
+    "log_console",
+    "cmp_linux_i2c_master",
     "cmp_linux_spi_master",
 ] }
 

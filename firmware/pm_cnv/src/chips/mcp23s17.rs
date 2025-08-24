@@ -63,18 +63,22 @@ impl MCP23S17 {
         Operation::Write([WRITE_ADDR, REG_GPPUB, value].to_vec())
     }
 
+    /// Установить состояние GPIOA в режиме вывода
     pub fn write_gpio_a(value: u8) -> Operation {
         Operation::Write([WRITE_ADDR, REG_GPIOA, value].to_vec())
     }
 
+    /// Прочитать значение GPIOA
     pub fn read_gpio_a() -> Operation {
         Operation::WriteRead([READ_ADDR, REG_GPIOA].to_vec(), 1)
     }
 
+    /// Установить состояние GPIOB в режиме вывода
     pub fn write_gpio_b(value: u8) -> Operation {
         Operation::Write([WRITE_ADDR, REG_GPIOB, value].to_vec())
     }
 
+    /// Прочитать состояние GPIOB
     pub fn read_gpio_b() -> Operation {
         Operation::WriteRead([READ_ADDR, REG_GPIOB].to_vec(), 1)
     }

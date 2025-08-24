@@ -1,4 +1,4 @@
-#import "functions.typ": all_pcb_data, table_calc_power
+#import "functions.typ": all_pcb_data, calc_power_consumtion, table_power_consumtion
 
 #let name = "PMCNV-AI4W"
 
@@ -17,15 +17,11 @@
 
 === Расчёт потребления
 
-#let values = (
-  [AD7193],     [1], [], [24], [], [24],
-  [Светодиоды], [7], [], [22], [], [154],
+#let power_consumption = (
+  AD7193: (1, 0, 24),
+  "Светодиоды": (7, 0, 22)
 )
-
-#table_calc_power(
-  values: values,
-  total_3V3: 0,
-  total_5V: 0,
-)
+#let pmcnv_ai4w_power = calc_power_consumtion(power_consumption)
+#table_power_consumtion(values: pmcnv_ai4w_power)
 
 #all_pcb_data(name: name)

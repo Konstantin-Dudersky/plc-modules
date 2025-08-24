@@ -15,45 +15,7 @@
   return integer_part + if decimal_part != none { decimal + decimal_part }
 }
 
-#let table_calc_power(
-  values: (),
-  total_3V3: 0,
-  total_5V: 0,
-) = {
 
-  let total_power = total_3V3 + total_5V
-  let total_current_3v3 = total_3V3 / 3.3
-  let total_current_5V = total_5V / 5
-
-  figure(
-    caption: "Расчёт потребления",
-    table(
-      columns: (25%, 15%, 15%, 15%, 15%, 15%),
-      align: (center, center, center, center, center, center),
-
-      table.cell(rowspan: 2, align: horizon)[Элемент],
-      table.cell(rowspan: 2, align: horizon)[Кол-во],
-      table.cell(colspan: 2)[Потребление, мВт],
-      table.cell(colspan: 2)[Итого, мВт],
-      "3,3 В",
-      "5 В",
-      "3,3 В",
-      "5 В",
-
-      ..for c in values {(
-        [#c],
-      )},
-
-      table.cell(colspan: 4, align: left)[Итого, мВт: #decimal_sep(total_power)],
-      [#decimal_sep(total_3V3)],
-      [#decimal_sep(total_5V)],
-
-      table.cell(colspan: 4, align: left)[Итого, мА],
-      [#decimal_sep(total_current_3v3)],
-      [#decimal_sep(total_current_5V)],
-    )
-  )
-}
 
 #let image_render(
   name: "plate_name",
@@ -155,5 +117,111 @@
   table_bom(
     name: name,
     path: path_bom,
+  )
+}
+
+/// Отображение листинга кода.
+#let listing(
+  content,
+  caption,
+  label,
+  breakable: false
+) = {
+  set par(justify: false)
+  [
+    #show figure: set block(breakable: true) if breakable
+    #figure(
+      block(
+        fill: luma(250),
+        radius: 3pt,
+        stroke: .6pt + luma(200),
+        inset:	(x: .45em, y: .65em),
+        width: 100%,
+        clip: false,
+        [#align(left)[#content]]
+      ),
+      caption: figure.caption(position: bottom)[#caption],
+      supplement: "Листинг",
+      kind: "code",
+    ) #label
+  ]
+}
+
+
+/// Расчет потребления
+#let calc_power_consumtion(d) = {
+  let table = ()
+  let total_power_3v3 = 0
+  let total_power_5v = 0
+
+  for item in d.pairs() {
+    let name = item.at(0)
+    let count = item.at(1).at(0)
+    let power_3v3 = item.at(1).at(1)
+    let power_5v = item.at(1).at(2)
+
+    let power_3v3_count = count * power_3v3
+    let power_5v_count = count * power_5v
+
+    total_power_3v3 += power_3v3_count
+    total_power_5v += power_5v_count
+
+    power_3v3_count = decimal_sep(calc.round(power_3v3_count, digits: 1))
+    power_5v_count = decimal_sep(calc.round(power_5v_count, digits: 1))
+
+    table.push(name)
+    table.push([#count])
+    table.push([#decimal_sep(power_3v3)])
+    table.push([#decimal_sep(power_5v)])
+    table.push([#power_3v3_count])
+    table.push([#power_5v_count])
+
+  }
+
+  total_power_3v3 = calc.round(total_power_3v3, digits: 1)
+  let total_current_3v3 = calc.round(total_power_3v3 / 3.3, digits: 1)
+  total_power_5v = calc.round(total_power_5v, digits: 1)
+  let total_current_5v = calc.round(total_power_5v / 5, digits: 1)
+
+  (
+    table: table,
+    total_power_3v3: decimal_sep(total_power_3v3),
+    total_power_5v: decimal_sep(total_power_5v),
+    total_current_3v3: decimal_sep(total_current_3v3),
+    total_current_5v: decimal_sep(total_current_5v),
+  )
+}
+
+#let table_power_consumtion(
+  values: (),
+) = {
+
+  figure(
+    caption: "Расчёт потребления",
+    table(
+      columns: (25%, 15%, 15%, 15%, 15%, 15%),
+      align: (center, center, center, center, center, center),
+
+      table.cell(rowspan: 2, align: horizon)[Элемент],
+      table.cell(rowspan: 2, align: horizon)[Кол-во],
+      table.cell(colspan: 2)[Потребление, мВт],
+      table.cell(colspan: 2)[Итого, мВт],
+      "3,3 В",
+      "5 В",
+      "3,3 В",
+      "5 В",
+
+      ..for c in values.table {(
+        [#c],
+      )},
+
+      table.cell(colspan: 4, align: left)[Итого, мВт: ],//#decimal_sep(values.)],
+      [#decimal_sep(values.total_power_3v3)],
+      [#decimal_sep(values.total_power_5v)],
+
+      table.cell(colspan: 4, align: left)[Итого, мА],
+      [#decimal_sep(values.total_current_3v3)],
+      [#decimal_sep(values.total_current_5v)],
+    )
   )
 }

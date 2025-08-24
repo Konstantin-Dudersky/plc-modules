@@ -16,8 +16,8 @@ pub fn cmp() -> Component<Config<Msg>, Msg> {
     };
 
     let ai4w = pmcnv_ai4w_v000002::Device {
-        fn_input: |msg, buffer| (),
-        fn_output: |buffer| vec![],
+        fn_input: |_msg, _buffer| (),
+        fn_output: |_buffer| vec![],
     };
 
     let config = Config {

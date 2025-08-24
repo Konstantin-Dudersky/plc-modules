@@ -174,6 +174,7 @@ where
                 },
             ],
             fn_msgs_to_buffer: self.fn_input,
+            buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
                 let request_kind: RequestKind = response.request_kind.into();
@@ -215,7 +216,7 @@ where
                         );
 
                         if let ad7193::SRReady::NotReady = status_register.ready {
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         let bytes = &response_payload[0][0..=2];
@@ -237,7 +238,7 @@ where
                             .set_field(status_register.channel, value);
                     }
                 }
-                Ok(())
+                Ok(false)
             },
             fn_buffer_to_msgs: self.fn_output,
             buffer_default: Buffer {

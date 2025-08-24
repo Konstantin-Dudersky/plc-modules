@@ -55,6 +55,7 @@ where
                 },
             }],
             fn_msgs_to_buffer: |_, _| (),
+            buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
                 let request_kind: RequestKind = response.request_kind.into();
@@ -83,7 +84,7 @@ where
                     buffer.read.input_states.dia_7 = di_a[7];
                 }
 
-                Ok(())
+                Ok(false)
             },
             fn_buffer_to_msgs: self.fn_output,
             buffer_default: Buffer::default(),

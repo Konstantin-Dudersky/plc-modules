@@ -4,6 +4,11 @@ rustflags = ["-C", "target-feature=+crt-static"]
 
 [target.armv7-unknown-linux-gnueabihf]
 linker = "arm-linux-gnueabihf-gcc"
+rustflags = [
+    # для tokio-console
+    "--cfg",
+    "tokio_unstable",
+]
 
 [env]
 MCU = "esp32c3"

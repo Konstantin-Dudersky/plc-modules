@@ -59,6 +59,7 @@ where
                 },
             }],
             fn_msgs_to_buffer: self.fn_input,
+            buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |buffer| {
                 let reg_a = buffer.write.reg_a();
                 let reg_b = buffer.write.reg_b();
@@ -67,7 +68,7 @@ where
                     vec![MCP23S17::write_gpio_a(reg_a), MCP23S17::write_gpio_b(reg_b)],
                 )])
             },
-            fn_response_to_buffer: |_, _| Ok(()),
+            fn_response_to_buffer: |_, _| Ok(false),
             fn_buffer_to_msgs: |_| vec![],
             buffer_default: Buffer::default(),
         };

@@ -11,17 +11,22 @@ use std::time::Duration;
 
 use rsiot::{
     executor::{ComponentExecutor, ComponentExecutorConfig},
-    logging::configure_logging,
+    logging::{LogConfig, LogConfigFilter},
 };
 
 #[tokio::main]
 async fn main() {
-    configure_logging("info", None).await.unwrap();
+    LogConfig {
+        filter: LogConfigFilter::String("info"),
+    }
+    .run()
+    .unwrap();
 
     let executor_config = ComponentExecutorConfig {
         buffer_size: 100,
         delay_publish: Duration::from_millis(100),
         fn_auth: |msg, _| Some(msg),
+        fn_tokio_metrics: |_| None,
     };
 
     ComponentExecutor::<messages::Msg>::new(executor_config)

@@ -1,4 +1,4 @@
-#import "functions.typ": all_pcb_data, table_calc_power
+#import "functions.typ": all_pcb_data
 
 #let name = "PMCNV-DI16src"
 

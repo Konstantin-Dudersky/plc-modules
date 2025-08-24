@@ -1,4 +1,4 @@
-#import "functions.typ": all_pcb_data, table_calc_power
+#import "functions.typ": all_pcb_data, calc_power_consumtion, table_power_consumtion
 
 #let name = "PMCNV-DI16sink"
 
@@ -124,17 +124,12 @@ $ U_"TH" = (U_F - I_"TH" dot R_2) / (1 + R_2 / R_1) $
 
 === Расчёт потребления
 
-#let values = (
-  [CA-IS3980P],    [2],  [25,41], [], [50,82], [],
-  [MCP23S17-E/SO], [1],  [3,3],   [], [3,3],   [],
-  [Светодиоды],    [18], [9,9],   [], [178,2], []
+#let power_consumption = (
+  CA-IS3980P: (2, 25.41, 0),
+  "MCP23S17-E/SO": (1, 3.3, 0),
+  "Светодиоды": (18, 9.9, 0)
 )
-
-#table_calc_power(
-  values: values,
-  total_3V3: 232.32,
-  total_5V: 0
-)
-
+#let pmcnv_di16sink_power = calc_power_consumtion(power_consumption)
+#table_power_consumtion(values: pmcnv_di16sink_power)
 
 #all_pcb_data(name: name)

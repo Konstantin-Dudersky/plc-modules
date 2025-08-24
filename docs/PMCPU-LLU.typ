@@ -62,6 +62,11 @@
 
 TODO - uart для связи с модулями
 
+#figure(
+  caption: "Распиновка Luckfox Lyra Ultra",
+  image("images/Luckfox-Lyra-Ultra-details-inter-en-56344090a9d0bb35505e5f72f6b08c89.jpg"),
+) <luckfox_lyra_ultra_pinout>
+
 Настройка экрана: #link("https://wiki.luckfox.com/Luckfox-Lyra/SDK#6-device-tree-configuration")
 
 #all_pcb_data(name: name)

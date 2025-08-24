@@ -1,5 +1,18 @@
+#import "PMCNV-DI16sink.typ": pmcnv_di16sink_power
+#import "PMCNV-DQ16src.typ": pmcnv_dq16src_power
+#import "PMCNV-RQ8.typ": pmcnv_rq8_power
+#import "PMCNV-AI4W.typ": pmcnv_ai4w_power
+
 = Описание плат
 
+В @plates_list[таблице] приведён список всех плат.
+
+#set page(
+  flipped: true,
+  margin: auto,
+)
+
+#show figure: set block(breakable: true)
 #figure(
   caption: "Перечень плат",
   table(
@@ -55,17 +68,17 @@
     link(<PMCNV-DI16sink>)[PMCNV-DI16sink],
     "Подключение 16 дискретных входов постоянного напряжения (PNP)",
     "0.0.0",
-    [70 мА \ 232 мВт],
-    [-],
+    [#pmcnv_di16sink_power.total_current_3v3 мА \ #pmcnv_di16sink_power.total_power_3v3 мВт],
+    [#pmcnv_di16sink_power.total_current_5v мА \ #pmcnv_di16sink_power.total_power_5v мВт],
 
     link(<PMCNV-DI16src>)[PMCNV-DI16src],
-    "Подключение 16 дискретных выходов постоянного напряжения (NPN)",
+    "Подключение 16 дискретных входов постоянного напряжения (NPN)",
     "0.0.0",
-    [70 мА \ 232 мВт],
-    [-],
+    [#pmcnv_di16sink_power.total_current_3v3 мА \ #pmcnv_di16sink_power.total_power_3v3 мВт],
+    [#pmcnv_di16sink_power.total_current_5v мА \ #pmcnv_di16sink_power.total_power_5v мВт],
 
-    link(<PMCNV-CountX>)[PMCNV-CountX],
-    "Подключение 16 дискретных входов постоянного напряжения (PNP)",
+    link(<PMCNV-Count6>)[PMCNV-Count6],
+    "Подключение 6 сигналов быстрого счёта",
     "0.0.0",
     [],
     [],
@@ -73,14 +86,14 @@
     link(<PMCNV-DQ16src>)[PMCNV-DQ16src],
     "Подключение 16 дискретных выходов постоянного напряжения",
     "0.0.0",
-    [7 мА \ 23 мВт],
-    [198 мА \ 991 мВт],
+    [#pmcnv_dq16src_power.total_current_3v3 мА \ #pmcnv_dq16src_power.total_power_3v3 мВт],
+    [#pmcnv_dq16src_power.total_current_5v мА \ #pmcnv_dq16src_power.total_power_5v мВт],
 
     link(<PMCNV-RQ8>)[PMCNV-RQ8],
     "Подключение 8 релейных выходов",
     "0.0.0",
-    [31 мА \ 102 мВт],
-    [344 мА \ 1720 мВт],
+    [#pmcnv_rq8_power.total_current_3v3 мА \ #pmcnv_rq8_power.total_power_3v3 мВт],
+    [#pmcnv_rq8_power.total_current_5v мА \ #pmcnv_rq8_power.total_power_5v мВт],
 
     link(<PMCNV-AI4R>)[PMCNV-AI4R],
     "Подключение 4 термосопротивлений",
@@ -97,8 +110,8 @@
     link(<PM-CNV_AI4-W>)[PMCNV-AI4W],
     "Подключение 4 тензодатчиков",
     "0.0.3",
-    [],
-    [],
+    [#pmcnv_ai4w_power.total_current_3v3 мА \ #pmcnv_ai4w_power.total_power_3v3 мВт],
+    [#pmcnv_ai4w_power.total_current_5v мА \ #pmcnv_ai4w_power.total_power_5v мВт],
 
     link(<PMCNV-AI8IU>)[PMCNV-AI8IU],
     "Подключение 8 датчиков 4 .. 20 мА или 0 .. 10 В",
@@ -112,8 +125,22 @@
     [],
     [],
 
-    "PMCNV-IIC8",
+    link(<PMCNV-EnMon>)[PMCNV-EnMon],
+    "Контроль параметров сети 400В",
+    "0.0.0",
+    [],
+    [],
+
+    table.cell(colspan: 5)[Подключение цифровых интерфейсов],
+
+    "PMIFC-IIC8",
     "Подключение 8 устройств по I2C",
+    "0.0.0",
+    [],
+    [],
+
+    "PMIFC-1Wire8",
+    "Подключение 8 устройств по 1-Wire",
     "0.0.0",
     [],
     [],
@@ -146,6 +173,11 @@
     [],
     [],
   ),
+) <plates_list>
+
+#set page(
+  flipped: false,
+  margin: auto,
 )
 
 #include "PMCPU-RP.typ"
@@ -160,13 +192,14 @@
 #include "PMCNV-DI16sink.typ"
 #include "PMCNV-DI16src.typ"
 #include "PMCNV-DQ16src.typ"
-#include "PMCNV-CountX.typ"
+#include "PMCNV-Count6.typ"
 #include "PMCNV-RQ8.typ"
 #include "PMCNV-AI8IU.typ"
 #include "PMCNV-AI4R.typ"
 #include "PMCNV-AI4T.typ"
 #include "PMCNV-AI4W.typ"
 #include "PMCNV-AQ.typ"
+#include "PMCNV-EnMon.typ"
 
 #include "PMHMI-Keyboard.typ"
 #include "PMHMI-Touch.typ"

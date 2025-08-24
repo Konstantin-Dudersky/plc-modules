@@ -79,6 +79,7 @@ where
                 },
             }],
             fn_msgs_to_buffer: |_, _| (),
+            buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
                 let request_kind: RequestKind = response.request_kind.into();
@@ -92,61 +93,61 @@ where
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 1;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 2;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 3;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 4;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 5;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 6;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         row = 7;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(());
+                            return Ok(false);
                         }
                     }
                 }
 
-                Ok(())
+                Ok(false)
             },
             fn_buffer_to_msgs: self.fn_output,
             buffer_default: Buffer::default(),

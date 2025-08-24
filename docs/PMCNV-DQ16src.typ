@@ -1,4 +1,4 @@
-#import "functions.typ": all_pcb_data, table_calc_power
+#import "functions.typ": all_pcb_data, i2c, listing, calc_power_consumtion, table_power_consumtion
 
 #let name = "PMCNV-DQ16src"
 
@@ -19,20 +19,49 @@
 
 Параллельно все 16 сигналов идут на плату светодиодов #link(<PM-LED_18>)[PM-LED_18], для индикации состояния выходов.
 
+=== Подключение по #i2c
+
+Проверка работы из консоли. Устройство с адресом 0x20.
+
+#let code = ```sh
+# Проверить доступность
+i2cdetect -y 0
+
+# GPIOA устанавливаем в режим выхода
+i2ctransfer -y 0 w2@0x20 0x00 0x00
+
+# GPIOB устанавливаем в режим выхода
+i2ctransfer -y 0 w2@0x20 0x01 0x00
+
+# Включаем все выходы GPIOA
+i2ctransfer -y 0 w2@0x20 0x12 0xFF
+
+# Отключаем все выходы GPIOA
+i2ctransfer -y 0 w2@0x20 0x12 0x00
+
+# Включаем все выходы GPIOB
+i2ctransfer -y 0 w2@0x20 0x13 0xFF
+
+# Отключаем все выходы GPIOB
+i2ctransfer -y 0 w2@0x20 0x13 0x00
+```
+#listing(
+  code,
+  [Проверка работы из консоли],
+  <pmcnv_dq16src_i2c_test>,
+  breakable: true
+)
+
 === Расчёт потребления
 
-#let values = (
-  [B0505LS-1W],    [1],  [],      [],   [],      [400],
-  [CA-IS3741HW],   [1],  [22,77], [70], [22,77], [70],
-  [MCP23S17-E/SO], [1],  [],      [5],  [],      [5],
-  [TBD62783AFG],   [2],  [],      [60], [],      [120],
-  [Светодиоды],    [18], [],      [22], [],      [396],
+#let power_consumption = (
+  B0505LS-1W: (1, 0, 400),
+  CA-IS3741HW: (1, 22.77, 70),
+  "MCP23S17-E/SO": (1, 0, 5),
+  TBD62783AFG: (2, 0, 60),
+  "Светодиоды": (18, 0, 22)
 )
-
-#table_calc_power(
-  values: values,
-  total_3V3: 22.77,
-  total_5V: 991,
-)
+#let pmcnv_dq16src_power = calc_power_consumtion(power_consumption)
+#table_power_consumtion(values: pmcnv_dq16src_power)
 
 #all_pcb_data(name: name)

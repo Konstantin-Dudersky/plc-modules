@@ -1,10 +1,10 @@
 use std::time::Duration;
 
-use rsiot::{components::cmp_inject_periodic::*, executor::Component, message::Message};
+use rsiot::{components::cmp_inject_periodic::*, executor::Component};
 
 use super::messages::*;
 
-pub fn cmp() -> Component<Config<Msg, impl FnMut() -> Vec<Message<Msg>>>, Msg> {
+pub fn cmp() -> Component<Config<Msg, impl FnMut() -> Vec<Msg>>, Msg> {
     let mut counter = 0;
 
     let config = Config {
@@ -69,10 +69,7 @@ pub fn cmp() -> Component<Config<Msg, impl FnMut() -> Vec<Message<Msg>>>, Msg> {
             if counter > 25 {
                 counter = 0;
             }
-
-            msgs.iter()
-                .map(|m| Message::new_custom(m.clone()))
-                .collect()
+            msgs
         },
     };
 

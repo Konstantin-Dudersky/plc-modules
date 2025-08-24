@@ -186,6 +186,7 @@ where
                 },
             ],
             fn_msgs_to_buffer: self.fn_input,
+            buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
                 let request_kind: RequestKind = response.request_kind.into();
@@ -225,7 +226,7 @@ where
                             ad7190::StatusRegister::decode(response_payload[0][3]);
 
                         if let ad7190::SRReady::NotReady = status_register.ready {
-                            return Ok(());
+                            return Ok(false);
                         }
 
                         let bytes = &response_payload[0][0..=2];
@@ -248,7 +249,7 @@ where
                         // info!("Data: {:?}", buffer.read_registers.data_registers);
                     }
                 }
-                Ok(())
+                Ok(false)
             },
             fn_buffer_to_msgs: self.fn_output,
             buffer_default: Buffer {

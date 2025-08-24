@@ -1,4 +1,4 @@
-#import "functions.typ": all_pcb_data, i2c, table_calc_power
+#import "functions.typ": all_pcb_data, i2c, calc_power_consumtion, table_power_consumtion, listing
 
 #let name = "PMCNV-RQ8"
 
@@ -41,22 +41,53 @@
 - замкнуть сигналы A0..A2 на "-" или "+". Адрес устройства определяется по @MCP23x17_address[таблице];
 - установить в посадочное место U1 микросхему MCP23017/SS (@MCP23S17[раздел])
 
+=== Подключение по #i2c
+
+Проверка работы из консоли. Устройство с адресом 0x20.
+
+#let code = ```sh
+# Проверить доступность
+i2cdetect -y 0
+
+# GPIOA устанавливаем в режим выхода
+i2ctransfer -y 0 w2@0x20 0x00 0x00
+
+# GPIOB устанавливаем в режим выхода
+i2ctransfer -y 0 w2@0x20 0x01 0x00
+
+# Включаем все реле
+i2ctransfer -y 0 w2@0x20 0x12 0xFF
+
+# Включаем реле R0, R1 .. R7
+i2ctransfer -y 0 w2@0x20 0x12 0x80
+i2ctransfer -y 0 w2@0x20 0x12 0x40
+i2ctransfer -y 0 w2@0x20 0x12 0x20
+i2ctransfer -y 0 w2@0x20 0x12 0x10
+i2ctransfer -y 0 w2@0x20 0x12 0x08
+i2ctransfer -y 0 w2@0x20 0x12 0x04
+i2ctransfer -y 0 w2@0x20 0x12 0x02
+i2ctransfer -y 0 w2@0x20 0x12 0x01
+
+
+# Отключаем все реле
+i2ctransfer -y 0 w2@0x20 0x12 0x00
+```
+#listing(
+  code,
+  [Проверка работы из консоли],
+  <pmcnv_dq16src_i2c_test>,
+  breakable: true
+)
 
 === Расчёт потребления
 
-#let values = (
-  [G5NB-1A-E-DC5], [8],  [],    [200], [],    [1600],
-  [MCP23S17-E/SO], [1],  [3,3], [],    [3,3], [],
-  [TBD62783AFG],   [2],  [],    [60],  [],    [120],
-  [Светодиоды],    [10], [9,9], [],    [99],  []
+#let power_consumption = (
+  G5NB-1A-E-DC5: (8, 0, 200),
+  "MCP23S17-E/SO": (1, 3.3, 0),
+  TBD62783AFG: (2, 0, 60),
+  "Светодиоды": (10, 9.9, 0)
 )
-
-#table_calc_power(
-  values: values,
-  total_3V3: 102.3,
-  total_5V: 1720
-)
-
-
+#let pmcnv_rq8_power = calc_power_consumtion(power_consumption)
+#table_power_consumtion(values: pmcnv_rq8_power)
 
 #all_pcb_data(name: name)

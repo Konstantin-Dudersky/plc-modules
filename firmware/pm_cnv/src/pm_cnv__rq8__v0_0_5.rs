@@ -58,6 +58,7 @@ where
                 },
             }],
             fn_msgs_to_buffer: self.fn_input,
+            buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |buffer| {
                 let outputs = buffer.outputs;
                 Ok(vec![spi_master::FieldbusRequest::new(
@@ -65,7 +66,7 @@ where
                     vec![MCP23S17::write_gpio_a(outputs)],
                 )])
             },
-            fn_response_to_buffer: |_, _| Ok(()),
+            fn_response_to_buffer: |_, _| Ok(false),
             fn_buffer_to_msgs: |_| vec![],
             buffer_default: Buffer::default(),
         };
