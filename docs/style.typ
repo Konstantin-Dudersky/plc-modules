@@ -4,6 +4,12 @@
   #set math.equation(numbering: "(1)")
   #show math.equation: set text(font: "STIX Two Math")
 
+  // Размер шрифта во вставках кода
+  #show figure.where(kind: "code"): it => {
+    set text(size: 10pt)
+    it
+  }
+
   #set heading(numbering: "1.1.")
 
   #show heading.where(level: 1): it => {

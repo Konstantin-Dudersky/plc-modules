@@ -46,9 +46,9 @@ i2ctransfer -y 0 w2@0x20 0x13 0xFF
 i2ctransfer -y 0 w2@0x20 0x13 0x00
 ```
 #listing(
-  code,
-  [Проверка работы из консоли],
-  <pmcnv_dq16src_i2c_test>,
+  content: code,
+  caption: [Проверка работы из консоли],
+  label: <pmcnv_dq16src_i2c_test>,
   breakable: true
 )
 

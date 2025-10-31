@@ -1,0 +1,7 @@
+2025-08-27T05:41:29.069094Z  INFO rsiot::logging: Logging in console started with filter: String("info,rsiot::components::cmp_linux_i2c_master=trace")
+2025-08-27T05:41:29.069154Z  INFO rsiot::logging: Logging to file started with filter: String("info,rsiot::components::cmp_linux_i2c_master=trace")
+2025-08-27T05:41:29.069180Z  INFO rsiot::executor::component_executor: ComponentExecutor start creation
+2025-08-27T05:41:29.069468Z  INFO rsiot::executor::cmp_in_out: Start: Trace name (maybe delete?), id: e14fa56d-8711-48e4-b6c9-0b121d77e0e4, auth_perm: FullAccess
+2025-08-27T05:41:29.069620Z  INFO rsiot::executor::cmp_in_out: Start: Trace name (maybe delete?)::cmp_linux_i2c_master, id: 3f3de320-d80f-491e-b706-b3b9a7e7ed71, auth_perm: FullAccess
+2025-08-27T05:41:29.069661Z  INFO rsiot::executor::cmp_in_out: Start: Trace name (maybe delete?)::cmp_inject_periodic, id: 99f0a875-1dbb-4c28-b5ef-16aaba414d49, auth_perm: FullAccess
+2025-08-27T05:41:29.070240Z ERROR rsiot::executor::component_executor: msg="Component has finished executing with error: Execution(\"Permission denied (os error 13)\")"

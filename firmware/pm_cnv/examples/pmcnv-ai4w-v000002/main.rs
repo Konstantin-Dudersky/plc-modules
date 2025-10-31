@@ -15,12 +15,11 @@ use rsiot::{
 };
 
 #[tokio::main]
-async fn main() {
+async fn main() -> anyhow::Result<()> {
     LogConfig {
         filter: LogConfigFilter::String("info"),
     }
-    .run()
-    .unwrap();
+    .run()?;
 
     let executor_config = ComponentExecutorConfig {
         buffer_size: 100,
@@ -34,6 +33,7 @@ async fn main() {
         .add_cmp(config_inject_periodic::cmp())
         // .add_cmp(config_logger::cmp())
         .wait_result()
-        .await
-        .unwrap();
+        .await?;
+
+    Err(anyhow::Error::msg("Execution end"))
 }

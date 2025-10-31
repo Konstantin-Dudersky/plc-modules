@@ -16,7 +16,6 @@
 }
 
 
-
 #let image_render(
   name: "plate_name",
   render_x0y0z0: "path",
@@ -122,9 +121,9 @@
 
 /// Отображение листинга кода.
 #let listing(
-  content,
-  caption,
-  label,
+  content: str,
+  caption: str,
+  label: [any],
   breakable: false
 ) = {
   set par(justify: false)

@@ -6,9 +6,10 @@ use rsiot::{
         master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
         spi_master,
     },
+    executor::MsgBusInput,
     message::{Message, MsgDataBound},
 };
-use tokio::sync::{broadcast, mpsc};
+use tokio::sync::mpsc;
 
 use crate::chips::MCP23S17;
 
@@ -30,7 +31,7 @@ where
 {
     async fn spawn(
         self: Box<Self>,
-        ch_rx_msgbus_to_device: broadcast::Receiver<Message<TMsg>>,
+        ch_rx_msgbus_to_device: MsgBusInput<TMsg>,
         ch_tx_device_to_fieldbus: mpsc::Sender<spi_master::FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<spi_master::FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
@@ -72,14 +73,14 @@ where
         };
         device
             .spawn(
+                "rq8".to_string(),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
             )
-            .await
-            .unwrap();
-        Ok(())
+            .await?;
+        Err(master_device::Error::EndExecution)
     }
 }
 

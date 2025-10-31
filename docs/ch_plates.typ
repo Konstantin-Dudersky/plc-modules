@@ -1,4 +1,4 @@
-#import "PMCNV-DI16sink.typ": pmcnv_di16sink_power
+#import "PMCNV-DI16.typ": pmcnv_di16_power
 #import "PMCNV-DQ16src.typ": pmcnv_dq16src_power
 #import "PMCNV-RQ8.typ": pmcnv_rq8_power
 #import "PMCNV-AI4W.typ": pmcnv_ai4w_power
@@ -65,17 +65,11 @@
 
     table.cell(colspan: 5)[Платы конвертирования цифровых и электрических сигналов],
 
-    link(<PMCNV-DI16sink>)[PMCNV-DI16sink],
-    "Подключение 16 дискретных входов постоянного напряжения (PNP)",
-    "0.0.0",
-    [#pmcnv_di16sink_power.total_current_3v3 мА \ #pmcnv_di16sink_power.total_power_3v3 мВт],
-    [#pmcnv_di16sink_power.total_current_5v мА \ #pmcnv_di16sink_power.total_power_5v мВт],
-
-    link(<PMCNV-DI16src>)[PMCNV-DI16src],
-    "Подключение 16 дискретных входов постоянного напряжения (NPN)",
-    "0.0.0",
-    [#pmcnv_di16sink_power.total_current_3v3 мА \ #pmcnv_di16sink_power.total_power_3v3 мВт],
-    [#pmcnv_di16sink_power.total_current_5v мА \ #pmcnv_di16sink_power.total_power_5v мВт],
+    link(<PMCNV-DI16>)[PMCNV-DI16],
+    "Подключение 16 дискретных входов постоянного напряжения (PNP / NPN)",
+    "0.0.8",
+    [#pmcnv_di16_power.total_current_3v3 мА \ #pmcnv_di16_power.total_power_3v3 мВт],
+    [#pmcnv_di16_power.total_current_5v мА \ #pmcnv_di16_power.total_power_5v мВт],
 
     link(<PMCNV-Count6>)[PMCNV-Count6],
     "Подключение 6 сигналов быстрого счёта",
@@ -145,6 +139,15 @@
     [],
     [],
 
+    table.cell(colspan: 5)[Блоки питания],
+
+    link(<PMPS-20W>)[PMPS-20W],
+    "Блок питания 20 Вт",
+    "0.0.4",
+    [-],
+    [-],
+
+
     table.cell(colspan: 5)[Платы для создания интерфейса оператора],
 
     link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard],
@@ -158,6 +161,7 @@
     "0.0.0",
     [],
     [],
+
 
     table.cell(colspan: 5)[Платы для отладки],
 
@@ -189,8 +193,7 @@
 #include "PMLED-10.typ"
 #include "PMLED-18.typ"
 
-#include "PMCNV-DI16sink.typ"
-#include "PMCNV-DI16src.typ"
+#include "PMCNV-DI16.typ"
 #include "PMCNV-DQ16src.typ"
 #include "PMCNV-Count6.typ"
 #include "PMCNV-RQ8.typ"
@@ -200,6 +203,8 @@
 #include "PMCNV-AI4W.typ"
 #include "PMCNV-AQ.typ"
 #include "PMCNV-EnMon.typ"
+
+#include "PMPS-20W.typ"
 
 #include "PMHMI-Keyboard.typ"
 #include "PMHMI-Touch.typ"

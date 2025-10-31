@@ -7,10 +7,11 @@ use rsiot::{
         master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
         spi_master::{FieldbusRequest, FieldbusResponse},
     },
+    executor::MsgBusInput,
     message::{Message, MsgDataBound},
 };
 use strum::FromRepr;
-use tokio::sync::{broadcast, mpsc};
+use tokio::sync::mpsc;
 
 use crate::chips::MCP23S17;
 
@@ -31,7 +32,7 @@ where
 {
     async fn spawn(
         self: Box<Self>,
-        ch_rx_msgbus_to_device: broadcast::Receiver<Message<TMsg>>,
+        ch_rx_msgbus_to_device: MsgBusInput<TMsg>,
         ch_tx_device_to_fieldbus: mpsc::Sender<FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
@@ -58,7 +59,7 @@ where
             buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
-                let request_kind: RequestKind = response.request_kind.into();
+                let request_kind: RequestKind = response.request_kind.try_into()?;
 
                 if let RequestKind::ReadInputs = request_kind {
                     let di_b = &response.payload[0];
@@ -91,14 +92,14 @@ where
         };
         device
             .spawn(
+                "di16".to_string(),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
             )
-            .await
-            .unwrap();
-        Ok(())
+            .await?;
+        Err(master_device::Error::EndExecution)
     }
 }
 
@@ -145,8 +146,14 @@ impl From<RequestKind> for u8 {
     }
 }
 
-impl From<u8> for RequestKind {
-    fn from(value: u8) -> Self {
-        RequestKind::from_repr(value as usize).unwrap()
+impl TryFrom<u8> for RequestKind {
+    type Error = anyhow::Error;
+
+    fn try_from(value: u8) -> Result<Self, Self::Error> {
+        let result = RequestKind::from_repr(value as usize);
+        match result {
+            Some(kind) => Ok(kind),
+            None => Err(anyhow::Error::msg("Invalid RequestKind: {value}")),
+        }
     }
 }

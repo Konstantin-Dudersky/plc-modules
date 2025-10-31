@@ -7,9 +7,10 @@ use rsiot::{
         master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
         spi_master::{self},
     },
+    executor::MsgBusInput,
     message::{Message, MsgDataBound},
 };
-use tokio::sync::{broadcast, mpsc};
+use tokio::sync::mpsc;
 use tracing::info;
 
 use crate::chips::ad7193;
@@ -37,7 +38,7 @@ where
 {
     async fn spawn(
         self: Box<Self>,
-        ch_rx_msgbus_to_device: broadcast::Receiver<Message<TMsg>>,
+        ch_rx_msgbus_to_device: MsgBusInput<TMsg>,
         ch_tx_device_to_fieldbus: mpsc::Sender<spi_master::FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<spi_master::FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
@@ -177,7 +178,7 @@ where
             buffer_to_request_period: Duration::from_millis(1000),
             fn_buffer_to_request: |_| Ok(vec![]),
             fn_response_to_buffer: |response, buffer| {
-                let request_kind: RequestKind = response.request_kind.into();
+                let request_kind: RequestKind = response.request_kind.try_into()?;
                 let response_payload = response.payload;
 
                 match request_kind {
@@ -292,14 +293,14 @@ where
         };
         device
             .spawn(
+                "ai4w".to_string(),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
             )
-            .await
-            .unwrap();
-        Ok(())
+            .await?;
+        Err(master_device::Error::EndExecution)
     }
 }
 

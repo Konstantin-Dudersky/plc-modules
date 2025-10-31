@@ -4,6 +4,7 @@ version = "0.0.1"
 edition = "2021"
 
 [dependencies]
+anyhow = "*"
 rsiot = { path = "../../../rsiot", features = ["executor"] }
 rsiot-physical-quantities = { path = "../../../rsiot-physical-quantities" }
 tokio = { version = "*", features = ["sync"] }
@@ -19,6 +20,7 @@ bitvec = "1.0.1"
 rsiot = { path = "../../../rsiot", features = [
     "executor",
     "log_console",
+    "log_file",
     "cmp_linux_i2c_master",
     "cmp_linux_spi_master",
 ] }
