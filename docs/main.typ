@@ -39,6 +39,7 @@
 #include "ch_protocol_betweenmodule.typ"
 #include "ch_protocol_insidemodule.typ"
 #include "ch_components.typ"
+#include "ch_drc.typ"
 #include "ch_plates.typ"
 
 = Комбинирование плат в модули

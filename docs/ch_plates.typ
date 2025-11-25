@@ -119,6 +119,12 @@
     [],
     [],
 
+    link(<PMCNV-INA226>)[PMCNV-INA226],
+    "Контроль электрических параметров с помощью INA226",
+    "0.0.1",
+    [],
+    [],
+
     link(<PMCNV-EnMon>)[PMCNV-EnMon],
     "Контроль параметров сети 400В",
     "0.0.0",
@@ -127,13 +133,13 @@
 
     table.cell(colspan: 5)[Подключение цифровых интерфейсов],
 
-    "PMIFC-IIC8",
+    link(<PMIFC-IIC8>)[PMIFC-IIC8],
     "Подключение 8 устройств по I2C",
-    "0.0.0",
+    "0.0.1",
     [],
     [],
 
-    "PMIFC-1Wire8",
+    link(<PMIFC-1Wire8>)[PMIFC-1Wire8],
     "Подключение 8 устройств по 1-Wire",
     "0.0.0",
     [],
@@ -202,7 +208,11 @@
 #include "PMCNV-AI4T.typ"
 #include "PMCNV-AI4W.typ"
 #include "PMCNV-AQ.typ"
+#include "PMCNV-INA226.typ"
 #include "PMCNV-EnMon.typ"
+
+#include "PMIFC-IIC8.typ"
+#include "PMIFC-1Wire8.typ"
 
 #include "PMPS-20W.typ"
 
