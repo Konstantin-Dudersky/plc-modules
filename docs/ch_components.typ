@@ -109,7 +109,7 @@
 On the output side, the signal is either passed directly to the output stage in the case of a high-speed channel (BHx), or the signal is routed through a debounce filter block in the case of a low-speed channel (Bx) for robust operation in industrial environments.
 
 Используется в платах:
-- #link(<PMCNV-DI16>)[PMCNV-DI16].
+- #link(<PMCNV-DIx16>)[PMCNV-DIx16].
 
 == DS3231 - часы реального времени <DS3231>
 
@@ -154,9 +154,9 @@ On the output side, the signal is either passed directly to the output stage in 
 
 Используется в платах:
 
-- #link(<PMCNV-DI16>)[PMCNV-DI16]
+- #link(<PMCNV-DIx16>)[PMCNV-DIx16]
 - #link(<PMCNV-DQ16src>)[PMCNV-DQ16src]
-- #link(<PMCNV-RQ8>)[PMCNV-RQ8]
+- #link(<PMCNV-RQx8>)[PMCNV-RQx8]
 - #link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard]
 
 == TBD62783AFG - матрица из 8 DMOS транзисторов <TBD62783AFG>
@@ -178,7 +178,7 @@ On the output side, the signal is either passed directly to the output stage in 
 Используется в платах:
 
 - #link(<PMCNV-DQ16src>)[PMCNV-DQ16src]
-- #link(<PMCNV-RQ8>)[PMCNV-RQ8]
+- #link(<PMCNV-RQx8>)[PMCNV-RQx8]
 
 
 

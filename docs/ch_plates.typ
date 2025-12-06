@@ -1,6 +1,6 @@
-#import "PMCNV-DI16.typ": pmcnv_di16_power
+#import "PMCNV-DIx16.typ": pmcnv_di16_power
 #import "PMCNV-DQ16src.typ": pmcnv_dq16src_power
-#import "PMCNV-RQ8.typ": pmcnv_rq8_power
+#import "PMCNV-RQx8.typ": pmcnv_rq8_power
 #import "PMCNV-AI4W.typ": pmcnv_ai4w_power
 
 = Описание плат
@@ -51,13 +51,13 @@
 
     table.cell(colspan: 5)[Платы светодиодов],
 
-    link(<PM-LED_10>)[PMLED-10],
+    link(<PMLED-10>)[PMLED-10],
     "Плата на 10 светодиодов",
     "0.0.0",
     [],
     [],
 
-    link(<PM-LED_18>)[PMLED-18],
+    link(<PMLED-18>)[PMLED-18],
     "Плата на 18 светодиодов",
     "0.0.0",
     [],
@@ -65,7 +65,7 @@
 
     table.cell(colspan: 5)[Платы конвертирования цифровых и электрических сигналов],
 
-    link(<PMCNV-DI16>)[PMCNV-DI16],
+    link(<PMCNV-DIx16>)[PMCNV-DIx16],
     "Подключение 16 дискретных входов постоянного напряжения (PNP / NPN)",
     "0.0.8",
     [#pmcnv_di16_power.total_current_3v3 мА \ #pmcnv_di16_power.total_power_3v3 мВт],
@@ -83,7 +83,7 @@
     [#pmcnv_dq16src_power.total_current_3v3 мА \ #pmcnv_dq16src_power.total_power_3v3 мВт],
     [#pmcnv_dq16src_power.total_current_5v мА \ #pmcnv_dq16src_power.total_power_5v мВт],
 
-    link(<PMCNV-RQ8>)[PMCNV-RQ8],
+    link(<PMCNV-RQx8>)[PMCNV-RQx8],
     "Подключение 8 релейных выходов",
     "0.0.0",
     [#pmcnv_rq8_power.total_current_3v3 мА \ #pmcnv_rq8_power.total_power_3v3 мВт],
@@ -131,6 +131,12 @@
     [],
     [],
 
+    link(<PMCNV-PWMx16>)[PMCNV-PWMx16],
+    "Управление ШИМ 16 каналов",
+    "0.0.1",
+    [],
+    [],
+
     table.cell(colspan: 5)[Подключение цифровых интерфейсов],
 
     link(<PMIFC-IIC8>)[PMIFC-IIC8],
@@ -139,8 +145,8 @@
     [],
     [],
 
-    link(<PMIFC-1Wire8>)[PMIFC-1Wire8],
-    "Подключение 8 устройств по 1-Wire",
+    link(<PMIFC-1Wx12>)[PMIFC-1Wx12],
+    "Подключение 12 устройств по 1-Wire",
     "0.0.0",
     [],
     [],
@@ -199,10 +205,10 @@
 #include "PMLED-10.typ"
 #include "PMLED-18.typ"
 
-#include "PMCNV-DI16.typ"
+#include "PMCNV-DIx16.typ"
 #include "PMCNV-DQ16src.typ"
 #include "PMCNV-Count6.typ"
-#include "PMCNV-RQ8.typ"
+#include "PMCNV-RQx8.typ"
 #include "PMCNV-AI8IU.typ"
 #include "PMCNV-AI4R.typ"
 #include "PMCNV-AI4T.typ"
@@ -210,9 +216,10 @@
 #include "PMCNV-AQ.typ"
 #include "PMCNV-INA226.typ"
 #include "PMCNV-EnMon.typ"
+#include "PMCNV-PWMx16.typ"
 
 #include "PMIFC-IIC8.typ"
-#include "PMIFC-1Wire8.typ"
+#include "PMIFC-1Wx12.typ"
 
 #include "PMPS-20W.typ"
 

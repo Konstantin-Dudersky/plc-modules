@@ -102,7 +102,7 @@
   let path_render_x0y0z0 = "pcb/" + name + "/render_x0y0z0.png"
   let path_render_x0y180z0 = "pcb/" + name + "/render_x0y180z0.png"
   let path_scheme = "pcb/" + name + "/" + name + ".svg"
-  let path_bom = "./pcb/" + name + "/BOM.csv"
+  let path_bom = "./pcb/" + name + "/" + name + ".BOM.csv"
 
   image_render(
     name: name,
