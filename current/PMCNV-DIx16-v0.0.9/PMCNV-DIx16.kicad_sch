@@ -1099,7 +1099,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "kicad_inventree_lib:15EDGRC-3.5-10P"
+		(symbol "kicad_inventree_lib:15EDGRC-3.5-08P"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1115,16 +1115,16 @@
 					)
 				)
 			)
-			(property "Value" "15EDGRC-3.5-10P"
-				(at 0 -17.78 0)
+			(property "Value" "15EDGRC-3.5-08P"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "kicad_inventree_lib:15EDGRC-3.5-10P"
-				(at 0 0 0)
+			(property "Footprint" "kicad_inventree_lib:15EDGRC-3.5-08P"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1132,7 +1132,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://inventree.network/part/237/"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1142,7 +1142,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x09, script generated"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1150,8 +1150,8 @@
 					(hide yes)
 				)
 			)
-			(property "part_ipn" "15EDGRC-3.5-10P"
-				(at 0 0 0)
+			(property "part_ipn" "15EDGRC-3.5-08P"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1177,7 +1177,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "15EDGRC-3.5-10P_1_1"
+			(symbol "15EDGRC-3.5-08P_1_1"
 				(polyline
 					(pts
 						(xy -1.27 10.16) (xy -0.508 10.16)
@@ -1265,30 +1265,6 @@
 				(polyline
 					(pts
 						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy -0.508 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -12.7) (xy -0.508 -12.7)
 					)
 					(stroke
 						(width 0.1524)
@@ -1386,30 +1362,6 @@
 					(start 0 -8.128)
 					(mid -0.5058 -7.62)
 					(end 0 -7.112)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -10.668)
-					(mid -0.5058 -10.16)
-					(end 0 -9.652)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -13.208)
-					(mid -0.5058 -12.7)
-					(end 0 -12.192)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1555,42 +1507,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9188,12 +9104,6 @@
 		(uuid "4586f925-c11c-4260-8da6-d65b40264b10")
 	)
 	(junction
-		(at 355.6 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46d43289-7e7c-4b7a-9534-b76343927b5f")
-	)
-	(junction
 		(at 38.1 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9240,12 +9150,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64a400e4-a1f5-458a-88b5-5ca035bde7fb")
-	)
-	(junction
-		(at 355.6 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "697e9055-1305-4d74-b77a-8945d89ed643")
 	)
 	(junction
 		(at 312.42 139.7)
@@ -11459,16 +11363,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 27.94) (xy 345.44 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88759c61-effd-439a-a8b5-7b72c72c694c")
-	)
-	(wire
-		(pts
 			(xy 292.1 160.02) (xy 300.99 160.02)
 		)
 		(stroke
@@ -12349,16 +12243,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 58.42) (xy 355.6 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d300bcc8-103c-488f-af8b-e13c2abb4219")
-	)
-	(wire
-		(pts
 			(xy 35.56 185.42) (xy 35.56 172.72)
 		)
 		(stroke
@@ -12709,16 +12593,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 27.94) (xy 355.6 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f209a980-2cd7-4a77-88af-63f0b189b29e")
-	)
-	(wire
-		(pts
 			(xy 185.42 93.98) (xy 175.26 93.98)
 		)
 		(stroke
@@ -12816,16 +12690,6 @@
 			(type default)
 		)
 		(uuid "f8533abf-9e5d-4627-a29a-7b4675cb706e")
-	)
-	(wire
-		(pts
-			(xy 355.6 58.42) (xy 345.44 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f893ee17-be8d-44c9-b228-c6c62e7b4800")
 	)
 	(wire
 		(pts
@@ -12996,16 +12860,6 @@
 			(justify right bottom)
 		)
 		(uuid "04c79563-6ac2-4d95-b3db-11f1d0858815")
-	)
-	(label "COM_CNV"
-		(at 345.44 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04e170e4-d653-4574-9645-3c8e7c536eb1")
 	)
 	(label "a.7"
 		(at 175.26 60.96 0)
@@ -14616,16 +14470,6 @@
 			(justify left bottom)
 		)
 		(uuid "fc134bf4-6a86-4aaa-867a-7ec8babc6861")
-	)
-	(label "COM_CNV"
-		(at 345.44 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcfa8ce2-9538-4e36-acfd-f23b6cb910f9")
 	)
 	(label "COM_CNV"
 		(at 292.1 119.38 0)
@@ -16322,7 +16166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:15EDGRC-3.5-10P")
+		(lib_id "kicad_inventree_lib:15EDGRC-3.5-08P")
 		(at 360.68 40.64 0)
 		(mirror x)
 		(unit 1)
@@ -16350,8 +16194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kicad_inventree_lib:15EDGRC-3.5-10P"
-			(at 360.68 40.64 0)
+		(property "Footprint" "kicad_inventree_lib:15EDGRC-3.5-08P"
+			(at 360.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16369,7 +16213,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 360.68 40.64 0)
+			(at 360.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16377,20 +16221,14 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "15EDGRC-3.5-10P"
-			(at 360.68 40.64 0)
+		(property "part_ipn" "15EDGRC-3.5-08P"
+			(at 360.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "9"
-			(uuid "18e4d8c0-dc74-4f87-b398-913a36823abd")
-		)
-		(pin "10"
-			(uuid "5f5cb981-4b6c-4e70-890c-05e5a3d86d68")
 		)
 		(pin "1"
 			(uuid "96e67f08-1a6d-405f-a6b9-3aac6e3b1e23")
@@ -22360,7 +22198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_inventree_lib:15EDGRC-3.5-10P")
+		(lib_id "kicad_inventree_lib:15EDGRC-3.5-08P")
 		(at 360.68 71.12 0)
 		(mirror x)
 		(unit 1)
@@ -22388,8 +22226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kicad_inventree_lib:15EDGRC-3.5-10P"
-			(at 360.68 71.12 0)
+		(property "Footprint" "kicad_inventree_lib:15EDGRC-3.5-08P"
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22407,7 +22245,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 360.68 71.12 0)
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22415,20 +22253,14 @@
 				(hide yes)
 			)
 		)
-		(property "part_ipn" "15EDGRC-3.5-10P"
-			(at 360.68 71.12 0)
+		(property "part_ipn" "15EDGRC-3.5-08P"
+			(at 360.68 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "9"
-			(uuid "77f5d3e6-2200-4f64-b4a3-3682ed518ba7")
-		)
-		(pin "10"
-			(uuid "8efac2d5-5fdd-4367-8a56-f920c6774f83")
 		)
 		(pin "1"
 			(uuid "4143c23c-ca88-440c-89b8-bc1a1d9ee9d5")
