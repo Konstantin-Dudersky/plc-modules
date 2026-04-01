@@ -1,23 +1,23 @@
 [package]
 name = "pm_cnv"
 version = "0.0.1"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
 anyhow = "*"
-rsiot = { path = "../../../rsiot", features = ["executor"] }
+rsiot = { path = "/mnt/data/projects/rsiot/", features = ["executor"] }
 rsiot-physical-quantities = { path = "../../../rsiot-physical-quantities" }
 tokio = { version = "*", features = ["sync"] }
 async-trait = "*"
 serde = { version = "*", features = ["derive"] }
 tracing = "*"
 strum = { version = "*", features = ["derive"] }
-bit-vec = "0.8"
+bit-vec = "0.9.1"
 bitvec = "1.0.1"
 
 
 [dev-dependencies]
-rsiot = { path = "../../../rsiot", features = [
+rsiot = { path = "/mnt/data/projects/rsiot/", features = [
     "executor",
     "log_console",
     "log_file",

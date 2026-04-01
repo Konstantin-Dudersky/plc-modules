@@ -4,6 +4,26 @@
 
 Ниже перечислены основные электронные компоненты, которые применяются в платах.
 
+== Конденсаторы
+
+Перечень применяемых конденсаторов
+
+#figure(
+  table(
+  columns: (50%, 50%),
+    table.header([IPN основных конденсаторов], [IPN замены, пока не закончатся]),
+
+    [C_4.7nF_2kV_1812_MLCC-X7R], [],
+    [C_1nF_100V_0603_MLCC-X7R], [C_1nF_16V_0603_MLCC-X7R, C_1nF_50V_0603_MLCC-X7R],
+    [C_10nF_100V_0603_MLCC-X7R], [C_10nF_16V_0603_MLCC-X7R],
+    [C_100nF_100V_0603_MLCC-X7R], [C_100nF_16V_0603_MLCC-X7R],
+    [C_1uF_50V_0603_MLCC-X7R], [C_1uF_16V_0603_MLCC-X7R],
+    [C_10uF_50V_1206_MLCC-X7R], [C_10uF_16V_0805_MLCC-X7R],
+    [C_22uF_25V_1210_MLCC-X7R], [C_22uF_16V_0603_MLCC-X5R, C_22uF_16V_0805_MLCC-X5R, C_22uF_16V_1206_MLCC-X5R, C_22uF_10V_1206_MLCC-X7R, C_22uF_16V_1210_MLCC-X7R],
+    [C_22uF_50V_2220_MLCC-X7R], []
+  )
+)
+
 == AD7193 - 24-разрядный \u{03a3} - \u{0394} АЦП <AD7193>
 
 АЦП AD7193 компании Analog Devices хорошо подходит для измерения показаний датчиков с небольшим полным диапазоном измерения. Основные характеристики АЦП:
@@ -155,7 +175,7 @@ On the output side, the signal is either passed directly to the output stage in 
 Используется в платах:
 
 - #link(<PMCNV-DIx16>)[PMCNV-DIx16]
-- #link(<PMCNV-DQ16src>)[PMCNV-DQ16src]
+- #link(<PMCNV-DQx16>)[PMCNV-DQx16]
 - #link(<PMCNV-RQx8>)[PMCNV-RQx8]
 - #link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard]
 
@@ -177,7 +197,7 @@ On the output side, the signal is either passed directly to the output stage in 
 
 Используется в платах:
 
-- #link(<PMCNV-DQ16src>)[PMCNV-DQ16src]
+- #link(<PMCNV-DQx16>)[PMCNV-DQx16]
 - #link(<PMCNV-RQx8>)[PMCNV-RQx8]
 
 

@@ -1,5 +1,5 @@
 #import "PMCNV-DIx16.typ": pmcnv_di16_power
-#import "PMCNV-DQ16src.typ": pmcnv_dq16src_power
+#import "PMCNV-DQx16.typ": pmcnv_dq16src_power
 #import "PMCNV-RQx8.typ": pmcnv_rq8_power
 #import "PMCNV-AI4W.typ": pmcnv_ai4w_power
 
@@ -77,7 +77,7 @@
     [],
     [],
 
-    link(<PMCNV-DQ16src>)[PMCNV-DQ16src],
+    link(<PMCNV-DQx16>)[PMCNV-DQx16],
     "Подключение 16 дискретных выходов постоянного напряжения",
     "0.0.0",
     [#pmcnv_dq16src_power.total_current_3v3 мА \ #pmcnv_dq16src_power.total_power_3v3 мВт],
@@ -206,7 +206,7 @@
 #include "PMLED-18.typ"
 
 #include "PMCNV-DIx16.typ"
-#include "PMCNV-DQ16src.typ"
+#include "PMCNV-DQx16.typ"
 #include "PMCNV-Count6.typ"
 #include "PMCNV-RQx8.typ"
 #include "PMCNV-AI8IU.typ"
