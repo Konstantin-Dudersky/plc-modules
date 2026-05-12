@@ -4,7 +4,9 @@ use async_trait::async_trait;
 use bitvec::{field::BitField, order::Msb0, view::BitView};
 use rsiot::{
     components_config::{
-        master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{
+            self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult,
+        },
         spi_master::{self},
     },
     executor::MsgBusInput,
@@ -227,7 +229,7 @@ where
                             ad7190::StatusRegister::decode(response_payload[0][3]);
 
                         if let ad7190::SRReady::NotReady = status_register.ready {
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         let bytes = &response_payload[0][0..=2];
@@ -250,9 +252,10 @@ where
                         // info!("Data: {:?}", buffer.read_registers.data_registers);
                     }
                 }
-                Ok(false)
+                ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
+            device_state_output: None,
             buffer_default: Buffer {
                 write_registers: WriteRegisters {
                     conf_register: ad7190::ConfigurationRegister {

@@ -5,7 +5,7 @@ use bit_vec::BitVec;
 use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse},
-        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult},
     },
     executor::MsgBusInput,
     message::{Message, MsgDataBound},
@@ -70,7 +70,7 @@ where
                     Ok(payload) => payload,
                     Err(err) => {
                         warn!("Error reading DI16: {}", err);
-                        return Ok(false);
+                        return ResponseResult::ok();
                     }
                 };
 
@@ -99,9 +99,10 @@ where
                     buffer.read.input_states.ch07 = di_a[7];
                 }
 
-                Ok(false)
+                ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
+            device_state_output: None,
             buffer_default: Buffer {
                 address: self.address,
                 ..Default::default()

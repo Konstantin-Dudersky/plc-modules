@@ -5,7 +5,7 @@ use bitvec::{order::Lsb0, view::BitView};
 use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse},
-        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult},
     },
     executor::MsgBusInput,
     message::{Message, MsgDataBound},
@@ -76,7 +76,7 @@ where
                     Ok(payload) => payload,
                     Err(err) => {
                         warn!("Error reading state: {}", err);
-                        return Ok(false);
+                        return ResponseResult::ok();
                     }
                 };
 
@@ -155,12 +155,13 @@ where
                         buffer.write.button_row1 = buffer.read_row != 1;
                     }
 
-                    _ => return Ok(false),
+                    _ => return ResponseResult::ok(),
                 }
 
-                Ok(false)
+                ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
+            device_state_output: None,
             buffer_default: Buffer {
                 address: self.address,
                 write: Write {

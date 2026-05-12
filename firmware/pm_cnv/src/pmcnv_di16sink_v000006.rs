@@ -4,7 +4,9 @@ use async_trait::async_trait;
 use bit_vec::BitVec;
 use rsiot::{
     components_config::{
-        master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{
+            self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult,
+        },
         spi_master::{FieldbusRequest, FieldbusResponse},
     },
     executor::MsgBusInput,
@@ -85,9 +87,10 @@ where
                     buffer.read.input_states.dia_7 = di_a[7];
                 }
 
-                Ok(false)
+                ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
+            device_state_output: None,
             buffer_default: Buffer::default(),
         };
         device

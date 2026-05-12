@@ -24,6 +24,7 @@ rsiot = { path = "/mnt/data/projects/rsiot/", features = [
     "cmp_linux_i2c_master",
     "cmp_linux_spi_master",
 ] }
+pretty_assertions = "*"
 
 tokio = { version = "*", features = ["rt-multi-thread"] }
 

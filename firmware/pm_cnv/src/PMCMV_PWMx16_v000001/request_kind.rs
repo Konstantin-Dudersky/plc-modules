@@ -2,9 +2,11 @@ use strum::FromRepr;
 
 #[derive(FromRepr)]
 pub enum RequestKind {
+    SoftwareReset,
     Init,
-    ReadInputs,
+    SetChannels,
 }
+
 impl From<RequestKind> for u8 {
     fn from(value: RequestKind) -> Self {
         value as u8

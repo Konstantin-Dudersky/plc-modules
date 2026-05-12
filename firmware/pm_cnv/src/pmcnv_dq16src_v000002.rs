@@ -4,7 +4,9 @@ use async_trait::async_trait;
 use bitvec::{order::Msb0, view::BitView};
 use rsiot::{
     components_config::{
-        master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{
+            self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult,
+        },
         spi_master,
     },
     executor::MsgBusInput,
@@ -69,8 +71,9 @@ where
                     vec![MCP23S17::write_gpio_a(reg_a), MCP23S17::write_gpio_b(reg_b)],
                 )])
             },
-            fn_response_to_buffer: |_, _| Ok(false),
+            fn_response_to_buffer: |_, _| ResponseResult::ok(),
             fn_buffer_to_msgs: |_| vec![],
+            device_state_output: None,
             buffer_default: Buffer::default(),
         };
         device

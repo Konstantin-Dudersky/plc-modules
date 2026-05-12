@@ -1,6 +1,6 @@
 use rsiot::{components::cmp_linux_i2c_master::*, executor::Component};
 
-use pm_cnv::rq8_v000006::Device;
+use pm_cnv::rq8_v000009::Device;
 
 use super::messages::*;
 

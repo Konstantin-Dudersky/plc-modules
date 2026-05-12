@@ -4,7 +4,7 @@ use async_trait::async_trait;
 use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse},
-        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult},
     },
     executor::MsgBusInput,
     message::{Message, MsgDataBound},
@@ -13,7 +13,7 @@ use tokio::sync::mpsc;
 
 use crate::chips::mcp23s17_i2c::MCP23S17;
 
-use super::{request_kind::RequestKind, Buffer};
+use super::{Buffer, request_kind::RequestKind};
 
 #[derive(Debug)]
 pub struct Device<TMsg>
@@ -68,8 +68,9 @@ where
                     vec![MCP23S17::write_gpio_a(reg_a), MCP23S17::write_gpio_b(reg_b)],
                 )])
             },
-            fn_response_to_buffer: |_, _| Ok(false),
+            fn_response_to_buffer: |_, _| ResponseResult::ok(),
             fn_buffer_to_msgs: |_| vec![],
+            device_state_output: None,
             buffer_default: Buffer {
                 address: self.address,
                 ..Default::default()

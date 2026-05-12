@@ -4,7 +4,9 @@ use async_trait::async_trait;
 use bit_vec::BitVec;
 use rsiot::{
     components_config::{
-        master_device::{self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait},
+        master_device::{
+            self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult,
+        },
         spi_master,
     },
     executor::MsgBusInput,
@@ -94,63 +96,64 @@ where
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 1;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 2;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 3;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 4;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 5;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 6;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
 
                         row = 7;
                         let col_index = check_buttons_in_row(response.payload[row][0]);
                         if let Some(col_index) = col_index {
                             buffer.pressed_button = Some((row as u8, col_index));
-                            return Ok(false);
+                            return ResponseResult::ok();
                         }
                     }
                 }
 
-                Ok(false)
+                ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
+            device_state_output: None,
             buffer_default: Buffer::default(),
         };
         device
