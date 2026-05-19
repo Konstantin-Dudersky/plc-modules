@@ -6,3 +6,5 @@ pub use {
     buffer::{Buffer, PressedButton},
     device::Device,
 };
+
+const DEVICE_NAME: &str = "Bx12Lx8";

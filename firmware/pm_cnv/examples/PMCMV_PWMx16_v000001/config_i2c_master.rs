@@ -10,7 +10,7 @@ use super::messages::*;
 
 pub fn cmp() -> Cmp<Msg> {
     let pwm16 = PMCMV_PWMx16_v000001::Device {
-        address: 0x44,
+        address: I2cAddress::Direct { address: 0x44 },
         update_rate: 1000.0,
         fn_input: |msg, buffer| match msg {
             Msg::Ch15(value) => {

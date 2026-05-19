@@ -6,7 +6,7 @@ use super::messages::*;
 
 pub fn cmp() -> Component<Config<Msg>, Msg> {
     let dq16 = Device {
-        address: 0x20,
+        address: I2cAddress::Direct { address: 0x20 },
         fn_input: |msg, buffer| match msg {
             Msg::OutputDia0(v) => buffer.write.dqa_0 = *v,
             Msg::OutputDia1(v) => buffer.write.dqa_1 = *v,

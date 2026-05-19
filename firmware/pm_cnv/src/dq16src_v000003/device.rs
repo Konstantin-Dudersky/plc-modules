@@ -3,7 +3,7 @@ use std::{fmt::Debug, time::Duration};
 use async_trait::async_trait;
 use rsiot::{
     components_config::{
-        i2c_master::{FieldbusRequest, FieldbusResponse},
+        i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress},
         master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult},
     },
     executor::MsgBusInput,
@@ -20,7 +20,7 @@ pub struct Device<TMsg>
 where
     TMsg: MsgDataBound,
 {
-    pub address: u8,
+    pub address: I2cAddress,
     pub fn_input: fn(&TMsg, &mut Buffer),
 }
 

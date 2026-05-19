@@ -3,7 +3,7 @@ use std::{fmt::Debug, time::Duration};
 use async_trait::async_trait;
 use rsiot::{
     components_config::{
-        i2c_master::{FieldbusRequest, FieldbusResponse},
+        i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress},
         master_device::{
             self, ConfigDeviceStateOutput, ConfigPeriodicRequest, DeviceBase, DeviceTrait,
             ResponseResult,
@@ -51,7 +51,7 @@ where
     /// | SCL | VS  | 0x4D |
     /// | SCL | SDA | 0x4E |
     /// | SCL | SCL | 0x4F |
-    pub address: u8,
+    pub address: I2cAddress,
 
     /// Сопротивление шунта, [Ом]
     pub shunt_resistance: f64,
@@ -64,6 +64,9 @@ where
     pub bus_voltage_conversion_time: ConversionTime,
 
     pub shunt_voltage_conversion_time: ConversionTime,
+
+    /// Период опроса устройства
+    pub period: Duration,
 
     pub fn_output: fn(&mut Buffer) -> Vec<TMsg>,
 
@@ -86,7 +89,7 @@ where
         let device: DeviceBase<TMsg, FieldbusRequest, FieldbusResponse, Buffer> = DeviceBase {
             fn_init_requests,
             periodic_requests: vec![ConfigPeriodicRequest {
-                period: Duration::from_millis(1_000),
+                period: self.period,
                 fn_requests: |buffer| {
                     Ok(vec![FieldbusRequest::new(
                         buffer.config.address,
@@ -122,7 +125,7 @@ where
                         buffer.read.die_id = u16::from_be_bytes([payload[2][0], payload[2][1]]);
 
                         info!(
-                            "INA226 from address {}: Manufacture ID = {:x}; Die ID = {:x}",
+                            "INA226 from address {:?}: Manufacture ID = {:x}; Die ID = {:x}",
                             buffer.config.address, buffer.read.manufacturer_id, buffer.read.die_id,
                         );
 
@@ -166,7 +169,7 @@ where
         };
         device
             .spawn(
-                DEVICE_NAME,
+                format!("{} ({:x?})", DEVICE_NAME, self.address),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,

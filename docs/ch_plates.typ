@@ -139,7 +139,7 @@
 
     table.cell(colspan: 5)[Подключение цифровых интерфейсов],
 
-    link(<PMIFC-IIC8>)[PMIFC-IIC8],
+    link(<PMIFC-I2Cx8>)[PMIFC-I2Cx8],
     "Подключение 8 устройств по I2C",
     "0.0.1",
     [],
@@ -159,7 +159,6 @@
     [-],
     [-],
 
-
     table.cell(colspan: 5)[Платы для создания интерфейса оператора],
 
     link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard],
@@ -173,7 +172,6 @@
     "0.0.0",
     [],
     [],
-
 
     table.cell(colspan: 5)[Платы для отладки],
 
@@ -218,7 +216,7 @@
 #include "PMCNV-EnMon.typ"
 #include "PMCNV-PWMx16.typ"
 
-#include "PMIFC-IIC8.typ"
+#include "PMIFC-I2Cx8.typ"
 #include "PMIFC-1Wx12.typ"
 
 #include "PMPS-20W.typ"

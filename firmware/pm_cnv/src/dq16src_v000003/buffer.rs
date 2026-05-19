@@ -1,9 +1,9 @@
 use bitvec::{order::Msb0, view::BitView};
-use rsiot::components_config::master_device::BufferBound;
+use rsiot::components_config::{i2c_master::I2cAddress, master_device::BufferBound};
 
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Buffer {
-    pub address: u8,
+    pub address: I2cAddress,
     pub write: Write,
 }
 

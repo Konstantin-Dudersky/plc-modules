@@ -3,7 +3,7 @@ use std::{fmt::Debug, time::Duration};
 use async_trait::async_trait;
 use rsiot::{
     components_config::{
-        i2c_master::{FieldbusRequest, FieldbusResponse, Operation},
+        i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress, Operation},
         master_device::{self, ConfigDeviceStateOutput, DeviceBase, DeviceTrait, ResponseResult},
     },
     executor::MsgBusInput,
@@ -28,7 +28,7 @@ where
     /// Если все подтянуты к GND, то адрес равен 0x40.
     ///
     /// Также для всех чипов по-умолчанию есть неизменяемый адрес 0x70.
-    pub address: u8,
+    pub address: I2cAddress,
 
     /// Частота обновления, [Гц]
     ///
@@ -87,7 +87,7 @@ where
         };
         device
             .spawn(
-                DEVICE_NAME,
+                format!("{} ({:x?})", DEVICE_NAME, self.address),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
@@ -101,7 +101,7 @@ where
 pub fn fn_init_requests(buffer: &Buffer) -> Vec<FieldbusRequest> {
     vec![
         FieldbusRequest::new(
-            0x00,
+            I2cAddress::Direct { address: 0x00 },
             RequestKind::SoftwareReset,
             vec![Operation::Write {
                 write_data: vec![0x06],

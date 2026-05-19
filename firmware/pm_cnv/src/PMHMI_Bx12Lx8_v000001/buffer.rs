@@ -1,10 +1,10 @@
 use bitvec::{order::Lsb0, view::BitView};
-use rsiot::components_config::master_device::BufferBound;
+use rsiot::components_config::{i2c_master::I2cAddress, master_device::BufferBound};
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Buffer {
-    pub address: u8,
+    pub address: I2cAddress,
     pub write: Write,
     pub read: Read,
 
@@ -57,7 +57,6 @@ impl Write {
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Read {
     pub pressed_button: PressedButton,
-    pub pressed_button_: PressedButton,
 }
 
 #[derive(Clone, Debug, Default, Deserialize, PartialEq, Serialize)]

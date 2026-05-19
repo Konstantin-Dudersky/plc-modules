@@ -4,19 +4,22 @@ use async_trait::async_trait;
 use bitvec::{order::Lsb0, view::BitView};
 use rsiot::{
     components_config::{
-        i2c_master::{FieldbusRequest, FieldbusResponse},
-        master_device::{self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult},
+        i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress},
+        master_device::{
+            self, ConfigDeviceStateOutput, ConfigPeriodicRequest, DeviceBase, DeviceTrait,
+            ResponseResult,
+        },
     },
     executor::MsgBusInput,
     message::{Message, MsgDataBound},
 };
 use tokio::sync::mpsc;
-use tracing::{debug, warn};
+use tracing::warn;
 
 use crate::chips::mcp23s17_i2c::MCP23S17;
 
 use super::{
-    Buffer,
+    Buffer, DEVICE_NAME,
     buffer::{PressedButton, Write},
     request_kind::RequestKind,
 };
@@ -26,9 +29,10 @@ pub struct Device<TMsg>
 where
     TMsg: MsgDataBound,
 {
-    pub address: u8,
+    pub address: I2cAddress,
     pub fn_input: fn(&TMsg, &mut Buffer),
     pub fn_output: fn(&mut Buffer) -> Vec<TMsg>,
+    pub device_state_output: Option<ConfigDeviceStateOutput<TMsg>>,
 }
 
 #[async_trait]
@@ -76,14 +80,18 @@ where
                     Ok(payload) => payload,
                     Err(err) => {
                         warn!("Error reading state: {}", err);
-                        return ResponseResult::ok();
+                        return ResponseResult::error(err);
                     }
                 };
 
                 match kind {
+                    RequestKind::Init => ResponseResult::ok_init_completed(),
+
+                    RequestKind::SetLed => ResponseResult::ok(),
+
                     RequestKind::ReadButton => {
-                        let a = payload[0].view_bits::<Lsb0>();
-                        let b = payload[1].view_bits::<Lsb0>();
+                        let a = payload[2].view_bits::<Lsb0>();
+                        let b = payload[3].view_bits::<Lsb0>();
 
                         let row_0 = a.get(0).unwrap();
                         let col_0 = a.get(1).unwrap();
@@ -118,7 +126,7 @@ where
                             -1
                         };
 
-                        let key = match (row, col) {
+                        buffer.read.pressed_button = match (row, col) {
                             (0, 0) => PressedButton::Row0Col0,
                             (0, 1) => PressedButton::Row0Col1,
                             (0, 2) => PressedButton::Row0Col2,
@@ -134,34 +142,22 @@ where
                             _ => PressedButton::None,
                         };
 
-                        // info!("a: {:b}; b: {:b}", payload[0][0], payload[1][0]);
-
-                        if !matches!(key, PressedButton::None) {
-                            debug!("Pressed button: {:?}", key);
-                            buffer.read.pressed_button_ = key;
+                        if matches!(buffer.read.pressed_button, PressedButton::None) {
+                            // Переключаем строку для чтения
+                            buffer.read_row += 1;
+                            if buffer.read_row >= 2 {
+                                buffer.read_row = 0;
+                            }
                         }
 
-                        if buffer.read_row == 1 {
-                            buffer.read.pressed_button = buffer.read.pressed_button_.clone();
-                            buffer.read.pressed_button_ = PressedButton::None;
-                        }
-
-                        // Переключаем строку для чтения
-                        buffer.read_row += 1;
-                        if buffer.read_row >= 2 {
-                            buffer.read_row = 0;
-                        }
                         buffer.write.button_row0 = buffer.read_row != 0;
                         buffer.write.button_row1 = buffer.read_row != 1;
+                        ResponseResult::ok()
                     }
-
-                    _ => return ResponseResult::ok(),
                 }
-
-                ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
-            device_state_output: None,
+            device_state_output: self.device_state_output,
             buffer_default: Buffer {
                 address: self.address,
                 write: Write {
@@ -174,7 +170,7 @@ where
         };
         device
             .spawn(
-                "Bx12Lx8".to_string(),
+                format!("{} ({:x?})", DEVICE_NAME, self.address),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
@@ -198,7 +194,7 @@ pub fn fn_init_requests(buffer: &Buffer) -> Vec<FieldbusRequest> {
     )]
 }
 
-pub fn fn_buffer_to_request(buffer: &Buffer) -> Result<Vec<FieldbusRequest>, anyhow::Error> {
+pub fn fn_buffer_to_request(buffer: &Buffer) -> anyhow::Result<Vec<FieldbusRequest>> {
     let reg_a = buffer.write.reg_a();
     let reg_b = buffer.write.reg_b();
 

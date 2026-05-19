@@ -1,4 +1,4 @@
-use rsiot::components_config::master_device::BufferBound;
+use rsiot::components_config::{i2c_master::I2cAddress, master_device::BufferBound};
 
 use super::{AveragingMode, ConversionTime, OutputData};
 
@@ -22,7 +22,7 @@ impl Buffer {
 
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Config {
-    pub address: u8,
+    pub address: I2cAddress,
     pub average_mode: AveragingMode,
     pub bus_voltage_conversion_time: ConversionTime,
     pub shunt_voltage_conversion_time: ConversionTime,

@@ -1,6 +1,6 @@
 use rsiot::{components::cmp_linux_spi_master::*, executor::Component};
 
-use pm_cnv::pmcnv_ai4w_v000002;
+use pm_cnv::PMCNV_AIWx4_v000002;
 
 use super::messages::*;
 
@@ -15,7 +15,7 @@ pub fn cmp() -> Component<Config<Msg>, Msg> {
         spi_mode: ConfigDeviceSpiMode::Mode3,
     };
 
-    let ai4w = pmcnv_ai4w_v000002::Device {
+    let ai4w = PMCNV_AIWx4_v000002::Device {
         fn_input: |_msg, _buffer| (),
         fn_output: |_buffer| vec![],
     };

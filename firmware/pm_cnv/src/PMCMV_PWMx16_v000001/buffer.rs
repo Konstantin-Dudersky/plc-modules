@@ -1,4 +1,4 @@
-use rsiot::components_config::master_device::BufferBound;
+use rsiot::components_config::{i2c_master::I2cAddress, master_device::BufferBound};
 
 /// Частота осциллятора - 25 МГц.
 const OSC_CLOCK: f32 = 25_000_000.0;
@@ -7,7 +7,7 @@ const CYCLE: f32 = 4096.0;
 
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Buffer {
-    pub address: u8,
+    pub address: I2cAddress,
     pub update_rate: f32,
 
     pub write: Write,
