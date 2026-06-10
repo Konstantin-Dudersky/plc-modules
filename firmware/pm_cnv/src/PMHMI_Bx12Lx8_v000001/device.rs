@@ -6,8 +6,7 @@ use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress},
         master_device::{
-            self, ConfigDeviceStateOutput, ConfigPeriodicRequest, DeviceBase, DeviceTrait,
-            ResponseResult,
+            self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, FieldbusDiagMsg, ResponseResult,
         },
     },
     executor::MsgBusInput,
@@ -16,7 +15,7 @@ use rsiot::{
 use tokio::sync::mpsc;
 use tracing::warn;
 
-use crate::chips::mcp23s17_i2c::MCP23S17;
+use crate::chips::mcp23017::MCP23017;
 
 use super::{
     Buffer, DEVICE_NAME,
@@ -32,7 +31,6 @@ where
     pub address: I2cAddress,
     pub fn_input: fn(&TMsg, &mut Buffer),
     pub fn_output: fn(&mut Buffer) -> Vec<TMsg>,
-    pub device_state_output: Option<ConfigDeviceStateOutput<TMsg>>,
 }
 
 #[async_trait]
@@ -47,6 +45,7 @@ where
         ch_tx_device_to_fieldbus: mpsc::Sender<FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
+        ch_tx_device_to_diag: mpsc::Sender<FieldbusDiagMsg>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<TMsg, FieldbusRequest, FieldbusResponse, Buffer> = DeviceBase {
             fn_init_requests,
@@ -60,10 +59,10 @@ where
                         buffer.address,
                         RequestKind::ReadButton,
                         vec![
-                            MCP23S17::write_gpio_a(reg_a),
-                            MCP23S17::write_gpio_b(reg_b),
-                            MCP23S17::read_gpio_a(),
-                            MCP23S17::read_gpio_b(),
+                            MCP23017::write_gpio_a(reg_a),
+                            MCP23017::write_gpio_b(reg_b),
+                            MCP23017::read_gpio_a(),
+                            MCP23017::read_gpio_b(),
                         ],
                     );
 
@@ -157,7 +156,6 @@ where
                 }
             },
             fn_buffer_to_msgs: self.fn_output,
-            device_state_output: self.device_state_output,
             buffer_default: Buffer {
                 address: self.address,
                 write: Write {
@@ -175,6 +173,7 @@ where
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
+                ch_tx_device_to_diag,
             )
             .await?;
         Err(master_device::Error::EndExecution)
@@ -186,10 +185,10 @@ pub fn fn_init_requests(buffer: &Buffer) -> Vec<FieldbusRequest> {
         buffer.address,
         RequestKind::Init,
         vec![
-            MCP23S17::write_iodir_a(0b00001110),
-            MCP23S17::write_iodir_b(0b01110000),
-            MCP23S17::write_gppua(0b00001110),
-            MCP23S17::write_gppub(0b01110000),
+            MCP23017::write_iodir_a(0b00001110),
+            MCP23017::write_iodir_b(0b01110000),
+            MCP23017::write_gppua(0b00001110),
+            MCP23017::write_gppub(0b01110000),
         ],
     )]
 }
@@ -201,6 +200,6 @@ pub fn fn_buffer_to_request(buffer: &Buffer) -> anyhow::Result<Vec<FieldbusReque
     Ok(vec![FieldbusRequest::new(
         buffer.address,
         RequestKind::SetLed,
-        vec![MCP23S17::write_gpio_a(reg_a), MCP23S17::write_gpio_b(reg_b)],
+        vec![MCP23017::write_gpio_a(reg_a), MCP23017::write_gpio_b(reg_b)],
     )])
 }

@@ -1,8 +1,14 @@
 use rsiot::components_config::{i2c_master::I2cAddress, master_device::BufferBound};
 
+use super::OutputData;
+
+/// Буфер данных
 #[derive(Clone, Debug, Default, PartialEq)]
 pub struct Buffer {
+    /// Адрес I2C устройства
     pub address: I2cAddress,
+
+    /// Прочитанные данные
     pub read: Read,
 }
 
@@ -32,3 +38,27 @@ pub struct InputStates {
 }
 
 impl BufferBound for Buffer {}
+
+impl Buffer {
+    /// Создать выходные данные
+    pub fn output_data(&self) -> OutputData {
+        OutputData {
+            ch00: self.read.input_states.ch00,
+            ch01: self.read.input_states.ch01,
+            ch02: self.read.input_states.ch02,
+            ch03: self.read.input_states.ch03,
+            ch04: self.read.input_states.ch04,
+            ch05: self.read.input_states.ch05,
+            ch06: self.read.input_states.ch06,
+            ch07: self.read.input_states.ch07,
+            ch08: self.read.input_states.ch08,
+            ch09: self.read.input_states.ch09,
+            ch10: self.read.input_states.ch10,
+            ch11: self.read.input_states.ch11,
+            ch12: self.read.input_states.ch12,
+            ch13: self.read.input_states.ch13,
+            ch14: self.read.input_states.ch14,
+            ch15: self.read.input_states.ch15,
+        }
+    }
+}

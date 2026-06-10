@@ -38,20 +38,20 @@ pub struct Channel {
 impl Channel {
     // Возвращает регистры для записи в чип в виде массива [ON_L, ON_H, OFF_L, OFF_H]
     pub fn registers(&self) -> [u8; 4] {
-        // TODO - крайние случаи - 100% и 0%
+        let delay_time = self.delay_time.clamp(0.0, 100.0);
+        let pwm_duty_cycle = self.pwm_duty_cycle.clamp(0.0, 100.0);
 
-        if self.pwm_duty_cycle == 0.0 {
+        if pwm_duty_cycle <= 0.0 {
             return [0x00, 0x00, 0x00, 0x10];
         }
-        if self.pwm_duty_cycle == 100.0 {
+        if pwm_duty_cycle >= 100.0 {
             return [0x00, 0x10, 0x00, 0x00];
         }
 
-        let led_on: u16 = (self.delay_time * (CYCLE - 1.0) / 100.0).round() as u16;
+        let led_on: u16 = (delay_time * (CYCLE - 1.0) / 100.0).round() as u16;
         let led_on_bytes = led_on.to_le_bytes();
 
-        let led_off: u16 =
-            ((self.pwm_duty_cycle + self.delay_time) * (CYCLE - 1.0) / 100.0).round() as u16;
+        let led_off: u16 = ((pwm_duty_cycle + delay_time) * (CYCLE - 1.0) / 100.0).round() as u16;
 
         let led_off: u16 = if led_off as f32 >= CYCLE {
             led_off - CYCLE as u16

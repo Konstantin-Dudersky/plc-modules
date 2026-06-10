@@ -1,0 +1,15 @@
+import { Module } from "./modules.slint";
+
+export global Input {
+    in property <bool> watchdog_enabled;
+    in property <string> watchdog_signal;
+
+    in property <string> i2cdetect;
+    in property <int> i2c_diag_response_ok;
+    in property <int> i2c_diag_response_error;
+
+    in property <Module> module;
+
+    in property <int> pmcnv_dix16_address;
+    in property <[bool]> pmcnv_dix16_state;
+}

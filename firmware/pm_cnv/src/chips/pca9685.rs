@@ -1,3 +1,4 @@
+use anyhow::bail;
 use rsiot::components_config::i2c_master::Operation;
 
 const REG_MODE1: u8 = 0x00;
@@ -20,9 +21,9 @@ impl PCA9685 {
         }
     }
 
-    pub fn write_led0_15(v: Vec<u8>) -> Result<Operation, String> {
+    pub fn write_led0_15(v: Vec<u8>) -> anyhow::Result<Operation> {
         if v.len() != 64 {
-            return Err("v must be 64 bytes".to_string());
+            bail!("v must be 64 bytes");
         }
 
         let mut data = vec![REG_LED0_ON_L];

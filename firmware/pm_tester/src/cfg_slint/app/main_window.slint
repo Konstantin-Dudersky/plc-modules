@@ -1,0 +1,167 @@
+import { Palette } from "std-widgets.slint";
+
+import {
+    DropDownMenu,
+    Horizontal,
+    MaterialText,
+    MaterialTypography,
+    MaterialWindow,
+    NavigationBar,
+    Switch,
+    TabBar,
+    TextField,
+    Vertical,
+} from "@material";
+
+import { Input } from "global/input.slint";
+
+import { PMCNV_DIx16_v000010 } from "./PMCNV_DIx16_v000010.slint";
+
+import "./fonts/NotoSans/NotoSans-Regular.ttf";
+import { Output } from "global/output.slint";
+import { Module } from "global/modules.slint";
+
+
+enum Screen {
+    Main,
+    Module,
+}
+
+
+component ScreenMain {
+    Vertical {
+        alignment: LayoutAlignment.start;
+
+        MaterialText {
+            text: "Тестер модулей";
+            style: MaterialTypography.headline_large;
+            horizontal-alignment: TextHorizontalAlignment.center;
+        }
+
+        Horizontal {
+            MaterialText {
+                text: "Найденные адреса I2C: ";
+            }
+
+            MaterialText {
+                horizontal-alignment: TextHorizontalAlignment.right;
+                text: Input.i2cdetect;
+            }
+        }
+
+        Horizontal {
+            MaterialText {
+                text: "Watchdog: (" + Input.watchdog_signal + ")";
+            }
+
+            Switch {
+                checked: Input.watchdog_enabled;
+                width: 100px;
+
+                checked_state_changed(checked) => {
+                    Output.set_watchdog(checked);
+                }
+            }
+        }
+
+        Horizontal {
+            MaterialText {
+                text: "Запросы по шине I2C: (ok/error)";
+            }
+
+            MaterialText {
+                text: Input.i2c_diag_response_ok + " / " + Input.i2c_diag_response_error;
+                horizontal-alignment: TextHorizontalAlignment.right;
+            }
+        }
+    }
+}
+
+component ScreenModule {
+
+    Vertical {
+
+        Horizontal {
+            DropDownMenu {
+                label: "Модуль";
+                height: 80px;
+
+                current_index: {
+                    if Input.module == Module.None {
+                        0
+                    } else if Input.module == Module.PMCNV_DIx16_v000010 {
+                        1
+                    } else {
+                        0
+                    }
+                }
+
+                items: [
+                    { enabled: true, text: "Выбери модуль" },
+                    { enabled: true, text: "PMCNV-DIx16" },
+                    { enabled: true, text: "PMCNV-DIx32" },
+                    { enabled: true, text: "PMCNV-DQx16" },
+                    { enabled: true, text: "PMCNV-RQx8" },
+                ];
+
+                selected(index) => {
+                    if index == 0 {
+                        Output.change_active_module(Module.None);
+                    } else if index == 1 {
+                        Output.change_active_module(Module.PMCNV_DIx16_v000010);
+                    }
+                }
+            }
+        }
+
+        if Input.module == Module.PMCNV_DIx16_v000010: PMCNV_DIx16_v000010 {
+            width: 100%;
+        }
+    }
+}
+
+export component MainWindow inherits MaterialWindow {
+    width: 800px;
+    height: 480px;
+    title: "My Application";
+    default-font-size: 14px;
+    default-font-family: "Noto Sans";
+
+    property <Screen> screen: Screen.Main;
+
+    init => {
+        Palette.color-scheme = ColorScheme.dark;
+    }
+
+    ScreenMain {
+        visible: screen == Screen.Main;
+        y: 0px;
+        width: parent.width;
+        height: parent.height - tab_bar.height;
+    }
+
+    ScreenModule {
+        visible: screen == Screen.Module;
+        y: 0px;
+        width: parent.width;
+        height: parent.height - tab_bar.height;
+    }
+
+    tab_bar := TabBar {
+        y: parent.height - self.height;
+        width: parent.width;
+        height: 80px;
+        items: [
+            { text: "Главная" },
+            { text: "Модуль" },
+        ];
+
+        index-changed(index) => {
+            if index == 0 {
+                screen = Screen.Main;
+            } else if index == 1 {
+                screen = Screen.Module;
+            }
+        }
+    }
+}

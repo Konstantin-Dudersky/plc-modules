@@ -2,10 +2,10 @@
 //!
 //! cargo build --target="armv7-unknown-linux-gnueabihf" --example "pmcnv-ai4w-v000002" --release; scp target/armv7-unknown-linux-gnueabihf/release/examples/pmcnv-ai4w-v000002 root@target:/root
 
-mod config_inject_periodic;
+mod cfg_inject_periodic;
 // mod config_logger;
-mod config_spi_master;
-mod messages;
+mod cfg_spi_master;
+mod msg;
 
 use std::time::Duration;
 
@@ -28,9 +28,9 @@ async fn main() -> anyhow::Result<()> {
         fn_tokio_metrics: |_| None,
     };
 
-    ComponentExecutor::<messages::Msg>::new(executor_config)
-        .add_cmp(config_spi_master::cmp())
-        .add_cmp(config_inject_periodic::cmp())
+    ComponentExecutor::<msg::Msg>::new(executor_config)
+        .add_cmp(cfg_spi_master::cmp())
+        .add_cmp(cfg_inject_periodic::cmp())
         // .add_cmp(config_logger::cmp())
         .wait_result()
         .await?;

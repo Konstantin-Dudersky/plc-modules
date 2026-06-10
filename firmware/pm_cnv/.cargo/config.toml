@@ -17,6 +17,9 @@ rustflags = [
     "tokio_unstable",
 ]
 
+[build]
+rustc-wrapper = "sccache"
+
 [env]
 MCU = "esp32c3"
 # install all libraries globally, in folder ~/.espressif

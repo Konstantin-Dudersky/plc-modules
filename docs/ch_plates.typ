@@ -23,7 +23,7 @@
 
     table.cell(colspan: 5)[Платы ЦПУ],
 
-    link(<PMCPU-RP>)[PMCPU-RP],
+    link(<PMCPU-ESP32C3>)[PMCPU-ESP32C3],
     "ЦПУ на базе мини-компьютера Raspberry Pi или совместимого с ним",
     "0.0.0",
     [],
@@ -95,9 +95,9 @@
     [],
     [],
 
-    link(<PMCNV-AI4T>)[PMCNV-AI4T],
-    "Подключение 4 термопар",
-    "0.0.2",
+    link(<PMCNV-AI8T>)[PMCNV-AI8T],
+    "Подключение 8 термопар",
+    "0.1.0",
     [],
     [],
 
@@ -197,6 +197,7 @@
 #include "PMCPU-RP.typ"
 #include "PMCPU-LLP.typ"
 #include "PMCPU-LLU.typ"
+#include "PMCPU-EPS32C3.typ"
 
 #include "PMMCU-ESP32C3.typ"
 
@@ -209,7 +210,7 @@
 #include "PMCNV-RQx8.typ"
 #include "PMCNV-AI8IU.typ"
 #include "PMCNV-AI4R.typ"
-#include "PMCNV-AI4T.typ"
+#include "PMCNV-AI8T.typ"
 #include "PMCNV-AI4W.typ"
 #include "PMCNV-AQ.typ"
 #include "PMCNV-INA226.typ"

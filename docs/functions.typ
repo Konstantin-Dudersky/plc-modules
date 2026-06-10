@@ -5,13 +5,22 @@
 #let decimal_sep(num, decimal: ",", thousands: "") = {
   let parts = str(num).split(".")
   let decimal_part = if parts.len() == 2 { parts.at(1) }
-  let integer_part = parts.at(0).rev().clusters().enumerate()
-    .map((item) => {
+  let integer_part = parts
+    .at(0)
+    .rev()
+    .clusters()
+    .enumerate()
+    .map(item => {
       let (index, value) = item
-      return value + if calc.rem(index, 3) == 0 and index != 0 {
-        thousands
-      }
-    }).rev().join("")
+      return (
+        value
+          + if calc.rem(index, 3) == 0 and index != 0 {
+            thousands
+          }
+      )
+    })
+    .rev()
+    .join("")
   return integer_part + if decimal_part != none { decimal + decimal_part }
 }
 
@@ -87,9 +96,7 @@
       columns: (35%, 15%, 50%),
       table.header(
         repeat: true,
-        [*Обозначение*],
-        [*Количество*],
-        [*part_ipn*],
+        [*Обозначение*], [*Количество*], [*part_ipn*],
       ),
       ..bom,
     ),
@@ -124,7 +131,7 @@
   content: str,
   caption: str,
   label: [any],
-  breakable: false
+  breakable: false,
 ) = {
   set par(justify: false)
   [
@@ -134,10 +141,10 @@
         fill: luma(250),
         radius: 3pt,
         stroke: .6pt + luma(200),
-        inset:	(x: .45em, y: .65em),
+        inset: (x: .45em, y: .65em),
         width: 100%,
         clip: false,
-        [#align(left)[#content]]
+        [#align(left)[#content]],
       ),
       caption: figure.caption(position: bottom)[#caption],
       supplement: "Листинг",
@@ -174,7 +181,6 @@
     table.push([#decimal_sep(power_5v)])
     table.push([#power_3v3_count])
     table.push([#power_5v_count])
-
   }
 
   total_power_3v3 = calc.round(total_power_3v3, digits: 1)
@@ -194,7 +200,6 @@
 #let table_power_consumtion(
   values: (),
 ) = {
-
   figure(
     caption: "Расчёт потребления",
     table(
@@ -210,17 +215,20 @@
       "3,3 В",
       "5 В",
 
-      ..for c in values.table {(
-        [#c],
-      )},
+      ..for c in values.table {
+        (
+          [#c],
+        )
+      },
 
-      table.cell(colspan: 4, align: left)[Итого, мВт: ],//#decimal_sep(values.)],
+      table.cell(colspan: 4, align: left)[Итого, мВт: ],
+      //#decimal_sep(values.)],
       [#decimal_sep(values.total_power_3v3)],
       [#decimal_sep(values.total_power_5v)],
 
       table.cell(colspan: 4, align: left)[Итого, мА],
       [#decimal_sep(values.total_current_3v3)],
       [#decimal_sep(values.total_current_5v)],
-    )
+    ),
   )
 }

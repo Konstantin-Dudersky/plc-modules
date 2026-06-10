@@ -1,0 +1,232 @@
+import { LineEdit, Button, Palette } from "std-widgets.slint";
+
+import {
+    ElevatedButton,
+    FilledButton,
+    MaterialText,
+    ModalDrawer,
+    IconButton,
+    TextField,
+} from "@material";
+
+import { Settings } from "./settings.slint";
+
+
+
+component KeyButton inherits IconButton {
+    height: Settings.element_size;
+    width: Settings.element_size;
+}
+
+component VirtualKeyboard inherits ModalDrawer {
+    position-right: true;
+
+    in property <float> input_value;
+    in property <string> description: "Описание";
+    in property <string> unit;
+
+    in property <length> offset_x;
+    in property <length> offset_y;
+
+    pure callback set_output_value(float);
+
+    property <string> value;
+
+    close-policy: PopupClosePolicy.close-on-click-outside;
+
+    width: 800px;
+    height: 480px;
+    x: offset_x;
+    y: offset_y;
+
+    init => {
+        value = input_value;
+    }
+
+    VerticalLayout {
+        spacing: Settings.spacing;
+
+        MaterialText {
+            font-size: Settings.description_font_size;
+            height: Settings.element_size;
+            horizontal-alignment: TextHorizontalAlignment.left;
+            text: description;
+            vertical-alignment: TextVerticalAlignment.center;
+            wrap: TextWrap.word-wrap;
+        }
+
+        le := TextField {
+            read-only: true;
+            text: value + " " + unit;
+            has-error: !value.is-float();
+            height: Settings.element_size;
+        }
+
+        GridLayout {
+            spacing: Settings.spacing;
+
+            Row {
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-5-rounded.svg");
+                    clicked => {
+                        value = value + "5";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-6-rounded.svg");
+                    clicked => {
+                        value = value + "6";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-7-rounded.svg");
+                    clicked => {
+                        value = value + "7";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-8.svg");
+                    clicked => {
+                        value = value + "8";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-9-rounded.svg");
+                    clicked => {
+                        value = value + "9";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/mdi--dot.svg");
+                    clicked => {
+                        value = value + ".";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/iconamoon--sign-minus-bold.svg");
+                    clicked => {
+                        value = value + "-";
+                    }
+                }
+            }
+
+            Row {
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-0.svg");
+                    clicked => {
+                        value = value + "0";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-1-rounded.svg");
+                    clicked => {
+                        value = value + "1";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-2-rounded.svg");
+                    clicked => {
+                        value = value + "2";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-3-rounded.svg");
+                    clicked => {
+                        value = value + "3";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--counter-4-rounded.svg");
+                    clicked => {
+                        value = value + "4";
+                    }
+                }
+
+                KeyButton {
+                    icon: @image-url("./icons/material-symbols--delete-rounded.svg");
+                    clicked => {
+                        value = ""
+                    }
+                }
+            }
+        }
+
+        HorizontalLayout {
+            spacing: Settings.spacing;
+
+            ElevatedButton {
+                height: Settings.element_size;
+                icon: @image-url("./icons/material-symbols--cancel-rounded.svg");
+                text: "Отмена";
+                width: 3.5 * Settings.element_size + 1.5 * Settings.spacing;
+                clicked => {
+                    root.close();
+                }
+            }
+
+            FilledButton {
+                enabled: value.is-float();
+                height: Settings.element_size;
+                icon: @image-url("./icons/material-symbols--check-rounded.svg");
+                text: "OK";
+                width: 3.5 * Settings.element_size + 1.5 * Settings.spacing;
+                clicked => {
+                    if (value.is-float()) {
+                        set_output_value(value.to-float());
+                        root.close();
+                    }
+                }
+            }
+        }
+    }
+}
+
+export component TextFieldKeyboard {
+    in property <string> label;
+    in property <float> input_value;
+    in property <string> description;
+    in property <string> unit;
+    in property <int> precision: 1;
+
+    pure callback set_output_value(float);
+
+    virtual_keyboard := VirtualKeyboard {
+        input_value: input_value;
+        description: description;
+        unit: unit;
+
+        offset_x: -root.absolute_position.x;
+        offset_y: -root.absolute_position.y;
+
+        set_output_value(value) => {
+            set_output_value(value)
+        }
+    }
+
+    TextField {
+        label: label;
+        text: input_value.to-fixed(precision) + " " + unit;
+        read-only: true;
+        height: root.height;
+        width: root.width;
+    }
+
+    TouchArea {
+        height: root.height;
+        width: root.width;
+        clicked => {
+            virtual_keyboard.show()
+        }
+    }
+}

@@ -1,7 +1,7 @@
-mod config_i2c_master;
+mod cfg_i2c_master;
 // mod config_inject_periodic;
-mod config_logger;
-mod messages;
+mod cfg_logger;
+mod msg;
 
 use std::time::Duration;
 
@@ -10,7 +10,7 @@ use rsiot::{
     logging::{LogConfig, LogConfigFilter},
 };
 
-use crate::messages::Msg;
+use crate::msg::Msg;
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -28,9 +28,9 @@ async fn main() -> anyhow::Result<()> {
     };
 
     ComponentExecutor::<Msg>::new(executor_config)
-        .add_cmp(config_i2c_master::cmp())
+        .add_cmp(cfg_i2c_master::cmp())
         // .add_cmp(config_inject_periodic::cmp())
-        .add_cmp(config_logger::cmp())
+        .add_cmp(cfg_logger::cmp())
         .wait_result()
         .await?;
 

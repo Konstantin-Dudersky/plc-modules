@@ -6,29 +6,43 @@ use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress},
         master_device::{
-            self, ConfigDeviceStateOutput, ConfigPeriodicRequest, DeviceBase, DeviceTrait,
-            ResponseResult,
+            self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, FieldbusDiagMsg, ResponseResult,
         },
     },
     executor::MsgBusInput,
     message::{Message, MsgDataBound},
 };
 use tokio::sync::mpsc;
-use tracing::warn;
 
-use crate::chips::mcp23s17_i2c::MCP23S17;
+use crate::{chips::mcp23017::MCP23017, device_id_i2c};
 
 use super::{Buffer, DEVICE_NAME, request_kind::RequestKind};
 
+/// Модуль PMCNV_DIx16
 #[derive(Debug)]
 pub struct Device<TMsg>
 where
     TMsg: MsgDataBound,
 {
+    /// Адрес чипа MCP23017
+    ///
+    /// | A2 | A1 | A0 | Адрес |
+    /// |---|---|---|------|
+    /// | - | - | - | 0x20 |
+    /// | - | - | + | 0x21 |
+    /// | - | + | - | 0x22 |
+    /// | - | + | + | 0x23 |
+    /// | + | - | - | 0x24 |
+    /// | + | - | + | 0x25 |
+    /// | + | + | - | 0x26 |
+    /// | + | + | + | 0x27 |
     pub address: I2cAddress,
+
+    /// Период запроса данных
     pub update_period: Duration,
+
+    /// Функция создания сообщений с данными модуля
     pub fn_output: fn(&mut Buffer) -> Vec<TMsg>,
-    pub device_state_output: Option<ConfigDeviceStateOutput<TMsg>>,
 }
 
 #[async_trait]
@@ -43,13 +57,14 @@ where
         ch_tx_device_to_fieldbus: mpsc::Sender<FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
+        ch_tx_device_to_diag: mpsc::Sender<FieldbusDiagMsg>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<TMsg, FieldbusRequest, FieldbusResponse, Buffer> = DeviceBase {
             fn_init_requests: |buffer| {
                 let req_init = FieldbusRequest::new(
                     buffer.address,
                     RequestKind::Init,
-                    vec![MCP23S17::write_iodir_a(0xFF), MCP23S17::write_iodir_b(0xFF)],
+                    vec![MCP23017::write_iodir_a(0xFF), MCP23017::write_iodir_b(0xFF)],
                 );
                 vec![req_init]
             },
@@ -59,7 +74,7 @@ where
                     let req_read = FieldbusRequest::new(
                         buffer.address,
                         RequestKind::ReadInputs,
-                        vec![MCP23S17::read_gpio_a(), MCP23S17::read_gpio_b()],
+                        vec![MCP23017::read_gpio_a(), MCP23017::read_gpio_b()],
                     );
                     Ok(vec![req_read])
                 },
@@ -73,7 +88,6 @@ where
                 let payload = match response.payload {
                     Ok(payload) => payload,
                     Err(err) => {
-                        warn!("Error reading DI16: {}", err);
                         return ResponseResult::error(err);
                     }
                 };
@@ -109,7 +123,6 @@ where
                 }
             },
             fn_buffer_to_msgs: self.fn_output,
-            device_state_output: self.device_state_output,
             buffer_default: Buffer {
                 address: self.address,
                 ..Default::default()
@@ -117,11 +130,12 @@ where
         };
         device
             .spawn(
-                format!("{} ({:x?})", DEVICE_NAME, self.address),
+                device_id_i2c(DEVICE_NAME, self.address),
                 ch_rx_msgbus_to_device,
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
+                ch_tx_device_to_diag,
             )
             .await?;
         Err(master_device::Error::EndExecution)

@@ -4,7 +4,7 @@ use async_trait::async_trait;
 use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress, Operation},
-        master_device::{self, ConfigDeviceStateOutput, DeviceBase, DeviceTrait, ResponseResult},
+        master_device::{self, DeviceBase, DeviceTrait, FieldbusDiagMsg, ResponseResult},
     },
     executor::MsgBusInput,
     message::{Message, MsgDataBound},
@@ -36,8 +36,6 @@ where
     pub update_rate: f32,
 
     pub fn_input: fn(&TMsg, &mut Buffer),
-
-    pub device_state_output: Option<ConfigDeviceStateOutput<TMsg>>,
 }
 
 #[async_trait]
@@ -52,6 +50,7 @@ where
         ch_tx_device_to_fieldbus: mpsc::Sender<FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
+        ch_tx_device_to_diag: mpsc::Sender<FieldbusDiagMsg>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<TMsg, FieldbusRequest, FieldbusResponse, Buffer> = DeviceBase {
             fn_init_requests,
@@ -76,7 +75,6 @@ where
                 }
             },
             fn_buffer_to_msgs: |_| vec![],
-            device_state_output: self.device_state_output,
             buffer_default: Buffer {
                 address: self.address,
                 update_rate: self.update_rate,
@@ -92,6 +90,7 @@ where
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
+                ch_tx_device_to_diag,
             )
             .await?;
         Err(master_device::Error::EndExecution)
@@ -99,6 +98,8 @@ where
 }
 
 pub fn fn_init_requests(buffer: &Buffer) -> Vec<FieldbusRequest> {
+    let write_led0_15 = PCA9685::write_led0_15(vec![0x00; 64]).unwrap();
+
     vec![
         FieldbusRequest::new(
             I2cAddress::Direct { address: 0x00 },
@@ -115,35 +116,35 @@ pub fn fn_init_requests(buffer: &Buffer) -> Vec<FieldbusRequest> {
                 PCA9685::write_prescale(buffer.prescale()),
                 PCA9685::write_mode1(0x20),
                 PCA9685::write_mode2(0b0000_0100),
-                PCA9685::write_led0_15(vec![0x00; 64]).unwrap(),
+                write_led0_15,
             ],
         ),
     ]
 }
 
 pub fn fn_buffer_to_request(buffer: &Buffer) -> Result<Vec<FieldbusRequest>, anyhow::Error> {
-    let mut data = vec![];
+    let mut data = Vec::with_capacity(64);
 
-    data.extend_from_slice(&buffer.write.ch00.registers());
-    data.extend_from_slice(&buffer.write.ch01.registers());
-    data.extend_from_slice(&buffer.write.ch02.registers());
-    data.extend_from_slice(&buffer.write.ch03.registers());
-    data.extend_from_slice(&buffer.write.ch04.registers());
-    data.extend_from_slice(&buffer.write.ch05.registers());
-    data.extend_from_slice(&buffer.write.ch06.registers());
-    data.extend_from_slice(&buffer.write.ch07.registers());
-    data.extend_from_slice(&buffer.write.ch08.registers());
-    data.extend_from_slice(&buffer.write.ch09.registers());
-    data.extend_from_slice(&buffer.write.ch10.registers());
-    data.extend_from_slice(&buffer.write.ch11.registers());
-    data.extend_from_slice(&buffer.write.ch12.registers());
-    data.extend_from_slice(&buffer.write.ch13.registers());
-    data.extend_from_slice(&buffer.write.ch14.registers());
     data.extend_from_slice(&buffer.write.ch15.registers());
+    data.extend_from_slice(&buffer.write.ch14.registers());
+    data.extend_from_slice(&buffer.write.ch13.registers());
+    data.extend_from_slice(&buffer.write.ch12.registers());
+    data.extend_from_slice(&buffer.write.ch11.registers());
+    data.extend_from_slice(&buffer.write.ch10.registers());
+    data.extend_from_slice(&buffer.write.ch09.registers());
+    data.extend_from_slice(&buffer.write.ch08.registers());
+    data.extend_from_slice(&buffer.write.ch07.registers());
+    data.extend_from_slice(&buffer.write.ch06.registers());
+    data.extend_from_slice(&buffer.write.ch05.registers());
+    data.extend_from_slice(&buffer.write.ch04.registers());
+    data.extend_from_slice(&buffer.write.ch03.registers());
+    data.extend_from_slice(&buffer.write.ch02.registers());
+    data.extend_from_slice(&buffer.write.ch01.registers());
+    data.extend_from_slice(&buffer.write.ch00.registers());
 
     Ok(vec![FieldbusRequest::new(
         buffer.address,
         RequestKind::SetChannels,
-        vec![PCA9685::write_led0_15(data).unwrap()],
+        vec![PCA9685::write_led0_15(data)?],
     )])
 }

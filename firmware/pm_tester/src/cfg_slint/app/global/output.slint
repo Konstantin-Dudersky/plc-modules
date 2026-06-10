@@ -1,0 +1,9 @@
+import { Module } from "./modules.slint";
+
+export global Output {
+    pure callback set_watchdog(bool);
+
+    pure callback change_active_module(Module);
+
+    pure callback pmcnv_dix16_set_address(float);
+}

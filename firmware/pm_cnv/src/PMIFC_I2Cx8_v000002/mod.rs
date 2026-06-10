@@ -11,11 +11,26 @@
 //! | + | + | - | 0x76 |
 //! | + | + | + | 0x77 |
 
+/// Канал CH5
 pub const CH5: u8 = 0b0000_0001;
+
+/// Канал CH4
 pub const CH4: u8 = 0b0000_0010;
+
+/// Канал CH7
 pub const CH7: u8 = 0b0000_0100;
+
+/// Канал CH6
 pub const CH6: u8 = 0b0000_1000;
+
+/// Канал CH2
 pub const CH2: u8 = 0b0001_0000;
+
+/// Канал CH3
 pub const CH3: u8 = 0b0010_0000;
+
+/// Канал CH0
 pub const CH0: u8 = 0b0100_0000;
+
+/// Канал CH1
 pub const CH1: u8 = 0b1000_0000;

@@ -5,8 +5,7 @@ use rsiot::{
     components_config::{
         i2c_master::{FieldbusRequest, FieldbusResponse, I2cAddress},
         master_device::{
-            self, ConfigDeviceStateOutput, ConfigPeriodicRequest, DeviceBase, DeviceTrait,
-            ResponseResult,
+            self, ConfigPeriodicRequest, DeviceBase, DeviceTrait, FieldbusDiagMsg, ResponseResult,
         },
     },
     executor::MsgBusInput,
@@ -69,8 +68,6 @@ where
     pub period: Duration,
 
     pub fn_output: fn(&mut Buffer) -> Vec<TMsg>,
-
-    pub device_state_output: ConfigDeviceStateOutput<TMsg>,
 }
 
 #[async_trait]
@@ -85,6 +82,7 @@ where
         ch_tx_device_to_fieldbus: mpsc::Sender<FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
+        ch_tx_device_to_diag: mpsc::Sender<FieldbusDiagMsg>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<TMsg, FieldbusRequest, FieldbusResponse, Buffer> = DeviceBase {
             fn_init_requests,
@@ -151,7 +149,6 @@ where
                 }
             },
             fn_buffer_to_msgs: self.fn_output,
-            device_state_output: Some(self.device_state_output),
             buffer_default: Buffer {
                 config: buffer::Config {
                     address: self.address,
@@ -174,6 +171,7 @@ where
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
+                ch_tx_device_to_diag,
             )
             .await?;
         Err(master_device::Error::EndExecution)

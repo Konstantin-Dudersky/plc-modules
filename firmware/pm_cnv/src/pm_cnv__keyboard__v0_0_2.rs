@@ -5,7 +5,8 @@ use bit_vec::BitVec;
 use rsiot::{
     components_config::{
         master_device::{
-            self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, ResponseResult,
+            self, BufferBound, ConfigPeriodicRequest, DeviceBase, DeviceTrait, FieldbusDiagMsg,
+            ResponseResult,
         },
         spi_master,
     },
@@ -38,6 +39,7 @@ where
         ch_tx_device_to_fieldbus: mpsc::Sender<spi_master::FieldbusRequest>,
         ch_rx_fieldbus_to_device: mpsc::Receiver<spi_master::FieldbusResponse>,
         ch_tx_device_to_msgbus: mpsc::Sender<Message<TMsg>>,
+        ch_tx_device_to_diag: mpsc::Sender<FieldbusDiagMsg>,
     ) -> master_device::Result<()> {
         let device: DeviceBase<
             TMsg,
@@ -153,7 +155,6 @@ where
                 ResponseResult::ok()
             },
             fn_buffer_to_msgs: self.fn_output,
-            device_state_output: None,
             buffer_default: Buffer::default(),
         };
         device
@@ -163,6 +164,7 @@ where
                 ch_tx_device_to_fieldbus,
                 ch_rx_fieldbus_to_device,
                 ch_tx_device_to_msgbus,
+                ch_tx_device_to_diag,
             )
             .await?;
         Err(master_device::Error::EndExecution)

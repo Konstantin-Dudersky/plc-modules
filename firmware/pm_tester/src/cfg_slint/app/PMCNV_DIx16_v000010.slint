@@ -1,0 +1,138 @@
+import { Horizontal, Vertical } from "@material";
+
+import {
+    TextFieldKeyboard,
+} from "components/text_field_keyboard/text_field_keyboard.slint";
+
+import { Input } from "global/input.slint";
+import { Output } from "global/output.slint";
+import { MaterialPalette } from "components/material/material.slint";
+
+component Di {
+    in property <bool> state;
+    in property <string> label: "CHxx";
+
+    width: 80px;
+    height: 60px;
+
+    Rectangle {
+        background: state ? MaterialPalette.tertiary_container : MaterialPalette.background;
+        border-color: state ? MaterialPalette.tertiary_container : MaterialPalette.outline;
+        border-radius: 10px;
+        border-width: 1px;
+    }
+
+    Text {
+        text: label;
+        font-size: 20px;
+        font-weight: 700;
+        color: state ? MaterialPalette.on_tertiary_container : MaterialPalette.on_background;
+    }
+}
+
+export component PMCNV_DIx16_v000010 {
+    Vertical {
+        alignment: LayoutAlignment.start;
+
+        TextFieldKeyboard {
+            height: 80px;
+            label: "Адрес (DEC)";
+            description: "Адрес модуля (десятичное представление)";
+            precision: 0;
+            input_value: Input.pmcnv_dix16_address;
+            set_output_value(v) => {
+                Output.pmcnv_dix16_set_address(v);
+            }
+        }
+
+        Horizontal {
+
+            alignment: LayoutAlignment.space-between;
+
+            Di {
+                state: Input.pmcnv_dix16_state[0];
+                label: "CH00";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[1];
+                label: "CH01";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[2];
+                label: "CH02";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[3];
+                label: "CH03";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[4];
+                label: "CH04";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[5];
+                label: "CH05";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[6];
+                label: "CH06";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[7];
+                label: "CH07";
+            }
+        }
+
+        Horizontal {
+
+            alignment: LayoutAlignment.space-between;
+
+            Di {
+                state: Input.pmcnv_dix16_state[8];
+                label: "CH08";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[9];
+                label: "CH09";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[10];
+                label: "CH10";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[11];
+                label: "CH11";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[12];
+                label: "CH12";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[13];
+                label: "CH13";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[14];
+                label: "CH14";
+            }
+
+            Di {
+                state: Input.pmcnv_dix16_state[15];
+                label: "CH15";
+            }
+        }
+    }
+}
