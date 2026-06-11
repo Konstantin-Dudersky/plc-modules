@@ -41,11 +41,11 @@
 #include "doc/ch_components.typ"
 #include "doc/ch_drc.typ"
 
-#import "doc/PMCNV-DQx16.typ": pmcnv_dq16src_power
 #import "doc/PMCNV-RQx8.typ": pmcnv_rq8_power
 #import "doc/PMCNV-AI4W.typ": pmcnv_ai4w_power
 #import "PMCNV-AI8T-v0.1.0/doc.typ" as PMCNV-AI8T
 #import "PMCNV-DIx32-v0.1.0/doc.typ" as PMCNV-DIx32
+#import "PMCNV-DQx16-v0.1.0/doc.typ" as PMCNV-DQx16
 #import "PMCPU-ESP32C3-v0.1.0/doc.typ" as PMCPU-ESP32C3
 #import "PMCPU-LLP-v0.1.0/doc.typ" as PMCPU-LLP
 
@@ -124,11 +124,11 @@
     [],
     [],
 
-    link(<PMCNV-DQx16>)[PMCNV-DQx16],
+    link(<PMCNV-DQx16>)[PMCNV-DQx16.article],
     "Подключение 16 дискретных выходов постоянного напряжения",
-    "0.0.0",
-    [#pmcnv_dq16src_power.total_current_3v3 мА \ #pmcnv_dq16src_power.total_power_3v3 мВт],
-    [#pmcnv_dq16src_power.total_current_5v мА \ #pmcnv_dq16src_power.total_power_5v мВт],
+    PMCNV-DQx16.version,
+    [PMCNV-DQx16.pmcnv_dq16src_power.total_current_3v3 мА \ PMCNV-DQx16.pmcnv_dq16src_power.total_power_3v3 мВт],
+    [PMCNV-DQx16.pmcnv_dq16src_power.total_current_5v мА \ PMCNV-DQx16.pmcnv_dq16src_power.total_power_5v мВт],
 
     link(<PMCNV-RQx8>)[PMCNV-RQx8],
     "Подключение 8 релейных выходов",
@@ -243,8 +243,10 @@
 
 #include "PMCNV-AI8T-v0.1.0/doc.typ"
 #include "PMCNV-DIx32-v0.1.0/doc.typ"
+#include "PMCNV-DQx16-v0.1.0/doc.typ"
 #include "PMCPU-ESP32C3-v0.1.0/doc.typ"
 #include "PMCPU-LLP-v0.1.0/doc.typ"
+#include "doc/PMCNV-RQx8.typ"
 
 #include "doc/PMCPU-RP.typ"
 #include "doc/PMCPU-LLU.typ"
@@ -254,9 +256,7 @@
 #include "doc/PMLED-10.typ"
 #include "doc/PMLED-18.typ"
 
-#include "doc/PMCNV-DQx16.typ"
 #include "doc/PMCNV-Count6.typ"
-#include "doc/PMCNV-RQx8.typ"
 #include "doc/PMCNV-AI8IU.typ"
 #include "doc/PMCNV-AI4R.typ"
 #include "doc/PMCNV-AI4W.typ"
