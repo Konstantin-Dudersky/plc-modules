@@ -7121,6 +7121,675 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad_inventree_lib:IRM-05-24"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "IRM-05-24"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+				(at -0.762 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/437/details"
+				(at -0.508 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 20.32 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "IRM-05-24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IRM-05-24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "IRM-20-24_MWU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRM-05-24_0_1"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -12.7) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRM-05-24_1_1"
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "AC/L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "AC/N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad_inventree_lib:IRM-10-24"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "IRM-10-24"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+				(at -0.762 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/438/details"
+				(at -0.508 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 20.32 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "IRM-10-24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IRM-10-24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "IRM-20-24_MWU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRM-10-24_0_1"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -12.7) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRM-10-24_1_1"
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "AC/L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "AC/N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad_inventree_lib:IRM-15-24"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "IRM-15-24"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+				(at -0.762 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/439/details"
+				(at -0.508 -17.526 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 20.32 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "IRM-15-24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IRM-15-24"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "IRM-20-24_MWU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IRM-15-24_0_1"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -12.7) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy -7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRM-15-24_1_1"
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "AC/L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "AC/N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kicad_inventree_lib:IRM-20-24"
 			(pin_names
 				(offset 0.254)
@@ -7150,7 +7819,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_inventree_lib:IRM-20-24_MWU"
+			(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
 				(at -0.762 -17.526 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7221,7 +7890,7 @@
 			(symbol "IRM-20-24_0_1"
 				(polyline
 					(pts
-						(xy -12.7 0) (xy -12.7 -12.7)
+						(xy -7.62 0) (xy -7.62 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -7233,7 +7902,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -12.7) (xy 12.7 -12.7)
+						(xy -7.62 -12.7) (xy 7.62 -12.7)
 					)
 					(stroke
 						(width 0.127)
@@ -7245,7 +7914,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 0) (xy -12.7 0)
+						(xy 7.62 0) (xy -7.62 0)
 					)
 					(stroke
 						(width 0.127)
@@ -7257,7 +7926,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -12.7) (xy 12.7 0)
+						(xy 7.62 -12.7) (xy 7.62 0)
 					)
 					(stroke
 						(width 0.127)
@@ -7267,9 +7936,11 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "IRM-20-24_1_1"
 				(pin power_in line
-					(at 20.32 -7.62 180)
-					(length 7.62)
+					(at 12.7 -7.62 180)
+					(length 5.08)
 					(name "V-"
 						(effects
 							(font
@@ -7286,8 +7957,8 @@
 					)
 				)
 				(pin power_in line
-					(at 20.32 -5.08 180)
-					(length 7.62)
+					(at 12.7 -5.08 180)
+					(length 5.08)
 					(name "V+"
 						(effects
 							(font
@@ -7304,8 +7975,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -20.32 -5.08 0)
-					(length 7.62)
+					(at -12.7 -5.08 0)
+					(length 5.08)
 					(name "AC/L"
 						(effects
 							(font
@@ -7322,8 +7993,8 @@
 					)
 				)
 				(pin unspecified line
-					(at -20.32 -7.62 0)
-					(length 7.62)
+					(at -12.7 -7.62 0)
+					(length 5.08)
 					(name "AC/N"
 						(effects
 							(font
@@ -7332,6 +8003,149 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad_inventree_lib:K7803-1000R3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.762 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "K7803-1000R3"
+				(at -7.112 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/421/details"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "K7803-1000R3"
+				(at -12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "K7803-1000R3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K7803-1000R3_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7485,6 +8299,292 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad_inventree_lib:K7803-500R3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.762 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "K7803-500R3"
+				(at -7.112 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/420/details"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "K7803-500R3"
+				(at -12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "K7803-500R3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K7803-500R3_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad_inventree_lib:K7805-1000R3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.762 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "K7805-1000R3"
+				(at -7.112 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/423/details"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "K7805-1000R3"
+				(at -12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "K7805-1000R3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K7805-1000R3_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kicad_inventree_lib:K7805-2000R3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7560,6 +8660,149 @@
 				)
 			)
 			(symbol "K7805-2000R3_1_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "+VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad_inventree_lib:K7805-500R3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.762 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "K7805-500R3"
+				(at -7.112 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "kicad_inventree_lib:K7805500R3"
+				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://inventree.network/web/part/422/details"
+				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "K7805-500R3"
+				(at -12.7 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "part_ipn" "K7805-500R3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K7805-500R3_1_1"
 				(rectangle
 					(start -7.62 0)
 					(end 7.62 -10.16)
@@ -9845,8 +11088,8 @@
 		)
 	)
 	(rectangle
-		(start 287.02 109.22)
-		(end 335.28 144.78)
+		(start 238.76 101.6)
+		(end 287.02 137.16)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9857,8 +11100,8 @@
 		(uuid "1aa58a03-40ca-4b29-9b68-9caa8f4fe8d9")
 	)
 	(rectangle
-		(start 287.02 33.02)
-		(end 335.28 68.58)
+		(start 238.76 25.4)
+		(end 287.02 60.96)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9881,8 +11124,8 @@
 		(uuid "66ec7296-14da-4cce-877e-d3b4226e243e")
 	)
 	(rectangle
-		(start 185.42 33.02)
-		(end 284.48 66.04)
+		(start 152.4 25.4)
+		(end 236.22 58.42)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9905,8 +11148,8 @@
 		(uuid "c79b91e6-c788-4d8a-aab7-e7f0315dbe5f")
 	)
 	(rectangle
-		(start 287.02 71.12)
-		(end 335.28 106.68)
+		(start 238.76 63.5)
+		(end 287.02 99.06)
 		(stroke
 			(width 0)
 			(type dash)
@@ -9952,7 +11195,7 @@
 	)
 	(text "Блок питания AC230 / DC24 (опционально)"
 		(exclude_from_sim no)
-		(at 187.96 35.56 0)
+		(at 154.94 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9960,6 +11203,16 @@
 			(justify left)
 		)
 		(uuid "52385447-5ea4-43e7-a383-e44da111e3dc")
+	)
+	(text "Посадочное место IRM-XX-24"
+		(exclude_from_sim no)
+		(at 193.04 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d2be844-5136-4681-afc7-31667ed4b24c")
 	)
 	(text "Коннектор внешней шины"
 		(exclude_from_sim no)
@@ -9985,7 +11238,7 @@
 	)
 	(text "Регулятор напряжения DC24 / DC5"
 		(exclude_from_sim no)
-		(at 289.56 35.56 0)
+		(at 241.3 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9996,7 +11249,7 @@
 	)
 	(text "Регулятор напряжения DC24 / DC3.3"
 		(exclude_from_sim no)
-		(at 289.56 73.66 0)
+		(at 241.3 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10007,7 +11260,7 @@
 	)
 	(text "Регулятор напряжения DC24 / DC5 (дополнительный)"
 		(exclude_from_sim no)
-		(at 289.56 111.76 0)
+		(at 241.3 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10041,19 +11294,19 @@
 		(uuid "0eac4ba2-03b0-4e4c-88a5-354ffc7ca840")
 	)
 	(junction
-		(at 279.4 86.36)
+		(at 231.14 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10c0c77e-c928-4a7a-abea-68cf9e70c304")
 	)
 	(junction
-		(at 292.1 48.26)
+		(at 243.84 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19aef2f5-bca4-4855-b021-edd6acbe95e7")
 	)
 	(junction
-		(at 309.88 60.96)
+		(at 261.62 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25b5bdf0-86bb-44f6-80d6-c3364bee77af")
@@ -10095,7 +11348,7 @@
 		(uuid "5fcee378-c35a-4f95-af61-77defc7f6bcf")
 	)
 	(junction
-		(at 309.88 99.06)
+		(at 261.62 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64f7d3f2-386b-4c40-9186-a3db475d401e")
@@ -10125,7 +11378,7 @@
 		(uuid "6f07ca07-156c-47df-b945-0f91fd10feee")
 	)
 	(junction
-		(at 309.88 137.16)
+		(at 261.62 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab761f0-8eab-426b-b5a0-4ccb2dbc4aa4")
@@ -10137,13 +11390,13 @@
 		(uuid "87ec4eb3-9ce1-4986-84fb-d5b9885d92c4")
 	)
 	(junction
-		(at 325.12 86.36)
+		(at 276.86 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d31de14-3be0-480a-8d0d-0cd1775cec34")
 	)
 	(junction
-		(at 325.12 99.06)
+		(at 276.86 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94c5743b-7880-4cff-8ea8-f64315edd9f3")
@@ -10161,7 +11414,7 @@
 		(uuid "9c3a6d73-cccb-4573-acb1-1255f6c92d7b")
 	)
 	(junction
-		(at 325.12 124.46)
+		(at 276.86 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cef3ef2-5ffc-487f-80b4-5ee248752b6a")
@@ -10173,7 +11426,7 @@
 		(uuid "9e2fb2e3-0771-480b-b99e-b17ed0569dcf")
 	)
 	(junction
-		(at 292.1 124.46)
+		(at 243.84 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9cedd9d-7faa-43fb-80f0-20716b4f5872")
@@ -10185,7 +11438,7 @@
 		(uuid "b88d51b7-4bf3-440c-8ccb-596577080421")
 	)
 	(junction
-		(at 325.12 60.96)
+		(at 276.86 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c723373f-ee2b-4e07-bc19-0ad0abd4d0f2")
@@ -10203,7 +11456,7 @@
 		(uuid "ddea74a0-076a-4ffa-8aeb-5ab3a4dce57b")
 	)
 	(junction
-		(at 325.12 137.16)
+		(at 276.86 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e20322c0-e3ef-46c4-ae84-0dfffcaecc6a")
@@ -10221,19 +11474,19 @@
 		(uuid "ef18a98d-ba63-400b-839b-6ba8b3f64e3d")
 	)
 	(junction
-		(at 325.12 48.26)
+		(at 276.86 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f003f90f-e106-42c9-993f-aa1b53742ddd")
 	)
 	(junction
-		(at 279.4 48.26)
+		(at 231.14 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1c66a28-9924-41ec-a382-fd0fc11c5ace")
 	)
 	(junction
-		(at 292.1 86.36)
+		(at 243.84 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb6313e2-fdbb-40c2-a789-f1fcac4c3614")
@@ -10247,24 +11500,76 @@
 		(uuid "0a4ea7e2-8dc7-40be-adc7-e1458f308f59")
 	)
 	(no_connect
+		(at 185.42 73.66)
+		(uuid "0f8045e9-90e0-4332-9634-acd3439dfbe0")
+	)
+	(no_connect
 		(at 251.46 177.8)
 		(uuid "131d342e-51c9-445b-8e60-58aca6571a94")
+	)
+	(no_connect
+		(at 320.04 40.64)
+		(uuid "1e7210b2-960d-4d50-bbec-bc8a85b657a2")
 	)
 	(no_connect
 		(at 45.72 142.24)
 		(uuid "23a8da22-0d78-4548-8b72-ec6513bcb7d6")
 	)
 	(no_connect
-		(at 194.31 63.5)
+		(at 320.04 78.74)
+		(uuid "241d66da-6b2f-463b-9835-5a19962e5c8e")
+	)
+	(no_connect
+		(at 185.42 71.12)
+		(uuid "2441ed9c-8433-48b1-8110-04cf1629a60c")
+	)
+	(no_connect
+		(at 161.29 55.88)
 		(uuid "2b56e291-43ad-4451-9154-8c9fc868be5b")
+	)
+	(no_connect
+		(at 160.02 93.98)
+		(uuid "2e964c14-74a4-4085-b373-88327c916d86")
+	)
+	(no_connect
+		(at 215.9 73.66)
+		(uuid "34280198-e381-4461-8713-eedcf3227d1f")
+	)
+	(no_connect
+		(at 332.74 91.44)
+		(uuid "36bb3fea-7510-493f-9d2f-a6122b34f79d")
+	)
+	(no_connect
+		(at 289.56 116.84)
+		(uuid "36fa5dd6-7894-433c-9eb0-79c935945516")
 	)
 	(no_connect
 		(at 393.7 68.58)
 		(uuid "3d607fd1-13e5-4a6c-9a24-f217b78e40a0")
 	)
 	(no_connect
+		(at 320.04 116.84)
+		(uuid "3d77607b-41fb-4914-aef1-6c752def50b9")
+	)
+	(no_connect
 		(at 215.9 205.74)
 		(uuid "3d85ae1f-25e9-4adb-9122-9504599585ad")
+	)
+	(no_connect
+		(at 160.02 91.44)
+		(uuid "3d9fb746-ab92-4e3c-a45c-23a037645fd8")
+	)
+	(no_connect
+		(at 289.56 78.74)
+		(uuid "3eec1fe9-4fb6-40b7-b3d3-7d9bc27c2106")
+	)
+	(no_connect
+		(at 185.42 93.98)
+		(uuid "435af5be-7f77-4119-86be-b3b15fce7217")
+	)
+	(no_connect
+		(at 160.02 71.12)
+		(uuid "438b4501-d968-46c8-b4ea-30c51560a7b2")
 	)
 	(no_connect
 		(at 215.9 198.12)
@@ -10273,6 +11578,10 @@
 	(no_connect
 		(at 266.7 177.8)
 		(uuid "452edd9b-f5f1-4330-b040-01041da9fb9c")
+	)
+	(no_connect
+		(at 215.9 71.12)
+		(uuid "47962511-8c74-4bf5-ab74-e5690626f4a3")
 	)
 	(no_connect
 		(at 246.38 200.66)
@@ -10287,6 +11596,14 @@
 		(uuid "574f118c-63d3-4592-acec-b1341717a71d")
 	)
 	(no_connect
+		(at 345.44 40.64)
+		(uuid "662dc5ee-1fdc-4a96-974e-60992f7dd418")
+	)
+	(no_connect
+		(at 332.74 129.54)
+		(uuid "69376dc5-2757-41bd-9de5-ceab9859c9e2")
+	)
+	(no_connect
 		(at 246.38 213.36)
 		(uuid "6a800715-dd3f-48dc-9d3d-fd46dbfad607")
 	)
@@ -10299,12 +11616,28 @@
 		(uuid "6f5641c6-2bbe-4049-915e-95f42e30fa37")
 	)
 	(no_connect
+		(at 332.74 53.34)
+		(uuid "7586ab8e-3213-4b10-8d20-4de21289bf65")
+	)
+	(no_connect
 		(at 393.7 38.1)
 		(uuid "7a8d11a8-b843-4cf4-8a3e-47f4059779d1")
 	)
 	(no_connect
+		(at 289.56 40.64)
+		(uuid "7a9f49f1-6425-4354-954d-a646ba24c10c")
+	)
+	(no_connect
+		(at 302.26 91.44)
+		(uuid "7d2bc736-6bf5-454e-97c2-e8b2c186e51d")
+	)
+	(no_connect
 		(at 246.38 210.82)
 		(uuid "7ed288d3-1bb1-414a-95d4-b94db765cfe9")
+	)
+	(no_connect
+		(at 314.96 40.64)
+		(uuid "81287a3b-c93b-4f56-8441-84ca895f3f19")
 	)
 	(no_connect
 		(at 251.46 172.72)
@@ -10315,6 +11648,14 @@
 		(uuid "83c09869-278f-47dd-bd52-7796d6d43984")
 	)
 	(no_connect
+		(at 314.96 116.84)
+		(uuid "85c191b2-043a-47e2-b613-920e172dc2bc")
+	)
+	(no_connect
+		(at 345.44 78.74)
+		(uuid "86e618d9-6303-4f05-bde7-125a0b65d38e")
+	)
+	(no_connect
 		(at 246.38 190.5)
 		(uuid "87efe556-c352-48bb-93d9-e35ecf7141df")
 	)
@@ -10323,12 +11664,20 @@
 		(uuid "8bc85602-2e5a-4ff9-8d82-08e0a05ecdf1")
 	)
 	(no_connect
-		(at 265.43 63.5)
+		(at 314.96 78.74)
+		(uuid "9345b957-2e14-4d0c-839d-f7b1bae04a59")
+	)
+	(no_connect
+		(at 217.17 55.88)
 		(uuid "946149ca-b4b1-4dba-b590-374f7ac7e3da")
 	)
 	(no_connect
 		(at 393.7 40.64)
 		(uuid "97143d4b-3a37-4fd3-b791-452169506905")
+	)
+	(no_connect
+		(at 190.5 71.12)
+		(uuid "97707da4-598a-44bd-81bf-e7e7ff6318b9")
 	)
 	(no_connect
 		(at 393.7 33.02)
@@ -10351,12 +11700,24 @@
 		(uuid "ac1a089f-b337-423a-b807-d1e63e1bc6cc")
 	)
 	(no_connect
-		(at 201.93 63.5)
+		(at 160.02 73.66)
+		(uuid "acca00a9-5168-45a9-9ac3-bb5c914a9b31")
+	)
+	(no_connect
+		(at 302.26 129.54)
+		(uuid "b5b20189-64ed-4756-82cf-a5ba407cef00")
+	)
+	(no_connect
+		(at 168.91 55.88)
 		(uuid "b761e70e-8da1-48a6-b639-e2923fe5ed4e")
 	)
 	(no_connect
-		(at 273.05 63.5)
+		(at 224.79 55.88)
 		(uuid "c1158ef1-24d5-47ad-9c18-9e26620a2e76")
+	)
+	(no_connect
+		(at 190.5 73.66)
+		(uuid "c4fab640-bcc0-4688-af20-31d9c519a7ba")
 	)
 	(no_connect
 		(at 45.72 144.78)
@@ -10369,6 +11730,10 @@
 	(no_connect
 		(at 45.72 139.7)
 		(uuid "ce33d3d5-a7c8-4c92-9843-a1c48a384f9f")
+	)
+	(no_connect
+		(at 345.44 116.84)
+		(uuid "cf4beee9-9945-45e8-996d-6828dfe1e9ce")
 	)
 	(no_connect
 		(at 246.38 193.04)
@@ -10395,8 +11760,16 @@
 		(uuid "e6c01d3d-4ffd-4e44-b39d-dc29f75a8e22")
 	)
 	(no_connect
+		(at 302.26 53.34)
+		(uuid "e7c926db-203e-407c-acd8-d56bc3b26a07")
+	)
+	(no_connect
 		(at 45.72 147.32)
 		(uuid "ee0287aa-30bd-4bb1-8cd5-db3171af2245")
+	)
+	(no_connect
+		(at 185.42 91.44)
+		(uuid "f5276a9a-5017-4581-b97c-db9784dc69a9")
 	)
 	(no_connect
 		(at 393.7 71.12)
@@ -10472,7 +11845,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 58.42) (xy 325.12 60.96)
+			(xy 276.86 50.8) (xy 276.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10482,7 +11855,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 213.36 50.8)
+			(xy 172.72 43.18) (xy 180.34 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10502,7 +11875,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 50.8) (xy 190.5 55.88)
+			(xy 157.48 43.18) (xy 157.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10512,7 +11885,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 86.36) (xy 292.1 86.36)
+			(xy 231.14 78.74) (xy 243.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10522,7 +11895,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 124.46) (xy 292.1 124.46)
+			(xy 231.14 116.84) (xy 243.84 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10532,7 +11905,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 60.96) (xy 309.88 60.96)
+			(xy 243.84 53.34) (xy 261.62 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10582,7 +11955,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 205.74 55.88)
+			(xy 172.72 43.18) (xy 172.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10692,7 +12065,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 137.16) (xy 292.1 134.62)
+			(xy 243.84 129.54) (xy 243.84 127)
 		)
 		(stroke
 			(width 0)
@@ -10702,7 +12075,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 86.36) (xy 325.12 88.9)
+			(xy 276.86 78.74) (xy 276.86 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10762,7 +12135,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 48.26) (xy 187.96 48.26)
+			(xy 129.54 40.64) (xy 154.94 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10772,7 +12145,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 48.26) (xy 213.36 48.26)
+			(xy 175.26 40.64) (xy 180.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10782,7 +12155,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 43.18) (xy 279.4 48.26)
+			(xy 231.14 35.56) (xy 231.14 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10802,7 +12175,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 119.38) (xy 325.12 124.46)
+			(xy 276.86 111.76) (xy 276.86 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10842,7 +12215,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 124.46) (xy 325.12 124.46)
+			(xy 274.32 116.84) (xy 276.86 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10862,7 +12235,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 137.16) (xy 309.88 137.16)
+			(xy 243.84 129.54) (xy 261.62 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10942,7 +12315,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 48.26) (xy 297.18 48.26)
+			(xy 243.84 40.64) (xy 248.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11002,7 +12375,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 48.26) (xy 325.12 50.8)
+			(xy 276.86 40.64) (xy 276.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11022,7 +12395,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 60.96) (xy 325.12 60.96)
+			(xy 261.62 53.34) (xy 276.86 53.34)
 		)
 		(stroke
 			(width 0)
@@ -11062,7 +12435,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 81.28) (xy 325.12 86.36)
+			(xy 276.86 73.66) (xy 276.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11112,7 +12485,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 134.62) (xy 325.12 137.16)
+			(xy 276.86 127) (xy 276.86 129.54)
 		)
 		(stroke
 			(width 0)
@@ -11162,7 +12535,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 99.06) (xy 309.88 99.06)
+			(xy 243.84 91.44) (xy 261.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11182,7 +12555,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 86.36) (xy 292.1 88.9)
+			(xy 243.84 78.74) (xy 243.84 81.28)
 		)
 		(stroke
 			(width 0)
@@ -11212,7 +12585,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 50.8) (xy 256.54 53.34)
+			(xy 208.28 43.18) (xy 208.28 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11262,7 +12635,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 99.06) (xy 292.1 96.52)
+			(xy 243.84 91.44) (xy 243.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11282,7 +12655,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 55.88) (xy 205.74 55.88)
+			(xy 157.48 48.26) (xy 172.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11312,7 +12685,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 48.26) (xy 292.1 50.8)
+			(xy 243.84 40.64) (xy 243.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11382,7 +12755,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 99.06) (xy 325.12 99.06)
+			(xy 261.62 91.44) (xy 276.86 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11432,7 +12805,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 86.36) (xy 172.72 88.9)
+			(xy 106.68 101.6) (xy 106.68 104.14)
 		)
 		(stroke
 			(width 0)
@@ -11452,7 +12825,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 50.8) (xy 190.5 50.8)
+			(xy 129.54 43.18) (xy 157.48 43.18)
 		)
 		(stroke
 			(width 0)
@@ -11462,7 +12835,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 162.56 86.36)
+			(xy 96.52 104.14) (xy 96.52 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11502,7 +12875,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 48.26) (xy 279.4 86.36)
+			(xy 231.14 40.64) (xy 231.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11532,7 +12905,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 48.26) (xy 325.12 48.26)
+			(xy 274.32 40.64) (xy 276.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11552,7 +12925,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 124.46) (xy 325.12 127)
+			(xy 276.86 116.84) (xy 276.86 119.38)
 		)
 		(stroke
 			(width 0)
@@ -11602,7 +12975,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 137.16) (xy 325.12 137.16)
+			(xy 261.62 129.54) (xy 276.86 129.54)
 		)
 		(stroke
 			(width 0)
@@ -11622,7 +12995,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 86.36) (xy 279.4 124.46)
+			(xy 231.14 78.74) (xy 231.14 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11662,7 +13035,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 86.36) (xy 297.18 86.36)
+			(xy 243.84 78.74) (xy 248.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11752,7 +13125,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 172.72 86.36)
+			(xy 105.41 101.6) (xy 106.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11762,7 +13135,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 124.46) (xy 292.1 127)
+			(xy 243.84 116.84) (xy 243.84 119.38)
 		)
 		(stroke
 			(width 0)
@@ -11782,7 +13155,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 96.52) (xy 325.12 99.06)
+			(xy 276.86 88.9) (xy 276.86 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11792,7 +13165,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 48.26) (xy 259.08 48.26)
+			(xy 205.74 40.64) (xy 210.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11852,7 +13225,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 86.36) (xy 163.83 86.36)
+			(xy 96.52 101.6) (xy 97.79 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11882,7 +13255,7 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 86.36) (xy 325.12 86.36)
+			(xy 274.32 78.74) (xy 276.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -11902,7 +13275,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 124.46) (xy 297.18 124.46)
+			(xy 243.84 116.84) (xy 248.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11952,7 +13325,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 43.18) (xy 325.12 48.26)
+			(xy 276.86 35.56) (xy 276.86 40.64)
 		)
 		(stroke
 			(width 0)
@@ -12042,7 +13415,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 50.8) (xy 256.54 50.8)
+			(xy 205.74 43.18) (xy 208.28 43.18)
 		)
 		(stroke
 			(width 0)
@@ -12072,7 +13445,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 48.26) (xy 292.1 48.26)
+			(xy 231.14 40.64) (xy 243.84 40.64)
 		)
 		(stroke
 			(width 0)
@@ -12092,7 +13465,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 60.96) (xy 292.1 58.42)
+			(xy 243.84 53.34) (xy 243.84 50.8)
 		)
 		(stroke
 			(width 0)
@@ -12193,7 +13566,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 294.64 48.26 0)
+		(at 246.38 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12203,7 +13576,7 @@
 		)
 		(uuid "238a6240-1823-4e7c-8405-11d0b8ec47b6")
 		(property "Класс цепей" "power"
-			(at 295.3385 45.72 0)
+			(at 247.0785 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12218,7 +13591,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 322.58 48.26 0)
+		(at 274.32 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12228,7 +13601,7 @@
 		)
 		(uuid "2565615c-55c0-42d2-9076-615fec0bdc63")
 		(property "Класс цепей" "power"
-			(at 323.2785 45.72 0)
+			(at 275.0185 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12243,7 +13616,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 322.58 124.46 0)
+		(at 274.32 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12253,7 +13626,7 @@
 		)
 		(uuid "40d3f7e4-ba62-46ac-8621-50c9c8ad1994")
 		(property "Класс цепей" "power"
-			(at 323.2785 121.92 0)
+			(at 275.0185 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12268,7 +13641,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 325.12 83.82 90)
+		(at 276.86 76.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12278,7 +13651,7 @@
 		)
 		(uuid "45a88479-4ce9-476c-9b32-310503167c1b")
 		(property "Класс цепей" "power"
-			(at 322.58 83.1215 90)
+			(at 274.32 75.5015 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12293,7 +13666,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 172.72 50.8 180)
+		(at 139.7 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12303,7 +13676,7 @@
 		)
 		(uuid "a5313819-e455-4e0d-b700-4fdcb019aa6f")
 		(property "Класс цепей" "power"
-			(at 173.4185 53.34 0)
+			(at 140.3985 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12318,7 +13691,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 172.72 48.26 0)
+		(at 139.7 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12328,7 +13701,7 @@
 		)
 		(uuid "c7c4ae91-3b09-4170-aa25-ebe2cdc9d955")
 		(property "Класс цепей" "power"
-			(at 173.4185 45.72 0)
+			(at 140.3985 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12343,7 +13716,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 294.64 124.46 0)
+		(at 246.38 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12353,7 +13726,7 @@
 		)
 		(uuid "d191741f-a793-43ec-822b-edfdbef6fc0a")
 		(property "Класс цепей" "power"
-			(at 295.3385 121.92 0)
+			(at 247.0785 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12368,7 +13741,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 294.64 86.36 0)
+		(at 246.38 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12378,7 +13751,7 @@
 		)
 		(uuid "e6913167-81e2-43be-914e-c11e6f1e0a0f")
 		(property "Класс цепей" "power"
-			(at 295.3385 83.82 0)
+			(at 247.0785 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12400,10 +13773,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01225da5-e88b-4c1c-915a-b569bded62a6")
 		(property "Reference" "J11"
-			(at 222.25 195.5799 0)
+			(at 218.44 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12414,7 +13786,7 @@
 			)
 		)
 		(property "Value" "AFA11-S12GLA-00"
-			(at 222.25 198.1199 0)
+			(at 218.44 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12459,6 +13831,17 @@
 		)
 		(property "part_ipn" "AFA11-S12GLA-00"
 			(at 220.98 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 220.98 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12831,6 +14214,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 246.38 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -12842,7 +14236,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:0217001.MXP")
-		(at 198.12 63.5 90)
+		(at 165.1 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12852,7 +14246,7 @@
 		(dnp no)
 		(uuid "0a107d96-1441-4308-bfc2-0933eeca088b")
 		(property "Reference" "F1"
-			(at 198.12 58.42 90)
+			(at 165.1 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12862,7 +14256,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 198.12 60.96 90)
+			(at 165.1 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12872,7 +14266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 65.278 90)
+			(at 165.1 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12883,7 +14277,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/web/part/71/details"
-			(at 198.12 63.5 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12894,7 +14288,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 198.12 63.5 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12905,7 +14299,7 @@
 			)
 		)
 		(property "part_ipn" "0217001.MXP"
-			(at 198.12 63.5 0)
+			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12916,7 +14310,7 @@
 			)
 		)
 		(property "optional" "1"
-			(at 198.12 63.5 90)
+			(at 165.1 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,7 +14321,18 @@
 			)
 		)
 		(property "optional_note" "При установке БП IRM-20-24"
-			(at 198.12 63.5 90)
+			(at 165.1 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 165.1 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13062,6 +14467,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 100.33 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "afc69562-3f94-49e6-883c-224484eb7aa8")
 		)
@@ -13144,6 +14560,28 @@
 		)
 		(property "part_ipn" "AFA07-S20FCC-00"
 			(at 18.288 117.094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 17.78 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "5:B,5:TB"
+			(at 17.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13460,6 +14898,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 231.14 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -13625,6 +15074,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 274.32 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -13744,6 +15204,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 262.89 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
 			(at 262.89 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13889,6 +15360,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 262.89 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d224c388-02bc-433e-bfe2-f3945868d0f3")
 		)
@@ -13906,7 +15388,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 279.4 43.18 0)
+		(at 231.14 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13917,7 +15399,7 @@
 		(fields_autoplaced yes)
 		(uuid "305b52e0-d3c6-4d0e-a700-520c994c969b")
 		(property "Reference" "#PWR06"
-			(at 279.4 46.99 0)
+			(at 231.14 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13928,7 +15410,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 279.4 38.1 0)
+			(at 231.14 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13938,7 +15420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 43.18 0)
+			(at 231.14 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13949,7 +15431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 43.18 0)
+			(at 231.14 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13960,7 +15442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 279.4 43.18 0)
+			(at 231.14 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,8 +15465,129 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:IRM-05-24")
+		(at 203.2 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30d731da-42c8-496b-a787-7ff1864fc431")
+		(property "Reference" "U3"
+			(at 203.2 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "IRM-05-24"
+			(at 203.2 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+			(at 202.438 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/437/details"
+			(at 202.692 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "IRM-05-24"
+			(at 203.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "1:5"
+			(at 203.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 203.2 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9abd31c8-a007-4ea6-9bb0-3a8e641ce393")
+		)
+		(pin "3"
+			(uuid "c1fe1b65-bf03-4c75-ac55-314ce14540f5")
+		)
+		(pin "2"
+			(uuid "5f4d753a-cb51-4d7f-b497-874974730daa")
+		)
+		(pin "1"
+			(uuid "bb119bd2-714f-4051-8087-24592d9ec4c3")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 325.12 99.06 0)
+		(at 276.86 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13995,7 +15598,7 @@
 		(fields_autoplaced yes)
 		(uuid "32cacd79-90da-44dc-b66b-0321d60e7f54")
 		(property "Reference" "#PWR018"
-			(at 325.12 105.41 0)
+			(at 276.86 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14006,7 +15609,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 325.12 104.14 0)
+			(at 276.86 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14016,7 +15619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 99.06 0)
+			(at 276.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14027,7 +15630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 99.06 0)
+			(at 276.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14038,7 +15641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 99.06 0)
+			(at 276.86 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14140,7 +15743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 50.8 0)
+		(at 129.54 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14151,7 +15754,7 @@
 		(fields_autoplaced yes)
 		(uuid "3462f0ba-6986-416e-ae01-d50aeed77abf")
 		(property "Reference" "#PWR04"
-			(at 162.56 57.15 0)
+			(at 129.54 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14162,7 +15765,7 @@
 			)
 		)
 		(property "Value" "N"
-			(at 162.56 55.88 0)
+			(at 129.54 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14172,7 +15775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 50.8 0)
+			(at 129.54 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14183,7 +15786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 50.8 0)
+			(at 129.54 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14194,7 +15797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 50.8 0)
+			(at 129.54 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14283,6 +15886,17 @@
 		)
 		(property "part_ipn" "R_10k_0603_1%"
 			(at 255.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 255.27 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14465,7 +16079,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_22uF_25V_1210_MLCC-X7R")
-		(at 325.12 54.61 0)
+		(at 276.86 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14476,7 +16090,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c7cdea6-9f46-47d9-b9cd-f73089bafb1f")
 		(property "Reference" "C4"
-			(at 328.93 53.3399 0)
+			(at 280.67 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14487,7 +16101,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 328.93 55.8799 0)
+			(at 280.67 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14498,7 +16112,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_1210_3225Metric"
-			(at 326.0852 58.42 0)
+			(at 277.8252 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14509,7 +16123,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/web/part/399/details"
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14520,7 +16134,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14531,7 +16145,7 @@
 			)
 		)
 		(property "part_ipn" "C_22uF_25V_1210_MLCC-X7R"
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14542,7 +16156,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14553,7 +16167,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14564,7 +16178,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14575,7 +16189,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 325.12 54.61 0)
+			(at 276.86 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "2:500,2:1000,2:2000"
+			(at 276.86 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14602,7 +16227,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_22uF_50V_2220_MLCC-X7R")
-		(at 292.1 54.61 0)
+		(at 243.84 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14613,7 +16238,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cfe19c3-4db1-4a89-92bb-b736ba82b573")
 		(property "Reference" "C2"
-			(at 295.91 53.3399 0)
+			(at 247.65 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14624,7 +16249,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 295.91 55.8799 0)
+			(at 247.65 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14635,7 +16260,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_2220_5750Metric"
-			(at 293.0652 58.42 0)
+			(at 244.8052 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14646,7 +16271,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/99/"
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14657,7 +16282,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14668,7 +16293,7 @@
 			)
 		)
 		(property "part_ipn" "C_22uF_50V_2220_MLCC-X7R"
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14679,7 +16304,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14690,7 +16315,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14701,7 +16326,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14712,7 +16337,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14723,18 +16348,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 292.1 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14745,7 +16359,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14756,7 +16370,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14767,7 +16381,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14778,7 +16392,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,7 +16403,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,7 +16414,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14811,7 +16425,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14822,7 +16436,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14833,7 +16447,18 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14844,7 +16469,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14855,7 +16480,29 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 292.1 54.61 0)
+			(at 243.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 243.84 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "2:500,2:1000,2:2000"
+			(at 243.84 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14949,6 +16596,17 @@
 		)
 		(property "part_ipn" "Standoff_nylon_M2_screw"
 			(at 274.32 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 274.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15111,6 +16769,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 388.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b24cb658-650b-4160-b81b-c33ac101df87")
 		)
@@ -15207,6 +16876,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 246.38 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -15285,6 +16965,17 @@
 		)
 		(property "part_ipn" "Standoff_nylon_M2_shaft_10mm"
 			(at 274.32 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 274.32 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15581,6 +17272,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 40.64 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "8aa9faef-e237-4bd0-967a-1a7345eef722")
 		)
@@ -15672,6 +17374,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 289.56 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a18f5213-8a13-4c2e-83a4-d64648cbe65a")
 		)
@@ -15751,6 +17464,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 289.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43a1e3db-ec1c-4d29-a4b0-3bcaaf211162")
 		)
@@ -15765,7 +17489,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:K7805-2000R3")
-		(at 309.88 45.72 0)
+		(at 261.62 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15776,7 +17500,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fe332cd-a91f-4364-88f7-5cb70d87eb7d")
 		(property "Reference" "J4"
-			(at 309.88 40.64 0)
+			(at 261.62 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15786,7 +17510,7 @@
 			)
 		)
 		(property "Value" "K7805-2000R3"
-			(at 309.88 43.18 0)
+			(at 261.62 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15796,7 +17520,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
-			(at 328.93 140.64 0)
+			(at 280.67 133.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15808,7 +17532,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/98/"
-			(at 328.93 240.64 0)
+			(at 280.67 233.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15820,7 +17544,7 @@
 			)
 		)
 		(property "Description" "K7805-2000R3"
-			(at 297.18 48.26 0)
+			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15831,7 +17555,7 @@
 			)
 		)
 		(property "Height" "18"
-			(at 328.93 440.64 0)
+			(at 280.67 433.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15843,7 +17567,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "RS Pro"
-			(at 328.93 540.64 0)
+			(at 280.67 533.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15855,7 +17579,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "K7805-2000R3"
-			(at 328.93 640.64 0)
+			(at 280.67 633.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15867,7 +17591,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 328.93 740.64 0)
+			(at 280.67 733.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15879,7 +17603,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 328.93 840.64 0)
+			(at 280.67 833.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15891,7 +17615,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 328.93 940.64 0)
+			(at 280.67 933.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15903,7 +17627,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 328.93 1040.64 0)
+			(at 280.67 1033.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15915,7 +17639,7 @@
 			)
 		)
 		(property "part_ipn" "K7805-2000R3"
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15926,7 +17650,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15937,7 +17661,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15948,7 +17672,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15959,7 +17683,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15970,18 +17694,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 309.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,7 +17705,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16003,7 +17716,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,7 +17727,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16025,7 +17738,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16036,7 +17749,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16047,7 +17760,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16058,7 +17771,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16069,7 +17782,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16080,7 +17793,18 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16091,7 +17815,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16102,7 +17826,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 309.88 45.72 0)
+			(at 261.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "2:2000"
+			(at 261.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16208,6 +17943,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 274.32 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -16282,6 +18028,17 @@
 			)
 		)
 		(property "part_ipn" "PMLED-10-v0.0.2"
+			(at 261.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
 			(at 261.62 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -16570,6 +18327,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 87.63 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8637d49b-13db-409b-b438-44d77a01d43b")
 		)
@@ -16652,6 +18420,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 289.56 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77167a9f-9c60-421d-b5e5-133fe8ee4909")
 		)
@@ -16666,7 +18445,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_22uF_25V_1210_MLCC-X7R")
-		(at 325.12 130.81 0)
+		(at 276.86 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16677,7 +18456,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dbb750b-88f1-4b0e-8399-5e695533f415")
 		(property "Reference" "C7"
-			(at 328.93 129.5399 0)
+			(at 280.67 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16688,7 +18467,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 328.93 132.0799 0)
+			(at 280.67 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16699,7 +18478,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_1210_3225Metric"
-			(at 326.0852 134.62 0)
+			(at 277.8252 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16710,7 +18489,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/web/part/399/details"
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16721,7 +18500,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16732,7 +18511,7 @@
 			)
 		)
 		(property "part_ipn" "C_22uF_25V_1210_MLCC-X7R"
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16743,7 +18522,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16754,7 +18533,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16765,7 +18544,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16776,7 +18555,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 325.12 130.81 0)
+			(at 276.86 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "3:500,3:1000,3:2000"
+			(at 276.86 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16961,7 +18751,7 @@
 	(symbol
 		(lib_name "Fuseholder_1")
 		(lib_id "kicad_inventree_lib:Fuseholder")
-		(at 198.12 44.45 0)
+		(at 165.1 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16972,7 +18762,7 @@
 		(fields_autoplaced yes)
 		(uuid "623320d7-7d69-4c10-847f-43f22bbaaab0")
 		(property "Reference" "U4"
-			(at 198.12 39.37 0)
+			(at 165.1 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16982,7 +18772,7 @@
 			)
 		)
 		(property "Value" "64900001039"
-			(at 198.12 41.91 0)
+			(at 165.1 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16992,7 +18782,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:649-Series-Holder"
-			(at 214.63 139.37 0)
+			(at 181.61 131.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17004,7 +18794,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/23/"
-			(at 214.63 239.37 0)
+			(at 181.61 231.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17016,7 +18806,7 @@
 			)
 		)
 		(property "Description" "5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V"
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17027,7 +18817,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 214.63 439.37 0)
+			(at 181.61 431.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17039,7 +18829,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 214.63 539.37 0)
+			(at 181.61 531.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17051,7 +18841,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "64900001039"
-			(at 214.63 639.37 0)
+			(at 181.61 631.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17063,7 +18853,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-64900001039"
-			(at 214.63 739.37 0)
+			(at 181.61 731.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17075,7 +18865,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64900001039?qs=hH%252BOa0VZEiArPloPoB86OA%3D%3D"
-			(at 214.63 839.37 0)
+			(at 181.61 831.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17087,7 +18877,7 @@
 			)
 		)
 		(property "Arrow Part Number" "64900001039"
-			(at 214.63 939.37 0)
+			(at 181.61 931.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17099,7 +18889,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/64900001039/littelfuse?region=nac"
-			(at 214.63 1039.37 0)
+			(at 181.61 1031.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17111,7 +18901,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/fuse-holders---clips---boxes-littelfuse-64900001039-1005256123"
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17122,7 +18912,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.13489"
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17133,7 +18923,7 @@
 			)
 		)
 		(property "part_ipn" "64900001039"
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17144,7 +18934,7 @@
 			)
 		)
 		(property "optional" "1"
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17155,7 +18945,7 @@
 			)
 		)
 		(property "optional_note" "При установке БП IRM-20-24"
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17166,7 +18956,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17177,7 +18967,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17188,7 +18978,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17199,7 +18989,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17210,7 +19000,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17221,106 +19011,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 198.12 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17331,7 +19022,106 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +19132,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17353,7 +19143,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 198.12 44.45 0)
+			(at 165.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 165.1 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,6 +19292,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 241.3 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 241.3 193.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17748,6 +19560,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 388.62 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4a60612a-bf82-443b-9bac-b69948e7ef4c")
 		)
@@ -17850,6 +19673,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 274.32 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -17937,6 +19771,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 274.32 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -17948,7 +19793,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 48.26 0)
+		(at 129.54 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17959,7 +19804,7 @@
 		(fields_autoplaced yes)
 		(uuid "79d30d7c-fbd1-4e8d-94c4-af81f8190ce4")
 		(property "Reference" "#PWR021"
-			(at 162.56 52.07 0)
+			(at 129.54 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17970,7 +19815,7 @@
 			)
 		)
 		(property "Value" "230V"
-			(at 162.56 43.18 0)
+			(at 129.54 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17980,7 +19825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 48.26 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17991,7 +19836,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 48.26 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18002,7 +19847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 48.26 0)
+			(at 129.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18182,6 +20027,124 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:K7805-1000R3")
+		(at 332.74 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82274ed8-4644-4b7a-b33a-bca422314c56")
+		(property "Reference" "J17"
+			(at 332.74 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K7805-1000R3"
+			(at 332.74 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+			(at 351.79 133.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/423/details"
+			(at 351.79 233.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "K7805-1000R3"
+			(at 320.04 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "K7805-1000R3"
+			(at 332.74 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "2:1000"
+			(at 332.74 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 332.74 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3f25c453-0a3a-4a98-8957-55a9b2a9d774")
+		)
+		(pin "2"
+			(uuid "464f1957-da1b-4388-9e2a-f2d9105cf190")
+		)
+		(pin "1"
+			(uuid "96b6ee66-27ac-4751-8265-b553fc18350a")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:Standoff_nylon_M2_nut")
 		(at 246.38 154.94 0)
 		(unit 1)
@@ -18250,6 +20213,17 @@
 		)
 		(property "part_ipn" "Standoff_nylon_M2_nut"
 			(at 246.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 246.38 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18426,7 +20400,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 325.12 43.18 0)
+		(at 276.86 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18437,7 +20411,7 @@
 		(fields_autoplaced yes)
 		(uuid "86fed064-4846-46cf-b1b8-5601e6f47ff6")
 		(property "Reference" "#PWR019"
-			(at 325.12 46.99 0)
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18448,7 +20422,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 325.12 38.1 0)
+			(at 276.86 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18458,7 +20432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 43.18 0)
+			(at 276.86 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18469,7 +20443,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 43.18 0)
+			(at 276.86 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18480,7 +20454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 325.12 43.18 0)
+			(at 276.86 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18497,6 +20471,127 @@
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:IRM-10-24")
+		(at 172.72 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87c2a28c-326e-4372-8f82-e8f921939a36")
+		(property "Reference" "U5"
+			(at 172.72 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "IRM-10-24"
+			(at 172.72 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+			(at 171.958 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/438/details"
+			(at 172.212 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "IRM-10-24"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "1:10"
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 172.72 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a4e07fba-78be-4fbf-a944-6e8375f15fc3")
+		)
+		(pin "4"
+			(uuid "1cef911f-41fb-455a-ac51-e8b46b4b75fa")
+		)
+		(pin "2"
+			(uuid "5dc2fd4e-1754-45d2-bee0-a931c05059af")
+		)
+		(pin "1"
+			(uuid "803034a0-93ac-4360-9704-0423991e9a2d")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -18575,6 +20670,124 @@
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:K7803-500R3")
+		(at 302.26 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c270095-ae38-43ab-9c9e-33e20ceb6f42")
+		(property "Reference" "J20"
+			(at 302.26 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K7803-500R3"
+			(at 302.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+			(at 321.31 171.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/420/details"
+			(at 321.31 271.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "K7803-500R3"
+			(at 289.56 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "K7803-500R3"
+			(at 302.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "4:500"
+			(at 302.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 302.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "be39abfe-3c82-45e5-bd9e-4b22b55a9fbc")
+		)
+		(pin "2"
+			(uuid "3e63b8a5-010f-4ee4-9cc5-0965379e84d9")
+		)
+		(pin "1"
+			(uuid "ef580c86-432b-43d2-90b3-8ce282f54627")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -18691,6 +20904,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 388.62 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
 			(at 388.62 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18878,7 +21102,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 325.12 119.38 0)
+		(at 276.86 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18889,7 +21113,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c7a32be-d893-481b-8cd9-b61295748863")
 		(property "Reference" "#PWR036"
-			(at 325.12 123.19 0)
+			(at 276.86 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18900,7 +21124,7 @@
 			)
 		)
 		(property "Value" "+5V(2)"
-			(at 325.12 114.3 0)
+			(at 276.86 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18910,7 +21134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 119.38 0)
+			(at 276.86 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18921,7 +21145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 119.38 0)
+			(at 276.86 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,7 +21156,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 325.12 119.38 0)
+			(at 276.86 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18949,6 +21173,124 @@
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:K7805-500R3")
+		(at 302.26 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2d93f9-ca8d-4b0e-a51e-3aca148f9dc4")
+		(property "Reference" "J16"
+			(at 302.26 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K7805-500R3"
+			(at 302.26 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:K7805500R3"
+			(at 321.31 133.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/422/details"
+			(at 321.31 233.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "K7805-500R3"
+			(at 289.56 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "K7805-500R3"
+			(at 302.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "2:500"
+			(at 302.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 302.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8bc37ede-d947-480c-8b03-5b46f2efd38f")
+		)
+		(pin "2"
+			(uuid "cb659a21-494c-48c5-a1f7-79b509d30901")
+		)
+		(pin "1"
+			(uuid "706fd582-9ae6-45c6-96c5-2bbf3e5e0c64")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -19064,6 +21406,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 87.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c68e0ab-9bc5-4503-a7af-4e2f7b593d03")
 		)
@@ -19081,7 +21434,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 53.34 0)
+		(at 208.28 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19092,7 +21445,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5eaa004-5564-4616-a604-2b81f07b8985")
 		(property "Reference" "#PWR07"
-			(at 256.54 59.69 0)
+			(at 208.28 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19103,7 +21456,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 256.54 58.42 0)
+			(at 208.28 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19113,7 +21466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 53.34 0)
+			(at 208.28 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19124,7 +21477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 53.34 0)
+			(at 208.28 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19135,7 +21488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 53.34 0)
+			(at 208.28 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19238,7 +21591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 60.96 0)
+		(at 276.86 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19249,7 +21602,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7b8f1b4-a263-4707-bd4c-474ada65b528")
 		(property "Reference" "#PWR022"
-			(at 325.12 67.31 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19260,7 +21613,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 325.12 66.04 0)
+			(at 276.86 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19270,7 +21623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 60.96 0)
+			(at 276.86 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19281,7 +21634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 60.96 0)
+			(at 276.86 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19292,7 +21645,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 60.96 0)
+			(at 276.86 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19424,6 +21777,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 100.33 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "375b18ff-0c51-40fb-bf21-b9637e78edb4")
 		)
@@ -19441,7 +21805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 325.12 137.16 0)
+		(at 276.86 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19452,7 +21816,7 @@
 		(fields_autoplaced yes)
 		(uuid "a908d753-0190-4dc3-aba4-6cc37f2bbd8e")
 		(property "Reference" "#PWR037"
-			(at 325.12 143.51 0)
+			(at 276.86 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19463,7 +21827,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 325.12 142.24 0)
+			(at 276.86 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19473,7 +21837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 137.16 0)
+			(at 276.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19484,7 +21848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 137.16 0)
+			(at 276.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19495,7 +21859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 325.12 137.16 0)
+			(at 276.86 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19519,7 +21883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 88.9 0)
+		(at 106.68 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19530,7 +21894,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa4c9067-6d74-4fa6-9f34-d74fc4693a42")
 		(property "Reference" "#PWR013"
-			(at 172.72 95.25 0)
+			(at 106.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19541,7 +21905,7 @@
 			)
 		)
 		(property "Value" "GND_MCU"
-			(at 172.72 93.98 0)
+			(at 106.68 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19551,7 +21915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 88.9 0)
+			(at 106.68 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19562,7 +21926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 88.9 0)
+			(at 106.68 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19573,7 +21937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 88.9 0)
+			(at 106.68 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19597,7 +21961,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:K7803-2000R3")
-		(at 309.88 83.82 0)
+		(at 261.62 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19608,7 +21972,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaa4c7e5-6920-4118-8d6b-51e608c1974e")
 		(property "Reference" "J3"
-			(at 309.88 78.74 0)
+			(at 261.62 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19618,7 +21982,7 @@
 			)
 		)
 		(property "Value" "K7803-2000R3"
-			(at 309.88 81.28 0)
+			(at 261.62 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19628,7 +21992,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
-			(at 328.93 178.74 0)
+			(at 280.67 171.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19640,7 +22004,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/118/"
-			(at 328.93 278.74 0)
+			(at 280.67 271.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19652,7 +22016,7 @@
 			)
 		)
 		(property "Description" "K7803-2000R3"
-			(at 297.18 86.36 0)
+			(at 248.92 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19663,7 +22027,7 @@
 			)
 		)
 		(property "part_ipn" "K7803-2000R3"
-			(at 309.88 83.82 0)
+			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19674,7 +22038,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 309.88 83.82 0)
+			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19685,7 +22049,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 309.88 83.82 0)
+			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19696,7 +22060,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 309.88 83.82 0)
+			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19707,7 +22071,29 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 309.88 83.82 0)
+			(at 261.62 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "4:2000"
+			(at 261.62 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 261.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19737,7 +22123,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_22uF_50V_2220_MLCC-X7R")
-		(at 292.1 92.71 0)
+		(at 243.84 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19748,7 +22134,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaa97121-259f-4252-b63b-c80c9b8fa1eb")
 		(property "Reference" "C3"
-			(at 295.91 91.4399 0)
+			(at 247.65 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19759,7 +22145,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 295.91 93.9799 0)
+			(at 247.65 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19770,7 +22156,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_2220_5750Metric"
-			(at 293.0652 96.52 0)
+			(at 244.8052 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19781,7 +22167,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/99/"
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19792,7 +22178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19803,7 +22189,7 @@
 			)
 		)
 		(property "part_ipn" "C_22uF_50V_2220_MLCC-X7R"
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19814,7 +22200,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19825,7 +22211,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19836,7 +22222,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19847,7 +22233,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19858,18 +22244,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 292.1 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19880,7 +22255,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19891,7 +22266,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19902,7 +22277,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19913,7 +22288,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19924,7 +22299,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19935,7 +22310,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19946,7 +22321,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19957,7 +22332,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19968,7 +22343,18 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19979,7 +22365,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19990,7 +22376,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 292.1 92.71 0)
+			(at 243.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "4:500,4:1000,4:2000"
+			(at 243.84 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20174,7 +22571,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:K7805-2000R3")
-		(at 309.88 121.92 0)
+		(at 261.62 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20185,7 +22582,7 @@
 		(fields_autoplaced yes)
 		(uuid "b02aa44b-688b-4a90-9cc3-2957e655fd54")
 		(property "Reference" "J2"
-			(at 309.88 116.84 0)
+			(at 261.62 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20195,7 +22592,7 @@
 			)
 		)
 		(property "Value" "K7805-2000R3"
-			(at 309.88 119.38 0)
+			(at 261.62 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20205,7 +22602,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
-			(at 328.93 216.84 0)
+			(at 280.67 209.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20217,7 +22614,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/98/"
-			(at 328.93 316.84 0)
+			(at 280.67 309.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20229,7 +22626,7 @@
 			)
 		)
 		(property "Description" "K7805-2000R3"
-			(at 297.18 124.46 0)
+			(at 248.92 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20240,7 +22637,7 @@
 			)
 		)
 		(property "Height" "18"
-			(at 328.93 516.84 0)
+			(at 280.67 509.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20252,7 +22649,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "RS Pro"
-			(at 328.93 616.84 0)
+			(at 280.67 609.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20264,7 +22661,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "K7805-2000R3"
-			(at 328.93 716.84 0)
+			(at 280.67 709.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20276,7 +22673,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 328.93 816.84 0)
+			(at 280.67 809.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20288,7 +22685,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 328.93 916.84 0)
+			(at 280.67 909.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20300,7 +22697,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 328.93 1016.84 0)
+			(at 280.67 1009.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20312,7 +22709,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 328.93 1116.84 0)
+			(at 280.67 1109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20324,7 +22721,7 @@
 			)
 		)
 		(property "part_ipn" "K7805-2000R3"
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20335,7 +22732,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20346,7 +22743,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20357,7 +22754,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20368,7 +22765,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20379,18 +22776,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 309.88 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20401,7 +22787,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20412,7 +22798,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20423,7 +22809,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20434,7 +22820,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20445,7 +22831,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20456,7 +22842,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20467,7 +22853,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20478,7 +22864,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20489,7 +22875,18 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20500,7 +22897,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20511,7 +22908,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 309.88 121.92 0)
+			(at 261.62 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "3:2000"
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20612,6 +23020,127 @@
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_inventree_lib:IRM-15-24")
+		(at 172.72 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ace64e-1e8d-4089-8a01-f0fb356a053d")
+		(property "Reference" "U6"
+			(at 172.72 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "IRM-15-24"
+			(at 172.72 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+			(at 171.958 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/439/details"
+			(at 172.212 103.886 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "IRM-15-24"
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "1:15"
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22966755-0335-4717-bcc3-c91ae41c19d0")
+		)
+		(pin "2"
+			(uuid "c11745a8-89d5-4fb7-9a24-c209a5aa2cb3")
+		)
+		(pin "3"
+			(uuid "c8f3628e-ef9c-4df5-ac50-d21417fcc2ce")
+		)
+		(pin "4"
+			(uuid "c9ad74e7-6ee5-4acc-9c1e-076606362362")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -20775,6 +23304,113 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:K7805-1000R3")
+		(at 332.74 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb15956f-23b7-42ce-a84b-3ee769d6b4f2")
+		(property "Reference" "J19"
+			(at 332.74 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K7805-1000R3"
+			(at 332.74 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+			(at 351.79 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/423/details"
+			(at 351.79 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "K7805-1000R3"
+			(at 320.04 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "K7805-1000R3"
+			(at 332.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "3:1000"
+			(at 332.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "681862ac-45cd-4b94-8248-ec6823bd84f1")
+		)
+		(pin "2"
+			(uuid "c984025f-fa7f-4aec-a4de-a97f1f5942e9")
+		)
+		(pin "1"
+			(uuid "e3fa77c6-39fd-4c13-ad23-3a7e3ed558fa")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_inventree_lib:R_560R_0603_1%")
 		(at 255.27 182.88 90)
 		(unit 1)
@@ -20841,6 +23477,17 @@
 		)
 		(property "part_ipn" "R_560R_0603_1%"
 			(at 255.27 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 255.27 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20946,7 +23593,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:Fuseholder")
-		(at 269.24 44.45 0)
+		(at 220.98 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20957,7 +23604,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1c29965-cbcd-434a-8a36-e85831a51325")
 		(property "Reference" "U2"
-			(at 269.24 39.37 0)
+			(at 220.98 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20967,7 +23614,7 @@
 			)
 		)
 		(property "Value" "64900001039"
-			(at 269.24 41.91 0)
+			(at 220.98 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20977,7 +23624,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:649-Series-Holder"
-			(at 285.75 139.37 0)
+			(at 237.49 131.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20989,7 +23636,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/23/"
-			(at 285.75 239.37 0)
+			(at 237.49 231.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21001,7 +23648,7 @@
 			)
 		)
 		(property "Description" "5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V"
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21012,7 +23659,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 285.75 439.37 0)
+			(at 237.49 431.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21024,7 +23671,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 285.75 539.37 0)
+			(at 237.49 531.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21036,7 +23683,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "64900001039"
-			(at 285.75 639.37 0)
+			(at 237.49 631.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21048,7 +23695,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-64900001039"
-			(at 285.75 739.37 0)
+			(at 237.49 731.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21060,7 +23707,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/64900001039?qs=hH%252BOa0VZEiArPloPoB86OA%3D%3D"
-			(at 285.75 839.37 0)
+			(at 237.49 831.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21072,7 +23719,7 @@
 			)
 		)
 		(property "Arrow Part Number" "64900001039"
-			(at 285.75 939.37 0)
+			(at 237.49 931.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21084,7 +23731,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/64900001039/littelfuse?region=nac"
-			(at 285.75 1039.37 0)
+			(at 237.49 1031.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21096,7 +23743,7 @@
 			)
 		)
 		(property "NextPCB_url" "https://www.hqonline.com/product-detail/fuse-holders---clips---boxes-littelfuse-64900001039-1005256123"
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21107,7 +23754,7 @@
 			)
 		)
 		(property "NextPCB_price" "0.13489"
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21118,7 +23765,7 @@
 			)
 		)
 		(property "part_ipn" "64900001039"
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21129,7 +23776,7 @@
 			)
 		)
 		(property "optional" "1"
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21140,7 +23787,7 @@
 			)
 		)
 		(property "optional_note" "При установке БП IRM-20-24"
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21151,7 +23798,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21162,7 +23809,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21173,7 +23820,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21184,7 +23831,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21195,7 +23842,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21206,106 +23853,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MF" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MP" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purchase-URL" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SnapEDA_Link" ""
-			(at 269.24 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21316,7 +23864,106 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21327,7 +23974,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21338,7 +23985,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 269.24 44.45 0)
+			(at 220.98 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 220.98 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21365,7 +24023,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:IRM-20-24")
-		(at 233.68 43.18 0)
+		(at 193.04 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21376,7 +24034,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7fdff67-3ed1-43d3-bd1d-2552cfe3f2f8")
 		(property "Reference" "U1"
-			(at 233.68 38.1 0)
+			(at 193.04 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21386,7 +24044,7 @@
 			)
 		)
 		(property "Value" "IRM-20-24"
-			(at 233.68 40.64 0)
+			(at 193.04 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21395,8 +24053,8 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad_inventree_lib:IRM-20-24_MWU"
-			(at 232.918 60.706 0)
+		(property "Footprint" "kicad_inventree_lib:IRM-XX-24"
+			(at 192.278 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21408,7 +24066,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/143/"
-			(at 233.172 60.706 0)
+			(at 192.532 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21420,7 +24078,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 52.07 0)
+			(at 213.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21431,7 +24089,7 @@
 			)
 		)
 		(property "part_ipn" "IRM-20-24"
-			(at 233.68 43.18 0)
+			(at 193.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21441,8 +24099,8 @@
 				)
 			)
 		)
-		(property "optional" "1"
-			(at 233.68 43.18 0)
+		(property "option" "1:20"
+			(at 193.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21452,52 +24110,8 @@
 				)
 			)
 		)
-		(property "optional_note" "При установке БП IRM-20-24"
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 233.68 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 233.68 43.18 0)
+		(property "optioanl" ""
+			(at 193.04 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21604,6 +24218,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 255.27 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0436b748-d5b7-4d78-ae86-d853f20a91e3")
 		)
@@ -21620,8 +24245,126 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:K7803-1000R3")
+		(at 332.74 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec8269b-b7c7-4245-8953-1c1ddee37341")
+		(property "Reference" "J21"
+			(at 332.74 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K7803-1000R3"
+			(at 332.74 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:K7805-2000R3"
+			(at 351.79 171.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/421/details"
+			(at 351.79 271.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "K7803-1000R3"
+			(at 320.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "K7803-1000R3"
+			(at 332.74 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "4:1000"
+			(at 332.74 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 332.74 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0efbcda7-bd04-4409-8831-133ca6bf9706")
+		)
+		(pin "1"
+			(uuid "faff6297-b7b0-4407-85be-02252a83f134")
+		)
+		(pin "2"
+			(uuid "17c58fd6-2f08-4b77-ba92-3118759942ea")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 162.56 88.9 0)
+		(at 96.52 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21632,7 +24375,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4fd5532-cf51-4d58-9903-9af90edd5936")
 		(property "Reference" "#PWR027"
-			(at 162.56 95.25 0)
+			(at 96.52 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21643,7 +24386,7 @@
 			)
 		)
 		(property "Value" "PE"
-			(at 162.56 93.98 0)
+			(at 96.52 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21653,7 +24396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 88.9 0)
+			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21664,7 +24407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 88.9 0)
+			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21675,7 +24418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 88.9 0)
+			(at 96.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21807,6 +24550,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 262.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
 			(at 262.89 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -21977,6 +24731,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 289.56 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91cf2852-999a-4bfd-86c9-6d4527e4408c")
 		)
@@ -22099,6 +24864,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8637d49b-13db-409b-b438-44d77a01d43c")
 		)
@@ -22192,6 +24968,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 246.38 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -22203,7 +24990,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_22uF_25V_1210_MLCC-X7R")
-		(at 325.12 92.71 0)
+		(at 276.86 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22214,7 +25001,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddb83724-70b7-43f7-ae31-14d276db3152")
 		(property "Reference" "C6"
-			(at 328.93 91.4399 0)
+			(at 280.67 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22225,7 +25012,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 328.93 93.9799 0)
+			(at 280.67 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22236,7 +25023,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_1210_3225Metric"
-			(at 326.0852 96.52 0)
+			(at 277.8252 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22247,7 +25034,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/web/part/399/details"
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22258,7 +25045,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22269,7 +25056,7 @@
 			)
 		)
 		(property "part_ipn" "C_22uF_25V_1210_MLCC-X7R"
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22280,7 +25067,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22291,7 +25078,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22302,7 +25089,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22313,7 +25100,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 325.12 92.71 0)
+			(at 276.86 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "4:500,4:1000,4:2000"
+			(at 276.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22438,6 +25236,17 @@
 			)
 		)
 		(property "Sim.Pins" ""
+			(at 87.63 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
 			(at 87.63 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -22697,6 +25506,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 66.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -22708,7 +25528,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_4.7nF_2kV_1812_MLCC-X7R")
-		(at 167.64 86.36 90)
+		(at 101.6 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22719,7 +25539,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea86c120-af46-41ef-9f73-0da7999be573")
 		(property "Reference" "C8"
-			(at 167.64 78.74 90)
+			(at 101.6 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22729,7 +25549,7 @@
 			)
 		)
 		(property "Value" "4.7nF 2kV"
-			(at 167.64 81.28 90)
+			(at 101.6 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22739,7 +25559,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_1812_4532Metric"
-			(at 171.45 85.3948 0)
+			(at 105.41 100.6348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22750,7 +25570,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/112/"
-			(at 167.64 86.36 0)
+			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22761,7 +25581,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 167.64 86.36 0)
+			(at 101.6 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22772,7 +25592,18 @@
 			)
 		)
 		(property "part_ipn" "C_4.7nF_2kV_1812_MLCC-X7R"
-			(at 167.64 86.36 0)
+			(at 101.6 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 101.6 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22866,6 +25697,17 @@
 		)
 		(property "part_ipn" "Standoff_nylon_M2_shaft_10mm"
 			(at 246.38 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 246.38 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23005,6 +25847,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 388.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b07c2291-b319-4065-a068-85ebcc187d51")
 		)
@@ -23030,8 +25883,115 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_inventree_lib:K7805-500R3")
+		(at 302.26 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0653a12-03ba-423d-bb7f-1ba144bac03c")
+		(property "Reference" "J18"
+			(at 302.26 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K7805-500R3"
+			(at 302.26 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad_inventree_lib:K7805500R3"
+			(at 321.31 209.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://inventree.network/web/part/422/details"
+			(at 321.31 309.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "K7805-500R3"
+			(at 289.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "part_ipn" "K7805-500R3"
+			(at 302.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "3:500"
+			(at 302.26 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "803c85b9-af03-4bd5-a399-ef3ffcbc3d73")
+		)
+		(pin "2"
+			(uuid "c35f7f37-702e-417e-959d-ff9b312dfa37")
+		)
+		(pin "1"
+			(uuid "b0b44530-cc80-42e2-8ab5-4e3a92035aee")
+		)
+		(instances
+			(project "PMPS-20W"
+				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 325.12 81.28 0)
+		(at 276.86 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23042,7 +26002,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7b9c9bd-3217-4070-acfb-3f08f9c5e033")
 		(property "Reference" "#PWR020"
-			(at 325.12 85.09 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23053,7 +26013,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 325.12 76.2 0)
+			(at 276.86 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23063,7 +26023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 325.12 81.28 0)
+			(at 276.86 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23074,7 +26034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 81.28 0)
+			(at 276.86 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23085,7 +26045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 325.12 81.28 0)
+			(at 276.86 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23175,6 +26135,17 @@
 		)
 		(property "part_ipn" "15EDGRC-3.5-05P"
 			(at 40.64 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 40.64 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23276,6 +26247,28 @@
 		)
 		(property "part_ipn" "AFA11-S20GLA-00"
 			(at 62.992 117.094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 63.5 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "5:T,5:TB"
+			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23438,6 +26431,17 @@
 				)
 			)
 		)
+		(property "optioanl" ""
+			(at 246.38 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PMPS-20W"
 				(path "/7fe96325-7c78-49cb-84a5-f6b47c8eb637"
@@ -23449,7 +26453,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:C_22uF_50V_2220_MLCC-X7R")
-		(at 292.1 130.81 0)
+		(at 243.84 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23460,7 +26464,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff3892de-96fb-4ad7-a01b-f6b2af72fadc")
 		(property "Reference" "C5"
-			(at 295.91 129.5399 0)
+			(at 247.65 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23471,7 +26475,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 295.91 132.0799 0)
+			(at 247.65 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23482,7 +26486,7 @@
 			)
 		)
 		(property "Footprint" "kicad_inventree_lib:C_2220_5750Metric"
-			(at 293.0652 134.62 0)
+			(at 244.8052 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23493,7 +26497,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/part/99/"
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23504,7 +26508,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23515,7 +26519,7 @@
 			)
 		)
 		(property "part_ipn" "C_22uF_50V_2220_MLCC-X7R"
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23526,7 +26530,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23537,7 +26541,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23548,7 +26552,7 @@
 			)
 		)
 		(property "Chipdip_price" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23559,7 +26563,7 @@
 			)
 		)
 		(property "Chipdip_url" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23570,18 +26574,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 292.1 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23592,7 +26585,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23603,7 +26596,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23614,7 +26607,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23625,7 +26618,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23636,7 +26629,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23647,7 +26640,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23658,7 +26651,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23669,7 +26662,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23680,7 +26673,18 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23691,7 +26695,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23702,7 +26706,18 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 292.1 130.81 0)
+			(at 243.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "option" "3:500,3:1000,3:2000"
+			(at 243.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23729,7 +26744,7 @@
 	)
 	(symbol
 		(lib_id "kicad_inventree_lib:0217001.MXP")
-		(at 269.24 63.5 90)
+		(at 220.98 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23739,7 +26754,7 @@
 		(dnp no)
 		(uuid "fff41cb7-d48f-4483-bff1-22f10c2ee130")
 		(property "Reference" "F2"
-			(at 269.24 58.42 90)
+			(at 220.98 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23749,7 +26764,7 @@
 			)
 		)
 		(property "Value" "1A"
-			(at 269.24 60.96 90)
+			(at 220.98 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23759,7 +26774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 65.278 90)
+			(at 220.98 57.658 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23770,7 +26785,7 @@
 			)
 		)
 		(property "Datasheet" "http://inventree.network/web/part/71/details"
-			(at 269.24 63.5 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23781,7 +26796,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 269.24 63.5 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23792,7 +26807,7 @@
 			)
 		)
 		(property "part_ipn" "0217001.MXP"
-			(at 269.24 63.5 0)
+			(at 220.98 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23803,7 +26818,7 @@
 			)
 		)
 		(property "optional" "1"
-			(at 269.24 63.5 90)
+			(at 220.98 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23814,7 +26829,18 @@
 			)
 		)
 		(property "optional_note" "При установке БП IRM-20-24"
-			(at 269.24 63.5 90)
+			(at 220.98 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "optioanl" ""
+			(at 220.98 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -41,14 +41,14 @@
 #include "doc/ch_components.typ"
 #include "doc/ch_drc.typ"
 
-#import "PMCNV-RQx8-v0.1.0/doc.typ": pmcnv_rq8_power
 #import "doc/PMCNV-AI4W.typ": pmcnv_ai4w_power
 #import "PMCNV-AI8T-v0.1.0/doc.typ" as PMCNV-AI8T
 #import "PMCNV-DIx32-v0.1.0/doc.typ" as PMCNV-DIx32
 #import "PMCNV-DQx16-v0.1.0/doc.typ" as PMCNV-DQx16
+#import "PMCNV-RQx8-v0.1.0/doc.typ" as PMCNV-RQx8
 #import "PMCPU-ESP32C3-v0.1.0/doc.typ" as PMCPU-ESP32C3
 #import "PMCPU-LLP-v0.1.0/doc.typ" as PMCPU-LLP
-
+#import "PMPS-20W-v0.1.0/doc.typ" as PMPS-20W
 
 = Описание модулей
 
@@ -130,11 +130,11 @@
     [PMCNV-DQx16.pmcnv_dq16src_power.total_current_3v3 мА \ PMCNV-DQx16.pmcnv_dq16src_power.total_power_3v3 мВт],
     [PMCNV-DQx16.pmcnv_dq16src_power.total_current_5v мА \ PMCNV-DQx16.pmcnv_dq16src_power.total_power_5v мВт],
 
-    link(<PMCNV-RQx8>)[PMCNV-RQx8],
+    link(<PMCNV-RQx8>)[PMCNV-RQx8.article],
     "Подключение 8 релейных выходов",
-    "0.0.0",
-    [#pmcnv_rq8_power.total_current_3v3 мА \ #pmcnv_rq8_power.total_power_3v3 мВт],
-    [#pmcnv_rq8_power.total_current_5v мА \ #pmcnv_rq8_power.total_power_5v мВт],
+    PMCNV-RQx8.version,
+    [PMCNV-RQx8.total_current_3v3 мА \ PMCNV-RQx8.total_power_3v3 мВт],
+    [PMCNV-RQx8.total_current_5v мА \ PMCNV-RQx8.total_power_5v мВт],
 
     link(<PMCNV-AI4R>)[PMCNV-AI4R],
     "Подключение 4 термосопротивлений",
@@ -200,9 +200,9 @@
 
     table.cell(colspan: 5)[Блоки питания],
 
-    link(<PMPS-20W>)[PMPS-20W],
+    link(<PMPS-20W>)[PMPS-20W.article],
     "Блок питания 20 Вт",
-    "0.0.4",
+    PMPS-20W.version,
     [-],
     [-],
 
@@ -247,6 +247,7 @@
 #include "PMCNV-RQx8-v0.1.0/doc.typ"
 #include "PMCPU-ESP32C3-v0.1.0/doc.typ"
 #include "PMCPU-LLP-v0.1.0/doc.typ"
+#include "PMPS-20W-v0.1.0/doc.typ"
 
 #include "doc/PMCPU-RP.typ"
 #include "doc/PMCPU-LLU.typ"
@@ -268,15 +269,11 @@
 #include "doc/PMIFC-I2Cx8.typ"
 #include "doc/PMIFC-1Wx12.typ"
 
-#include "doc/PMPS-20W.typ"
-
 #include "doc/PMHMI-Keyboard.typ"
 #include "doc/PMHMI-Touch.typ"
 
 #include "doc/PMDBG-FFC.typ"
 #include "doc/PMDBG-FFC20.typ"
-
-
 
 = Комбинирование плат в модули
 
