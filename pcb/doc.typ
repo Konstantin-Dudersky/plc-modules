@@ -41,11 +41,11 @@
 #include "doc/ch_components.typ"
 #include "doc/ch_drc.typ"
 
-#import "doc/PMCNV-DIx16.typ": pmcnv_di16_power
 #import "doc/PMCNV-DQx16.typ": pmcnv_dq16src_power
 #import "doc/PMCNV-RQx8.typ": pmcnv_rq8_power
 #import "doc/PMCNV-AI4W.typ": pmcnv_ai4w_power
 #import "PMCNV-AI8T-v0.1.0/doc.typ" as PMCNV-AI8T
+#import "PMCNV-DIx32-v0.1.0/doc.typ" as PMCNV-DIx32
 #import "PMCPU-ESP32C3-v0.1.0/doc.typ" as PMCPU-ESP32C3
 #import "PMCPU-LLP-v0.1.0/doc.typ" as PMCPU-LLP
 
@@ -112,11 +112,11 @@
 
     table.cell(colspan: 5)[Платы конвертирования цифровых и электрических сигналов],
 
-    link(<PMCNV-DIx16>)[PMCNV-DIx16],
-    "Подключение 16 дискретных входов постоянного напряжения (PNP / NPN)",
-    "0.0.8",
-    [#pmcnv_di16_power.total_current_3v3 мА \ #pmcnv_di16_power.total_power_3v3 мВт],
-    [#pmcnv_di16_power.total_current_5v мА \ #pmcnv_di16_power.total_power_5v мВт],
+    link(<PMCNV-DIx32>)[PMCNV-DIx32],
+    "Подключение 32 дискретных входов постоянного напряжения (PNP / NPN)",
+    PMCNV-DIx32.version,
+    [PMCNV-DIx32.total_current_3v3 мА \ PMCNV-DIx32.total_power_3v3 мВт],
+    [PMCNV-DIx32.total_current_5v мА \ PMCNV-DIx32.total_power_5v мВт],
 
     link(<PMCNV-Count6>)[PMCNV-Count6],
     "Подключение 6 сигналов быстрого счёта",
@@ -242,7 +242,7 @@
 )
 
 #include "PMCNV-AI8T-v0.1.0/doc.typ"
-
+#include "PMCNV-DIx32-v0.1.0/doc.typ"
 #include "PMCPU-ESP32C3-v0.1.0/doc.typ"
 #include "PMCPU-LLP-v0.1.0/doc.typ"
 
@@ -254,7 +254,6 @@
 #include "doc/PMLED-10.typ"
 #include "doc/PMLED-18.typ"
 
-#include "doc/PMCNV-DIx16.typ"
 #include "doc/PMCNV-DQx16.typ"
 #include "doc/PMCNV-Count6.typ"
 #include "doc/PMCNV-RQx8.typ"

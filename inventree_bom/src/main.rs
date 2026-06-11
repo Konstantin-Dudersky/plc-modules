@@ -70,7 +70,7 @@ fn main() -> anyhow::Result<()> {
     Ok(())
 }
 
-#[derive(Debug, Default, Serialize)]
+#[derive(Clone, Debug, Default, Serialize)]
 pub struct Part {
     pub part_ipn: String,
     pub pk: u32,

@@ -84,11 +84,13 @@
 }
 
 #let bom_options(
-  module_name: str,
+  article: str,
+  version: str,
   options: (),
 ) = {
   // Спецификация базовой версии
-  let bom = load_bom("pcb/" + module_name + "/inventree_bom/price_base.csv")
+  let path = "../" + article + "-v" + version + "/export/v" + version + "/inventree_bom/"
+  let bom = load_bom(path + "price_base.csv")
   figure(
     caption: "Спецификация базовой версии",
     table(
@@ -100,7 +102,7 @@
 
   //
   for o in options {
-    let bom = load_bom("pcb/" + module_name + "/inventree_bom/price_" + o.name + "_" + o.value + ".csv")
+    let bom = load_bom(path + "price_" + o.name + "_" + o.value + ".csv")
 
     figure(
       caption: "Спецификация опции " + o.name + " = " + o.value,

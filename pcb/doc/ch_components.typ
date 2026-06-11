@@ -130,7 +130,7 @@
 On the output side, the signal is either passed directly to the output stage in the case of a high-speed channel (BHx), or the signal is routed through a debounce filter block in the case of a low-speed channel (Bx) for robust operation in industrial environments.
 
 Используется в платах:
-- #link(<PMCNV-DIx16>)[PMCNV-DIx16].
+- #link(<PMCNV-DIx32>)[PMCNV-DIx32].
 
 == DS3231 - часы реального времени <DS3231>
 
@@ -175,7 +175,7 @@ On the output side, the signal is either passed directly to the output stage in 
 
 Используется в платах:
 
-- #link(<PMCNV-DIx16>)[PMCNV-DIx16]
+- #link(<PMCNV-DIx32>)[PMCNV-DIx32]
 - #link(<PMCNV-DQx16>)[PMCNV-DQx16]
 - #link(<PMCNV-RQx8>)[PMCNV-RQx8]
 - #link(<PM-HMI_Keyboard>)[PM-HMI_Keyboard]

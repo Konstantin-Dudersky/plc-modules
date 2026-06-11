@@ -1,5 +1,5 @@
 use std::{
-    collections::{HashMap, HashSet},
+    collections::{BTreeMap, HashMap, HashSet},
     f32,
     path::Path,
 };
@@ -59,21 +59,30 @@ where
 {
     let path = output_dir.join(format!("price_{file_name}.csv"));
     let mut writer = Writer::from_path(path).map_err(|e| Error::CreateOutputCsv { source: e })?;
-    let mut records = parts
+
+    let filtered_parts = parts
         .iter()
-        .filter_map(|p| {
-            if !filter(&p.option) {
-                return None;
-            }
-            let r = FileRecord {
-                part_ipn: p.part_ipn.clone(),
-                quantity: p.quantity,
-                pricing_min: p.pricing_min,
-                pricing_max: p.pricing_max,
-                pricing_min_all: p.pricing_min * p.quantity as f32,
-                pricing_max_all: p.pricing_max * p.quantity as f32,
-            };
-            Some(r)
+        .filter(|p| filter(&p.option))
+        .cloned()
+        .collect::<Vec<Part>>();
+
+    let mut hash: BTreeMap<String, Part> = BTreeMap::new();
+
+    for part in filtered_parts {
+        hash.entry(part.part_ipn.clone())
+            .and_modify(|p| p.quantity += part.quantity)
+            .or_insert(part);
+    }
+
+    let mut records = hash
+        .values()
+        .map(|p| FileRecord {
+            part_ipn: p.part_ipn.clone(),
+            quantity: p.quantity,
+            pricing_min: p.pricing_min,
+            pricing_max: p.pricing_max,
+            pricing_min_all: p.pricing_min * p.quantity as f32,
+            pricing_max_all: p.pricing_max * p.quantity as f32,
         })
         .collect::<Vec<FileRecord>>();
 
@@ -89,6 +98,7 @@ where
     };
     records.push(sum_file_record);
 
+    // Записываем в файл
     for record in records {
         writer
             .serialize(record)
@@ -121,3 +131,21 @@ where
     let v = format!("{:.3}", x);
     s.serialize_str(&v)
 }
+
+// let mut records = parts
+//     .iter()
+//     .filter_map(|p| {
+//         if !filter(&p.option) {
+//             return None;
+//         }
+//         let r = FileRecord {
+//             part_ipn: p.part_ipn.clone(),
+//             quantity: p.quantity,
+//             pricing_min: p.pricing_min,
+//             pricing_max: p.pricing_max,
+//             pricing_min_all: p.pricing_min * p.quantity as f32,
+//             pricing_max_all: p.pricing_max * p.quantity as f32,
+//         };
+//         Some(r)
+//     })
+//     .collect::<Vec<FileRecord>>();

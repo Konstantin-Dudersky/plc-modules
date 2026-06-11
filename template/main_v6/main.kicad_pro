@@ -534,7 +534,17 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/IBUS_24V": [
+        "IBUS_PWR"
+      ],
+      "/IBUS_3V3": [
+        "IBUS_PWR"
+      ],
+      "/IBUS_5V": [
+        "IBUS_PWR"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -683,8 +693,12 @@
         "uuid": "111a14f5-9818-484f-87ba-4805b78022f2"
       }
     ],
-    "used_designators": "JM2,#PWR27,J15",
-    "variants": []
+    "used_designators": "",
+    "variants": [
+      {
+        "name": "13"
+      }
+    ]
   },
   "sheets": [
     [

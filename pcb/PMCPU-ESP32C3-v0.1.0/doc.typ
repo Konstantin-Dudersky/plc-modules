@@ -58,7 +58,8 @@
 )
 
 #bom_options(
-  module_name: article,
+  article: article,
+  version: version,
   options: (
     (name: "1", value: "RS485"),
     (name: "2", value: "500"),

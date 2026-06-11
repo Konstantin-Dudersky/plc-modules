@@ -4489,6 +4489,18 @@
 		(color 0 0 0 0)
 		(uuid "fb241bd7-5bcd-4950-b66c-49e6a12b9932")
 	)
+	(no_connect
+		(at 78.74 33.02)
+		(uuid "6d583728-1b5d-438d-9470-85ec0be12f89")
+	)
+	(no_connect
+		(at 78.74 27.94)
+		(uuid "6eeede3c-99e1-48d5-b149-0cd11818888e")
+	)
+	(no_connect
+		(at 78.74 30.48)
+		(uuid "c0f8a1c9-9c20-4d31-8d52-f6e59b32b5b6")
+	)
 	(wire
 		(pts
 			(xy 127 182.88) (xy 130.81 182.88)
@@ -5269,6 +5281,16 @@
 		)
 		(uuid "547ea162-93c9-4c9b-8044-9748cdee692d")
 	)
+	(label "IBUS_5V"
+		(at 78.74 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59360aeb-b7f1-46bb-91cd-3531476ac72d")
+	)
 	(label "IBUS_24V"
 		(at 43.18 35.56 0)
 		(effects
@@ -5278,6 +5300,16 @@
 			(justify left bottom)
 		)
 		(uuid "5db41a01-49a5-4d8d-b2d3-348c64553fbb")
+	)
+	(label "IBUS_3V3"
+		(at 78.74 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62bd7390-5e70-4693-8292-30478badc838")
 	)
 	(label "IBUS_5V"
 		(at 43.18 45.72 0)
@@ -5359,6 +5391,16 @@
 		)
 		(uuid "ef0addd0-ba32-456a-a119-c68790922bc0")
 	)
+	(label "IBUS_24V"
+		(at 78.74 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fba6484e-418f-458c-b7bf-b7e9e357cd79")
+	)
 	(label "IBUS_CAN_GND"
 		(at 43.18 63.5 0)
 		(effects
@@ -5368,6 +5410,60 @@
 			(justify left bottom)
 		)
 		(uuid "fc5a146d-49fb-4828-8e0f-eb7d62f8a343")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 76.2 22.86) (xy 76.2 35.56) (xy 91.44 35.56) (xy 91.44 22.86)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "16af823d-efdf-4fec-aabb-6f9f0ee0c803")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54819699-9603-4369-b082-58aab53542d2")
+		(property "Класс цепей" "IBUS_PWR"
+			(at 84.5185 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
