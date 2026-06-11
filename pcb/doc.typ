@@ -41,7 +41,7 @@
 #include "doc/ch_components.typ"
 #include "doc/ch_drc.typ"
 
-#import "doc/PMCNV-RQx8.typ": pmcnv_rq8_power
+#import "PMCNV-RQx8-v0.1.0/doc.typ": pmcnv_rq8_power
 #import "doc/PMCNV-AI4W.typ": pmcnv_ai4w_power
 #import "PMCNV-AI8T-v0.1.0/doc.typ" as PMCNV-AI8T
 #import "PMCNV-DIx32-v0.1.0/doc.typ" as PMCNV-DIx32
@@ -244,9 +244,9 @@
 #include "PMCNV-AI8T-v0.1.0/doc.typ"
 #include "PMCNV-DIx32-v0.1.0/doc.typ"
 #include "PMCNV-DQx16-v0.1.0/doc.typ"
+#include "PMCNV-RQx8-v0.1.0/doc.typ"
 #include "PMCPU-ESP32C3-v0.1.0/doc.typ"
 #include "PMCPU-LLP-v0.1.0/doc.typ"
-#include "doc/PMCNV-RQx8.typ"
 
 #include "doc/PMCPU-RP.typ"
 #include "doc/PMCPU-LLU.typ"
